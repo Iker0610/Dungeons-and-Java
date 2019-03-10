@@ -32,6 +32,7 @@ public class Mago extends Personaje {
         //Devolvemos la armadura básica con las piezas correspondiente
         return armaduraBasica;
     }
+    @Override
     protected void cargarStatsClase () {
         //Se crean los stats base por ser de x clase
         ListaStat lstatsClase = new ListaStat(100,10,20,50,2);
