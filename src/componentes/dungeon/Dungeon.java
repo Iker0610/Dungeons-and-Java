@@ -3,7 +3,7 @@ package dungeon;
 import java.util.ArrayList;
 
 public class Dungeon {
-    private Dungeon dungeon;
+    private static Dungeon dungeon;
     private ArrayList<Estancia> lEstancias;
 
     //Constructora
@@ -12,7 +12,7 @@ public class Dungeon {
     }
     //Patron singleton
 
-    public Dungeon getDungeon() {
+    public static Dungeon getDungeon() {
         if (dungeon==null){
             dungeon=new Dungeon();
         }

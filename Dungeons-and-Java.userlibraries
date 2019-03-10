@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="JUnit4">
+    <archive path="D:/Iker/Documents/GitHub/Dungeons-and-Java/lib/JUnit4/junit-4.12.jar" />
+    <archive path="D:/Iker/Documents/GitHub/Dungeons-and-Java/lib/JUnit4/hamcrest-core-1.3.jar" />
+  </library>
+</eclipse-userlibraries>
+

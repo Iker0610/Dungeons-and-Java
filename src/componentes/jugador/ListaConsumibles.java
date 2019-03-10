@@ -10,4 +10,10 @@ public class ListaConsumibles {
     public ListaConsumibles(){
         lista = new ArrayList<Consumible>();
     }
+
+    //Otros Metodos
+
+    public void anadirConsumible (Consumible pConsumible){
+        this.lista.add(pConsumible);
+    }
 }

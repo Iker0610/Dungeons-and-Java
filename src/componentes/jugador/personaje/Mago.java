@@ -10,7 +10,7 @@ public class Mago extends Personaje {
     public Mago (String pNombre, String pSexo,String pRaza){
         super(pNombre, pSexo, pRaza);
         this.armadura = this.crearArmaduraBasica();
-        this.cargarStatsBase();
+        this.cargarStatsClase();
     }
 
     //Otros metodos
@@ -32,8 +32,11 @@ public class Mago extends Personaje {
         //Devolvemos la armadura básica con las piezas correspondiente
         return armaduraBasica;
     }
-    protected void cargarStatsBase () {
-        this.lstats = new ListaStat(100,10,20,50,2);
-        lstats.sumarStats(this.armadura.getArmorStats());
+    protected void cargarStatsClase () {
+        //Se crean los stats base por ser de x clase
+        ListaStat lstatsClase = new ListaStat(100,10,20,50,2);
+        //Se suman los stats de la armadura a los del personaje
+        lstatsClase.sumarStats(this.armadura.getArmorStats());
+        this.lstats.sumarStats(lstatsClase);
     }
 }
