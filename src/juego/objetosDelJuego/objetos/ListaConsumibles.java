@@ -1,4 +1,4 @@
-package objetosDelJuego.jugador;
+package juego.objetosDelJuego.objetos;
 
 import java.util.*;
 

@@ -1,10 +1,8 @@
-package jugador.personaje;
+package juego.objetosDelJuego.personaje;
 
-import jugador.Armadura;
-import jugador.ListaConsumibles;
-import jugador.ListaStat;
+import juego.objetosDelJuego.objetos.*;
 
- public abstract class Personaje {
+public abstract class Personaje {
 
 	//atributos
 	protected String nombre;

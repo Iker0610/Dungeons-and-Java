@@ -1,4 +1,4 @@
-package objetosDelJuego.jugador.equipamiento;
+package juego.objetosDelJuego.objetos.equipamiento;
 
 public class Pantalones extends PiezaArmadura {
 

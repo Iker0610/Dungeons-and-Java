@@ -1,6 +1,6 @@
-package objetosDelJuego.jugador.equipamiento;
+package juego.objetosDelJuego.objetos.equipamiento;
 
-import objetosDelJuego.jugador.ListaStat;
+import juego.objetosDelJuego.objetos.ListaStat;
 
 public abstract class PiezaArmadura {
 	//atributos
