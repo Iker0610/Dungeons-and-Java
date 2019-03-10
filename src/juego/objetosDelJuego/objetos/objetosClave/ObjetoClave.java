@@ -1,5 +1,7 @@
 package juego.objetosDelJuego.objetos.objetosClave;
 
-public class ObjetoClave {
+import juego.objetosDelJuego.objetos.ObjetosRecojibles;
+
+public class ObjetoClave extends ObjetosRecojibles {
 
 }
