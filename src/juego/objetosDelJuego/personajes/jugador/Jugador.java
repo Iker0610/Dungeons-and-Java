@@ -1,4 +1,4 @@
-package juego.objetosDelJuego.personajes;
+package juego.objetosDelJuego.personajes.jugador;
 
 import juego.objetosDelJuego.objetos.armadura.Armadura;
 import juego.objetosDelJuego.objetos.armadura.equipamiento.PiezaArmadura;
@@ -6,7 +6,7 @@ import juego.objetosDelJuego.objetos.consumibles.ListaConsumibles;
 import juego.objetosDelJuego.objetos.objetosClave.ListaObjetosClaves;
 import juego.objetosDelJuego.stats.ListaStat;
 
-public abstract class Personaje {
+public abstract class Jugador {
 
 	//atributos
 	protected String nombre;
@@ -18,7 +18,7 @@ public abstract class Personaje {
 	protected ListaObjetosClaves lObjClave;
 
 	//constructora
-	protected Personaje(String pNombre, String pSexo,String pRaza){
+	protected Jugador(String pNombre, String pSexo, String pRaza){
 		this.nombre = pNombre;
 		this.sexo = pSexo;
 		this.raza = pRaza;

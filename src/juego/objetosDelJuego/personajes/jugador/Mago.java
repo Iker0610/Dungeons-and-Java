@@ -1,10 +1,10 @@
-package juego.objetosDelJuego.personajes;
+package juego.objetosDelJuego.personajes.jugador;
 
 import juego.objetosDelJuego.objetos.armadura.Armadura;
 import juego.objetosDelJuego.stats.ListaStat;
 import juego.objetosDelJuego.objetos.armadura.equipamiento.*;
 
-public class Mago extends Personaje {
+public class Mago extends Jugador {
 
     //Constructora
     public Mago (String pNombre, String pSexo,String pRaza){

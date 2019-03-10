@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="351fff89-8730-49e9-afdd-cfc308ef8509" name="Default Changelist" comment="">
+    <list default="true" id="351fff89-8730-49e9-afdd-cfc308ef8509" name="Default Changelist" comment="Update">
+      <change afterPath="$PROJECT_DIR$/src/juego/objetosDelJuego/personajes/Npc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/Dungeon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/Dungeon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/objetosDelJuego/objetos/armadura/Armadura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/objetosDelJuego/objetos/armadura/Armadura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/objetosDelJuego/personajes/Mago.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/objetosDelJuego/personajes/Mago.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/objetosDelJuego/personajes/Personaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/objetosDelJuego/personajes/Personaje.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/objetosDelJuego/stats/ListaStat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/objetosDelJuego/stats/ListaStat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/Estancia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/Estancia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/objetosDelJuego/personajes/ListaJugadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/objetosDelJuego/personajes/jugador/ListaJugadores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/objetosDelJuego/personajes/Mago.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/objetosDelJuego/personajes/jugador/Mago.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/objetosDelJuego/personajes/Personaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/objetosDelJuego/personajes/jugador/Jugador.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,10 +33,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/personajes/Personaje.java">
+        <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/personajes/jugador/Jugador.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="62" column="57" lean-forward="true" selection-start-line="62" selection-start-column="57" selection-end-line="62" selection-end-column="57" />
+            <state relative-caret-position="136">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,20 +44,50 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/Dungeon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+            <state relative-caret-position="323">
+              <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/Estancia.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/personajes/Mago.java">
+        <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/personajes/Npc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="31" column="64" lean-forward="true" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="64" />
+            <state relative-caret-position="187">
+              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/personajes/jugador/Mago.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/personajes/jugador/ListaJugadores.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -79,8 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/jugador/personaje/Asesino.java" />
-        <option value="$PROJECT_DIR$/src/jugador/personaje/Paladin.java" />
         <option value="$PROJECT_DIR$/src/jugador/Equipamiento.java" />
         <option value="$PROJECT_DIR$/src/jugador/equipamiento/Equipamiento.java" />
         <option value="$PROJECT_DIR$/src/jugador/equipamiento/Casco.java" />
@@ -130,6 +158,8 @@
         <option value="$PROJECT_DIR$/src/juego/objetosDelJuego/personajes/Mago.java" />
         <option value="$PROJECT_DIR$/src/juego/objetosDelJuego/objetos/armadura/Armadura.java" />
         <option value="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/Dungeon.java" />
+        <option value="$PROJECT_DIR$/src/juego/objetosDelJuego/personajes/Npc.java" />
+        <option value="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/Estancia.java" />
       </list>
     </option>
   </component>
@@ -183,6 +213,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="juego" type="462c0819:PsiDirectoryNode" />
               <item name="objetosDelJuego" type="462c0819:PsiDirectoryNode" />
+              <item name="objetos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="juego" type="462c0819:PsiDirectoryNode" />
+              <item name="objetosDelJuego" type="462c0819:PsiDirectoryNode" />
               <item name="personajes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -196,7 +234,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552247129286" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552253425240" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -240,7 +278,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552223771246</updated>
-      <workItem from="1552223772594" duration="19606000" />
+      <workItem from="1552223772594" duration="22889000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion del metodo main para ejecutar el juego">
       <created>1552239524589</created>
@@ -277,11 +315,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552241706735</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update">
+      <created>1552247137225</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1552247137225</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19606000" />
+    <option name="totallyTimeSpent" value="22889000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -374,13 +419,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/src/personaje/Armadura.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/src/personaje/Equpamiento.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -639,24 +677,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/personajes/ListaJugadores.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/Partida.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/Estancia.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -797,17 +821,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/personajes/Mago.java">
+    <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/personajes/jugador/Mago.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="31" column="64" lean-forward="true" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="64" />
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/personajes/Personaje.java">
+    <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/personajes/jugador/ListaJugadores.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="62" column="57" lean-forward="true" selection-start-line="62" selection-start-column="57" selection-end-line="62" selection-end-column="57" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/personajes/jugador/Jugador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -816,8 +847,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/Dungeon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        <state relative-caret-position="323">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/personajes/Npc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/Estancia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
