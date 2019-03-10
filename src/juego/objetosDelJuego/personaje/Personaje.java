@@ -1,7 +1,7 @@
 package juego.objetosDelJuego.personaje;
 
-import juego.objetosDelJuego.objetos.*;
 import juego.objetosDelJuego.objetos.armadura.Armadura;
+import juego.objetosDelJuego.objetos.consumibles.ListaConsumibles;
 import juego.objetosDelJuego.stats.ListaStat;
 
 public abstract class Personaje {
