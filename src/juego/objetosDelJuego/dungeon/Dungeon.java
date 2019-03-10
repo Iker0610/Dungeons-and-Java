@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class Dungeon {
     private static Dungeon dungeon;
     private ArrayList<Estancia> lEstancias;
+    private Estancia estanciaActual;
 
     //Constructora
     private Dungeon(){

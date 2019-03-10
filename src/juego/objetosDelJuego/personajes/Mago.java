@@ -20,14 +20,14 @@ public class Mago extends Personaje {
         Armadura armaduraBasica = new Armadura();
 
         //Creamos las piezas de armadura básicas
-        Pechera pecheraBasica = new Pechera("Túnica andrajosa",50,0,5,15,0);
-        Pantalones pantalonesBasicos = new Pantalones("Pantalones andrajosos",30,0,5,15,0);
-        Arma armaBasica = new Arma("Baston viejo",0,0,0,30,0);
+        PiezaArmadura pecheraBasica = new Pechera("Túnica andrajosa",50,0,5,15,0);
+        PiezaArmadura pantalonesBasicos = new Pantalones("Pantalones andrajosos",30,0,5,15,0);
+        PiezaArmadura armaBasica = new Arma("Baston viejo",0,0,0,30,0);
 
         //Añadimos el equipamiento básico a la armadura
-        armaduraBasica.cambiarPechera(pecheraBasica);
-        armaduraBasica.cambiarPantalones(pantalonesBasicos);
-        armaduraBasica.cambiarArma(armaBasica);
+        armaduraBasica.cambiarEquipamiento(pecheraBasica);
+        armaduraBasica.cambiarEquipamiento(pantalonesBasicos);
+        armaduraBasica.cambiarEquipamiento(armaBasica);
 
         //Devolvemos la armadura básica con las piezas correspondiente
         return armaduraBasica;

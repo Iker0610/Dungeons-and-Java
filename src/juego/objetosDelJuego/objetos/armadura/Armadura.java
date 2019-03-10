@@ -21,22 +21,34 @@ public class Armadura {
 
 	//Otros Metodos
 
-	public void anadirEquipamiento (PiezaArmadura pPiezaArmadura){
-		//TODO
-		//El objetivo es que pasado un objeto de tipo equipamiento sepa de si fue creado como casco, arma y demás
-		// y se llame al metodo cambiarX corrspondiente
+	public void cambiarEquipamiento (PiezaArmadura pPiezaArmadura){
+		if (pPiezaArmadura instanceof Casco){
+			this.cambiarCasco((Casco)pPiezaArmadura);
+		}
+
+		else if (pPiezaArmadura instanceof Pechera){
+			this.cambiarPechera((Pechera)pPiezaArmadura);
+		}
+
+		else if (pPiezaArmadura instanceof Pantalones){
+			this.cambiarPantalones((Pantalones)pPiezaArmadura);
+		}
+
+		else if (pPiezaArmadura instanceof Arma){
+			this.cambiarArma((Arma)pPiezaArmadura);
+		}
 	}
 
-	public void cambiarCasco(Casco pCasco) {
+	private void cambiarCasco(Casco pCasco) {
 		this.casco = pCasco;
 	}
-	public void cambiarPechera(Pechera pPechera) {
+	private void cambiarPechera(Pechera pPechera) {
 		this.pechera = pPechera;
 	}
-	public void cambiarPantalones(Pantalones pPantalones) {
+	private void cambiarPantalones(Pantalones pPantalones) {
 		this.pantalones = pPantalones;
 	}
-	public void cambiarArma(Arma pArma) {
+	private void cambiarArma(Arma pArma) {
 		this.arma = pArma;
 	}
 

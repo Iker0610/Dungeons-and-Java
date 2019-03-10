@@ -34,4 +34,24 @@ public class ListaStat {
 		this.inteligencia -= pLStats.inteligencia;
 		this.destreza -= pLStats.destreza;
 	}
+
+	public int getVida() {
+		return vida;
+	}
+
+	public int getFuerza() {
+		return fuerza;
+	}
+
+	public int getDefensa() {
+		return defensa;
+	}
+
+	public int getInteligencia() {
+		return inteligencia;
+	}
+
+	public int getDestreza() {
+		return destreza;
+	}
 }

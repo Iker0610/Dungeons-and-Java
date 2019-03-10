@@ -1,6 +1,7 @@
 package juego.objetosDelJuego.personajes;
 
 import juego.objetosDelJuego.objetos.armadura.Armadura;
+import juego.objetosDelJuego.objetos.armadura.equipamiento.PiezaArmadura;
 import juego.objetosDelJuego.objetos.consumibles.ListaConsumibles;
 import juego.objetosDelJuego.objetos.objetosClave.ListaObjetosClaves;
 import juego.objetosDelJuego.stats.ListaStat;
@@ -54,5 +55,11 @@ public abstract class Personaje {
 				this.lstats = new ListaStat(500,40,40,40,2);
 			break;
 		}
+	}
+
+	public void actualizarArmadura (PiezaArmadura pPieza){
+		this.lstats.restarStats(armadura.getArmorStats());
+		this.armadura.cambiarEquipamiento(pPieza);
+		this.lstats.sumarStats(armadura.getArmorStats());
 	}
 }
