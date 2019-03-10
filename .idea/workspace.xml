@@ -206,7 +206,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552257475335" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552257645198" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -250,7 +250,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552223771246</updated>
-      <workItem from="1552223772594" duration="26047000" />
+      <workItem from="1552223772594" duration="26217000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion del metodo main para ejecutar el juego">
       <created>1552239524589</created>
@@ -308,11 +308,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552255333891</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update">
+      <created>1552257625348</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1552257625348</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26047000" />
+    <option name="totallyTimeSpent" value="26217000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -324,7 +331,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Learn" order="0" />
