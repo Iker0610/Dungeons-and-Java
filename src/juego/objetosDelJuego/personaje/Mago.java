@@ -1,7 +1,8 @@
 package juego.objetosDelJuego.personaje;
 
-import juego.objetosDelJuego.objetos.*;
-import juego.objetosDelJuego.objetos.equipamiento.*;
+import juego.objetosDelJuego.objetos.armadura.Armadura;
+import juego.objetosDelJuego.stats.ListaStat;
+import juego.objetosDelJuego.objetos.armadura.equipamiento.*;
 
 public class Mago extends Personaje {
 

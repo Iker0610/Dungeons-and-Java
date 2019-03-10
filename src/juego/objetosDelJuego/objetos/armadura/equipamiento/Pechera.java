@@ -1,4 +1,4 @@
-package juego.objetosDelJuego.objetos.equipamiento;
+package juego.objetosDelJuego.objetos.armadura.equipamiento;
 
 public class Pechera extends PiezaArmadura {
 
