@@ -1,6 +1,6 @@
 package jugador.equipamiento;
 
-public class Casco extends Equipamiento{
+public class Casco extends PiezaArmadura {
 
     //Constructora
     public Casco(String pNombre, int pVida, int pFuerza, int pDefensa, int pInteligencia, int pDestreza){

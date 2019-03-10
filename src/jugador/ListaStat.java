@@ -19,4 +19,11 @@ public class ListaStat {
 	}
 	
 	//otros metodos
+	public void sumarStats(ListaStat pLStats){
+		this.vida += pLStats.vida;
+		this.fuerza += pLStats.fuerza;
+		this.defensa += pLStats.defensa;
+		this.inteligencia += pLStats.inteligencia;
+		this.destreza += pLStats.destreza;
+	}
 }

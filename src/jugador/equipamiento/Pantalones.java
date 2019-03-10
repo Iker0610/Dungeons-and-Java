@@ -1,6 +1,6 @@
 package jugador.equipamiento;
 
-public class Pantalones extends Equipamiento{
+public class Pantalones extends PiezaArmadura {
 
     //Constructora
     public Pantalones(String pNombre, int pVida, int pFuerza, int pDefensa, int pInteligencia, int pDestreza){
