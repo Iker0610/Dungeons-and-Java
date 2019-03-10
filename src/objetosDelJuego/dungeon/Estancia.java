@@ -1,4 +1,4 @@
-package dungeon;
+package objetosDelJuego.dungeon;
 
 public class Estancia {
 }

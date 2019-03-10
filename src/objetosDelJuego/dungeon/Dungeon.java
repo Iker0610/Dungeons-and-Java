@@ -1,4 +1,4 @@
-package dungeon;
+package objetosDelJuego.dungeon;
 
 import java.util.ArrayList;
 

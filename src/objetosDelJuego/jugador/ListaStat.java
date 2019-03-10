@@ -1,4 +1,4 @@
-package jugador;
+package objetosDelJuego.jugador;
 
 public class ListaStat {
 

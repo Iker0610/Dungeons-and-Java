@@ -1,4 +1,4 @@
-package jugador.equipamiento;
+package objetosDelJuego.jugador.equipamiento;
 
 public class Casco extends PiezaArmadura {
 

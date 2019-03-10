@@ -1,6 +1,6 @@
-package jugador;
+package objetosDelJuego.jugador;
 
-import jugador.equipamiento.*;
+import objetosDelJuego.jugador.equipamiento.*;
 
 public class Armadura {
 
