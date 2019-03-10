@@ -1,4 +1,4 @@
-package juego.objetosDelJuego.personaje;
+package juego.objetosDelJuego.personajes;
 
 import juego.objetosDelJuego.objetos.armadura.Armadura;
 import juego.objetosDelJuego.objetos.consumibles.ListaConsumibles;

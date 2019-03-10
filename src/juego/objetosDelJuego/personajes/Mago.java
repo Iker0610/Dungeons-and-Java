@@ -1,4 +1,4 @@
-package juego.objetosDelJuego.personaje;
+package juego.objetosDelJuego.personajes;
 
 import juego.objetosDelJuego.objetos.armadura.Armadura;
 import juego.objetosDelJuego.stats.ListaStat;
@@ -36,7 +36,7 @@ public class Mago extends Personaje {
     protected void cargarStatsClase () {
         //Se crean los stats base por ser de x clase
         ListaStat lstatsClase = new ListaStat(100,10,20,50,2);
-        //Se suman los stats de la armadura a los del personaje
+        //Se suman los stats de la armadura a los del personajes
         lstatsClase.sumarStats(this.armadura.getArmorStats());
         this.lstats.sumarStats(lstatsClase);
     }
