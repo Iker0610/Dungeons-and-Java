@@ -2,6 +2,7 @@ package juego.objetosDelJuego.personaje;
 
 import juego.objetosDelJuego.objetos.armadura.Armadura;
 import juego.objetosDelJuego.objetos.consumibles.ListaConsumibles;
+import juego.objetosDelJuego.objetos.objetosClave.ListaObjetosClaves;
 import juego.objetosDelJuego.stats.ListaStat;
 
 public abstract class Personaje {
@@ -13,6 +14,7 @@ public abstract class Personaje {
 	protected ListaStat lstats;
 	protected Armadura armadura;
 	protected ListaConsumibles lConsumibles;
+	protected ListaObjetosClaves lObjClave;
 
 	//constructora
 	protected Personaje(String pNombre, String pSexo,String pRaza){
@@ -20,6 +22,7 @@ public abstract class Personaje {
 		this.sexo = pSexo;
 		this.raza = pRaza;
 		lConsumibles = new ListaConsumibles();
+		lObjClave = new ListaObjetosClaves();
 		this.cargarStatsBase();
 	}
 

@@ -1,4 +1,4 @@
 package juego.objetosDelJuego.objetos.objetosClave;
 
-public class objetoClave {
+public class ObjetoClave {
 }
