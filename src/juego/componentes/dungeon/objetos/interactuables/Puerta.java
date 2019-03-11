@@ -8,8 +8,9 @@ public class Puerta extends ObjetoInteractuable {
     private String idEstancia;
 
     //Constructora
-    public Puerta (String pNombre){
+    public Puerta (String pNombre, String pIdEstancia){
         super();
+        this.idEstancia = pIdEstancia;
     }
 
     //Otros metodos

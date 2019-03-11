@@ -7,6 +7,8 @@ public abstract class ObjetoInteractuable {
     //Atributos
     private String nombre;
     private String descripcion;
+    private String tipoCondicion;
+    private String valorCondicion;
 
     //Constructora
     protected ObjetoInteractuable(){
@@ -18,5 +20,11 @@ public abstract class ObjetoInteractuable {
     public void acercarse (){
         System.out.println(this.descripcion);
     }
+
     public abstract void interactuar (Jugador pJugador);
+
+    private boolean comprobarCondicion(Jugador pJugador){
+        boolean seCumple = false;
+        return seCumple;
+    }
 }

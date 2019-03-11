@@ -1,6 +1,7 @@
 package juego.componentes.dungeon.objetos.recojibles;
 
 import juego.componentes.dungeon.objetos.recojibles.ObjetoRecojible;
+import juego.componentes.jugador.Jugador;
 
 public class Consumible extends ObjetoRecojible {
 
@@ -14,5 +15,8 @@ public class Consumible extends ObjetoRecojible {
     }
 
     //Otros metodos
+    public void consumir (){
+
+    }
 
 }

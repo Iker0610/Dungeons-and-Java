@@ -12,6 +12,7 @@ import juego.componentes.herramientas.ListaStat;
 public abstract class Jugador {
 
 	//atributos
+	protected int vidaActual;
 	protected String nombre;
 	protected String sexo;
 	protected String raza;
@@ -28,6 +29,7 @@ public abstract class Jugador {
 		lConsumibles = new ListaConsumibles();
 		lObjClave = new ListaObjetosClaves();
 		this.cargarStatsBase();
+		this.vidaActual=this.lstats.getVida();
 	}
 
 	//Metodos abstractos que cada clase ha de implementar
@@ -87,5 +89,14 @@ public abstract class Jugador {
 
 	private void anadirObjetoClave (ObjetoClave pObjClave){
 		this.lObjClave.anadirObjeto(pObjClave);
+	}
+
+	public void usarConsumible (String pNombre){
+
+	}
+
+	public boolean tienesObjClave (String pNombreObjClave){
+		boolean esta = false;
+		return esta;
 	}
 }
