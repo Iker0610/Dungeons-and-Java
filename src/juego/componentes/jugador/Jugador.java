@@ -1,5 +1,7 @@
 package juego.componentes.jugador;
 
+import juego.componentes.dungeon.objetos.recojibles.ObjetoClave;
+import juego.componentes.dungeon.objetos.recojibles.ObjetoRecojible;
 import juego.componentes.jugador.inventarios.Armadura;
 import juego.componentes.dungeon.objetos.recojibles.PiezaArmadura;
 import juego.componentes.dungeon.objetos.recojibles.Consumible;
@@ -29,10 +31,12 @@ public abstract class Jugador {
 	}
 
 	//Metodos abstractos que cada clase ha de implementar
+
 	protected abstract Armadura crearArmaduraBasica ();
 	protected abstract void cargarStatsClase ();
 
 	//Metodos comunes a todas las clases
+
 	private void cargarStatsBase (){
 		switch (this.raza){
 
@@ -58,13 +62,30 @@ public abstract class Jugador {
 		}
 	}
 
-	protected void actualizarArmadura (PiezaArmadura pPieza){
+	//Metodos relacionados con adquirir objetos recojibles
+
+	public void anadirObjetoRecojible (ObjetoRecojible pObjeto){
+		if (pObjeto instanceof Consumible){
+			this.anadirConsumible((Consumible)pObjeto);
+		}
+		else if (pObjeto instanceof ObjetoClave){
+			this.anadirObjetoClave((ObjetoClave)pObjeto);
+		}
+		else if (pObjeto instanceof PiezaArmadura){
+			this.actualizarArmadura((PiezaArmadura)pObjeto);
+		}
+	}
+	private void actualizarArmadura (PiezaArmadura pPieza){
 		this.lstats.restarStats(armadura.getArmorStats());
 		this.armadura.cambiarEquipamiento(pPieza);
 		this.lstats.sumarStats(armadura.getArmorStats());
 	}
 
-	public void anadirConsumible (Consumible pConsumible){
+	private void anadirConsumible (Consumible pConsumible){
 		this.lConsumibles.anadirConsumible(pConsumible);
+	}
+
+	private void anadirObjetoClave (ObjetoClave pObjClave){
+		this.lObjClave.anadirObjeto(pObjClave);
 	}
 }
