@@ -1,5 +1,6 @@
 package juego.componentes.dungeon.objetos.interactuables;
 
+import juego.componentes.dungeon.Dungeon;
 import juego.componentes.jugador.Jugador;
 
 public class Puerta extends ObjetoInteractuable {
@@ -18,6 +19,6 @@ public class Puerta extends ObjetoInteractuable {
     }
 
     private void cambiarEstancia(){
-
+        Dungeon.getDungeon()
     }
 }
