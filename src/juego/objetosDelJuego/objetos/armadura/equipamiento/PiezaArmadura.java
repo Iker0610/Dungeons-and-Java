@@ -2,19 +2,27 @@ package juego.objetosDelJuego.objetos.armadura.equipamiento;
 
 import juego.objetosDelJuego.stats.ListaStat;
 
-public abstract class PiezaArmadura {
+public class PiezaArmadura {
+
 	//atributos
-	protected String nombre;
-	protected ListaStat lista;
+	private String tipo;
+	private String nombre;
+	private ListaStat lista;
+
 	//constructora
-	protected PiezaArmadura(String pNombre, int pVida, int pFuerza, int pDefensa, int pInteligencia, int pDestreza){
+	public PiezaArmadura(String pTipo, String pNombre, int pVida, int pFuerza, int pDefensa, int pInteligencia, int pDestreza){
+		this.tipo = pTipo;
 		this.nombre = pNombre;
 		this.lista = new ListaStat(pVida, pFuerza,pDefensa,pInteligencia,pDestreza);
 	}
 
+	//otros metodos
+
 	public ListaStat getStats(){
 		return this.lista;
 	}
-	//otros metodos
-	
+
+	public String getTipo() {
+		return tipo;
+	}
 }

@@ -6,10 +6,10 @@ import juego.objetosDelJuego.objetos.armadura.equipamiento.*;
 public class Armadura {
 
 	//Atributos
-	private Casco casco;
-	private Pechera pechera;
-	private Pantalones pantalones;
-	private Arma arma;
+	private PiezaArmadura casco;
+	private PiezaArmadura pechera;
+	private PiezaArmadura pantalones;
+	private PiezaArmadura arma;
 
 	//Constructora
 	public Armadura(){
@@ -22,33 +22,33 @@ public class Armadura {
 	//Otros Metodos
 
 	public void cambiarEquipamiento (PiezaArmadura pPiezaArmadura){
-		if (pPiezaArmadura instanceof Casco){
-			this.cambiarCasco((Casco)pPiezaArmadura);
+		if (pPiezaArmadura.getTipo().equals("casco")){
+			this.cambiarCasco(pPiezaArmadura);
 		}
 
-		else if (pPiezaArmadura instanceof Pechera){
-			this.cambiarPechera((Pechera)pPiezaArmadura);
+		else if (pPiezaArmadura.getTipo().equals("pechera")){
+			this.cambiarPechera(pPiezaArmadura);
 		}
 
-		else if (pPiezaArmadura instanceof Pantalones){
-			this.cambiarPantalones((Pantalones)pPiezaArmadura);
+		else if (pPiezaArmadura.getTipo().equals("pantalones")){
+			this.cambiarPantalones(pPiezaArmadura);
 		}
 
-		else if (pPiezaArmadura instanceof Arma){
-			this.cambiarArma((Arma)pPiezaArmadura);
+		else if (pPiezaArmadura.getTipo().equals("arma")){
+			this.cambiarArma(pPiezaArmadura);
 		}
 	}
 
-	private void cambiarCasco(Casco pCasco) {
+	private void cambiarCasco(PiezaArmadura pCasco) {
 		this.casco = pCasco;
 	}
-	private void cambiarPechera(Pechera pPechera) {
+	private void cambiarPechera(PiezaArmadura pPechera) {
 		this.pechera = pPechera;
 	}
-	private void cambiarPantalones(Pantalones pPantalones) {
+	private void cambiarPantalones(PiezaArmadura pPantalones) {
 		this.pantalones = pPantalones;
 	}
-	private void cambiarArma(Arma pArma) {
+	private void cambiarArma(PiezaArmadura pArma) {
 		this.arma = pArma;
 	}
 
