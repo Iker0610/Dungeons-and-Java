@@ -1,6 +1,6 @@
 package juego.objetosDelJuego.dungeon.objetos.interactuables;
 
-public class Npc extends ObjetosInteractuables{
+public class Npc extends ObjetoInteractuable {
     //Atributos
     private String nombre;
     private String pista;

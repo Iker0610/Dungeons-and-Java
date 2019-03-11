@@ -1,16 +1,16 @@
 package juego.objetosDelJuego.dungeon.objetos.interactuables;
 
-import juego.objetosDelJuego.dungeon.objetos.recojibles.ObjetosRecojibles;
+import juego.objetosDelJuego.dungeon.objetos.recojibles.ObjetoRecojible;
 
 import java.util.ArrayList;
 
-public class Cofre extends ObjetosInteractuables {
+public class Cofre extends ObjetoInteractuable {
     //Esta clase englobará todos los objetos de los que se puedan sacar objetos recojibles.
     //Aunque se llama cofre sucede como la clase puerta, puede ser cualquier cosa: una mesa, un cofre, una caja, un agujero...
 
     //Atributos
     private String nombre;
-    private ArrayList<ObjetosRecojibles> lista;
+    private ArrayList<ObjetoRecojible> lista;
 
     //Constructora
     public Cofre (String pNombre){
@@ -19,7 +19,7 @@ public class Cofre extends ObjetosInteractuables {
     }
 
     //Otros metodos
-    public void anadirObjeto (ObjetosRecojibles pObjeto){
+    public void anadirObjeto (ObjetoRecojible pObjeto){
         this.lista.add(pObjeto);
     }
 }

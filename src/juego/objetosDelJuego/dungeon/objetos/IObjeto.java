@@ -1,4 +1,5 @@
 package juego.objetosDelJuego.dungeon.objetos;
 
-public interface IObjetos {
+public interface IObjeto {
+
 }

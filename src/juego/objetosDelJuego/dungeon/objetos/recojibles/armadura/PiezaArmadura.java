@@ -1,9 +1,9 @@
 package juego.objetosDelJuego.dungeon.objetos.recojibles.armadura;
 
-import juego.objetosDelJuego.dungeon.objetos.recojibles.ObjetosRecojibles;
+import juego.objetosDelJuego.dungeon.objetos.recojibles.ObjetoRecojible;
 import juego.objetosDelJuego.stats.ListaStat;
 
-public class PiezaArmadura extends ObjetosRecojibles {
+public class PiezaArmadura extends ObjetoRecojible {
 
 	//atributos
 	private String tipo;

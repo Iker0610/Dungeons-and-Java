@@ -1,8 +1,8 @@
 package juego.objetosDelJuego.dungeon.objetos.recojibles.consumibles;
 
-import juego.objetosDelJuego.dungeon.objetos.recojibles.ObjetosRecojibles;
+import juego.objetosDelJuego.dungeon.objetos.recojibles.ObjetoRecojible;
 
-public class Consumible extends ObjetosRecojibles {
+public class Consumible extends ObjetoRecojible {
 
     //atributos
     private String nombre;
