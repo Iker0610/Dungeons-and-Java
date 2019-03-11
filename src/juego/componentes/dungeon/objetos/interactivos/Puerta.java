@@ -1,9 +1,9 @@
-package juego.componentes.dungeon.objetos.interactuables;
+package juego.componentes.dungeon.objetos.interactivos;
 
 import juego.componentes.dungeon.Dungeon;
 import juego.componentes.jugador.Jugador;
 
-public class Puerta extends ObjetoInteractuable {
+public class Puerta extends ObjetoInteractivo {
     //Atributos
     private String idEstancia;
 

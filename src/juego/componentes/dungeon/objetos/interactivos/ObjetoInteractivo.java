@@ -1,8 +1,8 @@
-package juego.componentes.dungeon.objetos.interactuables;
+package juego.componentes.dungeon.objetos.interactivos;
 
 import juego.componentes.jugador.Jugador;
 
-public abstract class ObjetoInteractuable {
+public abstract class ObjetoInteractivo {
 
     //Atributos
     private String nombre;
@@ -12,7 +12,7 @@ public abstract class ObjetoInteractuable {
     private boolean desbloqueado;
 
     //Constructora
-    protected ObjetoInteractuable(){
+    protected ObjetoInteractivo(){
         this.desbloqueado = false;
     }
 

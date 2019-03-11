@@ -1,4 +1,4 @@
-package juego.componentes.dungeon.objetos.interactuables;
+package juego.componentes.dungeon.objetos.interactivos;
 
 import juego.componentes.dungeon.objetos.recogibles.ObjetoRecogible;
 import juego.componentes.jugador.Jugador;
@@ -6,7 +6,7 @@ import juego.componentes.jugador.Jugador;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class Cofre extends ObjetoInteractuable {
+public class Cofre extends ObjetoInteractivo {
     //Esta clase englobará todos los objetos de los que se puedan sacar objetos recogibles.
     //Aunque se llama cofre sucede como la clase puerta, puede ser cualquier cosa: una mesa, un cofre, una caja, un agujero...
 

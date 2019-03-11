@@ -1,8 +1,8 @@
-package juego.componentes.dungeon.objetos.interactuables;
+package juego.componentes.dungeon.objetos.interactivos;
 
 import juego.componentes.jugador.Jugador;
 
-public class Npc extends ObjetoInteractuable {
+public class Npc extends ObjetoInteractivo {
     //Atributos
     private String pista;
     private String primeraBienvenida;
