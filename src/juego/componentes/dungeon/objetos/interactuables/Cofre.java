@@ -23,5 +23,16 @@ public class Cofre extends ObjetoInteractuable {
         this.lista.add(pObjeto);
     }
 
-    public void interactuar(Jugador pJugador) {}
+    public void interactuar(Jugador pJugador) {
+
+    }
+
+
+    private void darObjetoAPersonaje(Jugador pJugador){
+
+    }
+
+    private void retirarObjeto(){
+
+    }
 }
