@@ -1,6 +1,6 @@
-package juego.objetosDelJuego.personajes;
+package juego.objetosDelJuego.dungeon.objetos.interactuables;
 
-public class Npc {
+public class Npc extends ObjetosInteractuables{
     //Atributos
     private String nombre;
     private String pista;
@@ -9,6 +9,7 @@ public class Npc {
     private String primerRechazo;
     private String rechazoPosterior;
     private boolean primerEncuentro;
+
     //Constructora
     public void Npc (){}
 }

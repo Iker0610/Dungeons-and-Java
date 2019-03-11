@@ -1,7 +1,6 @@
-package juego.objetosDelJuego.objetos.armadura;
+package juego.objetosDelJuego.dungeon.objetos.recojibles.armadura;
 
 import juego.objetosDelJuego.stats.ListaStat;
-import juego.objetosDelJuego.objetos.armadura.equipamiento.*;
 
 public class Armadura {
 

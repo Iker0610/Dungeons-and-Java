@@ -1,9 +1,9 @@
-package juego.objetosDelJuego.personajes.jugador;
+package juego.objetosDelJuego.jugador;
 
-import juego.objetosDelJuego.objetos.armadura.Armadura;
-import juego.objetosDelJuego.objetos.armadura.equipamiento.PiezaArmadura;
-import juego.objetosDelJuego.objetos.consumibles.ListaConsumibles;
-import juego.objetosDelJuego.objetos.objetosClave.ListaObjetosClaves;
+import juego.objetosDelJuego.dungeon.objetos.recojibles.armadura.Armadura;
+import juego.objetosDelJuego.dungeon.objetos.recojibles.armadura.PiezaArmadura;
+import juego.objetosDelJuego.dungeon.objetos.recojibles.consumibles.ListaConsumibles;
+import juego.objetosDelJuego.dungeon.objetos.recojibles.objetosClave.ListaObjetosClaves;
 import juego.objetosDelJuego.stats.ListaStat;
 
 public abstract class Jugador {
@@ -27,11 +27,11 @@ public abstract class Jugador {
 		this.cargarStatsBase();
 	}
 
-	//Metodos abstractos
+	//Metodos abstractos que cada clase ha de implementar
 	protected abstract Armadura crearArmaduraBasica ();
 	protected abstract void cargarStatsClase ();
 
-	//otros metodos
+	//Metodos comunes a todas las clases
 	private void cargarStatsBase (){
 		switch (this.raza){
 
@@ -62,4 +62,6 @@ public abstract class Jugador {
 		this.armadura.cambiarEquipamiento(pPieza);
 		this.lstats.sumarStats(armadura.getArmorStats());
 	}
+
+
 }

@@ -1,8 +1,8 @@
-package juego.objetosDelJuego.personajes.jugador;
+package juego.objetosDelJuego.jugador;
 
-import juego.objetosDelJuego.objetos.armadura.Armadura;
+import juego.objetosDelJuego.dungeon.objetos.recojibles.armadura.Armadura;
+import juego.objetosDelJuego.dungeon.objetos.recojibles.armadura.PiezaArmadura;
 import juego.objetosDelJuego.stats.ListaStat;
-import juego.objetosDelJuego.objetos.armadura.equipamiento.*;
 
 public class Mago extends Jugador {
 

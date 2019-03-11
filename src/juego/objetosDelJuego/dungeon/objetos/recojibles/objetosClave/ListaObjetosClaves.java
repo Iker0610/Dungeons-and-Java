@@ -1,4 +1,4 @@
-package juego.objetosDelJuego.objetos.objetosClave;
+package juego.objetosDelJuego.dungeon.objetos.recojibles.objetosClave;
 
 import java.util.ArrayList;
 
