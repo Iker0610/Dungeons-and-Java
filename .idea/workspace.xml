@@ -2,17 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="351fff89-8730-49e9-afdd-cfc308ef8509" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/interactuables/ObjetoInteractuable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/IObjetos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/IObjeto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/interactuables/Cofre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/interactuables/Cofre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/interactuables/Npc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/interactuables/Npc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/interactuables/ObjetosInteractuables.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/interactuables/Puerta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/interactuables/Puerta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/recojibles/ObjetosRecojibles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/recojibles/ObjetoRecojible.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/recojibles/armadura/PiezaArmadura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/recojibles/armadura/PiezaArmadura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/recojibles/consumibles/Consumible.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/recojibles/consumibles/Consumible.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/recojibles/objetosClave/ObjetoClave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/recojibles/objetosClave/ObjetoClave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/Dungeon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/dungeon/Dungeon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/Estancia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/dungeon/Estancia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/IObjeto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/interactuables/Cofre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactuables/Cofre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/interactuables/Npc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactuables/Npc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/interactuables/ObjetoInteractuable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactuables/ObjetoInteractuable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/interactuables/Puerta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactuables/Puerta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/recojibles/ObjetoRecojible.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/recojibles/ObjetoRecojible.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/recojibles/armadura/Armadura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/recojibles/armadura/Armadura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/recojibles/armadura/PiezaArmadura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/recojibles/armadura/PiezaArmadura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/recojibles/consumibles/Consumible.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/recojibles/consumibles/Consumible.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/recojibles/consumibles/ListaConsumibles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/recojibles/consumibles/ListaConsumibles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/recojibles/objetosClave/ListaObjetosClaves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/recojibles/objetosClave/ListaObjetosClaves.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/recojibles/objetosClave/ObjetoClave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/recojibles/objetosClave/ObjetoClave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/objetosDelJuego/jugador/Jugador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/jugador/Jugador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/objetosDelJuego/jugador/ListaJugadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/objetosDelJuego/jugador/Mago.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/jugador/Mago.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/objetosDelJuego/stats/ListaStat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/stats/ListaStat.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,50 +30,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/IObjeto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/interactuables/Npc.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/interactuables/ObjetoInteractuable.java">
+        <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactuables/ObjetoInteractuable.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/jugador/Jugador.java">
+        <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactuables/Puerta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="65" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="136">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#183#184#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/jugador/Mago.java">
+        <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactuables/Npc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="306">
+              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+              <folding>
+                <element signature="e#371#372#0" expanded="true" />
+                <element signature="e#401#402#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactuables/Cofre.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,16 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/objetosDelJuego/comun/equipamiento/Casco.java" />
-        <option value="$PROJECT_DIR$/src/objetosDelJuego/comun/equipamiento/Pantalones.java" />
-        <option value="$PROJECT_DIR$/src/objetosDelJuego/comun/equipamiento/Pechera.java" />
-        <option value="$PROJECT_DIR$/src/objetosDelJuego/comun/equipamiento/PiezaArmadura.java" />
-        <option value="$PROJECT_DIR$/src/objetosDelJuego/dungeon/Dungeon.java" />
-        <option value="$PROJECT_DIR$/src/objetosDelJuego/dungeon/Estancia.java" />
-        <option value="$PROJECT_DIR$/src/objetosDelJuego/jugador/equipamiento/Arma.java" />
-        <option value="$PROJECT_DIR$/src/objetosDelJuego/jugador/equipamiento/Casco.java" />
-        <option value="$PROJECT_DIR$/src/objetosDelJuego/jugador/equipamiento/Pantalones.java" />
-        <option value="$PROJECT_DIR$/src/objetosDelJuego/jugador/equipamiento/Pechera.java" />
         <option value="$PROJECT_DIR$/src/objetosDelJuego/jugador/Consumible.java" />
         <option value="$PROJECT_DIR$/src/objetosDelJuego/jugador/ListaConsumibles.java" />
         <option value="$PROJECT_DIR$/src/objetosDelJuego/jugador/ListaStat.java" />
@@ -134,10 +131,20 @@
         <option value="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/recojibles/consumibles/Consumible.java" />
         <option value="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/recojibles/armadura/PiezaArmadura.java" />
         <option value="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/recojibles/ObjetosRecojibles.java" />
-        <option value="$PROJECT_DIR$/src/juego/objetosDelJuego/jugador/Jugador.java" />
         <option value="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/IObjetos.java" />
         <option value="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/interactuables/ObjetosInteractuables.java" />
         <option value="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/interactuables/ObjetoInteractuable.java" />
+        <option value="$PROJECT_DIR$/src/juego/objetosDelJuego/jugador/Jugador.java" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/jugador/Jugador.java" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/recojibles/IInventario.java" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/recojibles/armadura/Armadura.java" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/recojibles/consumibles/ListaConsumibles.java" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/recojibles/objetosClave/ListaObjetosClaves.java" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/recojibles/ObjetoRecojible.java" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactuables/Puerta.java" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactuables/Cofre.java" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactuables/Npc.java" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactuables/ObjetoInteractuable.java" />
       </list>
     </option>
   </component>
@@ -175,14 +182,14 @@
               <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="juego" type="462c0819:PsiDirectoryNode" />
-              <item name="objetosDelJuego" type="462c0819:PsiDirectoryNode" />
+              <item name="componentes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="juego" type="462c0819:PsiDirectoryNode" />
-              <item name="objetosDelJuego" type="462c0819:PsiDirectoryNode" />
+              <item name="componentes" type="462c0819:PsiDirectoryNode" />
               <item name="dungeon" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -190,8 +197,19 @@
               <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="juego" type="462c0819:PsiDirectoryNode" />
-              <item name="objetosDelJuego" type="462c0819:PsiDirectoryNode" />
-              <item name="jugador" type="462c0819:PsiDirectoryNode" />
+              <item name="componentes" type="462c0819:PsiDirectoryNode" />
+              <item name="dungeon" type="462c0819:PsiDirectoryNode" />
+              <item name="objetos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="juego" type="462c0819:PsiDirectoryNode" />
+              <item name="componentes" type="462c0819:PsiDirectoryNode" />
+              <item name="dungeon" type="462c0819:PsiDirectoryNode" />
+              <item name="objetos" type="462c0819:PsiDirectoryNode" />
+              <item name="interactuables" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -204,7 +222,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552319312433" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552322297111" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -251,7 +269,7 @@
       <workItem from="1552223772594" duration="26228000" />
       <workItem from="1552288319979" duration="581000" />
       <workItem from="1552305708095" duration="638000" />
-      <workItem from="1552309734637" duration="4749000" />
+      <workItem from="1552309734637" duration="7249000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion del metodo main para ejecutar el juego">
       <created>1552239524589</created>
@@ -337,11 +355,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552318993494</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Actualizacion y mejora de la administración de los packages">
+      <created>1552319321963</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1552319321963</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32196000" />
+    <option name="totallyTimeSpent" value="34696000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -450,7 +475,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Actualizacion y mejora de la administración de los packages" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/jugador/equipamiento/Pechera.java" />
     <entry file="file://$PROJECT_DIR$/src/jugador/equipamiento/Pantalones.java" />
     <entry file="file://$PROJECT_DIR$/src/jugador/equipamiento/Arma.java" />
     <entry file="file://$PROJECT_DIR$/src/jugador/equipamiento/Casco.java" />
@@ -479,13 +503,6 @@
     <entry file="file://$PROJECT_DIR$/src/objetosDelJuego/comun/equipamiento/Pantalones.java" />
     <entry file="file://$PROJECT_DIR$/src/objetosDelJuego/comun/equipamiento/Pechera.java" />
     <entry file="file://$PROJECT_DIR$/src/objetosDelJuego/comun/equipamiento/PiezaArmadura.java" />
-    <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/recojibles/objetosClave/ListaObjetosClaves.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/Partida.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -598,7 +615,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/Dungeon.java">
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/Dungeon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
@@ -606,17 +623,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/objetos/objetosRecogibles.java" />
-    <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/recojibles/consumibles/ListaConsumibles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="40" />
-          <folding>
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/objetos/armadura/equipamiento/Pechera.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -645,33 +651,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/stats/ListaStat.java">
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/stats/ListaStat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
           <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/interactuables/Cofre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
-            <element signature="e#734#735#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/jugador/ListaJugadores.java">
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/Estancia.java">
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/Estancia.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
@@ -681,86 +675,127 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/recojibles/objetosClave/ObjetoClave.java">
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/recojibles/objetosClave/ObjetoClave.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/interactuables/Puerta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/recojibles/consumibles/Consumible.java">
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/recojibles/consumibles/Consumible.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/recojibles/armadura/PiezaArmadura.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/recojibles/armadura/Armadura.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/recojibles/ObjetoRecojible.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/IObjeto.java">
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/IObjeto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/interactuables/Npc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/jugador/Mago.java">
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/Mago.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/jugador/Jugador.java">
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/Jugador.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="588">
+          <caret line="67" column="54" selection-start-line="67" selection-start-column="54" selection-end-line="67" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1924#1925#0" expanded="true" />
+            <element signature="e#1934#1935#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/recojibles/IInventario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/recojibles/armadura/PiezaArmadura.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/interactuables/ObjetoInteractuable.java">
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/recojibles/armadura/Armadura.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/recojibles/consumibles/ListaConsumibles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/recojibles/objetosClave/ListaObjetosClaves.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/recojibles/ObjetoRecojible.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="39" lean-forward="true" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactuables/Npc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactuables/Puerta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactuables/Cofre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactuables/ObjetoInteractuable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
         </state>
       </provider>
     </entry>

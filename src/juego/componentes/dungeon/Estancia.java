@@ -1,6 +1,6 @@
-package juego.objetosDelJuego.dungeon;
+package juego.componentes.dungeon;
 
-import juego.objetosDelJuego.dungeon.objetos.interactuables.Npc;
+import juego.componentes.dungeon.objetos.interactuables.Npc;
 
 import java.util.ArrayList;
 

@@ -1,6 +1,6 @@
-package juego.objetosDelJuego.dungeon.objetos.recojibles.armadura;
+package juego.componentes.dungeon.objetos.recojibles.armadura;
 
-import juego.objetosDelJuego.stats.ListaStat;
+import juego.componentes.stats.ListaStat;
 
 public class Armadura {
 
@@ -41,15 +41,19 @@ public class Armadura {
 	private void cambiarCasco(PiezaArmadura pCasco) {
 		this.casco = pCasco;
 	}
+
 	private void cambiarPechera(PiezaArmadura pPechera) {
 		this.pechera = pPechera;
 	}
+
 	private void cambiarPantalones(PiezaArmadura pPantalones) {
 		this.pantalones = pPantalones;
 	}
+
 	private void cambiarArma(PiezaArmadura pArma) {
 		this.arma = pArma;
 	}
+
 
 	public ListaStat getArmorStats(){
 		ListaStat armorStats = new ListaStat(0,0,0,0,0);

@@ -1,8 +1,9 @@
-package juego.objetosDelJuego.dungeon.objetos.interactuables;
+package juego.componentes.dungeon.objetos.interactuables;
+
+import juego.componentes.jugador.Jugador;
 
 public class Npc extends ObjetoInteractuable {
     //Atributos
-    private String nombre;
     private String pista;
     private String primeraBienvenida;
     private String bienvenidaPosterior;
@@ -11,5 +12,12 @@ public class Npc extends ObjetoInteractuable {
     private boolean primerEncuentro;
 
     //Constructora
-    public void Npc (){}
+    public Npc (String pNombre){
+        super();
+    }
+
+    //Otros metodos
+    public void interactuar(Jugador pJugador) {
+
+    }
 }

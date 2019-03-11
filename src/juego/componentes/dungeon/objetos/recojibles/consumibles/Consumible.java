@@ -1,6 +1,6 @@
-package juego.objetosDelJuego.dungeon.objetos.recojibles.consumibles;
+package juego.componentes.dungeon.objetos.recojibles.consumibles;
 
-import juego.objetosDelJuego.dungeon.objetos.recojibles.ObjetoRecojible;
+import juego.componentes.dungeon.objetos.recojibles.ObjetoRecojible;
 
 public class Consumible extends ObjetoRecojible {
 

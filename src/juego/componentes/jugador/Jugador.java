@@ -1,10 +1,11 @@
-package juego.objetosDelJuego.jugador;
+package juego.componentes.jugador;
 
-import juego.objetosDelJuego.dungeon.objetos.recojibles.armadura.Armadura;
-import juego.objetosDelJuego.dungeon.objetos.recojibles.armadura.PiezaArmadura;
-import juego.objetosDelJuego.dungeon.objetos.recojibles.consumibles.ListaConsumibles;
-import juego.objetosDelJuego.dungeon.objetos.recojibles.objetosClave.ListaObjetosClaves;
-import juego.objetosDelJuego.stats.ListaStat;
+import juego.componentes.dungeon.objetos.recojibles.armadura.Armadura;
+import juego.componentes.dungeon.objetos.recojibles.armadura.PiezaArmadura;
+import juego.componentes.dungeon.objetos.recojibles.consumibles.Consumible;
+import juego.componentes.dungeon.objetos.recojibles.consumibles.ListaConsumibles;
+import juego.componentes.dungeon.objetos.recojibles.objetosClave.ListaObjetosClaves;
+import juego.componentes.stats.ListaStat;
 
 public abstract class Jugador {
 
@@ -63,5 +64,7 @@ public abstract class Jugador {
 		this.lstats.sumarStats(armadura.getArmorStats());
 	}
 
-
+	public void anadirConsumible (Consumible pConsumible){
+		this.lConsumibles.anadirConsumible(pConsumible);
+	}
 }

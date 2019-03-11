@@ -1,4 +1,4 @@
-package juego.objetosDelJuego.dungeon.objetos.recojibles.objetosClave;
+package juego.componentes.dungeon.objetos.recojibles.objetosClave;
 
 import java.util.ArrayList;
 
@@ -9,4 +9,9 @@ public class ListaObjetosClaves {
 
     //Constructora
     public ListaObjetosClaves(){ lista = new ArrayList<ObjetoClave>(); }
+
+    //Otros metodos
+    public void anadirObjeto (ObjetoClave pObjeto){
+
+    }
 }

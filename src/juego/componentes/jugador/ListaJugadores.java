@@ -1,4 +1,4 @@
-package juego.objetosDelJuego.jugador;
+package juego.componentes.jugador;
 
 public class ListaJugadores {
 

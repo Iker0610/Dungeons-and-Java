@@ -1,7 +1,7 @@
-package juego.objetosDelJuego.dungeon.objetos.recojibles.armadura;
+package juego.componentes.dungeon.objetos.recojibles.armadura;
 
-import juego.objetosDelJuego.dungeon.objetos.recojibles.ObjetoRecojible;
-import juego.objetosDelJuego.stats.ListaStat;
+import juego.componentes.dungeon.objetos.recojibles.ObjetoRecojible;
+import juego.componentes.stats.ListaStat;
 
 public class PiezaArmadura extends ObjetoRecojible {
 
