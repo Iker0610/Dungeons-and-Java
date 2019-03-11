@@ -24,7 +24,7 @@ public class Dungeon {
     }
 
     //Otros metodos
-    public void cambiarEstanciaActual(String pIdEstancia){
+    public void cambiarEstancia(String pIdEstancia){
 
     }
 

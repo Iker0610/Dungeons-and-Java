@@ -21,7 +21,7 @@ public class Puerta extends ObjetoInteractivo {
     }
 
     private void cambiarEstancia(){
-        Dungeon.getDungeon().cambiarEstanciaActual(this.idEstancia);
+        Dungeon.getDungeon().cambiarEstancia(this.idEstancia);
     }
 
     private void debloquear(){
