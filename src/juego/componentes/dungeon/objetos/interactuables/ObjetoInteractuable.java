@@ -16,8 +16,6 @@ public abstract class ObjetoInteractuable {
         this.desbloqueado = false;
     }
 
-    //Metodos de carga de datos
-
     //Otros metodos
     public void acercarse (){
         System.out.println(this.descripcion);

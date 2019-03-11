@@ -1,6 +1,6 @@
 package juego.componentes.jugador.inventarios;
 
-import juego.componentes.dungeon.objetos.recojibles.PiezaArmadura;
+import juego.componentes.dungeon.objetos.recogibles.PiezaArmadura;
 import juego.componentes.herramientas.ListaStat;
 
 public class Armadura {

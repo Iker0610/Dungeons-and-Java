@@ -1,9 +1,6 @@
-package juego.componentes.dungeon.objetos.recojibles;
+package juego.componentes.dungeon.objetos.recogibles;
 
-import juego.componentes.dungeon.objetos.recojibles.ObjetoRecojible;
-import juego.componentes.jugador.Jugador;
-
-public class Consumible extends ObjetoRecojible {
+public class Consumible extends ObjetoRecogible {
 
     //atributos
     private int valor;
