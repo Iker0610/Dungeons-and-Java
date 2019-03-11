@@ -13,6 +13,6 @@ public abstract class ObjetoRecojible {
 
     //Otros metodos
     public void recoger (Jugador pJugador){
-
+        pJugador.anadirObjetoRecojible(this);
     }
 }
