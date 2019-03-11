@@ -1,10 +1,10 @@
 package juego.componentes.jugador;
 
-import juego.componentes.dungeon.objetos.recojibles.armadura.Armadura;
-import juego.componentes.dungeon.objetos.recojibles.armadura.PiezaArmadura;
-import juego.componentes.dungeon.objetos.recojibles.consumibles.Consumible;
-import juego.componentes.dungeon.objetos.recojibles.consumibles.ListaConsumibles;
-import juego.componentes.dungeon.objetos.recojibles.objetosClave.ListaObjetosClaves;
+import juego.componentes.jugador.inventarios.Armadura;
+import juego.componentes.dungeon.objetos.recojibles.PiezaArmadura;
+import juego.componentes.dungeon.objetos.recojibles.Consumible;
+import juego.componentes.jugador.inventarios.ListaConsumibles;
+import juego.componentes.jugador.inventarios.ListaObjetosClaves;
 import juego.componentes.stats.ListaStat;
 
 public abstract class Jugador {

@@ -22,6 +22,6 @@ public class Cofre extends ObjetoInteractuable {
     public void anadirObjeto (ObjetoRecojible pObjeto){
         this.lista.add(pObjeto);
     }
-    @Override
+
     public void interactuar(Jugador pJugador) {}
 }
