@@ -16,7 +16,6 @@ public class Puerta extends ObjetoInteractivo {
     }
 
     //Otros metodos
-    @Override
     public void interactuar(Jugador pJugador) {
 
     }
@@ -24,6 +23,7 @@ public class Puerta extends ObjetoInteractivo {
     private void cambiarEstancia(){
         Dungeon.getDungeon().cambiarEstanciaActual(this.idEstancia);
     }
+
     private void debloquear(){
         this.desbloqueada = true;
     }

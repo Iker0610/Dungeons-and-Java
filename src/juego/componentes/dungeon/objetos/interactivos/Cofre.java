@@ -19,21 +19,21 @@ public class Cofre extends ObjetoInteractivo {
         this.lista = new ArrayList<>();
     }
 
-    //Otros metodos
-    public void anadirObjeto (ObjetoRecogible pObjeto){
-        this.lista.add(pObjeto);
-    }
-
+    //Metodos de interaccion
     public void interactuar(Jugador pJugador) {
 
     }
-
 
     private void darObjetoAPersonaje(Jugador pJugador, int posObjeto){
 
     }
 
-    private void retirarObjeto(){
+    //Metodos relacionados con al arraylist
+    public void anadirObjeto (ObjetoRecogible pObjeto){
+        this.lista.add(pObjeto);
+    }
+
+    private void retirarObjeto(ObjetoRecogible pObjeto){
 
     }
 
