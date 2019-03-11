@@ -13,5 +13,11 @@ public class Puerta extends ObjetoInteractuable {
 
     //Otros metodos
     @Override
-    public void interactuar(Jugador pJugador) {}
+    public void interactuar(Jugador pJugador) {
+
+    }
+
+    private void cambiarEstancia(){
+
+    }
 }
