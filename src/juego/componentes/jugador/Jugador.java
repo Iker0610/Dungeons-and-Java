@@ -58,7 +58,7 @@ public abstract class Jugador {
 		}
 	}
 
-	public void actualizarArmadura (PiezaArmadura pPieza){
+	protected void actualizarArmadura (PiezaArmadura pPieza){
 		this.lstats.restarStats(armadura.getArmorStats());
 		this.armadura.cambiarEquipamiento(pPieza);
 		this.lstats.sumarStats(armadura.getArmorStats());
