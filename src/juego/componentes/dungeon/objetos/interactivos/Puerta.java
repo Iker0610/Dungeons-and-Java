@@ -6,11 +6,13 @@ import juego.componentes.jugador.Jugador;
 public class Puerta extends ObjetoInteractivo {
     //Atributos
     private String idEstancia;
+    private boolean desbloqueada;
 
     //Constructora
     public Puerta (String pNombre, String pIdEstancia){
         super();
         this.idEstancia = pIdEstancia;
+        this.desbloqueada = false;
     }
 
     //Otros metodos
@@ -21,5 +23,8 @@ public class Puerta extends ObjetoInteractivo {
 
     private void cambiarEstancia(){
         Dungeon.getDungeon().cambiarEstanciaActual(this.idEstancia);
+    }
+    private void debloquear(){
+        this.desbloqueada = true;
     }
 }

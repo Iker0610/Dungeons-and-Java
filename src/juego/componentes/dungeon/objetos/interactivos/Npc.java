@@ -19,4 +19,9 @@ public class Npc extends ObjetoInteractivo {
     //Otros metodos
     @Override
     public void interactuar(Jugador pJugador) {}
+
+    private void bienvenida(){}
+    private void mostrarPista(){}
+    private void mostrarRechazo(){}
+
 }

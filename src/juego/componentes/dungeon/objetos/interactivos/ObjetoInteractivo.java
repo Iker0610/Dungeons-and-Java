@@ -7,14 +7,13 @@ public abstract class ObjetoInteractivo {
     //Atributos
     private String nombre;
     private String descripcion;
+    //Condicion que ha de cumplir el Jugador para desbloquer la interaccion
     private String tipoCondicion;
     private String valorCondicion;
-    private boolean desbloqueado;
+    //En caso de puertas y demás booleano que sierve para
 
     //Constructora
-    protected ObjetoInteractivo(){
-        this.desbloqueado = false;
-    }
+    protected ObjetoInteractivo(){}
 
     //Otros metodos
     public void acercarse (){
@@ -28,7 +27,5 @@ public abstract class ObjetoInteractivo {
         return seCumple;
     }
 
-    private void debloquear(){
-        this.desbloqueado = true;
-    }
+
 }
