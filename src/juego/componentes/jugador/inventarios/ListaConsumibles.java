@@ -18,4 +18,7 @@ public class ListaConsumibles {
     public void anadirConsumible (Consumible pConsumible){
         this.lista.add(pConsumible);
     }
+    private Iterator<Consumible> getIterator(){
+        return this.lista.iterator();
+    }
 }

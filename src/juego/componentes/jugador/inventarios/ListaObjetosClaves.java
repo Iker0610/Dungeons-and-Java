@@ -3,6 +3,7 @@ package juego.componentes.jugador.inventarios;
 import juego.componentes.dungeon.objetos.recojibles.ObjetoClave;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class ListaObjetosClaves {
 
@@ -14,6 +15,11 @@ public class ListaObjetosClaves {
 
     //Otros metodos
     public void anadirObjeto (ObjetoClave pObjeto){
+        this.lista.add(pObjeto);
+    }
 
+
+    private Iterator<ObjetoClave> getIterator(){
+        return this.lista.iterator();
     }
 }

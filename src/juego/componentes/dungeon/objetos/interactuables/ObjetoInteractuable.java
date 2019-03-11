@@ -9,9 +9,11 @@ public abstract class ObjetoInteractuable {
     private String descripcion;
     private String tipoCondicion;
     private String valorCondicion;
+    private boolean desbloqueado;
 
     //Constructora
     protected ObjetoInteractuable(){
+        this.desbloqueado = false;
     }
 
     //Metodos de carga de datos
@@ -26,5 +28,9 @@ public abstract class ObjetoInteractuable {
     private boolean comprobarCondicion(Jugador pJugador){
         boolean seCumple = false;
         return seCumple;
+    }
+
+    private void debloquear(){
+        this.desbloqueado = true;
     }
 }
