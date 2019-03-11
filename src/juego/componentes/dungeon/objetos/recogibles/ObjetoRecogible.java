@@ -15,4 +15,8 @@ public abstract class ObjetoRecogible {
     public void recoger (Jugador pJugador){
         pJugador.anadirObjetoRecojible(this);
     }
+
+    public void imprimir(){
+        System.out.println(this.nombre);
+    }
 }

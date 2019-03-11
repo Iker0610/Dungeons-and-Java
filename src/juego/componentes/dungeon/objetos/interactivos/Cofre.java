@@ -40,4 +40,6 @@ public class Cofre extends ObjetoInteractivo {
     private Iterator<ObjetoRecogible> getIterator(){
         return this.lista.iterator();
     }
+
+    private void imprimirContenido(){}
 }
