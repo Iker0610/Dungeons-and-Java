@@ -1,4 +1,4 @@
-package juego.componentes.stats;
+package juego.componentes.herramientas;
 
 public class ListaStat {
 

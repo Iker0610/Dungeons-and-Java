@@ -7,7 +7,7 @@ import juego.componentes.dungeon.objetos.recojibles.PiezaArmadura;
 import juego.componentes.dungeon.objetos.recojibles.Consumible;
 import juego.componentes.jugador.inventarios.ListaConsumibles;
 import juego.componentes.jugador.inventarios.ListaObjetosClaves;
-import juego.componentes.stats.ListaStat;
+import juego.componentes.herramientas.ListaStat;
 
 public abstract class Jugador {
 

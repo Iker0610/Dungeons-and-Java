@@ -1,15 +1,18 @@
-package juego.componentes.stats;
+package juego.componentes.herramientas;
 
 public class Dado {
 
     //Atributos
 
     //Constructora
-    public Dado(){//TODO}
+    public Dado(){
+        //TODO
+    }
 
     //Otros metodos
+
     public int lanzarDado(){
-        int valorDado;
+        int valorDado = 0;
         //TODO
         return valorDado;
     }

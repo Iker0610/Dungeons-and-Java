@@ -2,7 +2,7 @@ package juego.componentes.jugador;
 
 import juego.componentes.jugador.inventarios.Armadura;
 import juego.componentes.dungeon.objetos.recojibles.PiezaArmadura;
-import juego.componentes.stats.ListaStat;
+import juego.componentes.herramientas.ListaStat;
 
 public class Mago extends Jugador {
 
@@ -34,9 +34,9 @@ public class Mago extends Jugador {
     }
     @Override
     protected void cargarStatsClase () {
-        //Se crean los stats base por ser de x clase
+        //Se crean los herramientas base por ser de x clase
         ListaStat lstatsClase = new ListaStat(100,10,20,50,2);
-        //Se suman los stats de la armadura a los del personajes
+        //Se suman los herramientas de la armadura a los del personajes
         lstatsClase.sumarStats(this.armadura.getArmorStats());
         this.lstats.sumarStats(lstatsClase);
     }
