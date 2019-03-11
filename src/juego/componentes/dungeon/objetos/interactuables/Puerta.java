@@ -1,7 +1,10 @@
 package juego.componentes.dungeon.objetos.interactuables;
 
+import juego.componentes.jugador.Jugador;
+
 public class Puerta extends ObjetoInteractuable {
     //Atributos
+    private String idEstancia;
 
     //Constructora
     public Puerta (String pNombre){
@@ -9,4 +12,6 @@ public class Puerta extends ObjetoInteractuable {
     }
 
     //Otros metodos
+    @Override
+    public void interactuar(Jugador pJugador) {}
 }

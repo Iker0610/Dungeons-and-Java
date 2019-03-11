@@ -1,6 +1,7 @@
 package juego.componentes.dungeon.objetos.interactuables;
 
 import juego.componentes.dungeon.objetos.recojibles.ObjetoRecojible;
+import juego.componentes.jugador.Jugador;
 
 import java.util.ArrayList;
 
@@ -21,4 +22,6 @@ public class Cofre extends ObjetoInteractuable {
     public void anadirObjeto (ObjetoRecojible pObjeto){
         this.lista.add(pObjeto);
     }
+    @Override
+    public void interactuar(Jugador pJugador) {}
 }

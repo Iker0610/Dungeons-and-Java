@@ -17,7 +17,6 @@ public class Npc extends ObjetoInteractuable {
     }
 
     //Otros metodos
-    public void interactuar(Jugador pJugador) {
-
-    }
+    @Override
+    public void interactuar(Jugador pJugador) {}
 }

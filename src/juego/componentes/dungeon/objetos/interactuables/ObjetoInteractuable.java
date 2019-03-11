@@ -1,5 +1,7 @@
 package juego.componentes.dungeon.objetos.interactuables;
 
+import juego.componentes.jugador.Jugador;
+
 public abstract class ObjetoInteractuable {
 
     //Atributos
@@ -16,5 +18,5 @@ public abstract class ObjetoInteractuable {
     public void acercarse (){
         System.out.println(this.descripcion);
     }
-
+    public abstract void interactuar (Jugador pJugador);
 }
