@@ -1,6 +1,7 @@
 package juego.componentes.jugador;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class ListaJugadores {
 
@@ -47,5 +48,9 @@ public class ListaJugadores {
 
     public void eliminarJugador (Jugador pJugador){
         this.lista.remove(pJugador);
+    }
+
+    private Iterator<Jugador> getIterator(){
+        return this.lista.iterator();
     }
 }

@@ -33,12 +33,10 @@ public abstract class Jugador {
 	}
 
 	//Metodos abstractos que cada clase ha de implementar
-
 	protected abstract Armadura crearArmaduraBasica ();
 	protected abstract void cargarStatsClase ();
 
 	//Metodos comunes a todas las clases
-
 	private void cargarStatsBase (){
 		switch (this.raza){
 
@@ -65,7 +63,6 @@ public abstract class Jugador {
 	}
 
 	//Metodos relacionados con adquirir objetos recogibles
-
 	public void anadirObjetoRecojible (ObjetoRecogible pObjeto){
 		if (pObjeto instanceof Consumible){
 			this.anadirConsumible((Consumible)pObjeto);
@@ -77,6 +74,7 @@ public abstract class Jugador {
 			this.actualizarArmadura((PiezaArmadura)pObjeto);
 		}
 	}
+
 	private void actualizarArmadura (PiezaArmadura pPieza){
 		this.lstats.restarStats(armadura.getArmorStats());
 		this.armadura.cambiarEquipamiento(pPieza);
@@ -95,8 +93,16 @@ public abstract class Jugador {
 
 	}
 
-	public boolean tienesObjClave (String pNombreObjClave){
+	//Metodos de inventario
+	public boolean tieneObjClave (String pNombreObjClave){
 		boolean esta = false;
 		return esta;
 	}
+
+	//Metodos para imprimir la información de los inventarios
+	public void imprimirDatosArmadura(){}
+
+	public void imprimirConsumibles(){}
+
+	public void imprimirObjClave(){}
 }
