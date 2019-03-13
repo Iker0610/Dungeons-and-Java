@@ -17,7 +17,7 @@ public class Estancia {
     private ArrayList<Npc> listaNpc;
 
     //Constructora
-    protected Estancia (String pIdEstancia){
+    public Estancia (String pIdEstancia){
         this.idEstancia = pIdEstancia;
     }
 
