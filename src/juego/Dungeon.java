@@ -15,6 +15,7 @@ public class Dungeon {
     //Constructora
     private Dungeon(){
         lEstancias = new ArrayList<>();
+        //TODO
     }
 
     //Metodo de carga de datos
@@ -30,12 +31,18 @@ public class Dungeon {
         return dungeon;
     }
 
-    //Otros metodos
-    public void cambiarEstancia(String pIdEstancia){
-
-    }
-
+    //Metodos arraylist
     private Iterator<Estancia> getIterator(){
         return this.lEstancias.iterator();
     }
+
+    private Estancia buscarEstancia (String pIdEstancia){
+        //TODO
+    }
+
+    //Otros metodos
+    public void cambiarEstancia(String pIdEstancia){
+        //TODO
+    }
+
 }
