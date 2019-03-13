@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="351fff89-8730-49e9-afdd-cfc308ef8509" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/juego/ClassDiagram.cld" beforeDir="false" afterPath="$PROJECT_DIR$/bin/juego/ClassDiagram.cld" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/juego/ClassDiagram.cld" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/ClassDiagram.cld" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/Dungeon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/Dungeon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/ListaJugadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/Partida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/Partida.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/Estancia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/Estancia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/Puerta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/Puerta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/JefeFinal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/JefeFinal.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,24 +15,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/Dungeon.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#707#708#0" expanded="true" />
-                <element signature="e#756#757#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/Estancia.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -46,19 +27,28 @@
         <entry file="file://$PROJECT_DIR$/src/juego/Partida.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="527">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java">
+        <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/JefeFinal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="652">
+              <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -80,7 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/recojibles/armadura/PiezaArmadura.java" />
         <option value="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/recojibles/ObjetosRecojibles.java" />
         <option value="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/IObjetos.java" />
         <option value="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/interactuables/ObjetosInteractuables.java" />
@@ -128,9 +117,10 @@
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/Puerta.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/ObjetoInteractivo.java" />
         <option value="$PROJECT_DIR$/src/juego/Dungeon.java" />
-        <option value="$PROJECT_DIR$/src/juego/componentes/estancias/Estancia.java" />
         <option value="$PROJECT_DIR$/src/juego/Partida.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/estancias/Estancia.java" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/JefeFinal.java" />
       </list>
     </option>
   </component>
@@ -186,7 +176,64 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="juego" type="462c0819:PsiDirectoryNode" />
               <item name="componentes" type="462c0819:PsiDirectoryNode" />
+              <item name="estancias" type="462c0819:PsiDirectoryNode" />
+              <item name="objetos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="juego" type="462c0819:PsiDirectoryNode" />
+              <item name="componentes" type="462c0819:PsiDirectoryNode" />
+              <item name="estancias" type="462c0819:PsiDirectoryNode" />
+              <item name="objetos" type="462c0819:PsiDirectoryNode" />
+              <item name="interactivos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="juego" type="462c0819:PsiDirectoryNode" />
+              <item name="componentes" type="462c0819:PsiDirectoryNode" />
+              <item name="estancias" type="462c0819:PsiDirectoryNode" />
+              <item name="objetos" type="462c0819:PsiDirectoryNode" />
+              <item name="interactivos" type="462c0819:PsiDirectoryNode" />
+              <item name="condiciones" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="juego" type="462c0819:PsiDirectoryNode" />
+              <item name="componentes" type="462c0819:PsiDirectoryNode" />
+              <item name="estancias" type="462c0819:PsiDirectoryNode" />
+              <item name="objetos" type="462c0819:PsiDirectoryNode" />
+              <item name="recogibles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="juego" type="462c0819:PsiDirectoryNode" />
+              <item name="componentes" type="462c0819:PsiDirectoryNode" />
+              <item name="herramientas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="juego" type="462c0819:PsiDirectoryNode" />
+              <item name="componentes" type="462c0819:PsiDirectoryNode" />
               <item name="jugador" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="juego" type="462c0819:PsiDirectoryNode" />
+              <item name="componentes" type="462c0819:PsiDirectoryNode" />
+              <item name="jugador" type="462c0819:PsiDirectoryNode" />
+              <item name="inventarios" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -197,7 +244,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552517032886" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552518281730" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -247,20 +294,6 @@
       <workItem from="1552309734637" duration="22248000" />
       <workItem from="1552374856829" duration="7245000" />
       <workItem from="1552475309928" duration="5355000" />
-    </task>
-    <task id="LOCAL-00003" summary="Update">
-      <created>1552241201522</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1552241201522</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Update">
-      <created>1552241652298</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1552241652298</updated>
     </task>
     <task id="LOCAL-00005" summary="Update">
       <created>1552241706735</created>
@@ -591,11 +624,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552516752677</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Update">
+      <created>1552517014275</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1552517014275</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Update">
+      <created>1552517137331</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1552517137331</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73665000" />
+    <option name="totallyTimeSpent" value="74943000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -615,14 +662,14 @@
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.26545843" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.26545843" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.49946696" />
       <window_info anchor="bottom" id="Version Control" order="1" sideWeight="0.49946696" weight="0.24444444" />
       <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49946696" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5053305" side_tool="true" visible="true" weight="0.16" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="4" sideWeight="0.5053305" side_tool="true" visible="true" weight="0.033333335" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" sideWeight="0.4946695" weight="0.16" />
@@ -706,9 +753,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Dungeons-and-Java.userlibraries">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.project">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -990,9 +1034,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/Dungeon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="38">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1005,24 +1059,21 @@
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/Estancia.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/Partida.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java">
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/JefeFinal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="652">
+          <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
         </state>
       </provider>
     </entry>
