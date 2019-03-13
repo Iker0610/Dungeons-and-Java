@@ -1,4 +1,7 @@
-package juego.componentes.jugador;
+package juego;
+
+import juego.componentes.jugador.Jugador;
+import juego.componentes.jugador.Mago;
 
 import java.util.ArrayList;
 import java.util.Iterator;

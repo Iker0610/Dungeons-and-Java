@@ -1,4 +1,6 @@
-package juego.componentes.dungeon;
+package juego;
+
+import juego.componentes.estancias.Estancia;
 
 import java.util.ArrayList;
 import java.util.Iterator;

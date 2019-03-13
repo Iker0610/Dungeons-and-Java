@@ -1,8 +1,8 @@
-package juego.componentes.dungeon;
+package juego.componentes.estancias;
 
-import juego.componentes.dungeon.objetos.interactivos.Cofre;
-import juego.componentes.dungeon.objetos.interactivos.Npc;
-import juego.componentes.dungeon.objetos.interactivos.Puerta;
+import juego.componentes.estancias.objetos.interactivos.Cofre;
+import juego.componentes.estancias.objetos.interactivos.Npc;
+import juego.componentes.estancias.objetos.interactivos.Puerta;
 
 import java.util.ArrayList;
 

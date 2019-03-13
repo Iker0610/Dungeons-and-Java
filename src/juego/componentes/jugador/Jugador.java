@@ -1,10 +1,10 @@
 package juego.componentes.jugador;
 
-import juego.componentes.dungeon.objetos.recogibles.ObjetoClave;
-import juego.componentes.dungeon.objetos.recogibles.ObjetoRecolectable;
+import juego.componentes.estancias.objetos.recogibles.ObjetoClave;
+import juego.componentes.estancias.objetos.recogibles.ObjetoRecolectable;
 import juego.componentes.jugador.inventarios.Armadura;
-import juego.componentes.dungeon.objetos.recogibles.PiezaArmadura;
-import juego.componentes.dungeon.objetos.recogibles.Consumible;
+import juego.componentes.estancias.objetos.recogibles.PiezaArmadura;
+import juego.componentes.estancias.objetos.recogibles.Consumible;
 import juego.componentes.jugador.inventarios.ListaConsumibles;
 import juego.componentes.jugador.inventarios.ListaObjetosClaves;
 import juego.componentes.herramientas.ListaStat;

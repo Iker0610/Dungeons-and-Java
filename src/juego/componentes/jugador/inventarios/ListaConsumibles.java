@@ -1,6 +1,6 @@
 package juego.componentes.jugador.inventarios;
 
-import juego.componentes.dungeon.objetos.recogibles.Consumible;
+import juego.componentes.estancias.objetos.recogibles.Consumible;
 
 import java.util.*;
 

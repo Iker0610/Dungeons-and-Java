@@ -1,4 +1,4 @@
-package juego.componentes.dungeon.objetos.interactivos.condiciones;
+package juego.componentes.estancias.objetos.interactivos.condiciones;
 
 public class Concicion {
     //Atributos

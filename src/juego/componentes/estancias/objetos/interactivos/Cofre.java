@@ -1,6 +1,6 @@
-package juego.componentes.dungeon.objetos.interactivos;
+package juego.componentes.estancias.objetos.interactivos;
 
-import juego.componentes.dungeon.objetos.recogibles.ObjetoRecolectable;
+import juego.componentes.estancias.objetos.recogibles.ObjetoRecolectable;
 import juego.componentes.jugador.Jugador;
 
 import java.util.ArrayList;

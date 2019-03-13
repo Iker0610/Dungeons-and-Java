@@ -1,4 +1,4 @@
-package juego.componentes.dungeon.objetos.interactivos;
+package juego.componentes.estancias.objetos.interactivos;
 
 import juego.componentes.jugador.Jugador;
 

@@ -1,6 +1,6 @@
-package juego.componentes.dungeon.objetos.interactivos;
+package juego.componentes.estancias.objetos.interactivos;
 
-import juego.componentes.dungeon.objetos.interactivos.condiciones.ListaCondiciones;
+import juego.componentes.estancias.objetos.interactivos.condiciones.ListaCondiciones;
 import juego.componentes.jugador.Jugador;
 
 public abstract class ObjetoInteractivo {

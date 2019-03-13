@@ -1,4 +1,4 @@
-package juego.componentes.dungeon.objetos.recogibles;
+package juego.componentes.estancias.objetos.recogibles;
 
 import juego.componentes.herramientas.ListaStat;
 

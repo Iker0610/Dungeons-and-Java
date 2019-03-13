@@ -1,7 +1,7 @@
 package juego.componentes.jugador;
 
 import juego.componentes.jugador.inventarios.Armadura;
-import juego.componentes.dungeon.objetos.recogibles.PiezaArmadura;
+import juego.componentes.estancias.objetos.recogibles.PiezaArmadura;
 import juego.componentes.herramientas.ListaStat;
 
 public class Mago extends Jugador {
