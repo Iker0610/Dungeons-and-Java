@@ -95,8 +95,16 @@ public abstract class Jugador {
 
 	//Metodos de inventario
 	public boolean tieneObjClave (String pNombreObjClave){
-		boolean esta = false;
-		return esta;
+		//TODO
+	}
+
+	//Metodos de informacion
+	public boolean esDeRaza(String pRaza){
+		//TODO
+	}
+
+	public void imprimirVidaActual(){
+		//TODO
 	}
 
 	//Metodos para imprimir la información de los inventarios
