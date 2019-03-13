@@ -1,9 +1,9 @@
 package juego.componentes.estancias;
 
 import juego.componentes.estancias.objetos.interactivos.Cofre;
+
 import java.util.ArrayList;
-
-
+import java.util.Iterator;
 
 public class ListaCofres {
 	//atributos
@@ -13,18 +13,27 @@ public class ListaCofres {
 	public ListaCofres(){
 		
 	}
-	
-	//otros metodos
-	public void annadirCofre(){
-		
+
+	//Metodos de administracion de listas
+	private Iterator<Cofre> getIterator(){
+		return this.lista.iterator();
+	}
+
+	public void anadirCofre(){
+		//TODO
 	}
 	
 	public void eliminarCofre(){
-		
+		//TODO
 	}
-	
+
+	//Metodos para mostrar informacion
 	public void mostrarCofres(){
-		
+		//TODO
+	}
+
+	public void mostrarInformacionCofre(int posCofre){
+		//TODO
 	}
 	
 }
