@@ -11,7 +11,7 @@ public class ListaCofres {
 	
 	//constructora
 	public ListaCofres(){
-		
+		this.lista=new ArrayList<>();
 	}
 
 	//Metodos de administracion de listas

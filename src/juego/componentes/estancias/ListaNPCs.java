@@ -11,7 +11,7 @@ public class ListaNPCs {
 	
 	//constructora
 	public ListaNPCs(){
-		
+		this.lista=new ArrayList<>();
 	}
 
 	//Metodos de administracion de listas
