@@ -1,5 +1,7 @@
 package juego.componentes.estancias;
 
+import juego.componentes.estancias.objetos.JefeFinal;
+
 public class Estancia {
 
     //Atributos
@@ -9,6 +11,8 @@ public class Estancia {
     private ListaPuertas listaPuertas;
     private ListaCofres listaCofres;
     private ListaNPCs listaNpc;
+    //Solo será diferente de null en la estancia final
+    private JefeFinal jefeFinal;
 
     //Constructora
     protected Estancia (String pIdEstancia){
