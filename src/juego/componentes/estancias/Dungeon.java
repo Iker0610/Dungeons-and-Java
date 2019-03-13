@@ -1,6 +1,4 @@
-package juego;
-
-import juego.componentes.estancias.Estancia;
+package juego.componentes.estancias;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -48,5 +46,4 @@ public class Dungeon {
     public void finalizarDungeon(){
         //TODO
     }
-
 }

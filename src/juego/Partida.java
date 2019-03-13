@@ -42,7 +42,7 @@ public class Partida {
     }
 
     //Metodos de control
-    protected void finalizarPartida(){
+    public void finalizarPartida(){
         //TODO
     }
 }

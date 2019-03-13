@@ -1,7 +1,4 @@
-package juego;
-
-import juego.componentes.jugador.Jugador;
-import juego.componentes.jugador.Mago;
+package juego.componentes.jugador;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -63,8 +60,11 @@ public class ListaJugadores {
         //TODO
     }
 
-    public void eliminarJugador (Jugador pJugador){
+    protected void eliminarJugador (Jugador pJugador){
         //TODO
     }
 
+    private void gameOver(){
+        //TODO
+    }
 }

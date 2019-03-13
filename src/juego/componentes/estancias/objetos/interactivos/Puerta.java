@@ -1,6 +1,6 @@
 package juego.componentes.estancias.objetos.interactivos;
 
-import juego.Dungeon;
+import juego.componentes.estancias.Dungeon;
 import juego.componentes.jugador.Jugador;
 
 public class Puerta extends ObjetoInteractivo {
