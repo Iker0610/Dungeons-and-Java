@@ -45,4 +45,8 @@ public class Dungeon {
         //TODO
     }
 
+    public void finalizarDungeon(){
+        //TODO
+    }
+
 }
