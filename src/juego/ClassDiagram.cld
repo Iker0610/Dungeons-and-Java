@@ -1471,7 +1471,7 @@
                                                               </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
                                                             </propertyDescriptors>
                                                             <stereoType></stereoType>
-                                                            <name>juego.componentes.estancias.objetos.interactivos.Npc</name>
+                                                            <name>juego.componentes.estancias.objetos.interactivos.NPC</name>
                                                             <path>/Dungeons-and-Java/src/juego/componentes/estancias/objetos/interactivos/Npc.java</path>
                                                             <isAbstract>false</isAbstract>
                                                           </source>

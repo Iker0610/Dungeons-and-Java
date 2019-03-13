@@ -2,7 +2,7 @@ package juego.componentes.estancias.objetos.interactivos;
 
 import juego.componentes.jugador.Jugador;
 
-public class Npc extends ObjetoInteractivo {
+public class NPC extends ObjetoInteractivo {
     //Atributos
     private String pista;
     private String primeraBienvenida;
@@ -12,7 +12,7 @@ public class Npc extends ObjetoInteractivo {
     private boolean primerEncuentro;
 
     //Constructora
-    public Npc (String pNombre){
+    public NPC(String pNombre){
         super();
     }
 

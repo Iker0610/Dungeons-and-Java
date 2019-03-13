@@ -1,13 +1,13 @@
 package juego.componentes.estancias;
 
-import juego.componentes.estancias.objetos.interactivos.Npc;
+import juego.componentes.estancias.objetos.interactivos.NPC;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 
 public class ListaNPCs {
 	//atributos
-	private ArrayList<Npc> lista;
+	private ArrayList<NPC> lista;
 	
 	//constructora
 	public ListaNPCs(){
@@ -15,7 +15,7 @@ public class ListaNPCs {
 	}
 
 	//Metodos de administracion de listas
-	private Iterator<Npc> getIterator(){
+	private Iterator<NPC> getIterator(){
 		return this.lista.iterator();
 	}
 
