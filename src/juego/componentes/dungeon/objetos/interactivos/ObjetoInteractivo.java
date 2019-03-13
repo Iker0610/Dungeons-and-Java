@@ -23,6 +23,4 @@ public abstract class ObjetoInteractivo {
     private boolean comprobarCondicion(Jugador pJugador){
         return this.lCondiciones.cumpleLasCondiciones(pJugador);
     }
-
-
 }

@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="351fff89-8730-49e9-afdd-cfc308ef8509" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactivos/condiciones/Concicion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactivos/condiciones/ListaCondiciones.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactivos/ObjetoInteractivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactivos/ObjetoInteractivo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactivos/condiciones/Concicion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactivos/condiciones/Concicion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/componentes/jugador/Jugador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/jugador/Jugador.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,14 +15,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/Jugador.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+              <folding>
+                <element signature="method#Jugador#0;class#Jugador#0" />
+                <element signature="method#cargarStatsBase#0;class#Jugador#0" />
+                <element signature="e#1373#1763#0" />
+                <element signature="method#anadirObjetoRecojible#0;class#Jugador#0" />
+                <element signature="method#actualizarArmadura#0;class#Jugador#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactivos/ObjetoInteractivo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="63" />
+            <state relative-caret-position="340">
+              <caret line="22" column="57" lean-forward="true" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#753#754#0" expanded="true" />
                 <element signature="e#784#785#0" expanded="true" />
               </folding>
             </state>
@@ -41,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/Mago.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+            <state relative-caret-position="646">
+              <caret line="40" column="44" lean-forward="true" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -53,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactivos/condiciones/Concicion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -76,7 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/Estancia.java" />
         <option value="$PROJECT_DIR$/src/juego/objetosDelJuego/objetos/objetosRecogibles.java" />
         <option value="$PROJECT_DIR$/src/juego/objetosDelJuego/objetos/ObjetosRecojibles.java" />
         <option value="$PROJECT_DIR$/src/juego/objetosDelJuego/objetos/objetosClave/ObjetoClave.java" />
@@ -124,9 +138,10 @@
         <option value="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactivos/Cofre.java" />
         <option value="$PROJECT_DIR$/src/juego/Partida.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java" />
-        <option value="$PROJECT_DIR$/src/juego/componentes/jugador/Jugador.java" />
-        <option value="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactivos/ObjetoInteractivo.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactivos/condiciones/ListaCondiciones.java" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactivos/ObjetoInteractivo.java" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactivos/condiciones/Concicion.java" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/jugador/Jugador.java" />
       </list>
     </option>
   </component>
@@ -239,7 +254,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552478258554" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552480896917" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -288,7 +303,7 @@
       <workItem from="1552305708095" duration="638000" />
       <workItem from="1552309734637" duration="22248000" />
       <workItem from="1552374856829" duration="7245000" />
-      <workItem from="1552475309928" duration="2513000" />
+      <workItem from="1552475309928" duration="4486000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion del metodo main para ejecutar el juego">
       <created>1552239524589</created>
@@ -535,11 +550,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552404788394</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Update: cambio de objetoRecogible a objetoRecolectable, porque a iria no le daba la gana de meterse la inventada">
+      <created>1552478423938</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1552478423938</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59453000" />
+    <option name="totallyTimeSpent" value="61426000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -552,7 +574,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Learn" order="0" />
       <window_info id="Image Layers" order="1" />
@@ -646,7 +667,8 @@
     <MESSAGE value="Actualizacion y mejora de la administración de los packages" />
     <MESSAGE value="Creacion del dado" />
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="Update: cambio de objetoRecogible a objetoRecolectable, porque a iria no le daba la gana de meterse la inventada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update: cambio de objetoRecogible a objetoRecolectable, porque a iria no le daba la gana de meterse la inventada" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/jugador/Armadura.java" />
@@ -851,7 +873,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/recogibles/ObjetoRecogible.java">
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/recogibles/ObjetoRecolectable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
@@ -900,19 +922,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/Jugador.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
-          <folding>
-            <element signature="method#Jugador#0;class#Jugador#0" />
-            <element signature="method#cargarStatsBase#0;class#Jugador#0" />
-            <element signature="method#anadirObjetoRecojible#0;class#Jugador#0" />
-            <element signature="method#actualizarArmadura#0;class#Jugador#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/Armadura.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="769">
@@ -943,25 +952,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactivos/condiciones/Concicion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactivos/ObjetoInteractivo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-            <element signature="e#784#785#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactivos/condiciones/ListaCondiciones.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -974,8 +964,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/Mago.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        <state relative-caret-position="646">
+          <caret line="40" column="44" lean-forward="true" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactivos/ObjetoInteractivo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" column="57" lean-forward="true" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactivos/condiciones/Concicion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/Jugador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+          <folding>
+            <element signature="method#Jugador#0;class#Jugador#0" />
+            <element signature="method#cargarStatsBase#0;class#Jugador#0" />
+            <element signature="e#1373#1763#0" />
+            <element signature="method#anadirObjetoRecojible#0;class#Jugador#0" />
+            <element signature="method#actualizarArmadura#0;class#Jugador#0" />
+          </folding>
         </state>
       </provider>
     </entry>

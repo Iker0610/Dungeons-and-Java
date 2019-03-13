@@ -62,7 +62,7 @@ public abstract class Jugador {
 		}
 	}
 
-	//Metodos relacionados con adquirir objetos recogibles
+	//Metodos relacionados con adquirir objetos recolectable
 	public void anadirObjetoRecojible (ObjetoRecolectable pObjeto){
 		if (pObjeto instanceof Consumible){
 			this.anadirConsumible((Consumible)pObjeto);
