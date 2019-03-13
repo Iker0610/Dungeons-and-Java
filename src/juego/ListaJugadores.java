@@ -11,6 +11,7 @@ public class ListaJugadores {
     //Atributos
     private static ListaJugadores listaJugadores;
     private ArrayList<Jugador> lista;
+    private Jugador jugadorActual;
 
     //Constructora
     private ListaJugadores(){
@@ -25,8 +26,7 @@ public class ListaJugadores {
         return listaJugadores;
     }
 
-    //Otros metodos
-
+    //Metodo para añadir jugadores
     public void generarJugador(){
         String nombre=null;
         String sexo=null;
@@ -49,11 +49,22 @@ public class ListaJugadores {
         }
     }
 
-    public void eliminarJugador (Jugador pJugador){
-        this.lista.remove(pJugador);
-    }
-
+    //Metodos datos del arraylist
     private Iterator<Jugador> getIterator(){
         return this.lista.iterator();
     }
+
+    public int numJugadores(){
+        return this.lista.size();
+    }
+
+    //Metodos de control
+    public void acabarTurno(){
+        //TODO
+    }
+
+    public void eliminarJugador (Jugador pJugador){
+        //TODO
+    }
+
 }

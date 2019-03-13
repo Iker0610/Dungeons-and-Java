@@ -4,7 +4,6 @@ import juego.componentes.jugador.Jugador;
 
 public class Partida {
     //Atributos
-    private Jugador turnoJugador;
     private boolean jugadoresListos;
     private boolean finPartida;
     private static Partida partida;
@@ -43,10 +42,6 @@ public class Partida {
     }
 
     //Metodos de control
-    public void acabarTurno(){
-        //TODO
-    }
-
     protected void finalizarPartida(){
         //TODO
     }
