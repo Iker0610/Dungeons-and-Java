@@ -14,12 +14,17 @@ public class ListaPuertas {
         this.lista = new ArrayList<>();
     }
 
+    //Metodo de carga de datos
+    private void cargarDatos (String pDireccionFichero){
+        //TODO
+    }
+
     //Metodos de administracion de listas
     private Iterator<Puerta> getIterator(){
         return this.lista.iterator();
     }
 
-    protected void anadirPuerta(){
+    private void anadirPuerta(){
         //TODO
     }
 

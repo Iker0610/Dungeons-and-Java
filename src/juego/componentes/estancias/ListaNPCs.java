@@ -10,8 +10,13 @@ public class ListaNPCs {
 	private ArrayList<NPC> lista;
 	
 	//constructora
-	public ListaNPCs(){
+	protected ListaNPCs(){
 		this.lista=new ArrayList<>();
+	}
+
+	//Metodo de carga de datos
+	private void cargarDatos (String pDireccionFichero){
+		//TODO
 	}
 
 	//Metodos de administracion de listas
@@ -19,7 +24,7 @@ public class ListaNPCs {
 		return this.lista.iterator();
 	}
 
-	public void anadirNPC(){
+	private void anadirNPC(){
 		//TODO
 	}
 

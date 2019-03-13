@@ -10,8 +10,13 @@ public class ListaCofres {
 	private ArrayList<Cofre> lista;
 	
 	//constructora
-	public ListaCofres(){
+	protected ListaCofres(){
 		this.lista=new ArrayList<>();
+	}
+
+	//Metodo de carga de datos
+	private void cargarDatos (String pDireccionFichero){
+		//TODO
 	}
 
 	//Metodos de administracion de listas

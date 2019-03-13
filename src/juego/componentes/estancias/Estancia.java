@@ -15,5 +15,9 @@ public class Estancia {
         this.idEstancia = pIdEstancia;
     }
 
+    //Metodo de carga de datos
+    private void cargarDatos (String pDireccionFichero){
+        //TODO
+    }
 
 }

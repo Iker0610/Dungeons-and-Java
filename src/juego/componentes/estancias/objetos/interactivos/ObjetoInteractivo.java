@@ -13,6 +13,11 @@ public abstract class ObjetoInteractivo {
     //Constructora
     protected ObjetoInteractivo(){}
 
+    //Metodo de carga de datos
+    protected void cargarDatos (String pDireccionFichero){
+        //TODO
+    }
+
     //Otros metodos
     public void acercarse (){
         System.out.println(this.descripcion);

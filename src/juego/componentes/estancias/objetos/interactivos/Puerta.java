@@ -15,6 +15,12 @@ public class Puerta extends ObjetoInteractivo {
         this.desbloqueada = false;
     }
 
+    //Metodo de carga de datos
+    protected void cargarDatos (String pDireccionFichero){
+        super.cargarDatos(pDireccionFichero);
+        //TODO
+    }
+
     //Otros metodos
     public void interactuar(Jugador pJugador) {
 

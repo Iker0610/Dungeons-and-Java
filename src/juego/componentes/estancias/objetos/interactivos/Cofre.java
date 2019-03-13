@@ -19,6 +19,12 @@ public class Cofre extends ObjetoInteractivo {
         this.lista = new ArrayList<>();
     }
 
+    //Metodo de carga de datos
+    protected void cargarDatos (String pDireccionFichero){
+        super.cargarDatos(pDireccionFichero);
+        //TODO
+    }
+
     //Metodos de interaccion
     public void interactuar(Jugador pJugador) {
 

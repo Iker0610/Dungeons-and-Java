@@ -16,6 +16,12 @@ public class NPC extends ObjetoInteractivo {
         super();
     }
 
+    //Metodo de carga de datos
+    protected void cargarDatos (String pDireccionFichero){
+        super.cargarDatos(pDireccionFichero);
+        //TODO
+    }
+
     //Otros metodos
     @Override
     public void interactuar(Jugador pJugador) {}
