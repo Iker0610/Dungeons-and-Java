@@ -11,7 +11,9 @@ public abstract class ObjetoInteractivo {
     private ListaCondiciones lCondiciones;
 
     //Constructora
-    protected ObjetoInteractivo(){}
+    protected ObjetoInteractivo(){
+        //TODO
+    }
 
     //Metodo de carga de datos
     private void cargarDatos (String pDireccionFichero){
@@ -21,6 +23,7 @@ public abstract class ObjetoInteractivo {
     //Otros metodos
     public void acercarse (){
         System.out.println(this.descripcion);
+        //TODO
     }
 
     public abstract void interactuar (Jugador pJugador);
