@@ -12,14 +12,14 @@ import juego.componentes.herramientas.ListaStat;
 public abstract class Jugador {
 
 	//atributos
-	protected int vidaActual;
-	protected String nombre;
-	protected String sexo;
-	protected String raza;
-	protected ListaStat lstats;
-	protected Armadura armadura;
-	protected ListaConsumibles lConsumibles;
-	protected ListaObjetosClaves lObjClave;
+	private int vidaActual;
+	private String nombre;
+	private String sexo;
+	private String raza;
+	private ListaStat lstats;
+	private Armadura armadura;
+	private ListaConsumibles lConsumibles;
+	private ListaObjetosClaves lObjClave;
 
 	//constructora
 	protected Jugador(String pNombre, String pSexo, String pRaza){
