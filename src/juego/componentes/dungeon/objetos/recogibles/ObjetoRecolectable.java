@@ -2,12 +2,12 @@ package juego.componentes.dungeon.objetos.recogibles;
 
 import juego.componentes.jugador.Jugador;
 
-public abstract class ObjetoRecogible {
+public abstract class ObjetoRecolectable {
     //Atributos
     protected String nombre;
 
     //Constructora
-    protected ObjetoRecogible(String pNombre){
+    protected ObjetoRecolectable(String pNombre){
         this.nombre = pNombre;
     }
 

@@ -1,7 +1,7 @@
 package juego.componentes.jugador;
 
 import juego.componentes.dungeon.objetos.recogibles.ObjetoClave;
-import juego.componentes.dungeon.objetos.recogibles.ObjetoRecogible;
+import juego.componentes.dungeon.objetos.recogibles.ObjetoRecolectable;
 import juego.componentes.jugador.inventarios.Armadura;
 import juego.componentes.dungeon.objetos.recogibles.PiezaArmadura;
 import juego.componentes.dungeon.objetos.recogibles.Consumible;
@@ -63,7 +63,7 @@ public abstract class Jugador {
 	}
 
 	//Metodos relacionados con adquirir objetos recogibles
-	public void anadirObjetoRecojible (ObjetoRecogible pObjeto){
+	public void anadirObjetoRecojible (ObjetoRecolectable pObjeto){
 		if (pObjeto instanceof Consumible){
 			this.anadirConsumible((Consumible)pObjeto);
 		}

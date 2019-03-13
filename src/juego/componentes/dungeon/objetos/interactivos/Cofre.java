@@ -1,6 +1,6 @@
 package juego.componentes.dungeon.objetos.interactivos;
 
-import juego.componentes.dungeon.objetos.recogibles.ObjetoRecogible;
+import juego.componentes.dungeon.objetos.recogibles.ObjetoRecolectable;
 import juego.componentes.jugador.Jugador;
 
 import java.util.ArrayList;
@@ -11,7 +11,7 @@ public class Cofre extends ObjetoInteractivo {
     //Aunque se llama cofre sucede como la clase puerta, puede ser cualquier cosa: una mesa, un cofre, una caja, un agujero...
 
     //Atributos
-    private ArrayList<ObjetoRecogible> lista;
+    private ArrayList<ObjetoRecolectable> lista;
 
     //Constructora
     public Cofre (String pNombre){
@@ -29,15 +29,15 @@ public class Cofre extends ObjetoInteractivo {
     }
 
     //Metodos relacionados con al arraylist
-    public void anadirObjeto (ObjetoRecogible pObjeto){
+    public void anadirObjeto (ObjetoRecolectable pObjeto){
         this.lista.add(pObjeto);
     }
 
-    private void retirarObjeto(ObjetoRecogible pObjeto){
+    private void retirarObjeto(ObjetoRecolectable pObjeto){
 
     }
 
-    private Iterator<ObjetoRecogible> getIterator(){
+    private Iterator<ObjetoRecolectable> getIterator(){
         return this.lista.iterator();
     }
 

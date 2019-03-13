@@ -2,7 +2,7 @@ package juego.componentes.dungeon.objetos.recogibles;
 
 import juego.componentes.herramientas.ListaStat;
 
-public class PiezaArmadura extends ObjetoRecogible {
+public class PiezaArmadura extends ObjetoRecolectable {
 
 	//atributos
 	private String tipo;

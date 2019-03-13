@@ -1,6 +1,6 @@
 package juego.componentes.dungeon.objetos.recogibles;
 
-public class Consumible extends ObjetoRecogible {
+public class Consumible extends ObjetoRecolectable {
 
     //atributos
     private int valor;

@@ -1,6 +1,6 @@
 package juego.componentes.dungeon.objetos.recogibles;
 
-public class ObjetoClave extends ObjetoRecogible {
+public class ObjetoClave extends ObjetoRecolectable {
     //Atributos
     private String descripcion;
     //Constructor
