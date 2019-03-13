@@ -16,8 +16,7 @@ public class Puerta extends ObjetoInteractivo {
     }
 
     //Metodo de carga de datos
-    protected void cargarDatos (String pDireccionFichero){
-        super.cargarDatos(pDireccionFichero);
+    private void cargarDatos (String pDireccionFichero){
         //TODO
     }
 
