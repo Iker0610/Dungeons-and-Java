@@ -4,7 +4,7 @@ public class Consumible extends ObjetoRecolectable {
 
     //atributos
     private int valor;
-
+    private String nombre;
     //Constructora
     public Consumible (String pNombre, int pValor){
         super(pNombre);
