@@ -14,11 +14,21 @@ public class ListaConsumibles {
     }
 
     //Otros Metodos
-
     public void anadirConsumible (Consumible pConsumible){
         this.lista.add(pConsumible);
+    }
+
+    public void usarConsumible(int pPosConsumible){
+        //TODO
+    }
+
+    private
+
+    public void imprimirConsumibles(){
+        //TODO
     }
     private Iterator<Consumible> getIterator(){
         return this.lista.iterator();
     }
 }
++

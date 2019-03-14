@@ -55,7 +55,10 @@ public class Armadura {
 		this.arma = pArma;
 	}
 
-
+	//Metodos de información
+	public void imprimirDatosArmadura(){
+		//TODO
+	}
 	public ListaStat getArmorStats(){
 		ListaStat armorStats = new ListaStat(0,0,0,0,0);
 		if (this.casco!= null){

@@ -1,8 +1,7 @@
 package juego;
 
-import juego.componentes.estancias.Dungeon;
+import juego.componentes.estancias.Estancia;
 import juego.componentes.jugador.Jugador;
-import juego.componentes.jugador.ListaJugadores;
 
 public class Partida {
     //Atributos
@@ -29,9 +28,8 @@ public class Partida {
 
     //Main
     public static void main(String[] args) {
-
+        //TODO
     }
-
     //Metodo generacion y jugar partida
     private void generarDungeon(){
         //TODO
@@ -64,7 +62,7 @@ public class Partida {
 
     //Metodos de menu
     public void comenzarTurno(){
-    	
+    	//TODO
     }
     
 }

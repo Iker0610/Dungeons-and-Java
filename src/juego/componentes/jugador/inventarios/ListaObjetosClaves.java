@@ -13,13 +13,21 @@ public class ListaObjetosClaves {
     //Constructora
     public ListaObjetosClaves(){ lista = new ArrayList<ObjetoClave>(); }
 
-    //Otros metodos
+    //Metodos de gestion del arraylist
+    private Iterator<ObjetoClave> getIterator(){
+        return this.lista.iterator();
+    }
+
     public void anadirObjeto (ObjetoClave pObjeto){
         this.lista.add(pObjeto);
     }
 
-
-    private Iterator<ObjetoClave> getIterator(){
-        return this.lista.iterator();
+    public boolean estaObjClave(){
+        //TODO
     }
+    public void imprimirObjClaves(){
+        //TODO
+    }
+
+
 }

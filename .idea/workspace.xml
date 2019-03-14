@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="351fff89-8730-49e9-afdd-cfc308ef8509" name="Default Changelist" comment="Update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/juego/ClassDiagram.cld" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/ClassDiagram.cld" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recogibles/Consumible.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recogibles/Consumible.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recogibles/ObjetoClave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recogibles/ObjetoClave.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recogibles/ObjetoRecolectable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recogibles/ObjetoRecolectable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recogibles/PiezaArmadura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recogibles/PiezaArmadura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/Partida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/Partida.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/Armadura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/Armadura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/ListaConsumibles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/ListaConsumibles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/ListaObjetosClaves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/ListaObjetosClaves.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,53 +18,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recogibles/Consumible.java">
+        <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/Armadura.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recogibles/ObjetoClave.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recogibles/ObjetoRecolectable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recogibles/PiezaArmadura.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-              <folding>
-                <element signature="method#cargarDatos#0;class#PiezaArmadura#0" />
-                <element signature="e#652#653#0" expanded="true" />
-                <element signature="e#683#684#0" expanded="true" />
-                <element signature="e#641#642#0" expanded="true" />
-                <element signature="e#655#656#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="850">
+              <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/Armadura.java">
+        <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/ListaConsumibles.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="37" column="45" lean-forward="true" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+            <state>
+              <caret column="45" selection-start-column="45" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/ListaObjetosClaves.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -96,8 +74,6 @@
         <option value="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactuables/Puerta.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/dungeon/Estancia.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/recojibles/Consumible.java" />
-        <option value="$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/ListaConsumibles.java" />
-        <option value="$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/ListaObjetosClaves.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactuables/ObjetoInteractuable.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactuables/Cofre.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactivos/Npc.java" />
@@ -120,7 +96,6 @@
         <option value="$PROJECT_DIR$/src/juego/componentes/herramientas/ListaStat.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/Puerta.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/ObjetoInteractivo.java" />
-        <option value="$PROJECT_DIR$/src/juego/Partida.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/Dungeon.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/ListaCofres.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/ListaNPCs.java" />
@@ -137,6 +112,9 @@
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recogibles/ObjetoRecolectable.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recogibles/PiezaArmadura.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/Armadura.java" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/ListaObjetosClaves.java" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/ListaConsumibles.java" />
+        <option value="$PROJECT_DIR$/src/juego/Partida.java" />
       </list>
     </option>
   </component>
@@ -152,7 +130,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,12 +201,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552590980744" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552591889946" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -281,7 +259,8 @@
       <workItem from="1552475309928" duration="5355000" />
       <workItem from="1552547395313" duration="7670000" />
       <workItem from="1552572694512" duration="1125000" />
-      <workItem from="1552583420547" duration="6518000" />
+      <workItem from="1552583420547" duration="7422000" />
+      <workItem from="1552591955013" duration="6000" />
     </task>
     <task id="LOCAL-00014" summary="Update">
       <created>1552322454041</created>
@@ -630,7 +609,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90285000" />
+    <option name="totallyTimeSpent" value="91195000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -643,14 +622,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Learn" order="0" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.27345416" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.27665246" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.49946696" />
@@ -864,29 +842,6 @@
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/recogibles/ObjetoRecolectable.java" />
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/recogibles/PiezaArmadura.java" />
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactivos/Cofre.java" />
-    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/ListaConsumibles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/ListaObjetosClaves.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactivos/ObjetoInteractivo.java" />
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactivos/condiciones/ListaCondiciones.java" />
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/Mago.java">
@@ -946,16 +901,6 @@
             <element signature="method#acercarse#0;class#ObjetoInteractivo#0" />
             <element signature="e#782#783#0" expanded="true" />
             <element signature="e#853#854#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/Partida.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1088,7 +1033,7 @@
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recogibles/PiezaArmadura.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="method#cargarDatos#0;class#PiezaArmadura#0" />
             <element signature="e#652#653#0" expanded="true" />
@@ -1099,10 +1044,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/Partida.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/Armadura.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="37" column="45" lean-forward="true" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+        <state relative-caret-position="850">
+          <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/ListaObjetosClaves.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/ListaConsumibles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" selection-start-column="45" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
