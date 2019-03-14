@@ -9,13 +9,11 @@ public class Mago extends Jugador {
     //Constructora
     public Mago (String pNombre, String pSexo,String pRaza){
         super(pNombre, pSexo, pRaza);
-        this.armadura = this.crearArmaduraBasica();
         this.cargarStatsClase();
     }
 
     //Otros metodos
-    @Override
-    protected Armadura crearArmaduraBasica(){
+    protected void crearArmaduraBasica(){
         //Creamos una armadura vacía pues no se le van a añadir todos los componentes
         Armadura armaduraBasica = new Armadura();
 
@@ -25,19 +23,17 @@ public class Mago extends Jugador {
         PiezaArmadura armaBasica = new PiezaArmadura("arma","Baston viejo",0,0,0,30,0);
 
         //Añadimos el equipamiento básico a la armadura
-        armaduraBasica.cambiarEquipamiento(pecheraBasica);
-        armaduraBasica.cambiarEquipamiento(pantalonesBasicos);
-        armaduraBasica.cambiarEquipamiento(armaBasica);
-
-        //Devolvemos la armadura básica con las piezas correspondiente
-        return armaduraBasica;
+        this.anadirObjetoRecojible(pecheraBasica);
+        this.anadirObjetoRecojible(pantalonesBasicos);
+        this.anadirObjetoRecojible(armaBasica);
     }
-    @Override
+
     protected void cargarStatsClase () {
         //Se crean los herramientas base por ser de x clase
         ListaStat lstatsClase = new ListaStat(100,10,20,50,2);
-        //Se suman los herramientas de la armadura a los del personajes
-        lstatsClase.sumarStats(this.armadura.getArmorStats());
-        this.lstats.sumarStats(lstatsClase);
+        this.getListaStats().sumarStats(lstatsClase);
+        //TODO
+        //Falta actualizar la vida actual del personaje
+
     }
 }

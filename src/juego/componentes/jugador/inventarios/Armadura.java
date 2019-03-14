@@ -19,6 +19,11 @@ public class Armadura {
 		this.arma = null;
 	}
 
+	//Cargar datos
+	private void cargarDatos(){
+		//TODO
+	}
+
 	//Otros Metodos
 
 	public void cambiarEquipamiento (PiezaArmadura pPiezaArmadura){

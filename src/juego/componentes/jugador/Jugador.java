@@ -26,14 +26,16 @@ public abstract class Jugador {
 		this.nombre = pNombre;
 		this.sexo = pSexo;
 		this.raza = pRaza;
+		this.cargarStatsBase();
+		this.armadura = new Armadura();
+		this.vidaActual=this.lstats.getVida();
 		lConsumibles = new ListaConsumibles();
 		lObjClave = new ListaObjetosClaves();
-		this.cargarStatsBase();
-		this.vidaActual=this.lstats.getVida();
+
 	}
 
 	//Metodos abstractos que cada clase ha de implementar
-	protected abstract Armadura crearArmaduraBasica ();
+	protected abstract void crearArmaduraBasica ();
 	protected abstract void cargarStatsClase ();
 
 	//Metodos comunes a todas las clases
