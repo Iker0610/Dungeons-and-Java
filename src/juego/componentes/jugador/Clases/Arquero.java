@@ -1,13 +1,14 @@
-package juego.componentes.jugador;
+package juego.componentes.jugador.Clases;
 
-import juego.componentes.jugador.inventarios.Armadura;
 import juego.componentes.estancias.objetos.recogibles.PiezaArmadura;
 import juego.componentes.herramientas.ListaStat;
+import juego.componentes.jugador.Jugador;
+import juego.componentes.jugador.inventarios.Armadura;
 
-public class Mago extends Jugador {
+public class Arquero extends Jugador {
 
     //Constructora
-    public Mago (String pNombre, String pSexo,String pRaza){
+    public Arquero(String pNombre, String pSexo, String pRaza){
         super(pNombre, pSexo, pRaza);
         this.cargarStatsClase();
     }

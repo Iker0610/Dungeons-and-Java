@@ -1,5 +1,7 @@
 package juego.componentes.jugador;
 
+import juego.componentes.jugador.Clases.Mago;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 

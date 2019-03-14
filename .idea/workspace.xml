@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="351fff89-8730-49e9-afdd-cfc308ef8509" name="Default Changelist" comment="Update">
+      <change afterPath="$PROJECT_DIR$/src/juego/componentes/jugador/Clases/Arquero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/juego/componentes/jugador/Clases/Asesino.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/juego/componentes/jugador/Clases/Berserker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/juego/componentes/jugador/Clases/Clerigo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/juego/componentes/jugador/Clases/Druida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/juego/componentes/jugador/Clases/Guerrero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/juego/ClassDiagram.cld" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/ClassDiagram.cld" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/Estancia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/Estancia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/jugador/Jugador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/jugador/Jugador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/jugador/Mago.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/jugador/Mago.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/Armadura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/Armadura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/componentes/jugador/Mago.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/jugador/Clases/Mago.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,39 +20,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/Mago.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="55" lean-forward="true" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/Jugador.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="31" column="46" lean-forward="true" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
-              <folding>
-                <element signature="method#cargarStatsBase#0;class#Jugador#0" />
-                <element signature="method#anadirObjetoRecojible#0;class#Jugador#0" />
-                <element signature="method#actualizarArmadura#0;class#Jugador#0" />
-                <element signature="method#tieneObjClave#0;class#Jugador#0" />
-                <element signature="method#esDeRaza#0;class#Jugador#0" />
-                <element signature="method#getListaStats#0;class#Jugador#0" />
-                <element signature="method#imprimirVidaActual#0;class#Jugador#0" />
-                <element signature="method#sanarse#0;class#Jugador#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -65,14 +37,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/recojibles/ObjetoRecojible.java" />
-        <option value="$PROJECT_DIR$/src/juego/componentes/stats/Dado.java" />
-        <option value="$PROJECT_DIR$/src/juego/componentes/datosnumericos/Dado.java" />
-        <option value="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactuables/Puerta.java" />
-        <option value="$PROJECT_DIR$/src/juego/componentes/dungeon/Estancia.java" />
-        <option value="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/recojibles/Consumible.java" />
-        <option value="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactuables/ObjetoInteractuable.java" />
-        <option value="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactuables/Cofre.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactivos/Npc.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/recogibles/ObjetoRecogible.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/recogibles/ObjetoClave.java" />
@@ -112,10 +76,18 @@
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/CondicionString.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/CondicionDado.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/Estancia.java" />
-        <option value="$PROJECT_DIR$/src/juego/componentes/jugador/Guerrero.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/Armadura.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/jugador/Jugador.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/jugador/Mago.java" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/jugador/Guerrero.java" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/jugador/Cazador.java" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/jugador/Paladin.java" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/jugador/Asesino.java" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/jugador/Clerigo.java" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/jugador/Arquero.java" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/jugador/Berserker.java" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/jugador/Druida.java" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/jugador/Clases/Druida.java" />
       </list>
     </option>
   </component>
@@ -188,6 +160,15 @@
               <item name="juego" type="462c0819:PsiDirectoryNode" />
               <item name="componentes" type="462c0819:PsiDirectoryNode" />
               <item name="jugador" type="462c0819:PsiDirectoryNode" />
+              <item name="Clases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="juego" type="462c0819:PsiDirectoryNode" />
+              <item name="componentes" type="462c0819:PsiDirectoryNode" />
+              <item name="jugador" type="462c0819:PsiDirectoryNode" />
               <item name="inventarios" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -200,7 +181,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552605801196" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552605996034" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -255,7 +236,7 @@
       <workItem from="1552572694512" duration="1125000" />
       <workItem from="1552583420547" duration="7422000" />
       <workItem from="1552591955013" duration="6000" />
-      <workItem from="1552597282633" duration="5134000" />
+      <workItem from="1552597282633" duration="5327000" />
     </task>
     <task id="LOCAL-00014" summary="Update">
       <created>1552322454041</created>
@@ -604,7 +585,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96329000" />
+    <option name="totallyTimeSpent" value="96522000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -617,7 +598,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Learn" order="0" />
       <window_info id="Image Layers" order="1" />
@@ -631,10 +611,10 @@
       <window_info anchor="bottom" id="Version Control" order="1" sideWeight="0.49946696" weight="0.24444444" />
       <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49946696" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50586355" side_tool="true" visible="true" weight="0.033333335" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5063966" side_tool="true" visible="true" weight="0.033333335" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" sideWeight="0.49413645" weight="0.16" />
+      <window_info anchor="bottom" id="Find" order="7" sideWeight="0.4936034" weight="0.16" />
       <window_info anchor="bottom" id="Run" order="8" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
@@ -715,80 +695,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://JAVA/juego.objetosDelJuego.dungeon">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>juego.objetosDelJuego.dungeon</OriginalElement>
-          <nodes>
-            <node x="0.0" y="79.0">juego.objetosDelJuego.dungeon.Dungeon</node>
-            <node x="3.0" y="0.0">juego.objetosDelJuego.dungeon.Estancia</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="juego.objetosDelJuego.dungeon.Dungeon" target="juego.objetosDelJuego.dungeon.Estancia">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-347.0" y="-135.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/juego.objetosDelJuego.personajes.Personaje">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>juego.objetosDelJuego.personajes.Personaje</OriginalElement>
-          <nodes>
-            <node x="-168.0" y="-135.0">juego.objetosDelJuego.personajes.Personaje</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-414.0" y="-135.0" />
-          <SelectedNodes>
-            <node>juego.objetosDelJuego.personajes.Personaje</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/juego.objetosDelJuego.personajes">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>juego.objetosDelJuego.personajes</OriginalElement>
-          <nodes>
-            <node x="" y="">juego.objetosDelJuego.personajes.Mago</node>
-            <node x="" y="">juego.objetosDelJuego.personajes.Personaje</node>
-            <node x="" y="">juego.objetosDelJuego.personajes.ListaJugadores</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="63.0" y="91.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/objetos/objetosRecogibles.java" />
-    <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/objetos/armadura/equipamiento/Pechera.java" />
-    <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/objetos/armadura/equipamiento/Pantalones.java" />
-    <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/objetos/armadura/equipamiento/Casco.java" />
     <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/objetos/armadura/equipamiento/Arma.java" />
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/IObjeto.java" />
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/recojibles/IInventario.java" />
@@ -1035,16 +941,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/Guerrero.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/Armadura.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="693">
@@ -1054,7 +950,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/Jugador.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
+        <state relative-caret-position="408">
           <caret line="31" column="46" lean-forward="true" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
           <folding>
             <element signature="method#cargarStatsBase#0;class#Jugador#0" />
@@ -1069,10 +965,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/Mago.java">
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/Clases/Guerrero.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="55" lean-forward="true" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/Clases/Cazador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/Clases/Paladin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/Clases/Asesino.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/Clases/Clerigo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/Clases/Arquero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/Clases/Berserker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/Clases/Druida.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/Clases/Mago.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
