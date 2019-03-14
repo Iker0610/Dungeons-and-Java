@@ -22,8 +22,6 @@ public class ListaConsumibles {
         //TODO
     }
 
-    private
-
     public void imprimirConsumibles(){
         //TODO
     }

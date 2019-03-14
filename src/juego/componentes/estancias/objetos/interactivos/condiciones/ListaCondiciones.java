@@ -3,6 +3,7 @@ package juego.componentes.estancias.objetos.interactivos.condiciones;
 import juego.componentes.jugador.Jugador;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 
 public class ListaCondiciones {
@@ -18,5 +19,18 @@ public class ListaCondiciones {
     public boolean cumpleLasCondiciones(Jugador pJugador){
         //TODO
         return false;
+    }
+
+    //Metodos del arraylist
+    private Iterator<Condicion> getIterator(){
+        return this.lista.iterator();
+    }
+
+    private void anadirCondicion(){
+        //TODO
+    }
+
+    private void cargarDatos(){
+        //TODO
     }
 }
