@@ -8698,12 +8698,12 @@
                                                       <net.java.amateras.uml.editpart.ConnectionBendpoint>
                                                         <weight>0.5</weight>
                                                         <d1>
-                                                          <width>-300</width>
-                                                          <height>-214</height>
+                                                          <width>-299</width>
+                                                          <height>-130</height>
                                                         </d1>
                                                         <d2>
-                                                          <width>1134</width>
-                                                          <height>1198</height>
+                                                          <width>1135</width>
+                                                          <height>1262</height>
                                                         </d2>
                                                       </net.java.amateras.uml.editpart.ConnectionBendpoint>
                                                       <net.java.amateras.uml.editpart.ConnectionBendpoint>
