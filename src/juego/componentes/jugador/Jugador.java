@@ -98,12 +98,21 @@ public abstract class Jugador {
 		//TODO
 	}
 
+
 	//Metodos de informacion
 	public boolean esDeRaza(String pRaza){
 		//TODO
 	}
 
+	public ListaStat getListaStats(){
+		//TODO
+	}
+
+	//Metodos relacionados con el modo combate
 	public void imprimirVidaActual(){
+		//TODO
+	}
+	public void sanarse (int pVida){
 		//TODO
 	}
 
