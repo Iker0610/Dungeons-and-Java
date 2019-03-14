@@ -11,11 +11,11 @@ public class Estancia {
     private ListaPuertas listaPuertas;
     private ListaCofres listaCofres;
     private ListaNPCs listaNpc;
-    //Solo será diferente de null en la estancia final
+    //Solo seria diferente de null en la estancia final
     private JefeFinal jefeFinal;
 
     //Constructora
-    protected Estancia (String pIdEstancia){
+    public Estancia (String pIdEstancia){
         this.idEstancia = pIdEstancia;
     }
 
@@ -25,12 +25,20 @@ public class Estancia {
     }
 
     //Metodos menú
-    public void imprimirOpcionesMenuPrincipal(){
-        //TODO
+    private void imprimirOpcionesMenuPrincipal(){
+    	//Imprimir opciones para acceso a la lista
+    	//Imprimir opciones del jugador
+    	//TODO
     }
 
-    public void imprimirOpcionesMenuSecundario(){
+    private void imprimirOpcionesMenuSecundario(){
+    	//Imprimir opciones del submenu consecuente
+    	//Mostrar opcion para volver al menu anterior
         //TODO
     }
-
+    
+    public void ejecutarTurno(Jugador pJugadorActual){
+    	//TODO
+    }
+    
 }

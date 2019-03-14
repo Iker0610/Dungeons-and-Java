@@ -9,6 +9,8 @@ public class Partida {
     private boolean jugadoresListos;
     private boolean finPartida;
     private static Partida partida;
+    private Jugador jugadorActual;
+    private Estancia estanciaActual;
 
     //Constructora
     private Partida (){
@@ -61,18 +63,8 @@ public class Partida {
     }
 
     //Metodos de menu
-    private void imprimirPrimerMenu(){
-        //TODO
+    public void comenzarTurno(){
+    	
     }
-
-    private void imprimirSubmenu(){
-        //TODO
-    }
-
-    //Metodo encargado de recoger las interacciones del usuario
-    private int leerOpcionMenu(){
-        //TODO
-    }
-
-
+    
 }
