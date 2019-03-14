@@ -50,12 +50,12 @@ public class ListaJugadores {
         return this.lista.iterator();
     }
 
-    public int numJugadores(){
+    private int numJugadores(){
         return this.lista.size();
     }
 
     //Metodos de control
-    public void getSiguienteJugador(){
+    public Jugador getSiguienteJugador(Jugador pJugadorActual){
         //TODO
     }
 
