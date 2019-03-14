@@ -54,4 +54,8 @@ public class ListaStat {
 	public int getDestreza() {
 		return destreza;
 	}
+
+	public void imprimirStats(){
+		//TODO
+	}
 }
