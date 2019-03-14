@@ -25,6 +25,11 @@ public class Estancia {
         //TODO
     }
 
+    //Metodo del turno
+    public void ejecutarTurno(Jugador pJugadorActual){
+    	//TODO
+    }
+
     //Metodos menú
     private void imprimirOpcionesMenuPrincipal(){
     	//Imprimir opciones para acceso a la lista
@@ -32,14 +37,17 @@ public class Estancia {
     	//TODO
     }
 
-    private void imprimirOpcionesMenuSecundario(){
+    private void imprimirOpcionesMenuSecundarioEstancia(int pOpcionMenu){
     	//Imprimir opciones del submenu consecuente
     	//Mostrar opcion para volver al menu anterior
         //TODO
     }
-    
-    public void ejecutarTurno(Jugador pJugadorActual){
-    	//TODO
+
+    private void imprimirOpcionesMenuSecundarioJugador(Jugador pJugador){
+        //TODO
     }
-    
+
+    private int getSeleccionDelJugador(){
+        //TODO
+    }
 }
