@@ -29,7 +29,7 @@ public class ListaPuertas {
     }
 
     //Metodos de imprimir informacion
-    public void imprimirPuertas(){
+    public void mostrarPuertas(){
         //TODO
     }
 

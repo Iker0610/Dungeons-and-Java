@@ -46,5 +46,12 @@ public class Cofre extends ObjetoInteractivo {
         return this.lista.iterator();
     }
 
-    private void imprimirContenido(){}
+    private void imprimirContenido(){
+    	
+    }
+    
+    private void mostrarInfo(){
+    	super();
+    }
+    
 }

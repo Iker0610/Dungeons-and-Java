@@ -32,4 +32,9 @@ public class Puerta extends ObjetoInteractivo {
     private void debloquear(){
         this.desbloqueada = true;
     }
+    
+    private void mostrarInfo(){
+    	super();
+    }
+    
 }

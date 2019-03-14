@@ -16,4 +16,9 @@ public class Consumible extends ObjetoRecolectable {
 
     }
 
+    @override
+    public void mostrarInfo(){
+    	super();
+    }
+    
 }

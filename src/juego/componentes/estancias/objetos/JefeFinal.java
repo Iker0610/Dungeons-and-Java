@@ -27,7 +27,7 @@ public class JefeFinal {
     }
 
     //Metodos de comunicacion
-    public void darVienvenida(){
+    public void darBienvenida(){
         //TODO
     }
 

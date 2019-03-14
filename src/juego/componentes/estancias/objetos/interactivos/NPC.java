@@ -22,11 +22,24 @@ public class NPC extends ObjetoInteractivo {
     }
 
     //Otros metodos
+    
+    public void mostrarInfo(){
+    	super();
+    	//TODO
+    }
+    
+    
     @Override
     public void interactuar(Jugador pJugador) {}
 
-    private void bienvenida(){}
-    private void mostrarPista(){}
-    private void mostrarRechazo(){}
+    private void bienvenida(){
+    	
+    }
+    private void mostrarPista(){
+    	
+    }
+    private void mostrarRechazo(){
+    	
+    }
 
 }

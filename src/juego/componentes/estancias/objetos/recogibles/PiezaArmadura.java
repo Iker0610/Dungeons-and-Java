@@ -24,5 +24,10 @@ public class PiezaArmadura extends ObjetoRecolectable {
 	public ListaStat getStats(){
 		return this.lista;
 	}
-
+	
+	@override
+	public mostrarInfo(){
+		super();
+	}
+	
 }
