@@ -10,7 +10,7 @@ public class ListaCondiciones {
     private ArrayList<Concicion> lista;
 
     //constructora
-    protected ListaCondiciones (){
+    public ListaCondiciones (){
         this.lista = new ArrayList<>();
         //TODO
     }

@@ -11,7 +11,7 @@ public class Concicion {
     protected Concicion (){}
 
     //Otros metodos
-    protected boolean cumpleLaCondicion(Jugador pJugador){
+    public boolean cumpleLaCondicion(Jugador pJugador){
         //TODO
     }
 }
