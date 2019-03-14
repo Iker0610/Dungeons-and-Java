@@ -10,7 +10,7 @@ public class ListaCofres {
 	private ArrayList<Cofre> lista;
 	
 	//constructora
-	protected ListaCofres(){
+	public ListaCofres(){
 		this.lista=new ArrayList<>();
 	}
 

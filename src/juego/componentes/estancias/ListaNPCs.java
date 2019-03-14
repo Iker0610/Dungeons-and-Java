@@ -10,7 +10,7 @@ public class ListaNPCs {
 	private ArrayList<NPC> lista;
 	
 	//constructora
-	protected ListaNPCs(){
+	public ListaNPCs(){
 		this.lista=new ArrayList<>();
 	}
 

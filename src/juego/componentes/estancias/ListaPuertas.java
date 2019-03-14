@@ -10,7 +10,7 @@ public class ListaPuertas {
     private ArrayList<Puerta> lista;
 
     //Constructora
-    protected ListaPuertas(){
+    public ListaPuertas(){
         this.lista = new ArrayList<>();
     }
 
