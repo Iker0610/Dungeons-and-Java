@@ -48,10 +48,6 @@ public class Partida {
         //TODO
     }
 
-    public void finalizarTurno(){
-        //TODO
-    }
-
     private Jugador getSiguienteJugador(){
         //TODO
     }

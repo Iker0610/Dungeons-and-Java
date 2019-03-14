@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="351fff89-8730-49e9-afdd-cfc308ef8509" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/ClassDiagram.cld" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/ClassDiagram.cld" afterDir="false" />
+    <list default="true" id="351fff89-8730-49e9-afdd-cfc308ef8509" name="Default Changelist" comment="Update: clases">
+      <change beforePath="$PROJECT_DIR$/src/juego/Partida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/Partida.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +11,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/juego/Partida.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -58,7 +70,6 @@
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recogibles/ObjetoRecolectable.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recogibles/PiezaArmadura.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/ListaObjetosClaves.java" />
-        <option value="$PROJECT_DIR$/src/juego/Partida.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/Cofre.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/NPC.java" />
@@ -80,6 +91,7 @@
         <option value="$PROJECT_DIR$/src/juego/componentes/jugador/Berserker.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/jugador/Druida.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/jugador/Clases/Druida.java" />
+        <option value="$PROJECT_DIR$/src/juego/Partida.java" />
       </list>
     </option>
   </component>
@@ -173,7 +185,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552606918738" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552607089284" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -228,14 +240,7 @@
       <workItem from="1552572694512" duration="1125000" />
       <workItem from="1552583420547" duration="7422000" />
       <workItem from="1552591955013" duration="6000" />
-      <workItem from="1552597282633" duration="5937000" />
-    </task>
-    <task id="LOCAL-00015" summary="Update">
-      <created>1552322976931</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1552322976931</updated>
+      <workItem from="1552597282633" duration="6136000" />
     </task>
     <task id="LOCAL-00016" summary="Update">
       <created>1552323553733</created>
@@ -573,11 +578,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552606011484</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Update: clases">
+      <created>1552606914893</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1552606914893</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97132000" />
+    <option name="totallyTimeSpent" value="97331000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -590,6 +602,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Learn" order="0" />
       <window_info id="Image Layers" order="1" />
@@ -824,16 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/Partida.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/ListaConsumibles.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1018,6 +1021,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/Partida.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
