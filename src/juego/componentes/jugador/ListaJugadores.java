@@ -59,7 +59,7 @@ public class ListaJugadores {
         //TODO
     }
 
-    protected void eliminarJugador (Jugador pJugador){
+    public void eliminarJugador (Jugador pJugador){
         //TODO
     }
 
