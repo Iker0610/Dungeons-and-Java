@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="351fff89-8730-49e9-afdd-cfc308ef8509" name="Default Changelist" comment="Update">
+    <list default="true" id="351fff89-8730-49e9-afdd-cfc308ef8509" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/ObjetoInteractivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/ObjetoInteractivo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/Concicion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/Concicion.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/ObjetoInteractivo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#ObjetoInteractivo#0;class#ObjetoInteractivo#0" />
@@ -56,6 +56,15 @@
                 <element signature="e#782#783#0" expanded="true" />
                 <element signature="e#853#854#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/Concicion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -101,7 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/interactuables/ObjetosInteractuables.java" />
         <option value="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/interactuables/ObjetoInteractuable.java" />
         <option value="$PROJECT_DIR$/src/juego/objetosDelJuego/jugador/Jugador.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/recojibles/IInventario.java" />
@@ -152,6 +160,7 @@
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/ListaNPCs.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/ListaPuertas.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/ObjetoInteractivo.java" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/Concicion.java" />
       </list>
     </option>
   </component>
@@ -224,6 +233,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="juego" type="462c0819:PsiDirectoryNode" />
               <item name="componentes" type="462c0819:PsiDirectoryNode" />
+              <item name="estancias" type="462c0819:PsiDirectoryNode" />
+              <item name="objetos" type="462c0819:PsiDirectoryNode" />
+              <item name="interactivos" type="462c0819:PsiDirectoryNode" />
+              <item name="condiciones" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="juego" type="462c0819:PsiDirectoryNode" />
+              <item name="componentes" type="462c0819:PsiDirectoryNode" />
               <item name="herramientas" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -237,7 +257,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552560676485" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552560925406" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -287,14 +307,7 @@
       <workItem from="1552309734637" duration="22248000" />
       <workItem from="1552374856829" duration="7245000" />
       <workItem from="1552475309928" duration="5355000" />
-      <workItem from="1552547395313" duration="7012000" />
-    </task>
-    <task id="LOCAL-00009" summary="Update">
-      <created>1552257625348</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1552257625348</updated>
+      <workItem from="1552547395313" duration="7257000" />
     </task>
     <task id="LOCAL-00010" summary="Update">
       <created>1552257648823</created>
@@ -632,11 +645,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552559755970</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Update">
+      <created>1552560685007</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1552560685007</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81984000" />
+    <option name="totallyTimeSpent" value="82229000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1049,7 +1069,7 @@
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/ObjetoInteractivo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#ObjetoInteractivo#0;class#ObjetoInteractivo#0" />
@@ -1058,6 +1078,13 @@
             <element signature="e#782#783#0" expanded="true" />
             <element signature="e#853#854#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/Concicion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
