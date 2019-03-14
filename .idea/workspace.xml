@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="351fff89-8730-49e9-afdd-cfc308ef8509" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/juego/ClassDiagram.cld" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/ClassDiagram.cld" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/Partida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/Partida.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java" afterDir="false" />
+    <list default="true" id="351fff89-8730-49e9-afdd-cfc308ef8509" name="Default Changelist" comment="Update">
+      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/Dungeon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/Dungeon.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +12,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/juego/Partida.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="414">
@@ -26,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/Dungeon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="153">
+              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,7 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/recojibles/ObjetosRecojibles.java" />
         <option value="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/IObjetos.java" />
         <option value="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/interactuables/ObjetosInteractuables.java" />
         <option value="$PROJECT_DIR$/src/juego/objetosDelJuego/dungeon/objetos/interactuables/ObjetoInteractuable.java" />
@@ -118,6 +115,7 @@
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/JefeFinal.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java" />
         <option value="$PROJECT_DIR$/src/juego/Partida.java" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/estancias/Dungeon.java" />
       </list>
     </option>
   </component>
@@ -218,7 +216,7 @@
       <workItem from="1552309734637" duration="22248000" />
       <workItem from="1552374856829" duration="7245000" />
       <workItem from="1552475309928" duration="5355000" />
-      <workItem from="1552547395313" duration="3987000" />
+      <workItem from="1552547395313" duration="4164000" />
     </task>
     <task id="LOCAL-00006" summary="Update">
       <created>1552247137225</created>
@@ -567,7 +565,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78959000" />
+    <option name="totallyTimeSpent" value="79136000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -972,16 +970,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/Dungeon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
@@ -996,6 +984,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/Dungeon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
