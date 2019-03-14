@@ -6,9 +6,6 @@ import juego.componentes.jugador.ListaJugadores;
 
 public class Partida {
     //Atributos
-    private Dungeon dungeon;
-    private ListaJugadores lJugadores;
-    private Jugador jugadorActual;
     private boolean jugadoresListos;
     private boolean finPartida;
     private static Partida partida;

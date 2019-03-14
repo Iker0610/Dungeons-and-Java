@@ -41,8 +41,4 @@ public class Dungeon {
     public void cambiarEstancia(String pIdEstancia){
         //TODO
     }
-
-    public void finalizarDungeon(){
-        //TODO
-    }
 }
