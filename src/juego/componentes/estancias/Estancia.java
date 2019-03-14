@@ -24,4 +24,13 @@ public class Estancia {
         //TODO
     }
 
+    //Metodos menú
+    public void imprimirOpcionesMenuPrincipal(){
+        //TODO
+    }
+
+    public void imprimirOpcionesMenuSecundario(){
+        //TODO
+    }
+
 }
