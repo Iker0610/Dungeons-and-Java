@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public class ListaCondiciones {
     //Atributos
-    private ArrayList<Concicion> lista;
+    private ArrayList<Condicion> lista;
 
     //constructora
     public ListaCondiciones (){

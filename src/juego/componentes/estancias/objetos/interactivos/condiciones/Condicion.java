@@ -2,13 +2,13 @@ package juego.componentes.estancias.objetos.interactivos.condiciones;
 
 import juego.componentes.jugador.Jugador;
 
-public class Concicion {
+public class Condicion {
     //Atributos
     private String tipo;
     private String valor;
 
     //Constructora
-    protected Concicion (){}
+    public Condicion(){}
 
     //Otros metodos
     public boolean cumpleLaCondicion(Jugador pJugador){
