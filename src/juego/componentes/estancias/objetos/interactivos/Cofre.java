@@ -49,9 +49,4 @@ public class Cofre extends ObjetoInteractivo {
     private void imprimirContenido(){
     	
     }
-    
-    private void mostrarInfo(){
-    	super();
-    }
-    
 }

@@ -23,12 +23,6 @@ public class NPC extends ObjetoInteractivo {
 
     //Otros metodos
     
-    public void mostrarInfo(){
-    	super();
-    	//TODO
-    }
-    
-    
     @Override
     public void interactuar(Jugador pJugador) {}
 
