@@ -6,19 +6,25 @@ public class Consumible extends ObjetoRecolectable {
     private int valor;
     private String nombre;
     //Constructora
-    public Consumible (String pNombre, int pValor){
-        super(pNombre);
-        this.valor = pValor;
+    public Consumible (){
+        super();
+        //TODO
+    }
+
+    //Metodo cargar datos
+    private void cargarDatos(){
+        //TODO
     }
 
     //Otros metodos
     public void consumir (){
-
+        //TODO
     }
 
-    @override
+    @Override
     public void mostrarInfo(){
-    	super();
+    	super.mostrarInfo();
+    	//TODO
     }
     
 }

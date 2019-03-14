@@ -22,19 +22,19 @@ public class Armadura {
 	//Otros Metodos
 
 	public void cambiarEquipamiento (PiezaArmadura pPiezaArmadura){
-		if (pPiezaArmadura.getTipo().equals("casco")){
+		if (pPiezaArmadura.esDeEsteTipo("casco")){
 			this.cambiarCasco(pPiezaArmadura);
 		}
 
-		else if (pPiezaArmadura.getTipo().equals("pechera")){
+		else if (pPiezaArmadura.esDeEsteTipo("pechera")){
 			this.cambiarPechera(pPiezaArmadura);
 		}
 
-		else if (pPiezaArmadura.getTipo().equals("pantalones")){
+		else if (pPiezaArmadura.esDeEsteTipo("pantalones")){
 			this.cambiarPantalones(pPiezaArmadura);
 		}
 
-		else if (pPiezaArmadura.getTipo().equals("arma")){
+		else if (pPiezaArmadura.esDeEsteTipo("arma")){
 			this.cambiarArma(pPiezaArmadura);
 		}
 	}

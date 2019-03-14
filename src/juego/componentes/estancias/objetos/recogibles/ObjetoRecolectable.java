@@ -4,21 +4,27 @@ import juego.componentes.jugador.Jugador;
 
 public abstract class ObjetoRecolectable {
     //Atributos
-    protected String nombre;
-    protected String descripccion;
+    private String nombre;
+    private String descripcion;
 
     //Constructora
-    protected ObjetoRecolectable(String pNombre, String pDescripcion){
-        this.nombre = pNombre;
-        this.descripcion = pDescripcion;
+    protected ObjetoRecolectable(){
+        //TODO
+    }
+
+    //Metodo cargar datos
+    private void cargarDatos(){
+        //TODO
     }
 
     //Otros metodos
     public void recoger (Jugador pJugador){
         pJugador.anadirObjetoRecojible(this);
+        //TODO
     }
 
     public void mostrarInfo(){
         System.out.println(this.nombre);
+        //TODO
     }
 }
