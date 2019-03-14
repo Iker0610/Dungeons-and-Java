@@ -33,7 +33,7 @@ public class ListaNPCs {
 		//TODO
 	}
 
-	public void mostrarInformacionNPC(int posNpc){
+	public void acercarseANPC(int posNpc){
 		//TODO
 	}
 	

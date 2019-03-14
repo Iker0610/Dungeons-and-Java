@@ -34,7 +34,7 @@ public abstract class ObjetoInteractivo {
         return this.lCondiciones.cumpleLasCondiciones(pJugador);
     }
     
-    protected void mostrarInfo(){
+    private void mostrarInfo(){
     	
     }
     

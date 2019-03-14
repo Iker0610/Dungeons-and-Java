@@ -33,5 +33,9 @@ public class ListaPuertas {
         //TODO
     }
 
+    public void acercarseAPuerta(int posPuerta){
+        //TODO
+    }
+
 
 }

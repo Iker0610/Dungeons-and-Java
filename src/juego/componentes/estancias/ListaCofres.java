@@ -37,7 +37,7 @@ public class ListaCofres {
 		//TODO
 	}
 
-	public void mostrarInformacionCofre(int posCofre){
+	public void acercarseACofre(int posCofre){
 		//TODO
 	}
 	
