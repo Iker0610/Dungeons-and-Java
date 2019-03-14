@@ -38,9 +38,9 @@ public class ListaJugadores {
         switch (clase){
             case "mago":
                 jugador = new Mago(nombre,sexo,raza);
-        }
 
         if (jugador != null) {
+        }
             this.lista.add(jugador);
         }
     }
@@ -57,8 +57,6 @@ public class ListaJugadores {
     //Metodos de control
     public void getSiguienteJugador(){
         //TODO
-    }
-
     }
 
     protected void eliminarJugador (Jugador pJugador){
