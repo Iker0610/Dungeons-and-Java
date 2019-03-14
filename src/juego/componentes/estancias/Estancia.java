@@ -15,7 +15,7 @@ public class Estancia {
     private JefeFinal jefeFinal;
 
     //Constructora
-    protected Estancia (String pIdEstancia){
+    public Estancia (String pIdEstancia){
         this.idEstancia = pIdEstancia;
     }
 
