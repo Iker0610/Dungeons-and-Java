@@ -8,7 +8,6 @@ public class Dungeon {
     //Atributos
     private static Dungeon dungeon;
     private ArrayList<Estancia> lEstancias;
-    private Estancia estanciaActual;
 
     //Constructora
     private Dungeon(){

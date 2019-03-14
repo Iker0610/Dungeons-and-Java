@@ -8,7 +8,6 @@ public class ListaJugadores {
     //Atributos
     private static ListaJugadores listaJugadores;
     private ArrayList<Jugador> lista;
-    private Jugador jugadorActual;
 
     //Constructora
     private ListaJugadores(){
@@ -39,9 +38,9 @@ public class ListaJugadores {
         switch (clase){
             case "mago":
                 jugador = new Mago(nombre,sexo,raza);
-        }
 
         if (jugador != null) {
+        }
             this.lista.add(jugador);
         }
     }
@@ -56,7 +55,7 @@ public class ListaJugadores {
     }
 
     //Metodos de control
-    public void acabarTurno(){
+    public void getSiguienteJugador(){
         //TODO
     }
 

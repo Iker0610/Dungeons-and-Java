@@ -1,9 +1,14 @@
 package juego;
 
+import juego.componentes.estancias.Dungeon;
 import juego.componentes.jugador.Jugador;
+import juego.componentes.jugador.ListaJugadores;
 
 public class Partida {
     //Atributos
+    private Dungeon dungeon;
+    private ListaJugadores lJugadores;
+    private Jugador jugadorActual;
     private boolean jugadoresListos;
     private boolean finPartida;
     private static Partida partida;
@@ -41,10 +46,36 @@ public class Partida {
         //TODO
     }
 
-    //Metodos de control
+    //Mtodos de control
     public void finalizarPartida(){
         //TODO
     }
 
-    //
+    public void finalizarTurno(){
+        //TODO
+    }
+
+    private Jugador getSiguienteJugador(){
+        //TODO
+    }
+
+    public void cambiarEstancia(){
+        //TODO
+    }
+
+    //Metodos de menu
+    private void imprimirPrimerMenu(){
+        //TODO
+    }
+
+    private void imprimirSubmenu(){
+        //TODO
+    }
+
+    //Metodo encargado de recoger las interacciones del usuario
+    private int leerOpcionMenu(){
+        //TODO
+    }
+
+
 }
