@@ -89,7 +89,7 @@ public abstract class Jugador {
 		this.lObjClave.anadirObjeto(pObjClave);
 	}
 
-	public void usarConsumible (String pNombre){
+	public void usarConsumible (int pPosConsumible){
 
 	}
 
@@ -112,6 +112,7 @@ public abstract class Jugador {
 	public void imprimirVidaActual(){
 		//TODO
 	}
+
 	public void sanarse (int pVida){
 		//TODO
 	}
