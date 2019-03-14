@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="351fff89-8730-49e9-afdd-cfc308ef8509" name="Default Changelist" comment="Update">
-      <change afterPath="$PROJECT_DIR$/src/juego/componentes/jugador/Clases/Arquero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/juego/componentes/jugador/Clases/Asesino.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/juego/componentes/jugador/Clases/Berserker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/juego/componentes/jugador/Clases/Clerigo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/juego/componentes/jugador/Clases/Druida.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/juego/componentes/jugador/Clases/Guerrero.java" afterDir="false" />
+    <list default="true" id="351fff89-8730-49e9-afdd-cfc308ef8509" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/ClassDiagram.cld" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/ClassDiagram.cld" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/jugador/Mago.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/jugador/Clases/Mago.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -181,7 +172,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552605996034" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552606176045" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -236,14 +227,7 @@
       <workItem from="1552572694512" duration="1125000" />
       <workItem from="1552583420547" duration="7422000" />
       <workItem from="1552591955013" duration="6000" />
-      <workItem from="1552597282633" duration="5327000" />
-    </task>
-    <task id="LOCAL-00014" summary="Update">
-      <created>1552322454041</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1552322454041</updated>
+      <workItem from="1552597282633" duration="5657000" />
     </task>
     <task id="LOCAL-00015" summary="Update">
       <created>1552322976931</created>
@@ -581,11 +565,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552589483698</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Update: clases">
+      <created>1552606011482</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1552606011484</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96522000" />
+    <option name="totallyTimeSpent" value="96852000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -692,7 +683,8 @@
     <MESSAGE value="Creacion del dado" />
     <MESSAGE value="Update: cambio de objetoRecogible a objetoRecolectable, porque a iria no le daba la gana de meterse la inventada" />
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="Update: clases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update: clases" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/juego/objetosDelJuego/objetos/armadura/equipamiento/Arma.java" />
