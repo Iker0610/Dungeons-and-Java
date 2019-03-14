@@ -8,7 +8,6 @@ public class ListaJugadores {
     //Atributos
     private static ListaJugadores listaJugadores;
     private ArrayList<Jugador> lista;
-    private Jugador jugadorActual;
 
     //Constructora
     private ListaJugadores(){
@@ -56,8 +55,10 @@ public class ListaJugadores {
     }
 
     //Metodos de control
-    public void acabarTurno(){
+    public void getSiguienteJugador(){
         //TODO
+    }
+
     }
 
     protected void eliminarJugador (Jugador pJugador){
