@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="351fff89-8730-49e9-afdd-cfc308ef8509" name="Default Changelist" comment="Update: clases">
+    <list default="true" id="351fff89-8730-49e9-afdd-cfc308ef8509" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/ClassDiagram.cld" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/ClassDiagram.cld" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recogibles/ObjetoClave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recogibles/ObjetoClave.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recogibles/ObjetoRecolectable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recogibles/ObjetoRecolectable.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,12 +15,20 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/ListaObjetosClaves.java">
+        <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/Jugador.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="577">
+              <caret line="114" column="5" selection-start-line="114" selection-start-column="5" selection-end-line="114" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#cargarStatsBase#0;class#Jugador#0" />
+                <element signature="method#anadirObjetoRecojible#0;class#Jugador#0" />
+                <element signature="method#actualizarArmadura#0;class#Jugador#0" />
+                <element signature="method#tieneObjClave#0;class#Jugador#0" />
+                <element signature="method#esDeRaza#0;class#Jugador#0" />
+                <element signature="method#esDeRaza#1;class#Jugador#0" />
+                <element signature="method#esDeRaza#1;class#Jugador#0" />
+                <element signature="method#imprimirVidaActual#0;class#Jugador#0" />
+                <element signature="method#sanarse#0;class#Jugador#0" />
               </folding>
             </state>
           </provider>
@@ -28,17 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recogibles/ObjetoClave.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recogibles/ObjetoRecolectable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+            <state relative-caret-position="153">
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -107,9 +107,9 @@
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/ListaNPCs.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/ObjetoInteractivo.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/Estancia.java" />
-        <option value="$PROJECT_DIR$/src/juego/componentes/jugador/Jugador.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/CondicionDado.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recogibles/ObjetoRecolectable.java" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/jugador/Jugador.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recogibles/ObjetoClave.java" />
       </list>
     </option>
@@ -299,21 +299,7 @@
       <workItem from="1552583420547" duration="7422000" />
       <workItem from="1552591955013" duration="6000" />
       <workItem from="1552597282633" duration="8621000" />
-      <workItem from="1552619760731" duration="3631000" />
-    </task>
-    <task id="LOCAL-00018" summary="Update">
-      <created>1552325347162</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1552325347162</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Update">
-      <created>1552325467091</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1552325467091</updated>
+      <workItem from="1552619760731" duration="3964000" />
     </task>
     <task id="LOCAL-00020" summary="Update">
       <created>1552326541505</created>
@@ -644,11 +630,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552630469955</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Update: clases">
+      <created>1552632904830</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1552632904830</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Update: clases">
+      <created>1552633120868</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1552633120868</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103447000" />
+    <option name="totallyTimeSpent" value="103780000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1036,22 +1036,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/Jugador.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="106" column="5" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
-          <folding>
-            <element signature="method#cargarStatsBase#0;class#Jugador#0" />
-            <element signature="method#anadirObjetoRecojible#0;class#Jugador#0" />
-            <element signature="method#actualizarArmadura#0;class#Jugador#0" />
-            <element signature="method#tieneObjClave#0;class#Jugador#0" />
-            <element signature="method#esDeRaza#0;class#Jugador#0" />
-            <element signature="method#imprimirVidaActual#0;class#Jugador#0" />
-            <element signature="method#sanarse#0;class#Jugador#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/CondicionDado.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1076,10 +1060,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/Jugador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="114" column="5" selection-start-line="114" selection-start-column="5" selection-end-line="114" selection-end-column="5" />
+          <folding>
+            <element signature="method#cargarStatsBase#0;class#Jugador#0" />
+            <element signature="method#anadirObjetoRecojible#0;class#Jugador#0" />
+            <element signature="method#actualizarArmadura#0;class#Jugador#0" />
+            <element signature="method#tieneObjClave#0;class#Jugador#0" />
+            <element signature="method#esDeRaza#0;class#Jugador#0" />
+            <element signature="method#esDeRaza#1;class#Jugador#0" />
+            <element signature="method#esDeRaza#1;class#Jugador#0" />
+            <element signature="method#imprimirVidaActual#0;class#Jugador#0" />
+            <element signature="method#sanarse#0;class#Jugador#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recogibles/ObjetoClave.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        <state relative-caret-position="153">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
         </state>
       </provider>
     </entry>

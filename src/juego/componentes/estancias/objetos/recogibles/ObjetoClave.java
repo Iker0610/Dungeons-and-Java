@@ -8,8 +8,4 @@ public class ObjetoClave extends ObjetoRecolectable {
         super();
         //TODO
     }
-
-    public boolean tieneEsteNombre(String pNombre){
-        //TODO
-    }
 }
