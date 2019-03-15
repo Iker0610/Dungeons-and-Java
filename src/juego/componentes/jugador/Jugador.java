@@ -106,6 +106,14 @@ public abstract class Jugador {
 		//TODO
 	}
 
+	public boolean esDeClase(String pClase){
+		//TODO
+	}
+
+	public boolean esDeSexo(String pSexo){
+		//TODO
+	}
+
 	public int getDestreza(){
 		//TODO
 	}
