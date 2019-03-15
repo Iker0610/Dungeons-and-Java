@@ -45,5 +45,9 @@ public class ListaCofres {
 	public void interactuarConCofre(int posCofre, Jugador pJugador){
 		//TODO
 	}
+
+	private Cofre obtenerCofrePorPosicion(int pPos){
+		//TODO
+	}
 	
 }

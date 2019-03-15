@@ -42,5 +42,9 @@ public class ListaPuertas {
         //TODO
     }
 
+    private Puerta obtenerPuertaPorPosicion(int pPos){
+        //TODO
+    }
+
 
 }

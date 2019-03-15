@@ -30,7 +30,7 @@ public class Cofre extends ObjetoInteractivo {
 
     }
 
-    private void darObjetoAPersonaje(Jugador pJugador, int posObjeto){
+    private void darObjetoAPersonaje(Jugador pJugador, int pPosObjeto){
 
     }
 
@@ -54,6 +54,10 @@ public class Cofre extends ObjetoInteractivo {
 
     }
     private int getSeleccionDelJugador(){
+        //TODO
+    }
+
+    private ObjetoRecolectable obtenerObjetoPorPosicion(int pPos){
         //TODO
     }
 }
