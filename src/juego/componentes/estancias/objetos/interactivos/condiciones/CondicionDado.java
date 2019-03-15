@@ -3,7 +3,8 @@ package juego.componentes.estancias.objetos.interactivos.condiciones;
 import juego.componentes.jugador.Jugador;
 
 public class CondicionDado extends Condicion {
-
+    //Atributos
+    private int valorMinimoDado;
     //Constructora
     public CondicionDado(){
         super();
