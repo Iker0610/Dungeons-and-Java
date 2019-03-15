@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="351fff89-8730-49e9-afdd-cfc308ef8509" name="Default Changelist" comment="Update: clases">
       <change beforePath="$PROJECT_DIR$/src/juego/ClassDiagram.cld" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/ClassDiagram.cld" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/ListaCofres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/ListaCofres.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/ListaNPCs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/ListaNPCs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/ListaPuertas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/ListaPuertas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/Cofre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/Cofre.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +16,7 @@
         <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/Jugador.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="292">
-              <caret line="70" column="9" lean-forward="true" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
+              <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
               <folding>
                 <element signature="method#cargarStatsBase#0;class#Jugador#0" />
                 <element signature="method#tieneObjClave#0;class#Jugador#0" />
@@ -268,7 +264,7 @@
       <workItem from="1552591955013" duration="6000" />
       <workItem from="1552597282633" duration="8621000" />
       <workItem from="1552619760731" duration="5180000" />
-      <workItem from="1552647620115" duration="2922000" />
+      <workItem from="1552647620115" duration="3508000" />
     </task>
     <task id="LOCAL-00021" summary="Update">
       <created>1552327844232</created>
@@ -617,7 +613,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107918000" />
+    <option name="totallyTimeSpent" value="108504000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -630,7 +626,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Learn" order="0" />
       <window_info id="Image Layers" order="1" />
@@ -1042,7 +1037,7 @@
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/Jugador.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
-          <caret line="70" column="9" lean-forward="true" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
+          <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
           <folding>
             <element signature="method#cargarStatsBase#0;class#Jugador#0" />
             <element signature="method#tieneObjClave#0;class#Jugador#0" />
