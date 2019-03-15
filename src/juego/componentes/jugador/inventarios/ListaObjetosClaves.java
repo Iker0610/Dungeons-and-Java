@@ -22,7 +22,7 @@ public class ListaObjetosClaves {
         this.lista.add(pObjeto);
     }
 
-    public boolean estaObjClave(){
+    public boolean estaObjClave(String pNombre){
         //TODO
     }
     public void imprimirObjClaves(){
