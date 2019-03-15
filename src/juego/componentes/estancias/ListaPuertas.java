@@ -1,6 +1,7 @@
 package juego.componentes.estancias;
 
 import juego.componentes.estancias.objetos.interactivos.Puerta;
+import juego.componentes.jugador.Jugador;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -24,7 +25,7 @@ public class ListaPuertas {
         return this.lista.iterator();
     }
 
-    private void anadirPuerta(){
+    private void anadirPuerta(Puerta pPuerta){
         //TODO
     }
 
@@ -34,6 +35,10 @@ public class ListaPuertas {
     }
 
     public void acercarseAPuerta(int posPuerta){
+        //TODO
+    }
+
+    public void interactuarConPuerta(int posPuerta, Jugador pJugador){
         //TODO
     }
 

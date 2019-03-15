@@ -1,6 +1,7 @@
 package juego.componentes.estancias;
 
 import juego.componentes.estancias.objetos.interactivos.Cofre;
+import juego.componentes.jugador.Jugador;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -24,11 +25,11 @@ public class ListaCofres {
 		return this.lista.iterator();
 	}
 
-	public void anadirCofre(){
+	public void anadirCofre(Cofre pCofre){
 		//TODO
 	}
 	
-	public void eliminarCofre(){
+	public void eliminarCofre(Cofre pCofre){
 		//TODO
 	}
 
@@ -38,6 +39,10 @@ public class ListaCofres {
 	}
 
 	public void acercarseACofre(int posCofre){
+		//TODO
+	}
+
+	public void interactuarConCofre(int posCofre, Jugador pJugador){
 		//TODO
 	}
 	

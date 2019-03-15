@@ -1,6 +1,7 @@
 package juego.componentes.estancias;
 
 import juego.componentes.estancias.objetos.interactivos.NPC;
+import juego.componentes.jugador.Jugador;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -24,7 +25,7 @@ public class ListaNPCs {
 		return this.lista.iterator();
 	}
 
-	private void anadirNPC(){
+	private void anadirNPC(NPC pNPC){
 		//TODO
 	}
 
@@ -33,7 +34,11 @@ public class ListaNPCs {
 		//TODO
 	}
 
-	public void acercarseANPC(int posNpc){
+	public void acercarseANPC(int posNPC){
+		//TODO
+	}
+
+	public void interactuarConNPC(int posNPC, Jugador pJugador){
 		//TODO
 	}
 	

@@ -52,7 +52,7 @@ public class Partida {
         //TODO
     }
 
-    public void cambiarEstancia(){
+    public void cambiarEstancia(Estancia pEstancia){
         //TODO
     }
 
