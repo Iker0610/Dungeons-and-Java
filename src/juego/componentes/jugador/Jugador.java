@@ -106,7 +106,7 @@ public abstract class Jugador {
 		//TODO
 	}
 
-	public ListaStat getListaStats(){
+	public ListaStat getDestreza(){
 		//TODO
 	}
 

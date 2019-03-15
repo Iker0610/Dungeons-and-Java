@@ -50,4 +50,8 @@ public class Estancia {
     private int getSeleccionDelJugador(){
         //TODO
     }
+
+    public boolean tieneEsteId(int pId){
+        //TODO
+    }
 }

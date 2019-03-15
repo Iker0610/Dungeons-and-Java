@@ -35,5 +35,9 @@ public abstract class ObjetoInteractivo {
     private void mostrarInfo(){
     	
     }
+
+    public void imprimirNombre(){
+        //TODO
+    }
     
 }
