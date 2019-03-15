@@ -15,10 +15,6 @@ public class CondicionDado extends Condicion {
         //TODO
     }
 
-    private int lanzarDados(){
-        //TODO
-    }
-
     private int calcularNumDado(Jugador pJugador){
         //TODO
     }
