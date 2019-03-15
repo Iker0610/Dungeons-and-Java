@@ -81,7 +81,7 @@
             <constraint>
               <height>-1</height>
               <width>-1</width>
-              <x>2978</x>
+              <x>2990</x>
               <y>1405</y>
             </constraint>
             <sourceConnections>
@@ -114,7 +114,7 @@
                   <constraint>
                     <height>-1</height>
                     <width>-1</width>
-                    <x>2984</x>
+                    <x>2996</x>
                     <y>184</y>
                   </constraint>
                   <sourceConnections>
@@ -2982,7 +2982,7 @@
                                                               <height>-1</height>
                                                               <width>-1</width>
                                                               <x>1594</x>
-                                                              <y>1366</y>
+                                                              <y>1357</y>
                                                             </constraint>
                                                             <sourceConnections>
                                                               <net.java.amateras.uml.classdiagram.model.CompositeModel>
@@ -4609,8 +4609,8 @@
                                                                                                 <constraint>
                                                                                                   <height>-1</height>
                                                                                                   <width>-1</width>
-                                                                                                  <x>2596</x>
-                                                                                                  <y>2301</y>
+                                                                                                  <x>2584</x>
+                                                                                                  <y>2305</y>
                                                                                                 </constraint>
                                                                                                 <sourceConnections/>
                                                                                                 <targetConnections>

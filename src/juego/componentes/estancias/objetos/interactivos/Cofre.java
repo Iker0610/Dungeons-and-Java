@@ -12,6 +12,7 @@ public class Cofre extends ObjetoInteractivo {
 
     //Atributos
     private ArrayList<ObjetoRecolectable> lista;
+    private boolean desbloqueado;
 
     //Constructora
     public Cofre (String pNombre){
@@ -47,6 +48,12 @@ public class Cofre extends ObjetoInteractivo {
     }
 
     private void imprimirContenido(){
-    	
+    	//TODO
+    }
+    private void desbloquear(){
+
+    }
+    private int getSeleccionDelJugador(){
+        //TODO
     }
 }
