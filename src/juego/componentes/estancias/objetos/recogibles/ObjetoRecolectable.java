@@ -18,11 +18,6 @@ public abstract class ObjetoRecolectable {
     }
 
     //Otros metodos
-    public void recoger (Jugador pJugador){
-        pJugador.anadirObjetoRecojible(this);
-        //TODO
-    }
-
     public void mostrarInfo(){
         System.out.println(this.nombre);
         //TODO
