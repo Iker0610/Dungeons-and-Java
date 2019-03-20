@@ -1,29 +1,21 @@
-package juego.componentes.estancias.objetos;
+package juego.componentes.estancias.objetos.interactivos;
 
 import juego.componentes.herramientas.ListaStat;
+import juego.componentes.jugador.Jugador;
 
-public class JefeFinal {
+public class JefeFinal extends ObjetoInteractivo{
     //Atributos
-    private static JefeFinal jefeFinal;
+
     private String nombre;
-    private ListaStat lStats;
-    private int vidaActual;
+    private int numDadoDerrota;
     //Frases de interaccion
     private String fraseBienvenida;
     private String fraseDerrota;
     private String fraseVictoria;
 
     //Constructora
-    private JefeFinal (){
+    public JefeFinal (){
         //TODO
-    }
-
-    //Patron Singleton
-    public static JefeFinal getJefeFinal(){
-        if (jefeFinal == null){
-            jefeFinal = new JefeFinal();
-        }
-        return jefeFinal;
     }
 
     //Metodos de comunicacion
@@ -39,13 +31,16 @@ public class JefeFinal {
         //TODO
     }
 
-    //Metodos de lucha contra el jefe
+    @Override
+    public void interactuar(Jugador pJugador) {
+        //TODO
+    }
+
+    private void lanzarDadosFinales(){
+        //TODO
+    }
+
     private void derrotarJefe(){
         //TODO
     }
-
-    public void atacarJefe(int pDano){
-        //TODO
-    }
-
 }

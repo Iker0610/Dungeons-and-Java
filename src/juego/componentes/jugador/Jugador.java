@@ -12,10 +12,10 @@ import juego.componentes.herramientas.ListaStat;
 public abstract class Jugador {
 
 	//atributos
-	private int vidaActual;
 	private String nombre;
 	private String sexo;
 	private String raza;
+	private String clase;
 	private ListaStat lstats;
 	private Armadura armadura;
 	private ListaConsumibles lConsumibles;
@@ -28,7 +28,6 @@ public abstract class Jugador {
 		this.raza = pRaza;
 		this.cargarStatsBase();
 		this.armadura = new Armadura();
-		this.vidaActual=this.lstats.getVida();
 		lConsumibles = new ListaConsumibles();
 		lObjClave = new ListaObjetosClaves();
 
@@ -115,15 +114,6 @@ public abstract class Jugador {
 	}
 
 	public int getDestreza(){
-		//TODO
-	}
-
-	//Metodos relacionados con el modo combate
-	public void imprimirVidaActual(){
-		//TODO
-	}
-
-	public void sanarse (int pVida){
 		//TODO
 	}
 

@@ -1,6 +1,6 @@
 package juego.componentes.estancias;
 
-import juego.componentes.estancias.objetos.JefeFinal;
+import juego.componentes.estancias.objetos.interactivos.JefeFinal;
 import juego.componentes.jugador.Jugador;
 
 public class Estancia {

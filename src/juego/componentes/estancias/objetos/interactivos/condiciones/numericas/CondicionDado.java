@@ -1,10 +1,8 @@
-package juego.componentes.estancias.objetos.interactivos.condiciones;
+package juego.componentes.estancias.objetos.interactivos.condiciones.numericas;
 
 import juego.componentes.jugador.Jugador;
 
-public class CondicionDado extends Condicion {
-    //Atributos
-    private int valorMinimoDado;
+public class CondicionDado extends CondicionNumerica {
     //Constructora
     public CondicionDado(){
         super();

@@ -1,7 +1,5 @@
 package juego.componentes.jugador;
 
-import juego.componentes.jugador.Clases.Mago;
-
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -35,16 +33,7 @@ public class ListaJugadores {
         //////////////////////////////////////////////////////////
         //TODO
         //Comandos de in/out para recopilar los datos del jugador
-        //////////////////////////////////////////////////////////
-
-        switch (clase){
-            case "mago":
-                jugador = new Mago(nombre,sexo,raza);
-
-        if (jugador != null) {
-        }
-            this.lista.add(jugador);
-        }
+        //////////////////////////////////////////////////////////}
     }
 
     //Metodos datos del arraylist

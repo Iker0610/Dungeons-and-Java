@@ -3,15 +3,13 @@ package juego.componentes.herramientas;
 public class ListaStat {
 
 	//atributos
-	private int vida;
 	private int fuerza;
 	private int defensa;
 	private int inteligencia;
 	private int destreza;
 
 	//constructora
-	public ListaStat(int pVida, int pFuerza, int pDefensa, int pInteligencia, int pDestreza){
-		this.vida=pVida;
+	public ListaStat(int pFuerza, int pDefensa, int pInteligencia, int pDestreza){
 		this.fuerza=pFuerza;
 		this.defensa=pDefensa;
 		this.inteligencia=pInteligencia;
@@ -20,7 +18,6 @@ public class ListaStat {
 	
 	//otros metodos
 	public void sumarStats(ListaStat pLStats){
-		this.vida += pLStats.vida;
 		this.fuerza += pLStats.fuerza;
 		this.defensa += pLStats.defensa;
 		this.inteligencia += pLStats.inteligencia;
@@ -28,15 +25,10 @@ public class ListaStat {
 	}
 
 	public void restarStats(ListaStat pLStats){
-		this.vida -= pLStats.vida;
 		this.fuerza -= pLStats.fuerza;
 		this.defensa -= pLStats.defensa;
 		this.inteligencia -= pLStats.inteligencia;
 		this.destreza -= pLStats.destreza;
-	}
-
-	public int getVida() {
-		return vida;
 	}
 
 	public int getFuerza() {
