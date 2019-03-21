@@ -21,7 +21,7 @@ public class Puerta extends ObjetoInteractivo {
     }
 
     //Otros metodos
-    public void interactuar(Jugador pJugador) {
+    protected void interactuar(Jugador pJugador) {
 
     }
 

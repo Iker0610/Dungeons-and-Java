@@ -21,12 +21,12 @@ public abstract class ObjetoInteractivo {
     }
 
     //Otros metodos
-    public void acercarse (){
+    public boolean acercarse (){
         System.out.println(this.descripcion);
         //TODO
     }
 
-    public abstract void interactuar (Jugador pJugador);
+    protected abstract void interactuar (Jugador pJugador);
 
     protected boolean comprobarCondicion(Jugador pJugador){
         return this.lCondiciones.cumpleLasCondiciones(pJugador);

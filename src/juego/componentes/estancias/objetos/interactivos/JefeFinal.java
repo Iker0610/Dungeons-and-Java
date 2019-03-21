@@ -32,7 +32,7 @@ public class JefeFinal extends ObjetoInteractivo{
     }
 
     @Override
-    public void interactuar(Jugador pJugador) {
+    protected void interactuar(Jugador pJugador) {
         //TODO
     }
 

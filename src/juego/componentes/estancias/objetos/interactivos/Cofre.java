@@ -26,7 +26,7 @@ public class Cofre extends ObjetoInteractivo {
     }
 
     //Metodos de interaccion
-    public void interactuar(Jugador pJugador) {
+    protected void interactuar(Jugador pJugador) {
 
     }
 
