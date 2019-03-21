@@ -26,7 +26,7 @@ public class Estancia {
     }
 
     //Metodo del turno
-    public void ejecutarTurno(Jugador pJugadorActual){
+    public boolean ejecutarTurno(Jugador pJugadorActual){
     	//TODO
     }
 
