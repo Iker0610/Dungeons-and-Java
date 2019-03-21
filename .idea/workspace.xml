@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="351fff89-8730-49e9-afdd-cfc308ef8509" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/Estancia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/Estancia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/ClassDiagram.cld" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/ClassDiagram.cld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/Partida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/Partida.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,20 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/Estancia.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -62,7 +50,6 @@
         <option value="$PROJECT_DIR$/src/juego/componentes/jugador/Berserker.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/jugador/Druida.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/jugador/Clases/Druida.java" />
-        <option value="$PROJECT_DIR$/src/juego/Partida.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/ListaCondiciones.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recogibles/ObjetoClave.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/ListaObjetosClaves.java" />
@@ -92,6 +79,7 @@
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/Cofre.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/Puerta.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/Estancia.java" />
+        <option value="$PROJECT_DIR$/src/juego/Partida.java" />
       </list>
     </option>
   </component>
@@ -107,8 +95,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,6 +129,25 @@
               <item name="juego" type="462c0819:PsiDirectoryNode" />
               <item name="componentes" type="462c0819:PsiDirectoryNode" />
               <item name="estancias" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="juego" type="462c0819:PsiDirectoryNode" />
+              <item name="componentes" type="462c0819:PsiDirectoryNode" />
+              <item name="estancias" type="462c0819:PsiDirectoryNode" />
+              <item name="objetos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="juego" type="462c0819:PsiDirectoryNode" />
+              <item name="componentes" type="462c0819:PsiDirectoryNode" />
+              <item name="estancias" type="462c0819:PsiDirectoryNode" />
+              <item name="objetos" type="462c0819:PsiDirectoryNode" />
+              <item name="interactivos" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -214,6 +221,7 @@
       <workItem from="1552752150767" duration="626000" />
       <workItem from="1553084031878" duration="2767000" />
       <workItem from="1553161937754" duration="358000" />
+      <workItem from="1553163137765" duration="94000" />
     </task>
     <task id="LOCAL-00023" summary="Creacion del dado">
       <created>1552329164396</created>
@@ -562,7 +570,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112255000" />
+    <option name="totallyTimeSpent" value="112349000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -581,7 +589,7 @@
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2153518" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.21748401" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.49946696" />
@@ -739,16 +747,6 @@
           <folding>
             <element signature="e#549#550#0" expanded="true" />
             <element signature="e#593#594#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/Partida.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -946,16 +944,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/JefeFinal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/NPC.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -967,6 +955,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
           <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/JefeFinal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="43" column="14" lean-forward="true" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/Partida.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="42" column="14" lean-forward="true" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

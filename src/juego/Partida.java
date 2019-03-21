@@ -44,7 +44,7 @@ public class Partida {
     }
 
     //Mtodos de control
-    public void finalizarPartida(){
+    public void finalizarPartida(boolean pVictoria){
         //TODO
     }
 
