@@ -57,7 +57,7 @@ public class Partida {
     }
 
     //Metodos de menu
-    public void comenzarTurno(){
+    private void comenzarTurno(){
     	//TODO
     }
     

@@ -11,18 +11,18 @@ public class LectorConsola {
     }
 
     //Patron singleton
-    public static LectorConsola getDado(){
+    public static LectorConsola getLectorConsola(){
         if (lectorConsola == null){
             lectorConsola = new LectorConsola();
         }
-        return dado;
+        return lectorConsola;
     }
     //Otros metodos
     public int leerInt(){
         //TODO
     }
 
-    public int leerString(){
+    public String leerString(){
         //TODO
     }
 }

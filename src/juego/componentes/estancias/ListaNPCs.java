@@ -38,10 +38,6 @@ public class ListaNPCs {
 		//TODO
 	}
 
-	public void interactuarConNPC(int posNPC, Jugador pJugador){
-		//TODO
-	}
-
 	private NPC obtenerNPCPorPosicion(int pPos){
 		//TODO
 	}

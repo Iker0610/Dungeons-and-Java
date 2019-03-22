@@ -25,7 +25,7 @@ public class ListaCofres {
 		return this.lista.iterator();
 	}
 
-	public void anadirCofre(Cofre pCofre){
+	private void anadirCofre(Cofre pCofre){
 		//TODO
 	}
 	
@@ -39,10 +39,6 @@ public class ListaCofres {
 	}
 
 	public void acercarseACofre(int posCofre){
-		//TODO
-	}
-
-	public void interactuarConCofre(int posCofre, Jugador pJugador){
 		//TODO
 	}
 

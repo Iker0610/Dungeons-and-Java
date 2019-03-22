@@ -38,10 +38,6 @@ public class ListaPuertas {
         //TODO
     }
 
-    public void interactuarConPuerta(int posPuerta, Jugador pJugador){
-        //TODO
-    }
-
     private Puerta obtenerPuertaPorPosicion(int pPos){
         //TODO
     }
