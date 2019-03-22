@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="351fff89-8730-49e9-afdd-cfc308ef8509" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/juego/ClassDiagram.cld" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/ClassDiagram.cld" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/Partida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/Partida.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -96,7 +95,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -153,6 +151,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -168,8 +167,9 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Iker\Documents\GitHub" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Iker\Documents\GitHub\Dungeons-and-Java\.idea\src\DJ" />
+      <recent name="D:\Iker\Documents\GitHub\Dungeons-and-Java\.idea\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="juego.componentes.estancias.objetos.interactivos.condiciones.string" />
@@ -178,9 +178,8 @@
       <recent name="juego.componentes.jugador" />
       <recent name="jugador.equipamiento" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Iker\Documents\GitHub\Dungeons-and-Java\.idea\src\DJ" />
-      <recent name="D:\Iker\Documents\GitHub\Dungeons-and-Java\.idea\src" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Iker\Documents\GitHub" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -222,6 +221,7 @@
       <workItem from="1553084031878" duration="2767000" />
       <workItem from="1553161937754" duration="358000" />
       <workItem from="1553163137765" duration="94000" />
+      <workItem from="1553245413185" duration="264000" />
     </task>
     <task id="LOCAL-00023" summary="Creacion del dado">
       <created>1552329164396</created>
@@ -570,7 +570,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112349000" />
+    <option name="totallyTimeSpent" value="112613000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -589,7 +589,7 @@
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.21748401" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2196162" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.49946696" />
