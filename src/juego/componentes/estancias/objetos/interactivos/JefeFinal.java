@@ -19,15 +19,15 @@ public class JefeFinal extends ObjetoInteractivo{
     }
 
     //Metodos de comunicacion
-    public void darBienvenida(){
+    private void darBienvenida(){
         //TODO
     }
 
-    public void imprimirFraseDerrota(){
+    private void imprimirFraseDerrota(){
         //TODO
     }
 
-    public void imprimirFraseVictoria(){
+    private void imprimirFraseVictoria(){
         //TODO
     }
 
@@ -36,7 +36,7 @@ public class JefeFinal extends ObjetoInteractivo{
         //TODO
     }
 
-    private void lanzarDadosFinales(){
+    private void lanzarDadosFin(){
         //TODO
     }
 

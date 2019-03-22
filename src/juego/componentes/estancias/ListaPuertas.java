@@ -30,11 +30,15 @@ public class ListaPuertas {
     }
 
     //Metodos de imprimir informacion
-    public void mostrarPuertas(){
+    private void mostrarPuertas(){
         //TODO
     }
 
-    public void acercarseAPuerta(int posPuerta){
+    public boolean administrarMenuSecundario(Jugador pJugador){
+        //TODO
+    }
+
+    private boolean acercarseAPuerta(int posPuerta){
         //TODO
     }
 

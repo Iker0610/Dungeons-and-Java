@@ -34,11 +34,15 @@ public class ListaCofres {
 	}
 
 	//Metodos para mostrar informacion
-	public void mostrarCofres(){
+	public boolean administrarMenuSecundario(Jugador pJugador){
 		//TODO
 	}
 
-	public void acercarseACofre(int posCofre){
+	private void mostrarCofres(){
+		//TODO
+	}
+
+	private boolean acercarseACofre(int posCofre){
 		//TODO
 	}
 

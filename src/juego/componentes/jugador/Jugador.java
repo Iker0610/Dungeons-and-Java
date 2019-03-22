@@ -9,7 +9,7 @@ import juego.componentes.jugador.inventarios.ListaConsumibles;
 import juego.componentes.jugador.inventarios.ListaObjetosClaves;
 import juego.componentes.herramientas.ListaStat;
 
-public abstract class Jugador {
+public class Jugador {
 
 	//atributos
 	private String nombre;
@@ -22,7 +22,7 @@ public abstract class Jugador {
 	private ListaObjetosClaves lObjClave;
 
 	//constructora
-	protected Jugador(String pNombre, String pSexo, String pRaza){
+	public Jugador(String pNombre, String pSexo, String pRaza){
 		this.nombre = pNombre;
 		this.sexo = pSexo;
 		this.raza = pRaza;
@@ -34,33 +34,16 @@ public abstract class Jugador {
 	}
 
 	//Metodos abstractos que cada clase ha de implementar
-	protected abstract void crearArmaduraBasica ();
-	protected abstract void cargarStatsClase ();
+	private  void crearArmaduraBasica (){
+		//TODO
+	}
+	private  void cargarStatsClase (){
+		//TODO
+	}
 
 	//Metodos comunes a todas las clases
 	private void cargarStatsBase (){
-		switch (this.raza){
-
-			case "humano":
-				this.lstats = new ListaStat(500,40,40,40,2);
-			break;
-
-			case "elfo":
-				this.lstats = new ListaStat(500,40,40,40,2);
-			break;
-
-			case "orco":
-				this.lstats = new ListaStat(500,40,40,40,2);
-			break;
-
-			case "enano":
-				this.lstats = new ListaStat(500,40,40,40,2);
-			break;
-
-			case "hobbit":
-				this.lstats = new ListaStat(500,40,40,40,2);
-			break;
-		}
+		//TODO
 	}
 
 	//Metodos relacionados con adquirir objetos recolectables
@@ -89,9 +72,6 @@ public abstract class Jugador {
 	private void anadirObjetoClave (ObjetoClave pObjClave){
 		this.lObjClave.anadirObjeto(pObjClave);
 	}
-
-	public void usarConsumible (int pPosConsumible){
-
 	}
 
 	//Metodos de inventario
@@ -113,14 +93,24 @@ public abstract class Jugador {
 		//TODO
 	}
 
-	public int getDestreza(){
+	public int getStat(String pStat){
 		//TODO
 	}
 
 	//Metodos para imprimir la información de los inventarios
-	public void imprimirDatosArmadura(){}
+	public void imprimirInformacionJugador(){
+		//TODO
+	}
 
-	public void imprimirConsumibles(){}
+	private void imprimirDatosArmadura(){
+		//TODO
+	}
 
-	public void imprimirObjClave(){}
+	private void imprimirConsumibles(){
+		//TODO
+	}
+
+	private void imprimirObjClave(){
+		//TODO
+	}
 }

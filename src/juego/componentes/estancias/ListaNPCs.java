@@ -30,11 +30,15 @@ public class ListaNPCs {
 	}
 
 	//Metodos imprimir informacion
-	public void mostrarNPCs(){
+	public boolean administrarMenuSecundario(Jugador pJugador){
 		//TODO
 	}
 
-	public void acercarseANPC(int posNPC){
+	private void mostrarNPCs(){
+		//TODO
+	}
+
+	private boolean acercarseANPC(int posNPC){
 		//TODO
 	}
 

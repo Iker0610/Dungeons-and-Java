@@ -25,30 +25,11 @@ public class Estancia {
         //TODO
     }
 
-    //Metodo del turno
-    public boolean ejecutarTurno(Jugador pJugadorActual){
-    	//TODO
-    }
-
     //Metodos menú
-    private void imprimirOpcionesMenuPrincipal(){
+    public boolean administrarMenuPrincipal(Jugador pJugadorActual){
     	//Imprimir opciones para acceso a la lista
     	//Imprimir opciones del jugador
     	//TODO
-    }
-
-    private void imprimirOpcionesMenuSecundarioEstancia(int pOpcionMenu){
-    	//Imprimir opciones del submenu consecuente
-    	//Mostrar opcion para volver al menu anterior
-        //TODO
-    }
-
-    private void imprimirOpcionesMenuSecundarioJugador(Jugador pJugador){
-        //TODO
-    }
-
-    private int getSeleccionDelJugador(){
-        //TODO
     }
 
     public boolean tieneEsteId(int pId){
