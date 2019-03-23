@@ -1,53 +1,31 @@
 package juego.componentes.herramientas;
 
+import java.util.HashMap;
+
 public class ListaStat {
 
 	//atributos
-	private int fuerza;
-	private int defensa;
-	private int inteligencia;
-	private int destreza;
+	private HashMap<String,Integer> lStats;
 
 	//constructora
 	public ListaStat(int pFuerza, int pDefensa, int pInteligencia, int pDestreza){
-		this.fuerza=pFuerza;
-		this.defensa=pDefensa;
-		this.inteligencia=pInteligencia;
-		this.destreza=pDestreza;
+		lStats = new HashMap<>();
+		lStats.put("Fuerza",pFuerza);
+		lStats.put("Defensa",pDefensa);
+		lStats.put("Inteligencia",pInteligencia);
+		lStats.put("Destreza",pDestreza);
 	}
 	
 	//otros metodos
 	public void sumarStats(ListaStat pLStats){
-		this.fuerza += pLStats.fuerza;
-		this.defensa += pLStats.defensa;
-		this.inteligencia += pLStats.inteligencia;
-		this.destreza += pLStats.destreza;
+		//TODO
 	}
 
 	public void restarStats(ListaStat pLStats){
-		this.fuerza -= pLStats.fuerza;
-		this.defensa -= pLStats.defensa;
-		this.inteligencia -= pLStats.inteligencia;
-		this.destreza -= pLStats.destreza;
+		//TODO
 	}
 
-	public int getFuerza() {
-		return fuerza;
-	}
-
-	public int getDefensa() {
-		return defensa;
-	}
-
-	public int getInteligencia() {
-		return inteligencia;
-	}
-
-	public int getDestreza() {
-		return destreza;
-	}
-
-	public void imprimirStats(){
+	public int getValorStat(String pStat) {
 		//TODO
 	}
 }
