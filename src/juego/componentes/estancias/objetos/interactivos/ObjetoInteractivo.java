@@ -21,8 +21,7 @@ public abstract class ObjetoInteractivo {
     }
 
     //Otros metodos
-    public boolean acercarse (){
-        System.out.println(this.descripcion);
+    public boolean acercarse (Jugador pJugadorActual){
         //TODO
     }
 
