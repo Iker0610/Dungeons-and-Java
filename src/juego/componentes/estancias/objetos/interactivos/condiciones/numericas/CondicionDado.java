@@ -4,8 +4,8 @@ import juego.componentes.jugador.Jugador;
 
 public class CondicionDado extends CondicionNumerica {
     //Constructora
-    public CondicionDado(){
-        super();
+    public CondicionDado(int pValorMinimo){
+        super(pValorMinimo);
     }
 
     //Metodos

@@ -8,7 +8,7 @@ public abstract class CondicionString extends Condicion {
     protected String valorNecesario;
 
     //Constructora
-    protected CondicionString(){
+    protected CondicionString(String pValorNecesario){
         super();
     }
 }

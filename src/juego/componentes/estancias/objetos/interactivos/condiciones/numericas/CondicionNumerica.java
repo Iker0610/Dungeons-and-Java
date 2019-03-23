@@ -4,9 +4,9 @@ import juego.componentes.estancias.objetos.interactivos.condiciones.Condicion;
 
 public abstract class CondicionNumerica extends Condicion {
     //Atributos
-    protected int valorMinimoDado;
+    protected int valorMinimo;
     //Constructora
-    protected CondicionNumerica(){
+    protected CondicionNumerica(int pValorMinimo){
         super();
     }
 }

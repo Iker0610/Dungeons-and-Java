@@ -5,8 +5,8 @@ import juego.componentes.jugador.Jugador;
 public class CondicionSexo extends CondicionString {
 
     //Constructora
-    public CondicionSexo(){
-        super();
+    public CondicionSexo(String pValorNecesario){
+        super(pValorNecesario);
     }
 
     //Metodos

@@ -5,8 +5,8 @@ import juego.componentes.jugador.Jugador;
 public class CondicionClase extends CondicionString {
 
     //Constructora
-    public CondicionClase(){
-        super();
+    public CondicionClase(String pValorNecesario){
+        super(pValorNecesario);
     }
 
     //Metodos
