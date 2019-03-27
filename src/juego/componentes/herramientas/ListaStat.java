@@ -28,4 +28,8 @@ public class ListaStat {
 	public int getValorStat(String pStat) {
 		//TODO
 	}
+
+	public void imprimirStats(){
+		//TODO
+	}
 }

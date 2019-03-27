@@ -4,8 +4,6 @@ import juego.componentes.estancias.objetos.recogibles.ObjetoClave;
 import juego.componentes.estancias.objetos.recogibles.ObjetoRecolectable;
 import juego.componentes.jugador.inventarios.Armadura;
 import juego.componentes.estancias.objetos.recogibles.PiezaArmadura;
-import juego.componentes.estancias.objetos.recogibles.Consumible;
-import juego.componentes.jugador.inventarios.ListaConsumibles;
 import juego.componentes.jugador.inventarios.ListaObjetosClaves;
 import juego.componentes.herramientas.ListaStat;
 
@@ -18,7 +16,6 @@ public class Jugador {
 	private String clase;
 	private ListaStat lstats;
 	private Armadura armadura;
-	private ListaConsumibles lConsumibles;
 	private ListaObjetosClaves lObjClave;
 
 	//constructora
@@ -28,7 +25,6 @@ public class Jugador {
 		this.raza = pRaza;
 		this.cargarStatsBase();
 		this.armadura = new Armadura();
-		lConsumibles = new ListaConsumibles();
 		lObjClave = new ListaObjetosClaves();
 
 	}
@@ -48,10 +44,7 @@ public class Jugador {
 
 	//Metodos relacionados con adquirir objetos recolectables
 	public void anadirObjetoRecojible (ObjetoRecolectable pObjeto){
-		if (pObjeto instanceof Consumible){
-			this.anadirConsumible((Consumible)pObjeto);
-		}
-		else if (pObjeto instanceof ObjetoClave){
+		if (pObjeto instanceof ObjetoClave){
 			this.anadirObjetoClave((ObjetoClave)pObjeto);
 		}
 		else if (pObjeto instanceof PiezaArmadura){
@@ -65,14 +58,10 @@ public class Jugador {
 		this.lstats.sumarStats(armadura.getArmorStats());
 	}
 
-	private void anadirConsumible (Consumible pConsumible){
-		this.lConsumibles.anadirConsumible(pConsumible);
-	}
-
 	private void anadirObjetoClave (ObjetoClave pObjClave){
 		this.lObjClave.anadirObjeto(pObjClave);
 	}
-	}
+
 
 	//Metodos de inventario
 	public boolean tieneObjClave (String pNombreObjClave){
@@ -103,10 +92,6 @@ public class Jugador {
 	}
 
 	private void imprimirDatosArmadura(){
-		//TODO
-	}
-
-	private void imprimirConsumibles(){
 		//TODO
 	}
 
