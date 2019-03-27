@@ -28,10 +28,6 @@ public class ListaCofres {
 	private void anadirCofre(Cofre pCofre){
 		//TODO
 	}
-	
-	public void eliminarCofre(Cofre pCofre){
-		//TODO
-	}
 
 	//Metodos para mostrar informacion
 	public boolean administrarMenuSecundario(Jugador pJugador){
