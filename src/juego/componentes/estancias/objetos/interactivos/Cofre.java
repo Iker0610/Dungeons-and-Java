@@ -15,14 +15,9 @@ public class Cofre extends ObjetoInteractivo {
     private boolean desbloqueado;
 
     //Constructora
-    public Cofre (String pNombre){
+    public Cofre (String pDir){
         super();
         this.lista = new ArrayList<>();
-    }
-
-    //Metodo de carga de datos
-    private void cargarDatos (String pDireccionFichero){
-        //TODO
     }
 
     //Metodos de interaccion

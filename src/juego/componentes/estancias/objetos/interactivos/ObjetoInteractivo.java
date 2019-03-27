@@ -16,7 +16,7 @@ public abstract class ObjetoInteractivo {
     }
 
     //Metodo de carga de datos
-    private void cargarDatos (String pDireccionFichero){
+    protected void cargarDatos (String pNombre, String pDescripcion, String pDirCondiciones){
         //TODO
     }
 

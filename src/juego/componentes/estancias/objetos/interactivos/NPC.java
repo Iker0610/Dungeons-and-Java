@@ -12,13 +12,8 @@ public class NPC extends ObjetoInteractivo {
     private boolean primerEncuentro;
 
     //Constructora
-    public NPC(String pNombre){
+    public NPC(String pDir){
         super();
-    }
-
-    //Metodo de carga de datos
-    private void cargarDatos (String pDireccionFichero){
-        //TODO
     }
 
     //Otros metodos

@@ -26,11 +26,7 @@ public class ListaCondiciones {
         return this.lista.iterator();
     }
 
-    private void anadirCondicion(Condicion pCondicion){
-        //TODO
-    }
-
-    private void cargarDatos(){
+    public void anadirCondicion(Condicion pCondicion){
         //TODO
     }
 }

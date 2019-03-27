@@ -14,16 +14,17 @@ public class JefeFinal extends ObjetoInteractivo{
     private String fraseVictoria;
 
     //Constructora
-    public JefeFinal (){
+    public JefeFinal (String pDir){
         //TODO
     }
 
-    //Metodos de comunicacion
+    //Metodos de interaccion
+    @Override
+    protected void interactuar(Jugador pJugador) {
+        //TODO
+    }
+
     private void darBienvenida(){
-        //TODO
-    }
-
-    private void imprimirFraseDerrota(){
         //TODO
     }
 
@@ -31,8 +32,7 @@ public class JefeFinal extends ObjetoInteractivo{
         //TODO
     }
 
-    @Override
-    protected void interactuar(Jugador pJugador) {
+    private void imprimirFraseDerrota(){
         //TODO
     }
 

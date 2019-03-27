@@ -9,20 +9,14 @@ public class Puerta extends ObjetoInteractivo {
     private boolean desbloqueada;
 
     //Constructora
-    public Puerta (String pNombre, String pIdEstancia){
+    public Puerta (String pDir){
         super();
-        this.idEstancia = pIdEstancia;
-        this.desbloqueada = false;
-    }
-
-    //Metodo de carga de datos
-    private void cargarDatos (String pDireccionFichero){
         //TODO
     }
 
     //Otros metodos
     protected void interactuar(Jugador pJugador) {
-
+        //TODO
     }
 
     private void cambiarEstancia(){
