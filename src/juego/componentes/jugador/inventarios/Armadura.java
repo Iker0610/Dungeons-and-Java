@@ -12,16 +12,11 @@ public class Armadura {
 	private PiezaArmadura arma;
 
 	//Constructora
-	public Armadura(){
-		this.casco=null;
+	public Armadura() {
+		this.casco = null;
 		this.pechera = null;
 		this.pantalones = null;
 		this.arma = null;
-	}
-
-	//Cargar datos
-	private void cargarDatos(){
-		//TODO
 	}
 
 	//Otros Metodos

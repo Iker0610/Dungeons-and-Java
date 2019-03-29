@@ -12,11 +12,6 @@ public abstract class ObjetoRecolectable {
         //TODO
     }
 
-    //Metodo cargar datos
-    private void cargarDatos(){
-        //TODO
-    }
-
     //Otros metodos
     public void mostrarInfo(){
         System.out.println(this.nombre);

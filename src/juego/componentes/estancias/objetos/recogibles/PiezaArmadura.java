@@ -15,11 +15,6 @@ public class PiezaArmadura extends ObjetoRecolectable {
 		this.lista = new ListaStat(pFuerza,pDefensa,pInteligencia,pDestreza);
 	}
 
-	//Metodo cargar datos
-	private void cargarDatos(){
-		//TODO
-	}
-
 	//otros metodos
 
 	public boolean esDeEsteTipo(String pTipo) {
