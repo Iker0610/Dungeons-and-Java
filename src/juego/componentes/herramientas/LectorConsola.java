@@ -25,4 +25,8 @@ public class LectorConsola {
     public String leerString(){
         //TODO
     }
+
+    public boolean leerBoolean(){
+        //TODO
+    }
 }
