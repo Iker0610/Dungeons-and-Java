@@ -18,7 +18,7 @@ public class LectorConsola {
         return lectorConsola;
     }
     //Otros metodos
-    public int leerInt(){
+    public int leerOpcion(int pValorMin, int pValorMax){
         //TODO
     }
 
