@@ -32,7 +32,11 @@ public abstract class ObjetoInteractivo {
     }
     
     private void mostrarInfo(){
-    	
+    	//TODO
+    }
+
+    protected void anadirEstadoNombre(String pEstado){
+        //TODO
     }
 
     public void imprimirNombre(){
