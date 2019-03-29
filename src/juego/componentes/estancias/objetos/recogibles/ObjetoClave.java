@@ -4,8 +4,7 @@ public class ObjetoClave extends ObjetoRecolectable {
     //Atributos
 	
     //Constructor
-    public ObjetoClave (){
-        super();
-        //TODO
+    public ObjetoClave (String pNombre, String pDescripcion){
+        super(pNombre, pDescripcion);
     }
 }

@@ -9,14 +9,10 @@ public class PiezaArmadura extends ObjetoRecolectable {
 	private ListaStat lista;
 
 	//constructora
-	public PiezaArmadura(){
-		super();
-		//TODO
-	}
-	public PiezaArmadura(String pTipo, String pNombre, int pVida, int pFuerza, int pDefensa, int pInteligencia, int pDestreza){
-		super();
+	public PiezaArmadura(String pNombre, String pDescripcion, String pTipo, int pFuerza, int pDefensa, int pInteligencia, int pDestreza){
+		super(pNombre, pDescripcion);
 		this.tipo = pTipo;
-		this.lista = new ListaStat(pVida, pFuerza,pDefensa,pInteligencia,pDestreza);
+		this.lista = new ListaStat(pFuerza,pDefensa,pInteligencia,pDestreza);
 	}
 
 	//Metodo cargar datos

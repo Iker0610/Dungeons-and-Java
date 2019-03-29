@@ -8,7 +8,7 @@ public abstract class ObjetoRecolectable {
     private String descripcion;
 
     //Constructora
-    protected ObjetoRecolectable(){
+    protected ObjetoRecolectable(String pNombre, String pDescripcion){
         //TODO
     }
 

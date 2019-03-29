@@ -21,7 +21,7 @@ public class Estancia {
     }
 
     //Metodo de carga de datos
-    private void cargarDatos (String pDireccionFichero){
+    private void cargarDatos (String pDir){
         //TODO
     }
 

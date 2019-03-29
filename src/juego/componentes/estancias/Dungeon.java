@@ -15,11 +15,6 @@ public class Dungeon {
         //TODO
     }
 
-    //Metodo de carga de datos
-    private void cargarDatos (String pDireccionFichero){
-        //TODO
-    }
-
     //Patron singleton
     public static Dungeon getDungeon() {
         if (dungeon==null){
