@@ -87,20 +87,15 @@ public class Jugador {
 		//TODO
 	}
 
+	public boolean estaVivo(){
+		return this.vivo;
+	}
 	public void morirse(){
 		this.vivo=false;
 	}
 
 	//Metodos para imprimir la información de los inventarios
 	public void imprimirInformacionJugador(){
-		//TODO
-	}
-
-	private void imprimirDatosArmadura(){
-		//TODO
-	}
-
-	private void imprimirObjClave(){
 		//TODO
 	}
 }

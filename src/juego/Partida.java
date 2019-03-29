@@ -48,7 +48,7 @@ public class Partida {
         //TODO
     }
 
-    private Jugador getSiguienteJugador(){
+    private void getSiguienteJugador(){
         //TODO
     }
 
@@ -60,5 +60,4 @@ public class Partida {
     private void comenzarTurno(){
     	//TODO
     }
-    
 }
