@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="351fff89-8730-49e9-afdd-cfc308ef8509" name="Default Changelist" comment="Update">
       <change beforePath="$PROJECT_DIR$/src/juego/ClassDiagram.cld" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/ClassDiagram.cld" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/ListaCofres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/ListaCofres.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/ListaNPCs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/ListaNPCs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/ListaPuertas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/ListaPuertas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/JefeFinal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/JefeFinal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/ObjetoInteractivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/ObjetoInteractivo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +16,7 @@
         <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/ObjetoInteractivo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
-              <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+              <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#ObjetoInteractivo#0;class#ObjetoInteractivo#0" />
@@ -35,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/JefeFinal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="716">
+              <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="410">
-              <caret line="58" column="29" lean-forward="true" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+              <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#numJugadoresVivos#0;class#ListaJugadores#0" />
@@ -319,7 +313,7 @@
       <workItem from="1553685357915" duration="21000" />
       <workItem from="1553685447247" duration="5292000" />
       <workItem from="1553857781256" duration="4653000" />
-      <workItem from="1553874236711" duration="5830000" />
+      <workItem from="1553874236711" duration="6531000" />
     </task>
     <task id="LOCAL-00029" summary="Update">
       <created>1552342670919</created>
@@ -668,7 +662,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142588000" />
+    <option name="totallyTimeSpent" value="143289000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -681,7 +675,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Learn" order="0" />
       <window_info id="Image Layers" order="1" />
@@ -1062,7 +1055,7 @@
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
-          <caret line="58" column="29" lean-forward="true" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+          <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#numJugadoresVivos#0;class#ListaJugadores#0" />
@@ -1073,7 +1066,7 @@
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/ObjetoInteractivo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+          <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#ObjetoInteractivo#0;class#ObjetoInteractivo#0" />
@@ -1084,8 +1077,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/JefeFinal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="716">
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
