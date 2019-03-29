@@ -21,7 +21,23 @@ public class Cofre extends ObjetoInteractivo {
     }
 
     //Metodos de interaccion
+    public void anadirObjeto (ObjetoRecolectable pObjeto){
+        this.lista.add(pObjeto);
+    }
+
+    private Iterator<ObjetoRecolectable> getIterator(){
+        return this.lista.iterator();
+    }
+
+    private int numObj(){
+        //TODO
+    }
+
     protected void interactuar(Jugador pJugador) {
+
+    }
+
+    private void desbloquear(){
 
     }
 
@@ -30,29 +46,11 @@ public class Cofre extends ObjetoInteractivo {
     }
 
     //Metodos relacionados con al arraylist
-    public void anadirObjeto (ObjetoRecolectable pObjeto){
-        this.lista.add(pObjeto);
-    }
-
     private void retirarObjeto(ObjetoRecolectable pObjeto){
 
     }
 
-    private Iterator<ObjetoRecolectable> getIterator(){
-        return this.lista.iterator();
-    }
-
     private void imprimirContenido(){
     	//TODO
-    }
-    private void desbloquear(){
-
-    }
-    private int getSeleccionDelJugador(){
-        //TODO
-    }
-
-    private ObjetoRecolectable obtenerObjetoPorPosicion(int pPos){
-        //TODO
     }
 }
