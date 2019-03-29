@@ -17,6 +17,7 @@ public class Jugador {
 	private ListaStat lstats;
 	private Armadura armadura;
 	private ListaObjetosClaves lObjClave;
+	private boolean vivo;
 
 	//constructora
 	public Jugador(String pNombre, String pSexo, String pRaza){
@@ -59,7 +60,7 @@ public class Jugador {
 	}
 
 	private void anadirObjetoClave (ObjetoClave pObjClave){
-		this.lObjClave.anadirObjeto(pObjClave);
+		this.lObjClave.anadirObjClave(pObjClave);
 	}
 
 
@@ -84,6 +85,10 @@ public class Jugador {
 
 	public int getStat(String pStat){
 		//TODO
+	}
+
+	public void morirse(){
+		this.vivo=false;
 	}
 
 	//Metodos para imprimir la información de los inventarios
