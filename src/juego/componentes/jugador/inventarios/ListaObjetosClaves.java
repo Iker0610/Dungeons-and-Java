@@ -18,7 +18,7 @@ public class ListaObjetosClaves {
         return this.lista.iterator();
     }
 
-    public void anadirObjeto (ObjetoClave pObjeto){
+    public void anadirObjClave (ObjetoClave pObjeto){
         this.lista.add(pObjeto);
     }
 
