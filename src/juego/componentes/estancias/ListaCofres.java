@@ -41,9 +41,4 @@ public class ListaCofres {
 	private boolean acercarseACofre(int posCofre){
 		//TODO
 	}
-
-	private Cofre obtenerCofrePorPosicion(int pPos){
-		//TODO
-	}
-	
 }

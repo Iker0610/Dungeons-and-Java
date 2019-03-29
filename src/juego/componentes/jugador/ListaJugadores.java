@@ -8,6 +8,8 @@ public class ListaJugadores {
     //Atributos
     private static ListaJugadores listaJugadores;
     private ArrayList<Jugador> lista;
+    private int posJugadorAct;
+    private int numJugadoresVivos;
 
     //Constructora
     private ListaJugadores(){
@@ -41,13 +43,29 @@ public class ListaJugadores {
         return this.lista.iterator();
     }
 
-    private int numJugadores(){
+    private int numJugadoresTotal(){
         return this.lista.size();
     }
 
-    //Metodos de control
-    public Jugador getSiguienteJugador(Jugador pJugadorActual){
+    private int numJugadoresVivos(){
         //TODO
+    }
+
+    //Metodos de control
+    public Jugador getSiguienteJugador(){
+        int posAct = posJugadorAct;
+        if (this.numJugadoresVivos != 1){
+            boolean encVivo = false;
+            while (!encVivo){
+                if (posAct==(this.numJugadoresTotal()-1)){
+                    posAct=0;
+                }
+                else { posAct++; }
+
+                encVivo=this.lista.get(posAct).estaVivo();
+            }
+        }
+        return this.lista.get(posAct);
     }
 
     public void eliminarJugador (Jugador pJugador){

@@ -36,7 +36,7 @@ public class JefeFinal extends ObjetoInteractivo{
         //TODO
     }
 
-    private void lanzarDadosFin(){
+    private boolean pruebaFinal(){
         //TODO
     }
 

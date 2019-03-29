@@ -41,10 +41,4 @@ public class ListaNPCs {
 	private boolean acercarseANPC(int posNPC){
 		//TODO
 	}
-
-	private NPC obtenerNPCPorPosicion(int pPos){
-		//TODO
-	}
-
-	
 }

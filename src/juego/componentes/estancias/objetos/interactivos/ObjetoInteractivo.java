@@ -27,7 +27,7 @@ public abstract class ObjetoInteractivo {
 
     protected abstract void interactuar (Jugador pJugador);
 
-    protected boolean comprobarCondicion(Jugador pJugador){
+    protected boolean comprobarCondiciones(Jugador pJugador){
         return this.lCondiciones.cumpleLasCondiciones(pJugador);
     }
     
