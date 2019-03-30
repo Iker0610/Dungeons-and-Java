@@ -44,7 +44,7 @@ public class Jugador {
 	}
 
 	//Metodos relacionados con adquirir objetos recolectables
-	public void anadirObjetoRecojible (ObjetoRecolectable pObjeto){
+	public void anadirObjetoRecolectable (ObjetoRecolectable pObjeto){
 		if (pObjeto instanceof ObjetoClave){
 			this.anadirObjetoClave((ObjetoClave)pObjeto);
 		}

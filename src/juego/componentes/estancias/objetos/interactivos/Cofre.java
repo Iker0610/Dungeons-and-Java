@@ -46,7 +46,7 @@ public class Cofre extends ObjetoInteractivo {
     }
 
     //Metodos relacionados con al arraylist
-    private void retirarObjeto(ObjetoRecolectable pObjeto){
+    private void eliminarObjeto(ObjetoRecolectable pObjeto){
 
     }
 
