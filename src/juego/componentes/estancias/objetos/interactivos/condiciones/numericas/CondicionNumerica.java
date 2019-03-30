@@ -9,4 +9,8 @@ public abstract class CondicionNumerica extends Condicion {
     protected CondicionNumerica(int pValorMinimo){
         super();
     }
+
+    protected int calcularValorFinal(int pValorNum){
+        //TODO
+    }
 }

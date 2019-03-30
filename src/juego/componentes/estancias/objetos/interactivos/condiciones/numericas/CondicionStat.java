@@ -16,4 +16,9 @@ public class CondicionStat extends CondicionNumerica {
     public boolean cumpleLaCondicion(Jugador pJugador){
         //TODO
     }
+
+    @Override
+    protected int calcularValorFinal(int pValorNum) {
+        //TODO
+    }
 }

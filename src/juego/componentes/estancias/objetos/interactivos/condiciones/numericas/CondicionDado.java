@@ -13,7 +13,8 @@ public class CondicionDado extends CondicionNumerica {
         //TODO
     }
 
-    private int calcularNumDado(Jugador pJugador){
+    @Override
+    protected int calcularValorFinal(int pValorNum) {
         //TODO
     }
 }
