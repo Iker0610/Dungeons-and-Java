@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="351fff89-8730-49e9-afdd-cfc308ef8509" name="Default Changelist" comment="Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/ClassDiagram.cld" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/ClassDiagram.cld" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/numericas/CondicionDado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/numericas/CondicionDado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/numericas/CondicionNumerica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/numericas/CondicionNumerica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/numericas/CondicionStat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/numericas/CondicionStat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,35 +13,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/numericas/CondicionNumerica.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/numericas/CondicionDado.java">
+        <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+            <state relative-caret-position="750">
+              <caret line="79" selection-start-line="79" selection-end-line="79" />
               <folding>
-                <element signature="e#240#241#0" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/numericas/CondicionStat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-              <folding>
-                <element signature="method#CondicionStat#0;class#CondicionStat#0" />
+                <element signature="imports" expanded="true" />
+                <element signature="method#numJugadoresVivos#0;class#ListaJugadores#0" />
               </folding>
             </state>
           </provider>
@@ -107,7 +83,6 @@
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/ListaCofres.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/ListaNPCs.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/ListaPuertas.java" />
-        <option value="$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/ObjetoInteractivo.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/JefeFinal.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/Cofre.java" />
@@ -118,6 +93,7 @@
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/numericas/CondicionNumerica.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/numericas/CondicionDado.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/numericas/CondicionStat.java" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java" />
       </list>
     </option>
   </component>
@@ -132,87 +108,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="juego" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="juego" type="462c0819:PsiDirectoryNode" />
-              <item name="componentes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="juego" type="462c0819:PsiDirectoryNode" />
-              <item name="componentes" type="462c0819:PsiDirectoryNode" />
-              <item name="estancias" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="juego" type="462c0819:PsiDirectoryNode" />
-              <item name="componentes" type="462c0819:PsiDirectoryNode" />
-              <item name="estancias" type="462c0819:PsiDirectoryNode" />
-              <item name="objetos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="juego" type="462c0819:PsiDirectoryNode" />
-              <item name="componentes" type="462c0819:PsiDirectoryNode" />
-              <item name="estancias" type="462c0819:PsiDirectoryNode" />
-              <item name="objetos" type="462c0819:PsiDirectoryNode" />
-              <item name="interactivos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="juego" type="462c0819:PsiDirectoryNode" />
-              <item name="componentes" type="462c0819:PsiDirectoryNode" />
-              <item name="estancias" type="462c0819:PsiDirectoryNode" />
-              <item name="objetos" type="462c0819:PsiDirectoryNode" />
-              <item name="interactivos" type="462c0819:PsiDirectoryNode" />
-              <item name="condiciones" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="juego" type="462c0819:PsiDirectoryNode" />
-              <item name="componentes" type="462c0819:PsiDirectoryNode" />
-              <item name="estancias" type="462c0819:PsiDirectoryNode" />
-              <item name="objetos" type="462c0819:PsiDirectoryNode" />
-              <item name="interactivos" type="462c0819:PsiDirectoryNode" />
-              <item name="condiciones" type="462c0819:PsiDirectoryNode" />
-              <item name="numericas" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,6 +119,9 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553949843147" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -297,7 +198,8 @@
       <workItem from="1553949559820" duration="294000" />
       <workItem from="1553950029896" duration="12000" />
       <workItem from="1553975575988" duration="436000" />
-      <workItem from="1553977234430" duration="496000" />
+      <workItem from="1553977234430" duration="1924000" />
+      <workItem from="1554022650241" duration="18000" />
     </task>
     <task id="LOCAL-00030" summary="Update">
       <created>1552343023898</created>
@@ -646,7 +548,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146816000" />
+    <option name="totallyTimeSpent" value="148262000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -659,14 +561,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Learn" order="0" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.15511727" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.15671642" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.49946696" />
@@ -980,17 +881,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#numJugadoresVivos#0;class#ListaJugadores#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/Cofre.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -1059,11 +949,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/numericas/CondicionDado.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#240#241#0" expanded="true" />
             <element signature="e#275#276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#numJugadoresVivos#0;class#ListaJugadores#0" />
           </folding>
         </state>
       </provider>

@@ -53,7 +53,7 @@ public class ListaJugadores {
 
     //Metodos de control
     public Jugador getSiguienteJugador(){
-        int posAct = posJugadorAct;
+        int posAct = this.posJugadorAct;
         if (this.numJugadoresVivos != 1){
             boolean encVivo = false;
             while (!encVivo){
@@ -65,6 +65,7 @@ public class ListaJugadores {
                 encVivo=this.lista.get(posAct).estaVivo();
             }
         }
+        this.posJugadorAct = posAct;
         return this.lista.get(posAct);
     }
 
