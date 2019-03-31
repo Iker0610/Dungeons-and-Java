@@ -34,11 +34,7 @@ public class Jugador {
 	private  void crearArmaduraBasica (){
 		//TODO
 	}
-	private  void cargarStatsClase (){
-		//TODO
-	}
-
-	//Metodos comunes a todas las clases
+	
 	private void cargarStatsBase (){
 		//TODO
 	}

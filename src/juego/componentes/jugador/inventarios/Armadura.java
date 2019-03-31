@@ -64,18 +64,18 @@ public class Armadura {
 		//TODO
 	}
 	public ListaStat getArmorStats(){
-		ListaStat armorStats = new ListaStat(0,0,0,0,0);
+		ListaStat armorStats = new ListaStat(0,0,0,0);
 		if (this.casco!= null){
-			armorStats.sumarStats(this.casco.getStats());
+			armorStats = this.casco.anadirStatsPieza(armorStats);
 		}
 		if (this.pechera!= null){
-			armorStats.sumarStats(this.pechera.getStats());
+			armorStats = this.pechera.anadirStatsPieza(armorStats);
 		}
 		if (this.pantalones!= null){
-			armorStats.sumarStats(this.pantalones.getStats());
+			armorStats = this.pantalones.anadirStatsPieza(armorStats);
 		}
 		if (this.arma!= null){
-			armorStats.sumarStats(this.arma.getStats());
+			armorStats = this.arma.anadirStatsPieza(armorStats);
 		}
 		return armorStats;
 	}
