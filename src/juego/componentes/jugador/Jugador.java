@@ -14,7 +14,7 @@ public class Jugador {
 	private String sexo;
 	private String raza;
 	private String clase;
-	private ListaStat lstats;
+	private ListaStat lStats;
 	private Armadura armadura;
 	private ListaObjetosClaves lObjClave;
 	private boolean vivo;
@@ -54,9 +54,9 @@ public class Jugador {
 	}
 
 	private void actualizarArmadura (PiezaArmadura pPieza){
-		this.lstats.restarStats(armadura.getArmorStats());
+		this.lStats.restarStats(armadura.getArmorStats());
 		this.armadura.cambiarEquipamiento(pPieza);
-		this.lstats.sumarStats(armadura.getArmorStats());
+		this.lStats.sumarStats(armadura.getArmorStats());
 	}
 
 	private void anadirObjetoClave (ObjetoClave pObjClave){

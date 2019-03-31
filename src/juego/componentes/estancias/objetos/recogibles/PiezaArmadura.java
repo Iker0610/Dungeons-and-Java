@@ -17,12 +17,13 @@ public class PiezaArmadura extends ObjetoRecolectable {
 
 	//otros metodos
 
-	public boolean esDeEsteTipo(String pTipo) {
-		return (this.tipo==pTipo);
+	public String getTipo() {
+		return (this.tipo);
 	}
 
-	public ListaStat getStats(){
-		return this.lista;
+	public ListaStat anadirStatsPieza(ListaStat pLStats){
+		pLStats.sumarStats(this.lista);
+		return pLStats;
 	}
 	
 	@Override

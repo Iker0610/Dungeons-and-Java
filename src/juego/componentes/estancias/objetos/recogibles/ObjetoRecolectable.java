@@ -17,4 +17,8 @@ public abstract class ObjetoRecolectable {
         System.out.println(this.nombre);
         //TODO
     }
+    
+    public boolean tieneEsteNombre(String pNombre){
+        //TODO
+    }
 }
