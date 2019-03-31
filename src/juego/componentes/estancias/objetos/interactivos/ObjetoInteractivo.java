@@ -35,7 +35,7 @@ public abstract class ObjetoInteractivo {
     	//TODO
     }
 
-    protected void anadirEstadoNombre(String pEstado){
+    protected void desbloquear(){
         //TODO
     }
 
