@@ -1,6 +1,7 @@
 package juego.componentes.estancias.objetos.interactivos;
 
 import juego.componentes.estancias.objetos.recogibles.ObjetoRecolectable;
+import juego.componentes.herramientas.LectorConsola;
 import juego.componentes.jugador.Jugador;
 
 import java.util.ArrayList;
@@ -25,7 +26,7 @@ public class Cofre extends ObjetoInteractivo {
         this.lista.add(pObjeto);
     }
 
-    private Iterator<ObjetoRecolectable> getIterator(){
+    private Iterator<ObjetoRecolectable> getIterador(){
         return this.lista.iterator();
     }
 
@@ -34,17 +35,19 @@ public class Cofre extends ObjetoInteractivo {
     }
 
     protected void interactuar(Jugador pJugador) {
-
+    	this.imprimirContenido();
+    	int pos=LectorConsola.getLectorConsola().leerOpcion(1, this.numObj());
+    	this.darObjetoAPersonaje(pJugador, pos);
     }
     
-    private void desbloquear(){
-    	this.desbloqueado=true;
+    protected void desbloquear(){
+    	super.desbloquear();
     }
 
     
-    //Annade el objeto en la posición especificada si existe, y sino no (no peto)
+    //Annade el objeto en la posición especificada si existe, y sino no (no peta)
     private void darObjetoAPersonaje(Jugador pJugador, int pPosObjeto){
-    	Iterator<ObjetoRecolectable> itr=this.getIterator();
+    	Iterator<ObjetoRecolectable> itr=this.getIterador();
     	boolean found=false;
     	int i=0;
     	ObjetoRecolectable objetoActual=null;
@@ -53,17 +56,29 @@ public class Cofre extends ObjetoInteractivo {
     		i=i+1;
     		found=(pPosObjeto==i);
     	}
-    	if (objetoActual!=null){
+    	if (found){
     		pJugador.anadirObjetoRecolectable(objetoActual);
+    		this.eliminarObjeto(objetoActual);
     	}
     }
 
     //Metodos relacionados con al arraylist
     private void eliminarObjeto(ObjetoRecolectable pObjeto){
-
+    	this.lista.remove(pObjeto);
     }
 
     private void imprimirContenido(){
-    	//TODO
+    	System.out.println("Contenido del cofre:");
+    	Iterator<ObjetoRecolectable> itr=this.getIterador();
+    	ObjetoRecolectable objetoActual=null;
+    	int i=0;
+    	while (itr.hasNext()){
+    		i++;
+    		objetoActual=itr.next();
+    		System.out.print(i);
+    		System.out.print("- ");
+    		System.out.println(objetoActual);
+    	}
+    	System.out.println("");
     }
 }
