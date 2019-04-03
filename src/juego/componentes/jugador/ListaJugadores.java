@@ -71,7 +71,6 @@ public class ListaJugadores {
 
     public void eliminarJugador (Jugador pJugador){
         //TODO
-        //Hola mundo
     }
 
     private void gameOver(){
