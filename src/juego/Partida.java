@@ -19,7 +19,7 @@ public class Partida {
     }
 
     //Patron singleston
-    public Partida getPartida(){
+    public static Partida getPartida(){
         if (partida==null){
             partida = new Partida();
         }
