@@ -16,7 +16,12 @@ public class Puerta extends ObjetoInteractivo {
 
     //Otros metodos
     protected void interactuar(Jugador pJugador) {
-        //TODO
+        if (this.comprobarCondiciones(pJugador)){
+        	this.desbloquear();
+        	this.cambiarEstancia();
+        }
+        
+        
     }
 
     private void cambiarEstancia(){
