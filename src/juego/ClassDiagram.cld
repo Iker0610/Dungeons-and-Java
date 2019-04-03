@@ -11539,16 +11539,8 @@
                                                             </java.beans.PropertyChangeSupport>
                                                           </listeners>
                                                           <source class="net.java.amateras.uml.classdiagram.model.ClassModel">
-                                                            <backgroundColor>
-                                                              <red>255</red>
-                                                              <green>255</green>
-                                                              <blue>206</blue>
-                                                            </backgroundColor>
-                                                            <foregroundColor>
-                                                              <red>0</red>
-                                                              <green>0</green>
-                                                              <blue>0</blue>
-                                                            </foregroundColor>
+                                                            <backgroundColor reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../backgroundColor"/>
+                                                            <foregroundColor reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../foregroundColor"/>
                                                             <showIcon>true</showIcon>
                                                             <parent class="net.java.amateras.uml.model.RootModel" reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../.."/>
                                                             <listeners serialization="custom">
@@ -11567,7 +11559,6 @@
                                                               <y>1403</y>
                                                             </constraint>
                                                             <sourceConnections>
-                                                              <net.java.amateras.uml.classdiagram.model.CompositeModel reference="../../.."/>
                                                               <net.java.amateras.uml.classdiagram.model.GeneralizationModel>
                                                                 <showIcon>true</showIcon>
                                                                 <listeners serialization="custom">
@@ -11583,12 +11574,13 @@
                                                                 <target class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../../../../../../../../../../../../../.."/>
                                                                 <bendpoints/>
                                                               </net.java.amateras.uml.classdiagram.model.GeneralizationModel>
+                                                              <net.java.amateras.uml.classdiagram.model.CompositeModel reference="../../.."/>
                                                             </sourceConnections>
                                                             <targetConnections/>
                                                             <children>
                                                               <net.java.amateras.uml.classdiagram.model.AttributeModel>
-                                                                <backgroundColor reference="../../../backgroundColor"/>
-                                                                <foregroundColor reference="../../../foregroundColor"/>
+                                                                <backgroundColor reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../backgroundColor"/>
+                                                                <foregroundColor reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../foregroundColor"/>
                                                                 <showIcon>true</showIcon>
                                                                 <parent class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
                                                                 <listeners serialization="custom">
@@ -11608,8 +11600,8 @@
                                                                 <isEnumCst>false</isEnumCst>
                                                               </net.java.amateras.uml.classdiagram.model.AttributeModel>
                                                               <net.java.amateras.uml.classdiagram.model.AttributeModel>
-                                                                <backgroundColor reference="../../../backgroundColor"/>
-                                                                <foregroundColor reference="../../../foregroundColor"/>
+                                                                <backgroundColor reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../backgroundColor"/>
+                                                                <foregroundColor reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../foregroundColor"/>
                                                                 <showIcon>true</showIcon>
                                                                 <parent class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
                                                                 <listeners serialization="custom">
@@ -11629,8 +11621,8 @@
                                                                 <isEnumCst>false</isEnumCst>
                                                               </net.java.amateras.uml.classdiagram.model.AttributeModel>
                                                               <net.java.amateras.uml.classdiagram.model.AttributeModel>
-                                                                <backgroundColor reference="../../../backgroundColor"/>
-                                                                <foregroundColor reference="../../../foregroundColor"/>
+                                                                <backgroundColor reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../backgroundColor"/>
+                                                                <foregroundColor reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../foregroundColor"/>
                                                                 <showIcon>true</showIcon>
                                                                 <parent class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
                                                                 <listeners serialization="custom">
@@ -11650,8 +11642,8 @@
                                                                 <isEnumCst>false</isEnumCst>
                                                               </net.java.amateras.uml.classdiagram.model.AttributeModel>
                                                               <net.java.amateras.uml.classdiagram.model.AttributeModel>
-                                                                <backgroundColor reference="../../../backgroundColor"/>
-                                                                <foregroundColor reference="../../../foregroundColor"/>
+                                                                <backgroundColor reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../backgroundColor"/>
+                                                                <foregroundColor reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../foregroundColor"/>
                                                                 <showIcon>true</showIcon>
                                                                 <parent class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
                                                                 <listeners serialization="custom">
@@ -11671,8 +11663,8 @@
                                                                 <isEnumCst>false</isEnumCst>
                                                               </net.java.amateras.uml.classdiagram.model.AttributeModel>
                                                               <net.java.amateras.uml.classdiagram.model.AttributeModel>
-                                                                <backgroundColor reference="../../../backgroundColor"/>
-                                                                <foregroundColor reference="../../../foregroundColor"/>
+                                                                <backgroundColor reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../backgroundColor"/>
+                                                                <foregroundColor reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../foregroundColor"/>
                                                                 <showIcon>true</showIcon>
                                                                 <parent class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
                                                                 <listeners serialization="custom">
@@ -11692,8 +11684,8 @@
                                                                 <isEnumCst>false</isEnumCst>
                                                               </net.java.amateras.uml.classdiagram.model.AttributeModel>
                                                               <net.java.amateras.uml.classdiagram.model.AttributeModel>
-                                                                <backgroundColor reference="../../../backgroundColor"/>
-                                                                <foregroundColor reference="../../../foregroundColor"/>
+                                                                <backgroundColor reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../backgroundColor"/>
+                                                                <foregroundColor reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../foregroundColor"/>
                                                                 <showIcon>true</showIcon>
                                                                 <parent class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
                                                                 <listeners serialization="custom">
@@ -11713,8 +11705,8 @@
                                                                 <isEnumCst>false</isEnumCst>
                                                               </net.java.amateras.uml.classdiagram.model.AttributeModel>
                                                               <net.java.amateras.uml.classdiagram.model.OperationModel>
-                                                                <backgroundColor reference="../../../backgroundColor"/>
-                                                                <foregroundColor reference="../../../foregroundColor"/>
+                                                                <backgroundColor reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../backgroundColor"/>
+                                                                <foregroundColor reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../foregroundColor"/>
                                                                 <showIcon>true</showIcon>
                                                                 <parent class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
                                                                 <listeners serialization="custom">
@@ -11740,8 +11732,8 @@
                                                                 <isFinal>false</isFinal>
                                                               </net.java.amateras.uml.classdiagram.model.OperationModel>
                                                               <net.java.amateras.uml.classdiagram.model.OperationModel>
-                                                                <backgroundColor reference="../../../backgroundColor"/>
-                                                                <foregroundColor reference="../../../foregroundColor"/>
+                                                                <backgroundColor reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../backgroundColor"/>
+                                                                <foregroundColor reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../foregroundColor"/>
                                                                 <showIcon>true</showIcon>
                                                                 <parent class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
                                                                 <listeners serialization="custom">
@@ -11767,8 +11759,8 @@
                                                                 <isFinal>false</isFinal>
                                                               </net.java.amateras.uml.classdiagram.model.OperationModel>
                                                               <net.java.amateras.uml.classdiagram.model.OperationModel>
-                                                                <backgroundColor reference="../../../backgroundColor"/>
-                                                                <foregroundColor reference="../../../foregroundColor"/>
+                                                                <backgroundColor reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../backgroundColor"/>
+                                                                <foregroundColor reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../foregroundColor"/>
                                                                 <showIcon>true</showIcon>
                                                                 <parent class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
                                                                 <listeners serialization="custom">
@@ -11789,8 +11781,8 @@
                                                                 <isFinal>false</isFinal>
                                                               </net.java.amateras.uml.classdiagram.model.OperationModel>
                                                               <net.java.amateras.uml.classdiagram.model.OperationModel>
-                                                                <backgroundColor reference="../../../backgroundColor"/>
-                                                                <foregroundColor reference="../../../foregroundColor"/>
+                                                                <backgroundColor reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../backgroundColor"/>
+                                                                <foregroundColor reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../foregroundColor"/>
                                                                 <showIcon>true</showIcon>
                                                                 <parent class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
                                                                 <listeners serialization="custom">
@@ -11811,8 +11803,8 @@
                                                                 <isFinal>false</isFinal>
                                                               </net.java.amateras.uml.classdiagram.model.OperationModel>
                                                               <net.java.amateras.uml.classdiagram.model.OperationModel>
-                                                                <backgroundColor reference="../../../backgroundColor"/>
-                                                                <foregroundColor reference="../../../foregroundColor"/>
+                                                                <backgroundColor reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../backgroundColor"/>
+                                                                <foregroundColor reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../foregroundColor"/>
                                                                 <showIcon>true</showIcon>
                                                                 <parent class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
                                                                 <listeners serialization="custom">
@@ -13454,10 +13446,10 @@
                                         <fromMultiplicity></fromMultiplicity>
                                         <toMultiplicity></toMultiplicity>
                                       </net.java.amateras.uml.classdiagram.model.AggregationModel>
-                                      <net.java.amateras.uml.classdiagram.model.GeneralizationModel reference="../../sourceConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/target/targetConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/source/targetConnections/net.java.amateras.uml.classdiagram.model.AggregationModel[3]/source/targetConnections/net.java.amateras.uml.classdiagram.model.CompositeModel/source/sourceConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel"/>
                                       <net.java.amateras.uml.classdiagram.model.GeneralizationModel reference="../../sourceConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/target/targetConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/source/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target/targetConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/source/sourceConnections/net.java.amateras.uml.classdiagram.model.DependencyModel[3]/target/targetConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/source/targetConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/source/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.CompositeModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel"/>
                                       <net.java.amateras.uml.classdiagram.model.GeneralizationModel reference="../../sourceConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/target/targetConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/source/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target/targetConnections/net.java.amateras.uml.classdiagram.model.DependencyModel[2]/source/sourceConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel"/>
                                       <net.java.amateras.uml.classdiagram.model.GeneralizationModel reference="../../sourceConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/target/targetConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/source/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target/targetConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/source/sourceConnections/net.java.amateras.uml.classdiagram.model.DependencyModel[3]/target/targetConnections/net.java.amateras.uml.classdiagram.model.DependencyModel[2]/source/sourceConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel"/>
+                                      <net.java.amateras.uml.classdiagram.model.GeneralizationModel reference="../../sourceConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/target/targetConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/source/targetConnections/net.java.amateras.uml.classdiagram.model.AggregationModel[3]/source/targetConnections/net.java.amateras.uml.classdiagram.model.CompositeModel/source/sourceConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel"/>
                                     </targetConnections>
                                     <children>
                                       <net.java.amateras.uml.classdiagram.model.AttributeModel>
@@ -14567,7 +14559,6 @@
     <net.java.amateras.uml.classdiagram.model.ClassModel reference="../net.java.amateras.uml.classdiagram.model.ClassModel/targetConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/source/sourceConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/target/targetConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/source/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target/targetConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/source/sourceConnections/net.java.amateras.uml.classdiagram.model.DependencyModel[3]/target/targetConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/source/targetConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/source/sourceConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel/target/targetConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel[3]/source"/>
     <net.java.amateras.uml.classdiagram.model.ClassModel reference="../net.java.amateras.uml.classdiagram.model.ClassModel/targetConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/source/sourceConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/target/targetConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/source/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target/targetConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/source/sourceConnections/net.java.amateras.uml.classdiagram.model.DependencyModel[3]/target/targetConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/source/targetConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/source/sourceConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel/target"/>
     <net.java.amateras.uml.classdiagram.model.ClassModel reference="../net.java.amateras.uml.classdiagram.model.ClassModel/targetConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/source/sourceConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target"/>
-    <net.java.amateras.uml.classdiagram.model.ClassModel reference="../net.java.amateras.uml.classdiagram.model.ClassModel/targetConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/source/sourceConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/target/targetConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/source/targetConnections/net.java.amateras.uml.classdiagram.model.AggregationModel[3]/source/targetConnections/net.java.amateras.uml.classdiagram.model.CompositeModel/source"/>
     <net.java.amateras.uml.classdiagram.model.ClassModel reference="../net.java.amateras.uml.classdiagram.model.ClassModel/targetConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/source/sourceConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/target/targetConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/source/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target/targetConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/source/sourceConnections/net.java.amateras.uml.classdiagram.model.DependencyModel[3]/target/targetConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/source/targetConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/source"/>
     <net.java.amateras.uml.classdiagram.model.ClassModel reference="../net.java.amateras.uml.classdiagram.model.ClassModel/targetConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/source/sourceConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/target/targetConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/source/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target"/>
     <net.java.amateras.uml.classdiagram.model.ClassModel reference="../net.java.amateras.uml.classdiagram.model.ClassModel/targetConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/source/sourceConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/target/targetConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/source"/>
@@ -14591,6 +14582,7 @@
     <net.java.amateras.uml.classdiagram.model.ClassModel reference="../net.java.amateras.uml.classdiagram.model.ClassModel/targetConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/source/sourceConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/target/targetConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/source/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target/targetConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/source/sourceConnections/net.java.amateras.uml.classdiagram.model.DependencyModel[3]/target/targetConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/source"/>
     <net.java.amateras.uml.classdiagram.model.ClassModel reference="../net.java.amateras.uml.classdiagram.model.ClassModel/targetConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/source/sourceConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/target/targetConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/source/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target/targetConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/source/sourceConnections/net.java.amateras.uml.classdiagram.model.DependencyModel[3]/target/targetConnections/net.java.amateras.uml.classdiagram.model.DependencyModel[2]/source"/>
     <net.java.amateras.uml.classdiagram.model.ClassModel reference="../net.java.amateras.uml.classdiagram.model.ClassModel/targetConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/source/sourceConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target"/>
+    <net.java.amateras.uml.classdiagram.model.ClassModel reference="../net.java.amateras.uml.classdiagram.model.ClassModel/targetConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/source/sourceConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/target/targetConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/source/targetConnections/net.java.amateras.uml.classdiagram.model.AggregationModel[3]/source/targetConnections/net.java.amateras.uml.classdiagram.model.CompositeModel/source"/>
   </children>
   <filterProperty/>
 </net.java.amateras.uml.model.RootModel>

@@ -13,7 +13,7 @@ public class NPC extends ObjetoInteractivo {
 
     //Constructora
     public NPC(String pDir){
-        super();
+        //TODO
     }
 
     //Otros metodos
@@ -48,6 +48,6 @@ public class NPC extends ObjetoInteractivo {
     	}
     	else{
     		System.out.println(this.rechazoPosterior);
+    	}
     }
-
 }
