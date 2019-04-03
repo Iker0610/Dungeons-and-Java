@@ -1,8 +1,11 @@
 package juego.componentes.estancias.objetos.interactivos;
 
+import juego.Partida;
+import juego.componentes.estancias.Dungeon;
 import juego.componentes.estancias.objetos.interactivos.condiciones.numericas.CondicionDado;
 import juego.componentes.herramientas.ListaStat;
 import juego.componentes.jugador.Jugador;
+import juego.componentes.jugador.ListaJugadores;
 
 public class JefeFinal extends ObjetoInteractivo{
     //Atributos
@@ -24,23 +27,29 @@ public class JefeFinal extends ObjetoInteractivo{
     //Metodos de interaccion
     @Override
     protected void interactuar(Jugador pJugador) {
-        //TODO
+    	//TODO
+        this.darBienvenida();
+        if (this.comprobarCondiciones(pJugador)){
+        	if (this.pruebaFinal.cumpleLaCondicion(pJugador)){
+        		
+        	}
+        }
     }
 
     private void darBienvenida(){
-        //TODO
+    	System.out.println(this.fraseBienvenida);
     }
 
     private void imprimirFraseVictoria(){
-        //TODO
+        System.out.println(this.fraseVictoria);
     }
 
     private void imprimirFraseDerrota(){
-        //TODO
+        System.out.println(this.fraseDerrota);
     }
     
     private void imprimirRechazo(){
-        //TODO
+    	System.out.println(this.fraseRechazo);
     }
 
     private void pruebaFinal(){
@@ -48,10 +57,11 @@ public class JefeFinal extends ObjetoInteractivo{
     }
 
     private void derrotarJefe(){
-        //TODO
+        this.imprimirFraseDerrota();
+        Partida.getPartida().finalizarPartida(true);
     }
     
-    private void derrotarJugador() {
-    	//TODO
+    private void derrotarJugador(Jugador pJugador) {
+    	ListaJugadores.getListaJugadores().eliminarJugador(pJugador);
     }
 }
