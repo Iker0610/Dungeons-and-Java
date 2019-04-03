@@ -17,7 +17,7 @@ public class Cofre extends ObjetoInteractivo {
 
     //Constructora
     public Cofre (String pDir){
-        super();
+        //TODO
         this.lista = new ArrayList<>();
     }
 
