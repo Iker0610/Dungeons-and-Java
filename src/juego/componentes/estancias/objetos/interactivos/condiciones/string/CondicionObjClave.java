@@ -11,6 +11,6 @@ public class CondicionObjClave extends CondicionString {
 
     //Metodos
     public boolean cumpleLaCondicion(Jugador pJugador){
-        //TODO
+    	return pJugador.tieneObjClave(this.valorNecesario);
     }
 }
