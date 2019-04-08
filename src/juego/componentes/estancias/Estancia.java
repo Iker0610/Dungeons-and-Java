@@ -18,6 +18,9 @@ public class Estancia {
     //Constructora
     public Estancia (String pIdEstancia){
         this.idEstancia = pIdEstancia;
+        this.listaCofres=new ListaCofres();
+        this.listaNpc=new ListaNPCs();
+        this.listaPuertas=new ListaPuertas();
     }
 
     //Metodo de carga de datos
@@ -32,7 +35,7 @@ public class Estancia {
     	//TODO
     }
 
-    public boolean tieneEsteId(int pId){
-        //TODO
+    public boolean tieneEsteId(String pId){
+        return (this.idEstancia==pId);
     }
 }
