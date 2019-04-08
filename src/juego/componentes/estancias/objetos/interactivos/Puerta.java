@@ -10,7 +10,6 @@ public class Puerta extends ObjetoInteractivo {
 
     //Constructora
     public Puerta (String pDir){
-        super();
         //TODO
     }
 
@@ -28,7 +27,7 @@ public class Puerta extends ObjetoInteractivo {
         Dungeon.getDungeon().cambiarEstancia(this.idEstancia);
     }
 
-    private void debloquear(){
+    private void desbloquear(){
         this.desbloqueada = true;
     }
 }

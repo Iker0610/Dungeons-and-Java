@@ -41,7 +41,7 @@ public class Cofre extends ObjetoInteractivo {
     }
     
     protected void desbloquear(){
-    	super.desbloquear();
+    	this.desbloqueado=true;
     }
 
     

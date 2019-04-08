@@ -1,6 +1,7 @@
 package juego.componentes.estancias.objetos.interactivos;
 
 import juego.componentes.estancias.objetos.interactivos.condiciones.ListaCondiciones;
+import juego.componentes.herramientas.LectorConsola;
 import juego.componentes.jugador.Jugador;
 
 public abstract class ObjetoInteractivo {
@@ -22,7 +23,9 @@ public abstract class ObjetoInteractivo {
 
     //Otros metodos
     public boolean acercarse (Jugador pJugadorActual){
-        //TODO
+        this.mostrarInfo();
+        System.out.println("¿Quieres interactuar?:");
+        return LectorConsola.getLectorConsola().leerBoolean();
     }
 
     protected abstract void interactuar (Jugador pJugador);
@@ -32,15 +35,11 @@ public abstract class ObjetoInteractivo {
     }
     
     private void mostrarInfo(){
-    	//TODO
-    }
-
-    protected void desbloquear(){
-        //TODO
+    	System.out.println(this.descripcion);
     }
 
     public void imprimirNombre(){
-        //TODO
+        System.out.println(this.nombre);
     }
     
 }
