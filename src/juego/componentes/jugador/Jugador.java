@@ -25,7 +25,7 @@ public class Jugador {
 		this.sexo = pSexo;
 		this.raza = pRaza;
 		this.cargarStatsBase();
-		this.armadura = new Armadura();
+		this.crearArmaduraBasica();
 		lObjClave = new ListaObjetosClaves();
 
 	}
@@ -62,25 +62,25 @@ public class Jugador {
 
 	//Metodos de inventario
 	public boolean tieneObjClave (String pNombreObjClave){
-		//TODO
+		return this.lObjClave.estaObjClave(pNombreObjClave);
 	}
 
 
 	//Metodos de informacion
 	public boolean esDeRaza(String pRaza){
-		//TODO
+		return (pRaza==this.raza);
 	}
 
 	public boolean esDeClase(String pClase){
-		//TODO
+		return (pClase==this.clase);
 	}
 
 	public boolean esDeSexo(String pSexo){
-		//TODO
+		return (pSexo==this.sexo);
 	}
 
 	public int getStat(String pStat){
-		//TODO
+		return this.lStats.getValorStat(pStat);
 	}
 
 	public boolean estaVivo(){
@@ -92,6 +92,7 @@ public class Jugador {
 
 	//Metodos para imprimir la información de los inventarios
 	public void imprimirInformacionJugador(){
-		//TODO
+		System.out.println(this.nombre);
+		this.lStats.imprimirStats();
 	}
 }
