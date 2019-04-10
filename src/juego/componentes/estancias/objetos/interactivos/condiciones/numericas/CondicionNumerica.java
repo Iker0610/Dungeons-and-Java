@@ -9,7 +9,9 @@ public abstract class CondicionNumerica extends Condicion {
     //Constructora
     protected CondicionNumerica(int pValorMinimo){
         super();
+        this.valorMinimo=pValorMinimo;
     }
+
     protected int getValorMinimo(){
     	return this.valorMinimo;
     }
