@@ -10,6 +10,7 @@ public abstract class CondicionString extends Condicion {
     //Constructora
     protected CondicionString(String pValorNecesario){
         super();
+        this.valorNecesario=pValorNecesario;
     }
 
     protected String getValorNecesario(){
