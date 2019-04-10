@@ -20,10 +20,12 @@ public class Jugador {
 	private boolean vivo;
 
 	//constructora
-	public Jugador(String pNombre, String pSexo, String pRaza){
+	public Jugador(String pNombre, String pSexo, String pRaza, String pClase){
 		this.nombre = pNombre;
 		this.sexo = pSexo;
 		this.raza = pRaza;
+		this.clase = pClase;
+		this.vivo = true;
 		this.cargarStatsBase();
 		this.crearArmaduraBasica();
 		lObjClave = new ListaObjetosClaves();
