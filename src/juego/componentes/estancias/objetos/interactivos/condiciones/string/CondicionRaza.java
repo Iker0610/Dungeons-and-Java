@@ -11,6 +11,6 @@ public class CondicionRaza extends CondicionString {
 
     //Metodos
     public boolean cumpleLaCondicion(Jugador pJugador){
-        //TODO
+    	return pJugador.esDeRaza(this.getValorNecesario());
     }
 }

@@ -10,11 +10,14 @@ public class CondicionDado extends CondicionNumerica {
 
     //Metodos
     public boolean cumpleLaCondicion(Jugador pJugador){
-        //TODO
+    	int valorDado = Dado.getDado().lanzarDado();
+    	int valorDefinitivo= this.calcularValorFinal(valorDado, pJugador);
+    	return (super.getValorMinimo() <= valorDefinitivo);
+    	
+    }
+    private int calcularValorFinal(int pValorNum, Jugador pJugador) {
+    	return pJugador.getStat("Destreza")*pValorNum;
+    	//TODO
     }
 
-    @Override
-    protected int calcularValorFinal(int pValorNum) {
-        //TODO
-    }
 }

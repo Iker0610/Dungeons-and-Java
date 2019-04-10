@@ -14,11 +14,6 @@ public class CondicionStat extends CondicionNumerica {
 
     //Metodos
     public boolean cumpleLaCondicion(Jugador pJugador){
-        //TODO
-    }
-
-    @Override
-    protected int calcularValorFinal(int pValorNum) {
-        //TODO
+    	return(pJugador.getStat(stat) >= super.getValorMinimo());
     }
 }
