@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="351fff89-8730-49e9-afdd-cfc308ef8509" name="Default Changelist" comment="Update">
-      <change afterPath="$PROJECT_DIR$/src/juego/herramientas/excepciones/ExcepcionValorIntroducido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/herramientas/excepciones/ExcepcionValorIntroducido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/herramientas/excepciones/ExcepcionFormatoIncorrecto.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,10 +28,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/juego/herramientas/excepciones/ExcepcionValorIntroducido.java">
+        <entry file="file://$PROJECT_DIR$/src/juego/herramientas/excepciones/ExcepcionFormatoIncorrecto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="34">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="39" />
               <folding>
                 <element signature="e#138#139#0" expanded="true" />
                 <element signature="e#161#162#0" expanded="true" />
@@ -266,7 +265,7 @@
       <workItem from="1554022650241" duration="18000" />
       <workItem from="1554452244953" duration="465000" />
       <workItem from="1554453476655" duration="56000" />
-      <workItem from="1554891049857" duration="953000" />
+      <workItem from="1554891049857" duration="1023000" />
     </task>
     <task id="LOCAL-00030" summary="Update">
       <created>1552343023898</created>
@@ -615,7 +614,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151945000" />
+    <option name="totallyTimeSpent" value="152015000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -628,7 +627,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Learn" order="0" />
       <window_info id="Image Layers" order="1" />
@@ -1056,10 +1054,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/herramientas/excepciones/ExcepcionValorIntroducido.java">
+    <entry file="file://$PROJECT_DIR$/src/juego/herramientas/excepciones/ExcepcionFormatoIncorrecto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="34">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="39" />
           <folding>
             <element signature="e#138#139#0" expanded="true" />
             <element signature="e#161#162#0" expanded="true" />
