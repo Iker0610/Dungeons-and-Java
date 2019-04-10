@@ -5,10 +5,14 @@ import juego.componentes.jugador.Jugador;
 
 public abstract class CondicionString extends Condicion {
     //Atributos
-    protected String valorNecesario;
+    private String valorNecesario;
 
     //Constructora
     protected CondicionString(String pValorNecesario){
         super();
+    }
+
+    protected String getValorNecesario(){
+        return this.valorNecesario;
     }
 }

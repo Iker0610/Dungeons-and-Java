@@ -34,10 +34,14 @@ public class ListaStat {
 	}
 
 	public int getValorStat(String pStat) {
-		//TODO
+		return this.lStats.get(pStat);
 	}
 
 	public void imprimirStats(){
-		//TODO
+		System.out.println("Stats: ");
+		System.out.println("-Fuerza: "+this.lStats.get("Fuerza"));
+		System.out.println("-Defensa: "+this.lStats.get("Defensa"));
+		System.out.println("-Inteligencia: "+this.lStats.get("Inteligencia"));
+		System.out.println("-Destreza: "+this.lStats.get("Destreza"));
 	}
 }
