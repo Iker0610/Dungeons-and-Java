@@ -1,6 +1,6 @@
 package juego.componentes.jugador.inventarios;
 
-import juego.componentes.estancias.objetos.recogibles.ObjetoClave;
+import juego.componentes.estancias.objetos.recolectables.ObjetoClave;
 
 import java.util.ArrayList;
 import java.util.Iterator;

@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="351fff89-8730-49e9-afdd-cfc308ef8509" name="Default Changelist" comment="Update">
-      <change beforePath="$PROJECT_DIR$/src/juego/herramientas/excepciones/ExcepcionValorIntroducido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/herramientas/excepciones/ExcepcionFormatoIncorrecto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/juego/ClassDiagram.cld" beforeDir="false" afterPath="$PROJECT_DIR$/bin/juego/ClassDiagram.cld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/ClassDiagram.cld" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/ClassDiagram.cld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/Cofre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/Cofre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recogibles/ObjetoClave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recolectables/ObjetoClave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recogibles/ObjetoRecolectable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recolectables/ObjetoRecolectable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recogibles/PiezaArmadura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recolectables/PiezaArmadura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/componentes/jugador/Jugador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/jugador/Jugador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/Armadura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/Armadura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/ListaObjetosClaves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/ListaObjetosClaves.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/juego/herramientas/excepciones/ExcepcionFormatoIncorrecto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="39" />
+            <state relative-caret-position="102">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding>
                 <element signature="e#138#139#0" expanded="true" />
                 <element signature="e#161#162#0" expanded="true" />
@@ -160,15 +168,24 @@
               <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="juego" type="462c0819:PsiDirectoryNode" />
-              <item name="herramientas" type="462c0819:PsiDirectoryNode" />
+              <item name="componentes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="juego" type="462c0819:PsiDirectoryNode" />
-              <item name="herramientas" type="462c0819:PsiDirectoryNode" />
-              <item name="excepciones" type="462c0819:PsiDirectoryNode" />
+              <item name="componentes" type="462c0819:PsiDirectoryNode" />
+              <item name="estancias" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="juego" type="462c0819:PsiDirectoryNode" />
+              <item name="componentes" type="462c0819:PsiDirectoryNode" />
+              <item name="estancias" type="462c0819:PsiDirectoryNode" />
+              <item name="objetos" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -265,7 +282,7 @@
       <workItem from="1554022650241" duration="18000" />
       <workItem from="1554452244953" duration="465000" />
       <workItem from="1554453476655" duration="56000" />
-      <workItem from="1554891049857" duration="1023000" />
+      <workItem from="1554891049857" duration="1070000" />
     </task>
     <task id="LOCAL-00030" summary="Update">
       <created>1552343023898</created>
@@ -614,7 +631,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152015000" />
+    <option name="totallyTimeSpent" value="152062000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -627,13 +644,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Learn" order="0" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.16311301" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.16311301" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.49946696" />
@@ -815,7 +833,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recogibles/Consumible.java" />
-    <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recogibles/PiezaArmadura.java">
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recolectables/PiezaArmadura.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
@@ -925,14 +943,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recogibles/ObjetoRecolectable.java">
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recolectables/ObjetoRecolectable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recogibles/ObjetoClave.java">
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recolectables/ObjetoClave.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
@@ -1056,8 +1074,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/herramientas/excepciones/ExcepcionFormatoIncorrecto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="39" />
+        <state relative-caret-position="102">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding>
             <element signature="e#138#139#0" expanded="true" />
             <element signature="e#161#162#0" expanded="true" />

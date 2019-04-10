@@ -2493,7 +2493,7 @@
                                                                                                   </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
                                                                                                 </propertyDescriptors>
                                                                                                 <stereoType></stereoType>
-                                                                                                <name>juego.componentes.estancias.objetos.recogibles.ObjetoClave</name>
+                                                                                                <name>juego.componentes.estancias.objetos.recolectables.ObjetoClave</name>
                                                                                                 <path>/Dungeons-and-Java/src/juego/componentes/estancias/objetos/recogibles/ObjetoClave.java</path>
                                                                                                 <isAbstract>false</isAbstract>
                                                                                               </source>
@@ -2682,7 +2682,7 @@
                                                                                             </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
                                                                                           </propertyDescriptors>
                                                                                           <stereoType></stereoType>
-                                                                                          <name>juego.componentes.estancias.objetos.recogibles.ObjetoRecolectable</name>
+                                                                                          <name>juego.componentes.estancias.objetos.recolectables.ObjetoRecolectable</name>
                                                                                           <path>/Dungeons-and-Java/src/juego/componentes/estancias/objetos/recogibles/ObjetoRecolectable.java</path>
                                                                                           <isAbstract>true</isAbstract>
                                                                                         </target>
@@ -6161,7 +6161,7 @@
                                                                                       </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
                                                                                     </propertyDescriptors>
                                                                                     <stereoType></stereoType>
-                                                                                    <name>juego.componentes.estancias.objetos.recogibles.PiezaArmadura</name>
+                                                                                    <name>juego.componentes.estancias.objetos.recolectables.PiezaArmadura</name>
                                                                                     <path>/Dungeons-and-Java/src/juego/componentes/estancias/objetos/recogibles/PiezaArmadura.java</path>
                                                                                     <isAbstract>false</isAbstract>
                                                                                   </target>

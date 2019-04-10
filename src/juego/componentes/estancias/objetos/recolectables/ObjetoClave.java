@@ -1,4 +1,4 @@
-package juego.componentes.estancias.objetos.recogibles;
+package juego.componentes.estancias.objetos.recolectables;
 
 public class ObjetoClave extends ObjetoRecolectable {
     //Atributos

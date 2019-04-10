@@ -1,6 +1,4 @@
-package juego.componentes.estancias.objetos.recogibles;
-
-import juego.componentes.jugador.Jugador;
+package juego.componentes.estancias.objetos.recolectables;
 
 public abstract class ObjetoRecolectable {
     //Atributos

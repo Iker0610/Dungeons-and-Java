@@ -1,6 +1,6 @@
 package juego.componentes.estancias.objetos.interactivos;
 
-import juego.componentes.estancias.objetos.recogibles.ObjetoRecolectable;
+import juego.componentes.estancias.objetos.recolectables.ObjetoRecolectable;
 import juego.herramientas.LectorConsola;
 import juego.componentes.jugador.Jugador;
 
@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class Cofre extends ObjetoInteractivo {
-    //Esta clase englobará todos los objetos de los que se puedan sacar objetos recogibles.
+    //Esta clase englobará todos los objetos de los que se puedan sacar objetos recolectables.
     //Aunque se llama cofre sucede como la clase puerta, puede ser cualquier cosa: una mesa, un cofre, una caja, un agujero...
 
     //Atributos

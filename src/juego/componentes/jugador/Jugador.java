@@ -1,9 +1,9 @@
 package juego.componentes.jugador;
 
-import juego.componentes.estancias.objetos.recogibles.ObjetoClave;
-import juego.componentes.estancias.objetos.recogibles.ObjetoRecolectable;
+import juego.componentes.estancias.objetos.recolectables.ObjetoClave;
+import juego.componentes.estancias.objetos.recolectables.ObjetoRecolectable;
 import juego.componentes.jugador.inventarios.Armadura;
-import juego.componentes.estancias.objetos.recogibles.PiezaArmadura;
+import juego.componentes.estancias.objetos.recolectables.PiezaArmadura;
 import juego.componentes.jugador.inventarios.ListaObjetosClaves;
 import juego.herramientas.ListaStat;
 
