@@ -1,9 +1,7 @@
 package juego.componentes.estancias.objetos.interactivos;
 
 import juego.Partida;
-import juego.componentes.estancias.Dungeon;
 import juego.componentes.estancias.objetos.interactivos.condiciones.numericas.CondicionDado;
-import juego.componentes.herramientas.ListaStat;
 import juego.componentes.jugador.Jugador;
 import juego.componentes.jugador.ListaJugadores;
 

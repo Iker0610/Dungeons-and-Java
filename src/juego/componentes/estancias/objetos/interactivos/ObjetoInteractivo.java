@@ -1,7 +1,7 @@
 package juego.componentes.estancias.objetos.interactivos;
 
 import juego.componentes.estancias.objetos.interactivos.condiciones.ListaCondiciones;
-import juego.componentes.herramientas.LectorConsola;
+import juego.herramientas.LectorConsola;
 import juego.componentes.jugador.Jugador;
 
 public abstract class ObjetoInteractivo {
@@ -24,7 +24,7 @@ public abstract class ObjetoInteractivo {
     //Otros metodos
     public boolean acercarse (Jugador pJugadorActual){
         this.mostrarInfo();
-        System.out.println("¿Quieres interactuar?:");
+        System.out.println("ï¿½Quieres interactuar?:");
         return LectorConsola.getLectorConsola().leerBoolean();
     }
 

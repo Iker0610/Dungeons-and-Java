@@ -1,4 +1,4 @@
-package juego.componentes.herramientas;
+package juego.herramientas;
 
 public class LectorConsola {
 

@@ -1,7 +1,7 @@
 package juego.componentes.estancias.objetos.interactivos;
 
 import juego.componentes.estancias.objetos.recogibles.ObjetoRecolectable;
-import juego.componentes.herramientas.LectorConsola;
+import juego.herramientas.LectorConsola;
 import juego.componentes.jugador.Jugador;
 
 import java.util.ArrayList;
@@ -45,7 +45,7 @@ public class Cofre extends ObjetoInteractivo {
     }
 
     
-    //Annade el objeto en la posición especificada si existe, y sino no (no peta)
+    //Annade el objeto en la posiciï¿½n especificada si existe, y sino no (no peta)
     private void darObjetoAPersonaje(Jugador pJugador, int pPosObjeto){
     	Iterator<ObjetoRecolectable> itr=this.getIterador();
     	boolean found=false;

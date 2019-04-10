@@ -1,6 +1,6 @@
 package juego.componentes.estancias.objetos.recogibles;
 
-import juego.componentes.herramientas.ListaStat;
+import juego.herramientas.ListaStat;
 
 public class PiezaArmadura extends ObjetoRecolectable {
 

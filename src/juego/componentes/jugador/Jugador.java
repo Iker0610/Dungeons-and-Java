@@ -5,7 +5,7 @@ import juego.componentes.estancias.objetos.recogibles.ObjetoRecolectable;
 import juego.componentes.jugador.inventarios.Armadura;
 import juego.componentes.estancias.objetos.recogibles.PiezaArmadura;
 import juego.componentes.jugador.inventarios.ListaObjetosClaves;
-import juego.componentes.herramientas.ListaStat;
+import juego.herramientas.ListaStat;
 
 public class Jugador {
 

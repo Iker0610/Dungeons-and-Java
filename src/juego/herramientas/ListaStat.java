@@ -1,4 +1,4 @@
-package juego.componentes.herramientas;
+package juego.herramientas;
 
 import java.util.HashMap;
 

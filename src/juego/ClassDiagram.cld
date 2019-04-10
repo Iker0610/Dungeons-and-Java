@@ -6999,7 +6999,7 @@
                                                                                 </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
                                                                               </propertyDescriptors>
                                                                               <stereoType></stereoType>
-                                                                              <name>juego.componentes.herramientas.ListaStat</name>
+                                                                              <name>ListaStat</name>
                                                                               <path>/Dungeons-and-Java/src/juego/componentes/herramientas/ListaStat.java</path>
                                                                               <isAbstract>false</isAbstract>
                                                                             </source>
@@ -12602,7 +12602,7 @@
                                             </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
                                           </propertyDescriptors>
                                           <stereoType></stereoType>
-                                          <name>juego.componentes.herramientas.LectorConsola</name>
+                                          <name>LectorConsola</name>
                                           <path>/Dungeons-and-Java/src/juego/componentes/herramientas/LectorConsola.java</path>
                                           <isAbstract>false</isAbstract>
                                         </target>
@@ -14508,7 +14508,7 @@
         </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
       </propertyDescriptors>
       <stereoType></stereoType>
-      <name>juego.componentes.herramientas.Dado</name>
+      <name>Dado</name>
       <path>/Dungeons-and-Java/src/juego/componentes/herramientas/Dado.java</path>
       <isAbstract>false</isAbstract>
     </net.java.amateras.uml.classdiagram.model.ClassModel>
