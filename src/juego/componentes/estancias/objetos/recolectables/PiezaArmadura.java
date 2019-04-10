@@ -30,5 +30,4 @@ public class PiezaArmadura extends ObjetoRecolectable {
 	public void mostrarInfo(){
 		super.mostrarInfo();
 	}
-	
 }

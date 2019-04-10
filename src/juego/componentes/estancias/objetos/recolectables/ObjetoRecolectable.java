@@ -7,16 +7,17 @@ public abstract class ObjetoRecolectable {
 
     //Constructora
     protected ObjetoRecolectable(String pNombre, String pDescripcion){
-        //TODO
+        this.nombre = pNombre;
+        this.descripcion = pDescripcion;
     }
 
     //Otros metodos
     public void mostrarInfo(){
         System.out.println(this.nombre);
-        //TODO
+        System.out.println(this.descripcion);
     }
     
     public boolean tieneEsteNombre(String pNombre){
-        //TODO
+        return (this.nombre == pNombre);
     }
 }
