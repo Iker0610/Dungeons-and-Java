@@ -1,6 +1,8 @@
 package juego.componentes.estancias.objetos.interactivos.condiciones.numericas;
 
 import juego.componentes.jugador.Jugador;
+import juego.herramientas.Dado;
+
 
 public class CondicionDado extends CondicionNumerica {
     //Constructora
@@ -16,7 +18,6 @@ public class CondicionDado extends CondicionNumerica {
     	
     }
     private int calcularValorFinal(int pValorNum, Jugador pJugador) {
-    	return pJugador.getStat("Destreza")*pValorNum;
     	//TODO
     }
 

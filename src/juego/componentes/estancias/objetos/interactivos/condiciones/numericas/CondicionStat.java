@@ -7,7 +7,7 @@ public class CondicionStat extends CondicionNumerica {
     private String stat;
 
     //Constructora
-    public CondicionStat(String pStat, int pValorMinimo){
+    public CondicionStat(int pValorMinimo, String pStat){
         super(pValorMinimo);
         this.stat = pStat;
     }
