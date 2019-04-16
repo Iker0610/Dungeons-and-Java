@@ -3,6 +3,8 @@ package juego.componentes.estancias;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+import juego.Partida;
+
 public class Dungeon {
 
     //Atributos
@@ -28,12 +30,19 @@ public class Dungeon {
         return this.lEstancias.iterator();
     }
 
-    private Estancia buscarEstancia (String pIdEstancia){
-        //TODO
+    private Estancia buscarEstancia(String pIdEstancia){
+        Iterator<Estancia> itr=getIterator();
+        Estancia estanciaPos=null;
+        boolean chivato=false;
+        while (itr.hasNext()&&!chivato){
+        	estanciaPos=itr.next();
+        	chivato=estanciaPos.tieneEsteId(pIdEstancia);
+        }
+        return estanciaPos;
     }
 
     //Otros metodos
     public void cambiarEstancia(String pIdEstancia){
-        //TODO
+    	Partida.getPartida().cambiarEstancia(this.buscarEstancia(pIdEstancia));
     }
 }
