@@ -17,8 +17,11 @@ public class ListaCondiciones {
     }
 
     public boolean cumpleLasCondiciones(Jugador pJugador){
-        //TODO
-        return false;
+        Iterator<Condicion> itr=this.getIterator();
+        Condicion condicionActual=itr.next();
+        boolean cumple=false;
+        
+        return cumple;
     }
 
     //Metodos del arraylist
