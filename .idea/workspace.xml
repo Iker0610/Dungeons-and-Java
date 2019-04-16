@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="351fff89-8730-49e9-afdd-cfc308ef8509" name="Default Changelist" comment="Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/string/CondicionString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/string/CondicionString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recolectables/ObjetoRecolectable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recolectables/ObjetoRecolectable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recolectables/PiezaArmadura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recolectables/PiezaArmadura.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,13 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/string/CondicionString.java">
+        <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recolectables/ObjetoRecolectable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="357">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -45,8 +43,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/ListaConsumibles.java" />
-        <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/Condicion.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/jugador/Mago.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/jugador/Guerrero.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/jugador/Cazador.java" />
@@ -96,6 +92,8 @@
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/numericas/CondicionDado.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/numericas/CondicionStat.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/string/CondicionString.java" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recolectables/PiezaArmadura.java" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recolectables/ObjetoRecolectable.java" />
       </list>
     </option>
   </component>
@@ -111,7 +109,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,42 +159,13 @@
               <item name="componentes" type="462c0819:PsiDirectoryNode" />
               <item name="estancias" type="462c0819:PsiDirectoryNode" />
               <item name="objetos" type="462c0819:PsiDirectoryNode" />
-              <item name="interactivos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="juego" type="462c0819:PsiDirectoryNode" />
-              <item name="componentes" type="462c0819:PsiDirectoryNode" />
-              <item name="estancias" type="462c0819:PsiDirectoryNode" />
-              <item name="objetos" type="462c0819:PsiDirectoryNode" />
-              <item name="interactivos" type="462c0819:PsiDirectoryNode" />
-              <item name="condiciones" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="juego" type="462c0819:PsiDirectoryNode" />
-              <item name="componentes" type="462c0819:PsiDirectoryNode" />
-              <item name="estancias" type="462c0819:PsiDirectoryNode" />
-              <item name="objetos" type="462c0819:PsiDirectoryNode" />
-              <item name="interactivos" type="462c0819:PsiDirectoryNode" />
-              <item name="condiciones" type="462c0819:PsiDirectoryNode" />
-              <item name="string" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="juego" type="462c0819:PsiDirectoryNode" />
-              <item name="herramientas" type="462c0819:PsiDirectoryNode" />
+              <item name="recolectables" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -289,7 +257,8 @@
       <workItem from="1554022650241" duration="18000" />
       <workItem from="1554452244953" duration="465000" />
       <workItem from="1554453476655" duration="56000" />
-      <workItem from="1554891049857" duration="6398000" />
+      <workItem from="1554891049857" duration="6592000" />
+      <workItem from="1555397005798" duration="330000" />
     </task>
     <task id="LOCAL-00030" summary="Update">
       <created>1552343023898</created>
@@ -638,7 +607,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157390000" />
+    <option name="totallyTimeSpent" value="157914000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -658,7 +627,7 @@
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.16311301" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.16471216" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.49946696" />
@@ -815,13 +784,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recogibles/Consumible.java" />
-    <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recolectables/PiezaArmadura.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/Armadura.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -914,24 +876,6 @@
           <folding>
             <element signature="e#494#495#0" expanded="true" />
             <element signature="e#563#564#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recolectables/ObjetoRecolectable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recolectables/ObjetoClave.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1089,11 +1033,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/string/CondicionString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        <state relative-caret-position="153">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recolectables/ObjetoClave.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recolectables/PiezaArmadura.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recolectables/ObjetoRecolectable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>

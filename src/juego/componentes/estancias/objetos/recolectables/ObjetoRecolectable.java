@@ -13,7 +13,7 @@ public abstract class ObjetoRecolectable {
 
     //Otros metodos
     public void mostrarInfo(){
-        System.out.println(this.nombre);
+        System.out.println("Nombre: "+this.nombre);
         System.out.println(this.descripcion);
     }
     
