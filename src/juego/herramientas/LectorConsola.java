@@ -3,7 +3,9 @@ package juego.herramientas;
 import juego.herramientas.excepciones.ExcepcionFormatoIncorrecto;
 import juego.herramientas.excepciones.ExcepcionValorFueradDeRango;
 
+import java.util.ArrayList;
 import java.util.InputMismatchException;
+import java.util.Iterator;
 import java.util.Scanner;
 
 public class LectorConsola {
@@ -39,8 +41,20 @@ public class LectorConsola {
         return input;
     }
 
-    public String leerOpcionString() throws ExcepcionValorFueradDeRango{
-        //TODO
+    public String leerOpcionString(ArrayList<String> pOpciones) throws ExcepcionValorFueradDeRango{
+        String input = sc.nextLine();
+        Iterator<String> itr = pOpciones.iterator();
+        boolean enc = false;
+
+        while(itr.hasNext() && !enc){
+            enc = itr.next().equalsIgnoreCase(input);
+        }
+
+        if (!enc){
+            throw new ExcepcionValorFueradDeRango();
+        }
+
+        return input;
     }
 
     public String leerString(){

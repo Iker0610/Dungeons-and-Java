@@ -19,7 +19,7 @@ public class ListaJugadores {
         lista = new ArrayList<>();
     }
 
-    //Patrón singleton
+    //Patrï¿½n singleton
     public static ListaJugadores getListaJugadores (){
         if (listaJugadores == null){
             listaJugadores = new ListaJugadores();
@@ -27,7 +27,7 @@ public class ListaJugadores {
         return listaJugadores;
     }
 
-    //Metodo para añadir jugadores
+    //Metodo para anadir jugadores
     public void generarJugador(){
     	//Hay que editarlo
     	LectorConsola lector= LectorConsola.getLectorConsola();
@@ -57,7 +57,7 @@ public class ListaJugadores {
         	if(!sexoOk){
         		try{
         		System.out.println("Introduzca su sexo");
-        		sexo=lector.leerString();
+        		sexo=lector.leerOpcionString();
         		sexoOk=true;
         		}
         		catch(ExcepcionFormatoIncorrecto excepcionSexo){
@@ -67,8 +67,9 @@ public class ListaJugadores {
         	}
         	if(!razaOk){
         		try{
-            		System.out.println("Introduzca su raza");
-            		raza=lector.leerString();
+                    //TODO
+            		System.out.println("Elija su raza");
+            		raza=lector.leerOpcionString();
             		razaOk=true;
             	}
             	catch(ExcepcionFormatoIncorrecto excepcionSexo){
@@ -80,7 +81,7 @@ public class ListaJugadores {
         	if(!claseOk){
         		try{
             		System.out.println("Introduzca su clase");
-            		clase=lector.leerString();
+            		clase=lector.leerOpcionString();
             		claseOk=true;
             	}
             	catch(ExcepcionFormatoIncorrecto excepcionSexo){

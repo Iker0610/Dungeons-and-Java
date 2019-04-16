@@ -2,6 +2,7 @@ package juego;
 
 import juego.componentes.estancias.Estancia;
 import juego.componentes.jugador.Jugador;
+import juego.componentes.jugador.ListaJugadores;
 
 public class Partida {
     //Atributos
@@ -18,7 +19,7 @@ public class Partida {
         //TODO
     }
 
-    //Patron singleston
+    //Patron singleton
     public static Partida getPartida(){
         if (partida==null){
             partida = new Partida();
@@ -30,7 +31,7 @@ public class Partida {
     public static void main(String[] args) {
         //TODO
     }
-    //Metodo generacion y jugar partida
+    //Metodos generacion y jugar partida
     private void generarDungeon(){
         //TODO
     }
@@ -45,11 +46,17 @@ public class Partida {
 
     //Mtodos de control
     public void finalizarPartida(boolean pVictoria){
-        //TODO
+        this.finPartida = true;
+        if (pVictoria){
+            System.out.println(//TODO);
+        }
+        else{
+            System.out.println(//TODO);
+        }
     }
 
     private void getSiguienteJugador(){
-        //TODO
+        this.jugadorActual = ListaJugadores.getListaJugadores().getSiguienteJugador();
     }
 
     public void cambiarEstancia(Estancia pEstancia){
