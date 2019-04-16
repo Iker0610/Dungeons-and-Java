@@ -2,6 +2,9 @@ package juego.componentes.jugador;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import juego.herramientas.excepciones.ExcepcionFormatoIncorrecto;
+import juego.Partida;
+import juego.herramientas.LectorConsola;
 
 public class ListaJugadores {
 
@@ -16,7 +19,7 @@ public class ListaJugadores {
         lista = new ArrayList<>();
     }
 
-    //PatrÃ³n singleton
+    //Patrón singleton
     public static ListaJugadores getListaJugadores (){
         if (listaJugadores == null){
             listaJugadores = new ListaJugadores();
@@ -24,18 +27,74 @@ public class ListaJugadores {
         return listaJugadores;
     }
 
-    //Metodo para aÃ±adir jugadores
+    //Metodo para añadir jugadores
     public void generarJugador(){
+    	//Hay que editarlo
+    	LectorConsola lector= LectorConsola.getLectorConsola();
+        lector.leerString();
         String nombre=null;
         String sexo=null;
         String raza=null;
         String clase=null;
-        Jugador jugador=null;
-
-        //////////////////////////////////////////////////////////
-        //TODO
-        //Comandos de in/out para recopilar los datos del jugador
-        //////////////////////////////////////////////////////////}
+        
+        boolean nombreOk=false;
+        boolean sexoOk=false;
+        boolean claseOk=false;
+        boolean razaOk=false;
+        boolean todoOk=false;
+        do{
+        	if(!nombreOk){
+        		try{
+        			System.out.println("Introduzca su nombre");
+        			nombre=lector.leerString();
+        			nombreOk=true;
+        		}
+        		catch(ExcepcionFormatoIncorrecto excepcionNombre){
+        			System.out.println("Ha introducido un caracter incorrecto, intentelo otra vez");
+        			this.generarJugador();
+        		}
+        	}
+        	if(!sexoOk){
+        		try{
+        		System.out.println("Introduzca su sexo");
+        		sexo=lector.leerString();
+        		sexoOk=true;
+        		}
+        		catch(ExcepcionFormatoIncorrecto excepcionSexo){
+        			System.out.println("Ha introducido un caracter incorrecto, intentelo otra vez");
+        			this.generarJugador();
+        		}
+        	}
+        	if(!razaOk){
+        		try{
+            		System.out.println("Introduzca su raza");
+            		raza=lector.leerString();
+            		razaOk=true;
+            	}
+            	catch(ExcepcionFormatoIncorrecto excepcionSexo){
+            		System.out.println("Ha introducido un caracter incorrecto, intentelo otra vez");
+            		this.generarJugador();
+            	}
+        		
+        	}
+        	if(!claseOk){
+        		try{
+            		System.out.println("Introduzca su clase");
+            		clase=lector.leerString();
+            		claseOk=true;
+            	}
+            	catch(ExcepcionFormatoIncorrecto excepcionSexo){
+            		System.out.println("Ha introducido un caracter incorrecto, intentelo otra vez");
+            		this.generarJugador();
+            	}
+        	}
+        	if(nombreOk && sexoOk && razaOk && claseOk){
+        		todoOk=true;
+        	}
+        
+        }while(!todoOk);
+		Jugador jugador=new Jugador(nombre, sexo, raza, clase);
+		this.numJugadoresVivos=this.numJugadoresVivos+1;
     }
 
     //Metodos datos del arraylist
@@ -48,7 +107,16 @@ public class ListaJugadores {
     }
 
     private int numJugadoresVivos(){
-        //TODO
+        Iterator<Jugador> itr=this.getIterator();
+        Jugador jugadorAct=null;
+        int cont=0;
+        while(itr.hasNext()){
+        	jugadorAct=itr.next();
+        	if(jugadorAct.estaVivo()){
+        		cont=cont+1;
+        	}
+        }
+        return cont;
     }
 
     //Metodos de control
@@ -70,10 +138,15 @@ public class ListaJugadores {
     }
 
     public void eliminarJugador (Jugador pJugador){
-        //TODO
+    	pJugador.morirse();
+    	this.numJugadoresVivos=this.numJugadoresVivos-1;
+    	if(this.numJugadoresVivos()==0){
+    		this.gameOver();
+    	}
     }
 
     private void gameOver(){
-        //TODO
+        Partida partida=Partida.getPartida();
+        partida.finalizarPartida(false);
     }
 }
