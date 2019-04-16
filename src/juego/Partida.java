@@ -60,7 +60,7 @@ public class Partida {
     }
 
     public void cambiarEstancia(Estancia pEstancia){
-        //TODO
+
     }
 
     //Metodos de menu
