@@ -63,14 +63,20 @@ public class ListaPuertas {
         
         }while(!todoOk);
         if (input!=0){
-        	this.acercarseAPuerta(input);
-        	resultado=true;
+        	resultado=this.acercarseAPuerta(input, pJugador);
         }
         return resultado;
     }
 
-    private boolean acercarseAPuerta(int posPuerta){
-        //TODO
+    private boolean acercarseAPuerta(int posPuerta, Jugador pJugador){
+        Iterator<Puerta> itr=this.getIterator();
+        int pos=0;
+    	Puerta puertaActual=null;
+        while(pos<posPuerta){ //Como ya hemos comprobado que la posicion de la puerta elegida este en dentro del rango no hay que poner while(itr.next())
+        	puertaActual=itr.next();
+        	pos=pos+1;
+        }
+         return puertaActual.acercarse(pJugador);
     }
 
 }
