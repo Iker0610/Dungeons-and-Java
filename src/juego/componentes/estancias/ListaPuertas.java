@@ -44,17 +44,29 @@ public class ListaPuertas {
     public boolean administrarMenuSecundario(Jugador pJugador){
         this.mostrarPuertas();
         LectorConsola lector=LectorConsola.getLectorConsola();
+        boolean todoOk=false;
+        int input;
+        boolean resultado=false;
         do{
         	try{
-        		lector.leerOpcionNum(0, this.lista.size());
+        		input=lector.leerOpcionNum(0, this.lista.size());
+        		todoOk=true;
         	}
         	catch(ExcepcionFormatoIncorrecto excepcionFormato){
         		System.out.println("Ha introducido un caracter incorrecto, intentelo otra vez");
-    			this.generarJugador();
+    			this.administrarMenuSecundario(pJugador);
         	}
+        	catch(ExcepcionValorFueradDeRango excepcionRango){
+        		System.out.println("El valor introducido no se encuentra entre las opciones, intentelo otra vez");
+    			this.administrarMenuSecundario(pJugador);
+        	}
+        
+        }while(!todoOk);
+        if (input!=0){
+        	this.acercarseAPuerta(input);
+        	resultado=true;
         }
-        
-        
+        return resultado;
     }
 
     private boolean acercarseAPuerta(int posPuerta){
