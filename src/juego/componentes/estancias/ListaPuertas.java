@@ -46,7 +46,7 @@ public class ListaPuertas {
         LectorConsola lector=LectorConsola.getLectorConsola();
         do{
         	try{
-        		lector.leerOpcionNum(1, this.lista.size());
+        		lector.leerOpcionNum(0, this.lista.size());
         	}
         	catch(ExcepcionFormatoIncorrecto excepcionFormato){
         		System.out.println("Ha introducido un caracter incorrecto, intentelo otra vez");
