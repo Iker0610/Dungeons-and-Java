@@ -13,14 +13,18 @@ public class ListaCondiciones {
     //constructora
     public ListaCondiciones (){
         this.lista = new ArrayList<>();
-        //TODO
     }
 
     public boolean cumpleLasCondiciones(Jugador pJugador){
         Iterator<Condicion> itr=this.getIterator();
-        Condicion condicionActual=itr.next();
+        Condicion condicionActual=null;
         boolean cumple=false;
-        
+        while(itr.hasNext()||cumple){
+        	condicionActual=itr.next();
+        	if(!condicionActual.cumpleLaCondicion(pJugador)){
+        		cumple=false;
+        	}
+        }
         return cumple;
     }
 
@@ -30,6 +34,17 @@ public class ListaCondiciones {
     }
 
     public void anadirCondicion(Condicion pCondicion){
-        //TODO
+    	Iterator<Condicion> itr=this.getIterator();
+        Condicion condicionActual=null;
+        boolean enc=false;
+        while(itr.hasNext()||!enc){
+        	condicionActual=itr.next();
+        	if(condicionActual==pCondicion){
+        		enc=true;
+        	}
+        }
+        if(!enc){
+        	this.lista.add(pCondicion);
+        }
     }
 }
