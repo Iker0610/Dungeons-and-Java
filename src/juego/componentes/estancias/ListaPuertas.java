@@ -28,7 +28,18 @@ public class ListaPuertas {
     }
 
     private void anadirPuerta(Puerta pPuerta){
-        //TODO
+        Iterator<Puerta> itr=this.getIterator();
+        Puerta puertaActual=null;
+        boolean enc=false;
+        while(itr.hasNext()||!enc){
+        	puertaActual=itr.next();
+        	if(puertaActual==pPuerta){
+        		enc=true;
+        	}
+        }
+        if(!enc){
+        	this.lista.add(pPuerta);
+        }
     }
 
     //Metodos de imprimir informacion
