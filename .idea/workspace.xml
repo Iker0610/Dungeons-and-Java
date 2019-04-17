@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="351fff89-8730-49e9-afdd-cfc308ef8509" name="Default Changelist" comment="Update">
-      <change beforePath="$PROJECT_DIR$/src/juego/Partida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/Partida.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/ClassDiagram.cld" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/ClassDiagram.cld" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,12 +17,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/juego/Partida.java">
+        <entry file="file://$PROJECT_DIR$/src/juego/herramientas/excepciones/ExcepcionEstanciaInexistente.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-177">
-              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#144#145#0" expanded="true" />
+                <element signature="e#167#168#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -44,7 +46,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/juego/componentes/jugador/Guerrero.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/jugador/Cazador.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/jugador/Paladin.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/jugador/Asesino.java" />
@@ -95,6 +96,7 @@
         <option value="$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java" />
         <option value="$PROJECT_DIR$/src/juego/herramientas/LectorConsola.java" />
         <option value="$PROJECT_DIR$/src/juego/Partida.java" />
+        <option value="$PROJECT_DIR$/src/juego/herramientas/excepciones/ExcepcionEstanciaInexistente.java" />
       </list>
     </option>
   </component>
@@ -109,7 +111,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,11 +144,19 @@
               <item name="juego" type="462c0819:PsiDirectoryNode" />
               <item name="herramientas" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="juego" type="462c0819:PsiDirectoryNode" />
+              <item name="herramientas" type="462c0819:PsiDirectoryNode" />
+              <item name="excepciones" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -166,9 +176,8 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Iker\Documents\GitHub\Dungeons-and-Java\.idea\src\DJ" />
-      <recent name="D:\Iker\Documents\GitHub\Dungeons-and-Java\.idea\src" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Iker\Documents\GitHub" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="juego.herramientas.excepciones" />
@@ -177,8 +186,9 @@
       <recent name="juego.componentes.herramientas" />
       <recent name="juego.componentes.jugador" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Iker\Documents\GitHub" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Iker\Documents\GitHub\Dungeons-and-Java\.idea\src\DJ" />
+      <recent name="D:\Iker\Documents\GitHub\Dungeons-and-Java\.idea\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -239,7 +249,8 @@
       <workItem from="1554452244953" duration="465000" />
       <workItem from="1554453476655" duration="56000" />
       <workItem from="1554891049857" duration="6592000" />
-      <workItem from="1555397005798" duration="2994000" />
+      <workItem from="1555397005798" duration="3632000" />
+      <workItem from="1555495801651" duration="851000" />
     </task>
     <task id="LOCAL-00030" summary="Update">
       <created>1552343023898</created>
@@ -588,7 +599,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160578000" />
+    <option name="totallyTimeSpent" value="162067000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -600,7 +611,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Learn" order="0" />
@@ -608,7 +619,7 @@
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.16471216" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.1663113" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.49946696" />
@@ -700,7 +711,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/recogibles/ObjetoRecolectable.java" />
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/recogibles/PiezaArmadura.java" />
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactivos/Cofre.java" />
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/dungeon/objetos/interactivos/ObjetoInteractivo.java" />
@@ -1031,10 +1041,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/Partida.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-177">
+        <state relative-caret-position="-185">
           <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/herramientas/excepciones/ExcepcionEstanciaInexistente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
           </folding>
         </state>
       </provider>
