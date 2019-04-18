@@ -15,36 +15,21 @@ public class ListaCondiciones {
         this.lista = new ArrayList<>();
     }
 
-    public boolean cumpleLasCondiciones(Jugador pJugador){
-        Iterator<Condicion> itr=this.getIterator();
-        Condicion condicionActual=null;
-        boolean cumple=false;
-        while(itr.hasNext()||cumple){
-        	condicionActual=itr.next();
-        	if(!condicionActual.cumpleLaCondicion(pJugador)){
-        		cumple=false;
-        	}
-        }
-        return cumple;
-    }
-
     //Metodos del arraylist
     private Iterator<Condicion> getIterator(){
         return this.lista.iterator();
     }
 
+    public boolean cumpleLasCondiciones(Jugador pJugador){
+        Iterator<Condicion> itr=this.getIterator();
+        boolean cumple = true;
+        while(itr.hasNext()&& cumple){
+        	cumple = itr.next().cumpleLaCondicion(pJugador);
+        }
+        return cumple;
+    }
+
     public void anadirCondicion(Condicion pCondicion){
-    	Iterator<Condicion> itr=this.getIterator();
-        Condicion condicionActual=null;
-        boolean enc=false;
-        while(itr.hasNext()||!enc){
-        	condicionActual=itr.next();
-        	if(condicionActual==pCondicion){
-        		enc=true;
-        	}
-        }
-        if(!enc){
-        	this.lista.add(pCondicion);
-        }
+        this.lista.add(pCondicion);
     }
 }

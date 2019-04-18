@@ -62,6 +62,7 @@ public class LectorConsola {
     }
 
     public boolean leerBoolean()throws ExcepcionFormatoIncorrecto{
+        System.out.println("Introduzca: Si/S o No/N");
         String input = sc.nextLine();
         boolean eleccion;
         if(input.equalsIgnoreCase("si") || input.equalsIgnoreCase("s")){

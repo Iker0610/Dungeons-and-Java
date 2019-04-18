@@ -24,21 +24,20 @@ public class ListaObjetosClaves {
 
     public boolean estaObjClave(String pNombre){
     	Iterator<ObjetoClave> itr=this.getIterator();
-        ObjetoClave objetoActual=null;
-        boolean enc=false;
-        while(itr.hasNext()||!enc){
-        	objetoActual=itr.next();
-        	enc=objetoActual.tieneEsteNombre(pNombre);
+        boolean enc = false;
+        while(itr.hasNext()&& !enc){
+        	enc=itr.next().tieneEsteNombre(pNombre);
         	}
         return enc;
     }
     public void imprimirObjClaves(){
         Iterator<ObjetoClave> itr=this.getIterator();
-        ObjetoClave objetoActual=null;
+        System.out.println("Inventario de objetos clave:");
         while(itr.hasNext()){
-        	objetoActual=itr.next();
-        	objetoActual.mostrarInfo();
+            itr.next().mostrarInfo();
+            System.out.println();
         }
+        System.out.println();
     }
 
 

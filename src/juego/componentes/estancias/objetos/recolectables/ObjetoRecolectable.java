@@ -14,10 +14,10 @@ public abstract class ObjetoRecolectable {
     //Otros metodos
     public void mostrarInfo(){
         System.out.println("Nombre: "+this.nombre);
-        System.out.println(this.descripcion);
+        System.out.println("Descripción: "+this.descripcion);
     }
     
     public boolean tieneEsteNombre(String pNombre){
-        return (this.nombre == pNombre);
+        return (this.nombre.equals(pNombre));
     }
 }

@@ -62,6 +62,9 @@ public class Armadura {
 	//Metodos de información
 	public void imprimirDatosArmadura(){
 		//TODO
+		//Imprimirá primero que son los datos de la armadura,
+		// luego por cada parte de la armadura imprimra un espacio en blanco al final.
+		// Y finalmente imprimira otra linea en blanco
 	}
 	public ListaStat getArmorStats(){
 		ListaStat armorStats = new ListaStat(0,0,0,0);
