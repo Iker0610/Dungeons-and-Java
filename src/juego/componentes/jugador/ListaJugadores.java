@@ -32,28 +32,19 @@ public class ListaJugadores {
     	//Hay que editarlo
     	LectorConsola lector= LectorConsola.getLectorConsola();
         lector.leerString();
-        String nombre=null;
+        String nombre;
         String sexo=null;
         String raza=null;
         String clase=null;
-        
-        boolean nombreOk=false;
+
         boolean sexoOk=false;
         boolean claseOk=false;
         boolean razaOk=false;
         boolean todoOk=false;
+
+        System.out.println("Introduzca su nombre");
+        nombre=lector.leerString();
         do{
-        	if(!nombreOk){
-        		try{
-        			System.out.println("Introduzca su nombre");
-        			nombre=lector.leerString();
-        			nombreOk=true;
-        		}
-        		catch(ExcepcionFormatoIncorrecto excepcionNombre){
-        			System.out.println("Ha introducido un caracter incorrecto, intentelo otra vez");
-        			this.generarJugador();
-        		}
-        	}
         	if(!sexoOk){
         		try{
         		System.out.println("Introduzca su sexo");
@@ -89,13 +80,14 @@ public class ListaJugadores {
             		this.generarJugador();
             	}
         	}
-        	if(nombreOk && sexoOk && razaOk && claseOk){
+        	if(sexoOk && razaOk && claseOk){
         		todoOk=true;
         	}
         
         }while(!todoOk);
-		Jugador jugador=new Jugador(nombre, sexo, raza, clase);
-		this.numJugadoresVivos=this.numJugadoresVivos+1;
+
+		lista.add(new Jugador(nombre, sexo, raza, clase));
+		this.numJugadoresVivos++;
     }
 
     //Metodos datos del arraylist
@@ -109,12 +101,12 @@ public class ListaJugadores {
 
     private int numJugadoresVivos(){
         Iterator<Jugador> itr=this.getIterator();
-        Jugador jugadorAct=null;
+        Jugador jugadorAct;
         int cont=0;
         while(itr.hasNext()){
         	jugadorAct=itr.next();
         	if(jugadorAct.estaVivo()){
-        		cont=cont+1;
+        		cont++;
         	}
         }
         return cont;
@@ -140,14 +132,13 @@ public class ListaJugadores {
 
     public void eliminarJugador (Jugador pJugador){
     	pJugador.morirse();
-    	this.numJugadoresVivos=this.numJugadoresVivos-1;
+    	this.numJugadoresVivos--;
     	if(this.numJugadoresVivos()==0){
     		this.gameOver();
     	}
     }
 
     private void gameOver(){
-        Partida partida=Partida.getPartida();
-        partida.finalizarPartida(false);
+        Partida.getPartida().finalizarPartida(false);
     }
 }
