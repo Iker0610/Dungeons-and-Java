@@ -23,6 +23,7 @@ public class Dado {
     public static int lanzarDado(){
     	Random r = new Random();
     	int valorDado = r.nextInt(nCaras) + 1;
+    	System.out.println("Valor obtenido: " + valorDado + " ");
         return valorDado;
     }
 }
