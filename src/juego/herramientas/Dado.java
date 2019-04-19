@@ -1,13 +1,15 @@
 package juego.herramientas;
 
+import java.util.Random;
+
 public class Dado {
 
     //Atributos
     private static Dado dado;
+    private static int nCaras = 20;
 
     //Constructora
     private Dado() {
-        //TODO
     }
 
     //Patron singleton
@@ -19,8 +21,9 @@ public class Dado {
     }
     //Otros metodos
     public static int lanzarDado(){
-        int valorDado = 0;
-        //TODO
+    	Random r = new Random();
+    	int valorDado = r.nextInt(nCaras) + 1;
+    	System.out.println("Valor obtenido: " + valorDado + " ");
         return valorDado;
     }
 }
