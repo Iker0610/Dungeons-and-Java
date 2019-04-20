@@ -21,11 +21,12 @@ public class Jugador {
 
 	//constructora
 	public Jugador(String pNombre, String pSexo, String pRaza, String pClase){
+		this.vivo = true;
 		this.nombre = pNombre;
 		this.sexo = pSexo;
 		this.raza = pRaza;
 		this.clase = pClase;
-		this.vivo = true;
+		this.armadura = new Armadura();
 		this.cargarStatsBase();
 		this.crearArmaduraBasica();
 		lObjClave = new ListaObjetosClaves();

@@ -23,11 +23,11 @@ public class ListaObjetosClaves {
     }
 
     public boolean estaObjClave(String pNombre){
-    	Iterator<ObjetoClave> itr=this.getIterator();
+    	Iterator<ObjetoClave> itr = this.getIterator();
         boolean enc = false;
         while(itr.hasNext()&& !enc){
         	enc=itr.next().tieneEsteNombre(pNombre);
-        	}
+        }
         return enc;
     }
     public void imprimirObjClaves(){
@@ -39,6 +39,4 @@ public class ListaObjetosClaves {
         }
         System.out.println();
     }
-
-
 }
