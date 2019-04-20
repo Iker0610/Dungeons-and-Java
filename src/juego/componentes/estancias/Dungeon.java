@@ -111,18 +111,24 @@ public class Dungeon {
 
     private Estancia buscarEstancia(String pIdEstancia){
         Iterator<Estancia> itr=getIterator();
-        Estancia estanciaPos=null;
+        Estancia estanciaAct=null;
         boolean chivato=false;
         while (itr.hasNext()&&!chivato){
-        	estanciaPos=itr.next();
-        	chivato=estanciaPos.tieneEsteId(pIdEstancia);
+            estanciaAct = itr.next();
+        	chivato = estanciaAct.tieneEsteId(pIdEstancia);
         }
-        return estanciaPos;
+        if (!chivato){
+            estanciaAct = null;
+        }
+        return estanciaAct;
     }
 
     //Otros metodos
     public void cambiarEstancia(String pIdEstancia) throws ExcepcionEstanciaInexistente {
-        //TODO hace falta añadir la excepción por si la estancia es NULL !!!!
-    	Partida.getPartida().cambiarEstancia(this.buscarEstancia(pIdEstancia));
+        Estancia estancia = this.buscarEstancia(pIdEstancia);
+        if (estancia != null){
+    	    Partida.getPartida().cambiarEstancia(estancia);
+        }
+        else {throw new ExcepcionEstanciaInexistente();}
     }
 }

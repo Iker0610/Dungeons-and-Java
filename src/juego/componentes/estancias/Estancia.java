@@ -19,6 +19,6 @@ public abstract class Estancia {
     public abstract boolean administrarMenuPrincipal(Jugador pJugadorActual);
 
     public boolean tieneEsteId(String pId){
-        return (this.idEstancia==pId);
+        return (this.idEstancia.equals(pId));
     }
 }
