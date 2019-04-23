@@ -27,53 +27,86 @@ public class LectorConsola {
         return lectorConsola;
     }
     //Otros metodos
-    public int leerOpcionNum(int pValorMin, int pValorMax) throws ExcepcionFormatoIncorrecto, ExcepcionValorFueradDeRango {
-        int input;
-        try{
-            input= sc.nextInt();
-        }
-        catch(InputMismatchException e){
-            throw new ExcepcionFormatoIncorrecto();
-        }
-        if(input<pValorMin||pValorMax<input){
-            throw new ExcepcionValorFueradDeRango();
-        }
+    public int leerOpcionNum(int pValorMin, int pValorMax){
+        int input = 0;
+        boolean correcto = false;
+
+        do {
+            try {
+                input = sc.nextInt();
+                if (input < pValorMin || pValorMax < input) {
+                    throw new ExcepcionValorFueradDeRango();
+                }
+                correcto = true;
+            }
+            catch (ExcepcionValorFueradDeRango e) {
+                System.out.println("El valor introducido no es válido. Por favor introduce un valor válido.");
+            }
+
+            catch (InputMismatchException e) {
+                System.out.println("El valor introducido no es un número. Por favor intentalo de nuevo.");
+            }
+
+        } while (!correcto);
+
         return input;
     }
 
-    public String leerOpcionString(ArrayList<String> pOpciones) throws ExcepcionValorFueradDeRango{
-        String input = sc.nextLine();
+    public String leerOpcionString(ArrayList<String> pOpciones){
         Iterator<String> itr = pOpciones.iterator();
-        boolean enc = false;
+        String input;
+        String seleccion=null;
+        boolean correcto = false;
+        do {
+            try {
+                input = sc.nextLine();
+                boolean enc = false;
+                while (itr.hasNext() && !enc) {
+                    seleccion=itr.next();
+                    enc = input.equalsIgnoreCase(seleccion);
+                }
+                if (!enc) {
+                    throw new ExcepcionValorFueradDeRango();
+                }
+                correcto = true;
+            }
+            catch (ExcepcionValorFueradDeRango e){
+                System.out.println("El valor introducido no es un valor válido. Introduce otro.");
+            }
+        }while(!correcto);
 
-        while(itr.hasNext() && !enc){
-            enc = itr.next().equalsIgnoreCase(input);
-        }
-
-        if (!enc){
-            throw new ExcepcionValorFueradDeRango();
-        }
-
-        return input;
+        return seleccion;
     }
 
     public String leerString(){
         return sc.nextLine();
     }
 
-    public boolean leerBoolean()throws ExcepcionFormatoIncorrecto{
+    public boolean leerBoolean(){
         System.out.println("Introduzca: Si/S o No/N");
-        String input = sc.nextLine();
-        boolean eleccion;
-        if(input.equalsIgnoreCase("si") || input.equalsIgnoreCase("s")){
-            eleccion = true;
-        }
-        else if(input.equalsIgnoreCase("no") || input.equalsIgnoreCase("n")){
-            eleccion = false;
-        }
-        else{
-            throw new ExcepcionFormatoIncorrecto();
-        }
+        String input;
+        boolean eleccion=false;
+        boolean correcto = false;
+        do {
+            input = sc.nextLine();
+            try{
+                if (input.equalsIgnoreCase("si") || input.equalsIgnoreCase("s")) {
+                    eleccion = true;
+                    correcto=true;
+                }
+                else if (input.equalsIgnoreCase("no") || input.equalsIgnoreCase("n")) {
+                    eleccion = false;
+                    correcto=true;
+                }
+                else {
+                    throw new ExcepcionFormatoIncorrecto();
+                }
+            }
+            catch (ExcepcionFormatoIncorrecto e){
+                System.out.println("El valor introducido no es un valor válido. Introduce otro.");
+            }
+
+        }while(!correcto);
 
         return eleccion;
     }

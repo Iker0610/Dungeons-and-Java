@@ -1,6 +1,6 @@
 titulo&Demo Camelot
 descripcion&En el horizonte de Avalon se alza el mítico Castillo de Camelot ya abandonado durante siglos. En sus alrededores se han concentrado unos intrepidos aventureros listos para desenterrar antiguos artefactos ya olvidados por el tiempo y desenterrar los oscuros secretos que allí yacen.
-estanciaInicial&jardinesExteriores
+estanciaInicial#jardinesExteriores
 porton
 salonPrincipal
 cocina

@@ -22,7 +22,7 @@ public class Dungeon {
     //Constructora
     private Dungeon(){
         lEstancias = new ArrayList<>();
-        String dirRoot = System.getProperty("user.dir")+ File.separator+"dungeons"+File.separator;
+        String dirRoot = System.getProperty("user.dir")+ File.separator+"recursos"+ File.separator+"ficheros"+ File.separator+"dungeons"+File.separator;
         String dirDataDungeon = dirRoot+"dungeon_info.txt";
         try {
             InputStream fichDataDungeon = new FileInputStream(dirDataDungeon);
@@ -46,10 +46,10 @@ public class Dungeon {
             boolean estanciaFinal = false;
             while(sc.hasNext()){
                 lineaAct = sc.nextLine();
-                if (lineaAct.matches("estanciaInicial&(.*)")){
+                if (lineaAct.matches("estanciaInicial#(.*)")){
                     if(!estanciaInicial) {
                         estanciaInicial = true;
-                        String[] estanciaInicialData = lineaAct.split("&");
+                        String[] estanciaInicialData = lineaAct.split("#");
                         String lineaData = estanciaInicialData[1];
                         Estancia estanciaInicio;
                         if (lineaData.matches("estanciaFinal&(.*)")){
@@ -81,6 +81,7 @@ public class Dungeon {
             if (!estanciaFinal){
                 throw new ExcepcionEstanciaFinallnexistente();
             }
+            sc.close();
         }
         catch(ExcepcionEstanciaIniciallnexistente e){
             System.out.println("El fichero "+dirDataDungeon+" no contiene una Estancia Inicial por lo que el juego no puede ejecutarse");
