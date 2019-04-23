@@ -37,14 +37,12 @@ public class ListaJugadores {
 
     //Metodo para anadir jugadores
     public void generarJugador(){
-    	numJugadoresVivos++;
-
     	LectorConsola lector= LectorConsola.getLectorConsola();
         lector.leerString();
         String nombre;
         String sexo;
-        String raza=null;
-        String clase=null;
+        String raza;
+        String clase;
 
         //Seleccion del nombre
         System.out.println("Introduzca su nombre");
@@ -100,6 +98,13 @@ public class ListaJugadores {
                 clase=lector.leerOpcionString(lClases);
             }
             else {throw new ExcepcionRazaInexistente();}
+            sc.close();
+
+            //Creacion del jugador;
+            lista.add(new Jugador(nombre, sexo, raza, clase));
+            numJugadoresVivos++;
+            System.out.println("El personaje se ha creado correctamente");
+
         }
         catch (ExcepcionRazaInexistente e){
             System.out.println("El fichero "+dirRazas+" no contiene datos sobre la raza seleccionada o tiene un formato inadecuado, por lo que el juego se cerrará.");
@@ -113,9 +118,6 @@ public class ListaJugadores {
             System.out.println("Ha ocurrido un error inesperado: el juego se cerrará");
             System.exit(0);
         }
-
-		lista.add(new Jugador(nombre, sexo, raza, clase));
-		this.numJugadoresVivos++;
     }
 
     private int numJugadoresTotal(){

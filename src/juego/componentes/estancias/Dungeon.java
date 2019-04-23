@@ -2,6 +2,7 @@ package juego.componentes.estancias;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -11,6 +12,7 @@ import juego.Partida;
 import juego.herramientas.excepciones.ExcepcionEstanciaFinallnexistente;
 import juego.herramientas.excepciones.ExcepcionEstanciaInexistente;
 import juego.herramientas.excepciones.ExcepcionEstanciaIniciallnexistente;
+import juego.herramientas.excepciones.ExcepcionFormatoIncorrecto;
 
 
 public class Dungeon {
@@ -63,7 +65,7 @@ public class Dungeon {
                         lEstancias.add(estanciaInicio);
                         Partida.getPartida().cambiarEstancia(estanciaInicio);
                     }
-                    else{throw new Exception();}
+                    else{throw new ExcepcionFormatoIncorrecto();}
                 }
                 else{
                     if (lineaAct.matches("estanciaFinal&(.*)")){
@@ -91,8 +93,16 @@ public class Dungeon {
             System.out.println("El fichero "+dirDataDungeon+" no contiene una Estancia Final por lo que el juego no puede ejecutarse");
             System.exit(0);
         }
-        catch(Exception e){
-            System.out.println("El fichero "+dirDataDungeon+" no exite o no contiene el formato adecuado por lo que el juego no puede ejecutarse");
+        catch(ExcepcionFormatoIncorrecto e){
+            System.out.println("El fichero "+dirDataDungeon+" no existe o no contiene el formato adecuado por lo que el juego no puede ejecutarse");
+            System.exit(0);
+        }
+        catch(FileNotFoundException e){
+            System.out.println("El fichero "+dirDataDungeon+" no existe por lo que el juego no puede ejecutarse");
+            System.exit(0);
+        }
+        catch (Exception e){
+            System.out.println("Ha ocurrido un error inesperado: el juego se cerrará");
             System.exit(0);
         }
     }
