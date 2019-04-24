@@ -6,15 +6,13 @@ public abstract class ObjetoRecolectable {
     private String descripcion;
 
     //Constructora
-    protected ObjetoRecolectable(String pNombre, String pDescripcion){
+    protected ObjetoRecolectable(String pNombre){
         this.nombre = pNombre;
-        this.descripcion = pDescripcion;
     }
 
     //Otros metodos
     public void mostrarInfo(){
         System.out.println("Nombre: "+this.nombre);
-        System.out.println("Descripción: "+this.descripcion);
     }
     
     public boolean tieneEsteNombre(String pNombre){

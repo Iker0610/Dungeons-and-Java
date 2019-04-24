@@ -1,8 +1,8 @@
-Mago&0,0,40,20
-Asesino&20,0,20,25
-Paladín&15,30,0,10
-Clérigo&0,10,30,15
-Guerrero&30,10,0,5
-Cazador&30,0,10,20
-Druida&10,10,20,15
-Berserker&40,10,0,0
+Mago#Túnica Andrajosa&Pechera&00&00&00&00#Pantalones Andrajosos&Pantalones&00&00&00&00#Bastón de aprendiz&Arma&00&00&00&00
+Asesino#Pechera de cuero gastado&Pechera&00&00&00&00#Pantalones desgastados&Pantalones&00&00&00&00#Dagas oxidadas&Arma&00&00&00&00
+Paladín#Armadura del Iniciado&Pechera&00&00&00&00#Pantalones del Iniciado&Pantalones&00&00&00&00#Maza del Iniciado&Arma&00&00&00&00
+Clérigo#Túnica Andrajosa&Pechera&00&00&00&00#Pantalones Andrajosos&Pantalones&00&00&00&00#Bastón astillado&Arma&00&00&00&00
+Guerrero#Armadura oxidada&Pechera&00&00&00&00#Pantalones Oxidados&Pantalones&00&00&00&00#Espada mellada&Arma&00&00&00&00
+Cazador#Pechera de cuero gastado&Pechera&00&00&00&00#Pantalones desgastados&Pantalones&00&00&00&00#Arco astillado&Arma&00&00&00&00
+Druida#Túnica Andrajosa&Pechera&00&00&00&00#Pantalones Andrajosos&Pantalones&00&00&00&00#Bastón de roble viejo&Arma&00&00&00&00
+Berserker#Armadura oxidada&Pechera&00&00&00&00#Pantalones Oxidados&Pantalones&00&00&00&00#Hacha oxidada&Arma&00&00&00&00
