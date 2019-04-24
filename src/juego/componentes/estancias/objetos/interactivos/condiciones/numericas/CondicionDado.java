@@ -18,7 +18,8 @@ public class CondicionDado extends CondicionNumerica {
     	
     }
     private int calcularValorFinal(int pValorNum, Jugador pJugador) {
-    	//TODO
+    	double destreza = pJugador.getStat("Destreza");
+    	return (int)(pValorNum*(1+destreza/200));
     }
 
 }

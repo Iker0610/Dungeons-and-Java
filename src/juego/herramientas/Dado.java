@@ -6,10 +6,11 @@ public class Dado {
 
     //Atributos
     private static Dado dado;
-    private static int nCaras = 20;
+    private int nCaras;
 
     //Constructora
     private Dado() {
+        nCaras=10;
     }
 
     //Patron singleton
@@ -20,10 +21,14 @@ public class Dado {
         return dado;
     }
     //Otros metodos
-    public static int lanzarDado(){
+    public int lanzarDado(){
     	Random r = new Random();
-    	int valorDado = r.nextInt(nCaras) + 1;
-    	System.out.println("Valor obtenido: " + valorDado + " ");
-        return valorDado;
+    	System.out.println("Pulsa enter para lanzar los dados.");
+    	LectorConsola.getLectorConsola().leerString();
+    	int valorDado1 = r.nextInt(nCaras) + 1;
+        int valorDado2 = r.nextInt(nCaras) + 1;
+    	System.out.println("Primer dado: " + valorDado1);
+        System.out.println("Primer dado: " + valorDado2);
+        return (valorDado1+valorDado2);
     }
 }

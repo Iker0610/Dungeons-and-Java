@@ -48,10 +48,12 @@ public class Partida {
     public void finalizarPartida(boolean pVictoria){
         this.finPartida = true;
         if (pVictoria){
-            System.out.println(//TODO);
+            System.out.println("ENHORABUENA!!!");
+            System.out.println("Habéis logrado derrotar al jefe de esta mazmorra.");
         }
         else{
-            System.out.println(//TODO);
+            System.out.println("GAME OVER");
+            System.out.println("Habéis sido derrotados por el jefe de la mazmorra.");
         }
     }
 

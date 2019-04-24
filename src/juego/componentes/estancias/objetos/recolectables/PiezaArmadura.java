@@ -29,7 +29,6 @@ public class PiezaArmadura extends ObjetoRecolectable {
 	@Override
 	public void mostrarInfo(){
 		super.mostrarInfo();
-		System.out.println("Tipo de pieza: "+this.tipo);
 		this.lista.imprimirStats();
 	}
 }

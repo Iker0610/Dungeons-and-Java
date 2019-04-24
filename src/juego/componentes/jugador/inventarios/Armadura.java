@@ -67,19 +67,36 @@ public class Armadura {
 
 		System.out.println("Información de la armadura:");
 		System.out.println("Casco: ");
-		this.casco.mostrarInfo();
+		if(this.casco != null) {
+			this.casco.mostrarInfo();
+		}
+		else{System.out.println("Vacío");}
 		System.out.println();
+
 		System.out.println("Pechera: ");
-		this.pechera.mostrarInfo();
+		if(this.pechera != null) {
+			this.pechera.mostrarInfo();
+		}
+		else{System.out.println("Vacío");}
 		System.out.println();
+
 		System.out.println("Pantalones: ");
-		this.pantalones.mostrarInfo();
+		if(this.pantalones != null) {
+			this.pantalones.mostrarInfo();
+		}
+		else{System.out.println("Vacío");}
 		System.out.println();
+
 		System.out.println("Arma: ");
-		this.arma.mostrarInfo();
+		if(this.arma != null) {
+			this.arma.mostrarInfo();
+		}
+		else{System.out.println("Vacío");}
 		System.out.println();
+
 		System.out.println();
 	}
+
 	public ListaStat getArmorStats(){
 		ListaStat armorStats = new ListaStat(0,0,0,0);
 		if (this.casco!= null){
