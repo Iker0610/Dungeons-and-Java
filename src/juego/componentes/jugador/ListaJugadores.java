@@ -5,7 +5,6 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.Scanner;
 
 import juego.Partida;
@@ -23,7 +22,7 @@ public class ListaJugadores {
     //Constructora
     private ListaJugadores(){
         lista = new ArrayList<>();
-        this.posJugadorAct = 0;
+        this.posJugadorAct = -1;
         this.numJugadoresVivos = 0;
     }
 
@@ -38,7 +37,6 @@ public class ListaJugadores {
     //Metodo para anadir jugadores
     public void generarJugador(){
     	LectorConsola lector= LectorConsola.getLectorConsola();
-        lector.leerString();
         String nombre;
         String sexo;
         String raza;
@@ -127,7 +125,10 @@ public class ListaJugadores {
     //Metodos de control
     public Jugador getSiguienteJugador(){
         int posAct = this.posJugadorAct;
-        if (this.numJugadoresVivos != 1){
+        if(posAct==-1){
+            posAct=0;
+        }
+        else if (this.numJugadoresVivos != 1){
             boolean encVivo = false;
             while (!encVivo){
                 if (posAct==(this.numJugadoresTotal()-1)){

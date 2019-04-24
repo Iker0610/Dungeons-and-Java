@@ -1,12 +1,13 @@
 package juego;
 
+import juego.componentes.estancias.Dungeon;
 import juego.componentes.estancias.Estancia;
 import juego.componentes.jugador.Jugador;
 import juego.componentes.jugador.ListaJugadores;
+import juego.herramientas.LectorConsola;
 
 public class Partida {
     //Atributos
-    private boolean jugadoresListos;
     private boolean finPartida;
     private static Partida partida;
     private Jugador jugadorActual;
@@ -14,9 +15,7 @@ public class Partida {
 
     //Constructora
     private Partida (){
-        this.jugadoresListos = false;
         this.finPartida = false;
-        //TODO
     }
 
     //Patron singleton
@@ -29,19 +28,42 @@ public class Partida {
 
     //Main
     public static void main(String[] args) {
-        //TODO
+        partida = new Partida();
+        System.out.println("DUNGEONS & JAVA");
+        System.out.println("-> Pulsa enter para aventurarte en una nueva aventura");
+        LectorConsola.getLectorConsola().leerString();
+        System.out.println();
+        partida.generarDungeon();
+        partida.crearJugadores();
+        partida.jugarPartida();
     }
+
+
     //Metodos generacion y jugar partida
     private void generarDungeon(){
-        //TODO
+        Dungeon.getDungeon();
     }
 
     private void crearJugadores(){
-        //TODO
+        boolean jugadoresListos = false;
+        int numJugadores = 0;
+        while(!jugadoresListos && (numJugadores<=0 || numJugadores<5)) {
+            ListaJugadores.getListaJugadores().generarJugador();
+            numJugadores++;
+            System.out.println("¿Hay más jugadores que deseen aventurarse en esta aventura?");
+            jugadoresListos = !LectorConsola.getLectorConsola().leerBoolean();
+        }
+        this.getSiguienteJugador();
     }
 
     private void jugarPartida(){
-        //TODO
+        boolean finTurno;
+        while (!finPartida){
+            finTurno = estanciaActual.administrarMenuPrincipal(jugadorActual);
+            if(finTurno){
+                this.getSiguienteJugador();
+            }
+        }
     }
 
     //Mtodos de control
@@ -62,11 +84,8 @@ public class Partida {
     }
 
     public void cambiarEstancia(Estancia pEstancia){
-
-    }
-
-    //Metodos de menu
-    private void comenzarTurno(){
-    	//TODO
+        if (pEstancia!=null){
+            this.estanciaActual = pEstancia;
+        }
     }
 }
