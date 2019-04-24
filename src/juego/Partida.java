@@ -86,6 +86,8 @@ public class Partida {
     public void cambiarEstancia(Estancia pEstancia){
         if (pEstancia!=null){
             this.estanciaActual = pEstancia;
+            System.out.print("Se ha accedido a ");
+            this.estanciaActual.imprimirInfoEstancia();
         }
     }
 }

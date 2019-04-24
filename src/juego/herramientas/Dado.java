@@ -21,14 +21,21 @@ public class Dado {
         return dado;
     }
     //Otros metodos
-    public int lanzarDado(){
+    public int lanzarDados(){
     	Random r = new Random();
-    	System.out.println("Pulsa enter para lanzar los dados.");
+
+    	//Lanzar Primer dado
+    	System.out.print("Pulsa enter para lanzar el primer dado.");
     	LectorConsola.getLectorConsola().leerString();
     	int valorDado1 = r.nextInt(nCaras) + 1;
+    	System.out.println("Has sacado un: " + valorDado1);
+
+    	//Lanzar segundo dado
+        System.out.print("Pulsa enter para lanzar el segundo dado.");
+        LectorConsola.getLectorConsola().leerString();
         int valorDado2 = r.nextInt(nCaras) + 1;
-    	System.out.println("Primer dado: " + valorDado1);
-        System.out.println("Primer dado: " + valorDado2);
+        System.out.println("Has sacado un: " + valorDado2);
+
         return (valorDado1+valorDado2);
     }
 }

@@ -12,13 +12,12 @@ public class ListaCofres {
 	private ArrayList<Cofre> lista;
 	
 	//constructora
-	public ListaCofres(){
+	public ListaCofres(String pDir, int pNumCofres){
 		this.lista=new ArrayList<>();
-	}
 
-	//Metodo de carga de datos
-	private void cargarDatos (String pDireccionFichero){
-		//TODO
+		for (int i = 1; i <= pNumCofres; i++){
+			this.lista.add(new Cofre(pDir+"NPC"+i+".txt"));
+		}
 	}
 
 	//Metodos de administracion de listas
@@ -26,60 +25,31 @@ public class ListaCofres {
 		return this.lista.iterator();
 	}
 
-	private void anadirCofre(Cofre pCofre){
-		Iterator<Cofre> itr=this.getIterator();
-		Cofre cofre=null;
-		boolean enc=false;
-		while(itr.hasNext()&&!enc){
-			cofre=itr.next();
-			if(cofre.equals(pCofre)){
-				enc=true;
-			}
-		}
-		if(!enc){
-			this.lista.add(pCofre);
-		}
-	}
-
-	//Metodos para mostrar informacion
 	public boolean administrarMenuSecundario(Jugador pJugador){
+		boolean finTurno=false;
 		this.mostrarCofres();
-		boolean resultado=false;
-		int input;
-
-		LectorConsola lector=LectorConsola.getLectorConsola();
-
-		input=lector.leerOpcionNum(0, this.lista.size());
-
+		System.out.print("->");
+		int input=LectorConsola.getLectorConsola().leerOpcionNum(0, this.lista.size());
+		System.out.println();
 		if(input!=0){
-			resultado=this.acercarseACofre(input,pJugador);
+			finTurno=this.acercarseACofre(input,pJugador);
 		}
-		return resultado;
+		return finTurno;
 	}
 
 	private void mostrarCofres(){
 		Iterator<Cofre> itr=this.getIterator();
-		Cofre cofre=null;
+		System.out.println("Cofres disponibles:");
+		int cont = 1;
 		while(itr.hasNext()){
-			cofre=itr.next();
-			cofre.imprimirNombre();
+			System.out.print(cont+"- ");
+			itr.next().imprimirNombre();
+			cont++;
 		}
 	}
 
 	private boolean acercarseACofre(int posCofre, Jugador pJugador){
-		Iterator<Cofre> itr=this.getIterator();
-		Cofre cofre=null;
-		int cont=0;
-		boolean enc=false;
-		boolean resultado=false;
-		while(itr.hasNext()&&!enc){
-			cofre=itr.next();
-			cont=cont+1;
-			if(cont==posCofre){
-				enc=true;
-			}
-		}
-		resultado=cofre.acercarse(pJugador);
-		return resultado;
+		Cofre cofreSelec = this.lista.get(posCofre--);
+		return cofreSelec.acercarse(pJugador);
 	}
 }

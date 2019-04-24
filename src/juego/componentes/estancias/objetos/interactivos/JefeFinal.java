@@ -29,7 +29,7 @@ public class JefeFinal extends ObjetoInteractivo{
         this.darBienvenida();
         if (this.comprobarCondiciones(pJugador)){
         	if (this.pruebaFinal.cumpleLaCondicion(pJugador)){
-        		
+        		//TODO
         	}
         }
     }
@@ -61,5 +61,6 @@ public class JefeFinal extends ObjetoInteractivo{
     
     private void derrotarJugador(Jugador pJugador) {
     	ListaJugadores.getListaJugadores().eliminarJugador(pJugador);
+    	this.imprimirFraseVictoria();
     }
 }

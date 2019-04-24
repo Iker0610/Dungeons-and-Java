@@ -12,7 +12,7 @@ public class CondicionDado extends CondicionNumerica {
 
     //Metodos
     public boolean cumpleLaCondicion(Jugador pJugador){
-    	int valorDado = Dado.getDado().lanzarDado();
+    	int valorDado = Dado.getDado().lanzarDados();
     	int valorDefinitivo= this.calcularValorFinal(valorDado, pJugador);
     	return (super.getValorMinimo() <= valorDefinitivo);
     	

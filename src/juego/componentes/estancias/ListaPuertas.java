@@ -3,7 +3,6 @@ package juego.componentes.estancias;
 import juego.componentes.estancias.objetos.interactivos.Puerta;
 import juego.componentes.jugador.Jugador;
 import juego.herramientas.LectorConsola;
-import juego.herramientas.LectorConsola;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -13,13 +12,12 @@ public class ListaPuertas {
     private ArrayList<Puerta> lista;
 
     //Constructora
-    public ListaPuertas(){
-        this.lista = new ArrayList<>();
-    }
+    public ListaPuertas(String pDir, int pNumPuertas){
+        this.lista=new ArrayList<>();
 
-    //Metodo de carga de datos
-    private void cargarDatos (String pDireccionFichero){
-        //TODO
+        for (int i = 1; i <= pNumPuertas; i++){
+            this.lista.add(new Puerta(pDir+"NPC"+i+".txt"));
+        }
     }
 
     //Metodos de administracion de listas
@@ -27,54 +25,34 @@ public class ListaPuertas {
         return this.lista.iterator();
     }
 
-    private void anadirPuerta(Puerta pPuerta){
-        Iterator<Puerta> itr=this.getIterator();
-        Puerta puertaActual=null;
-        boolean enc=false;
-        while(itr.hasNext()||!enc){
-        	puertaActual=itr.next();
-        	if(puertaActual==pPuerta){
-        		enc=true;
-        	}
+    public boolean administrarMenuSecundario(Jugador pJugador){
+        boolean finTurno=false;
+        this.mostrarPuertas();
+        System.out.print("->");
+        int input=LectorConsola.getLectorConsola().leerOpcionNum(0, this.lista.size());
+        System.out.println();
+
+        if (input!=0){
+            finTurno=this.acercarseAPuerta(input, pJugador);
         }
-        if(!enc){
-        	this.lista.add(pPuerta);
-        }
+        return finTurno;
     }
 
     //Metodos de imprimir informacion
     private void mostrarPuertas(){
         Iterator<Puerta> itr=this.getIterator();
-        Puerta puertaActual=null;
+        System.out.println("Puertas disponibles:");
+        int cont = 1;
         while(itr.hasNext()){
-        	puertaActual=itr.next();
-        	puertaActual.imprimirNombre();
+            System.out.print(cont+"- ");
+            itr.next().imprimirNombre();
+            cont++;
         }
-    }
-
-    public boolean administrarMenuSecundario(Jugador pJugador){
-        this.mostrarPuertas();
-        LectorConsola lector=LectorConsola.getLectorConsola();
-        int input;
-        boolean resultado=false;
-
-        input=lector.leerOpcionNum(0, this.lista.size());
-
-        if (input!=0){
-        	resultado=this.acercarseAPuerta(input, pJugador);
-        }
-        return resultado;
     }
 
     private boolean acercarseAPuerta(int posPuerta, Jugador pJugador){
-        Iterator<Puerta> itr=this.getIterator();
-        int pos=0;
-    	Puerta puertaActual=null;
-        while(pos<posPuerta){ //Como ya hemos comprobado que la posicion de la puerta elegida este en dentro del rango no hay que poner while(itr.next())
-        	puertaActual=itr.next();
-        	pos=pos+1;
-        }
-         return puertaActual.acercarse(pJugador);
+    	Puerta puertaSelec=this.lista.get(posPuerta--);
+    	return puertaSelec.acercarse(pJugador);
     }
 
 }

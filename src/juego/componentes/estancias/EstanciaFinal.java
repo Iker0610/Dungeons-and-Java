@@ -4,6 +4,8 @@ import juego.componentes.estancias.objetos.interactivos.JefeFinal;
 import juego.componentes.jugador.Jugador;
 import juego.herramientas.LectorConsola;
 
+import java.io.File;
+
 public  class EstanciaFinal extends Estancia {
 
     //Atributos
@@ -12,26 +14,26 @@ public  class EstanciaFinal extends Estancia {
     //Constructora
     protected EstanciaFinal(String pIdEstancia){
         super(pIdEstancia);
-    }
-
-    //Metodo de carga de datos
-    protected  void cargarDatos (String pDir){
-        //TODO
+        String fichDataJefeFinal = super.getDir()+"jefeFinal"+File.separator+"jefeFinal.txt";
+        this.jefeFinal = new JefeFinal(fichDataJefeFinal);
     }
 
     //Metodos menú
     public  boolean administrarMenuPrincipal(Jugador pJugadorActual){
         boolean finTurno = false;
-        //TODO Falta las excepciones
+
         int opcion = LectorConsola.getLectorConsola().leerOpcionNum(1,2);
+        System.out.println("Elige una acción a realizar:");
         System.out.println("1- Mostrar informacion del jugador");
         System.out.println("2- Enfrentarse al jefe final");
+        System.out.print("->");
         if (opcion==1){
             pJugadorActual.imprimirInformacionJugador();
         }
         else if (opcion==2){
             finTurno = this.jefeFinal.acercarse(pJugadorActual);
         }
+        System.out.println();
         return finTurno;
     }
 }

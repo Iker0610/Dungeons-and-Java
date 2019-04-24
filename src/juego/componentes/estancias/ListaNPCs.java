@@ -12,13 +12,12 @@ public class ListaNPCs {
 	private ArrayList<NPC> lista;
 	
 	//constructora
-	public ListaNPCs(){
+	public ListaNPCs(String pDir, int pNumNPCs){
 		this.lista=new ArrayList<>();
-	}
 
-	//Metodo de carga de datos
-	private void cargarDatos (String pDireccionFichero){
-		//TODO
+		for (int i = 1; i <= pNumNPCs; i++){
+			this.lista.add(new NPC(pDir+"NPC"+i+".txt"));
+		}
 	}
 
 	//Metodos de administracion de listas
@@ -26,60 +25,31 @@ public class ListaNPCs {
 		return this.lista.iterator();
 	}
 
-	private void anadirNPC(NPC pNPC){
-		Iterator<NPC> itr=this.getIterator();
-		NPC npc=null;
-		boolean enc=false;
-		while(!enc&&itr.hasNext()){
-			npc=itr.next();
-			if(npc.equals(pNPC)){
-				enc=true;
-			}
-		}
-		if(!enc){
-			this.lista.add(pNPC);
-		}
-	}
-
-	//Metodos imprimir informacion
 	public boolean administrarMenuSecundario(Jugador pJugador){
+		boolean finTurno=false;
 		this.mostrarNPCs();
-		boolean resultado=false;
-		int input;
-
-		LectorConsola lector=LectorConsola.getLectorConsola();
-
-		input=lector.leerOpcionNum(0, this.lista.size());
-
+		System.out.print("->");
+		int input=LectorConsola.getLectorConsola().leerOpcionNum(0, this.lista.size());
+		System.out.println();
 		if(input!=0){
-			resultado=this.acercarseANPC(input,pJugador);
+			finTurno=this.acercarseANPC(input,pJugador);
 		}
-		return resultado;
+		return finTurno;
 	}
 
 	private void mostrarNPCs(){
 		Iterator<NPC> itr=this.getIterator();
-		NPC npc=null;
+		System.out.println("Personajes disponibles:");
+		int cont = 1;
 		while(itr.hasNext()){
-			npc=itr.next();
-			npc.imprimirNombre();
+			System.out.print(cont+"- ");
+			itr.next().imprimirNombre();
+			cont++;
 		}
 	}
 
 	private boolean acercarseANPC(int posNPC, Jugador pJugador){
-		Iterator<NPC> itr=this.getIterator();
-		NPC npc=null;
-		boolean enc=false;
-		boolean resultado=false;
-		int cont=0;
-		while(!enc){
-			npc=itr.next();
-			cont=cont+1;
-			if(cont==posNPC){
-				enc=true;
-			}
-		}
-		resultado=npc.acercarse(pJugador);
-		return resultado;
+		NPC npcSelec = this.lista.get(posNPC--);
+		return npcSelec.acercarse(pJugador);
 	}
 }
