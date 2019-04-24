@@ -36,7 +36,7 @@ public class Cofre extends ObjetoInteractivo {
 
     protected void interactuar(Jugador pJugador) {
     	this.imprimirContenido();
-    	int pos=LectorConsola.getLectorConsola().leerOpcion(1, this.numObj());
+    	int pos=LectorConsola.getLectorConsola().leerOpcionNum(1, this.numObj());
     	this.darObjetoAPersonaje(pJugador, pos);
     }
     

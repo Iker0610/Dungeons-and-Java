@@ -53,13 +53,13 @@ public class LectorConsola {
     }
 
     public String leerOpcionString(ArrayList<String> pOpciones){
-        Iterator<String> itr = pOpciones.iterator();
         String input;
         String seleccion=null;
         boolean correcto = false;
         do {
             try {
                 input = sc.nextLine();
+                Iterator<String> itr = pOpciones.iterator();
                 boolean enc = false;
                 while (itr.hasNext() && !enc) {
                     seleccion=itr.next();

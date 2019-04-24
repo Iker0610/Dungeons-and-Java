@@ -43,15 +43,17 @@ public class ListaJugadores {
         String clase;
 
         //Seleccion del nombre
-        System.out.println("Introduzca su nombre");
+        System.out.print("Introduzca su nombre: ");
         nombre=lector.leerString();
+        System.out.println();
 
         //Seleccion del genero
-        System.out.println("Introduzca su genero: H(hombre)/M(mujer) ");
+        System.out.print("Introduzca su genero H(hombre)/M(mujer): ");
         ArrayList<String> lSexo = new ArrayList<>();
         lSexo.add("h");
         lSexo.add("m");
         sexo=lector.leerOpcionString(lSexo);
+        System.out.println();
 
 
         //Selección de raza y clase
@@ -71,7 +73,9 @@ public class ListaJugadores {
                 lRazas.add(razasData[i]);
                 System.out.println(razasData[i]);
             }
+            System.out.print("->");
             raza=lector.leerOpcionString(lRazas);
+            System.out.println();
 
             //Seleccion de Clase
             String lineaAct;
@@ -89,11 +93,13 @@ public class ListaJugadores {
                 ArrayList<String> lClases = new ArrayList<>();
                 String[] dataClases = razasData[2].split("&");
                 System.out.println("Elija su clase entre las siguientes disponibles:");
-                for (int i = 1; i <= numClases; i++){
+                for (int i = 0; i < numClases; i++){
                     lClases.add(dataClases[i]);
                     System.out.println(dataClases[i]);
                 }
+                System.out.print("->");
                 clase=lector.leerOpcionString(lClases);
+                System.out.println();
             }
             else {throw new ExcepcionRazaInexistente();}
             sc.close();

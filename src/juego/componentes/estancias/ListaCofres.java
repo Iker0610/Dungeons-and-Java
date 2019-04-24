@@ -46,26 +46,14 @@ public class ListaCofres {
 		this.mostrarCofres();
 		boolean resultado=false;
 		int input;
-		boolean todoOk=false;
+
 		LectorConsola lector=LectorConsola.getLectorConsola();
-			do{
-	        	try{
-	        		input=lector.leerOpcionNum(0, this.lista.size());
-	        		todoOk=true;
-	        	}
-	        	catch(ExcepcionFormatoIncorrecto excepcionFormato){
-	        		System.out.println("Ha introducido un caracter incorrecto, intentelo otra vez");
-	    			this.administrarMenuSecundario(pJugador);
-	        	}
-	        	catch(ExcepcionValorFueradDeRango excepcionRango){
-	        		System.out.println("El valor introducido no se encuentra entre las opciones, intentelo otra vez");
-	    			this.administrarMenuSecundario(pJugador);
-	        	}
-	        
-	        }while(!todoOk);
-			if(input!=0){
-				resultado=this.acercarseACofre(input,pJugador);
-			}
+
+		input=lector.leerOpcionNum(0, this.lista.size());
+
+		if(input!=0){
+			resultado=this.acercarseACofre(input,pJugador);
+		}
 		return resultado;
 	}
 
