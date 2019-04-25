@@ -1,11 +1,18 @@
 package juego.componentes.estancias.objetos.interactivos;
 
+import juego.componentes.estancias.objetos.recolectables.ObjetoClave;
 import juego.componentes.estancias.objetos.recolectables.ObjetoRecolectable;
+import juego.componentes.estancias.objetos.recolectables.PiezaArmadura;
 import juego.herramientas.LectorConsola;
 import juego.componentes.jugador.Jugador;
+import juego.herramientas.excepciones.ExcepcionFormatoIncorrecto;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.Scanner;
 
 public class Cofre extends ObjetoInteractivo {
     //Esta clase englobará todos los objetos de los que se puedan sacar objetos recolectables.
@@ -17,9 +24,54 @@ public class Cofre extends ObjetoInteractivo {
 
     //Constructora
     public Cofre (String pDir){
+		super(pDir);
         this.lista = new ArrayList<>();
         this.desbloqueado=false;
-        //TODO
+		String dirData = pDir+"data_cofre.txt";
+
+        try{
+            InputStream fichData = new FileInputStream(dirData);
+            Scanner sc = new Scanner(fichData);
+            String lineaAct;
+            String data;
+            ObjetoRecolectable nuevoObj;
+            while(sc.hasNext()){
+                lineaAct=sc.nextLine();
+                if(lineaAct.matches("objClave#(_*)&(_*)")){
+                    data = lineaAct.split("#")[1];
+                    nuevoObj = new ObjetoClave(data.split("&")[0],data.split("&")[1]);
+                    this.lista.add(nuevoObj);
+
+                }
+                else if(lineaAct.matches("piezaArmadura#(_*)&(_*)&\\d\\d&\\d\\d&\\d\\d&\\d\\d")){
+                    data = lineaAct.split("#")[1];
+                    nuevoObj = new PiezaArmadura(
+                            data.split("&")[0],data.split("&")[1],
+                            Integer.parseInt(data.split("&")[2]),
+                            Integer.parseInt(data.split("&")[3]),
+                            Integer.parseInt(data.split("&")[4]),
+                            Integer.parseInt(data.split("&")[5])
+                    );
+                    this.lista.add(nuevoObj);
+                }
+                else{throw new ExcepcionFormatoIncorrecto();}
+            }
+
+            //Se cierra el escanner
+            sc.close();
+        }
+        catch(ExcepcionFormatoIncorrecto e){
+            System.out.println("El fichero "+dirData+" no contiene el formato adecuado por lo que el juego no puede ejecutarse");
+            System.exit(0);
+        }
+        catch(FileNotFoundException e){
+            System.out.println("El fichero "+dirData+" no existe por lo que el juego no puede ejecutarse");
+            System.exit(0);
+        }
+        catch (Exception e) {
+            System.out.println("Ha ocurrido un error inesperado: el juego se cerrará");
+            System.exit(0);
+        }
     }
 
     //Metodos de interaccion

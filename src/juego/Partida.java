@@ -33,9 +33,9 @@ public class Partida {
         System.out.print("-> Pulsa enter para aventurarte en una nueva aventura");
         LectorConsola.getLectorConsola().leerString();
         System.out.println();
-        //partida.generarDungeon();
+        partida.generarDungeon();
         partida.crearJugadores();
-        //partida.jugarPartida();
+        partida.jugarPartida();
     }
 
 

@@ -4,6 +4,7 @@ import juego.componentes.estancias.objetos.interactivos.Puerta;
 import juego.componentes.jugador.Jugador;
 import juego.herramientas.LectorConsola;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -16,7 +17,7 @@ public class ListaPuertas {
         this.lista=new ArrayList<>();
 
         for (int i = 1; i <= pNumPuertas; i++){
-            this.lista.add(new Puerta(pDir+"NPC"+i+".txt"));
+            this.lista.add(new Puerta(pDir+"puerta"+i+ File.separator));
         }
     }
 

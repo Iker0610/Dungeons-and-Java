@@ -1,8 +1,17 @@
 package juego.componentes.estancias.objetos.interactivos;
 
-import juego.componentes.estancias.objetos.interactivos.condiciones.ListaCondiciones;
+import juego.componentes.estancias.objetos.interactivos.condiciones.*;
+import juego.componentes.estancias.objetos.interactivos.condiciones.numericas.*;
+import juego.componentes.estancias.objetos.interactivos.condiciones.string.*;
+
 import juego.herramientas.LectorConsola;
 import juego.componentes.jugador.Jugador;
+import juego.herramientas.excepciones.ExcepcionFormatoIncorrecto;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
+import java.util.Scanner;
 
 public abstract class ObjetoInteractivo {
 
@@ -12,13 +21,98 @@ public abstract class ObjetoInteractivo {
     private ListaCondiciones lCondiciones;
 
     //Constructora
-    protected ObjetoInteractivo(){
+    protected ObjetoInteractivo(String pDir){
         this.lCondiciones = new ListaCondiciones();
+        String dirData = pDir+"info_y_condiciones.text";
+        try {
+            InputStream fichData = new FileInputStream(dirData);
+            Scanner sc = new Scanner(fichData);
+            String lineaAct;
+
+            //Dato de nombre
+            lineaAct = sc.nextLine();
+            if(lineaAct.matches("nombre&(.*)")){
+                this.nombre = lineaAct.split("&")[1];
+            }
+            else{throw new ExcepcionFormatoIncorrecto();}
+
+            //Dato de descripcion
+            lineaAct = sc.nextLine();
+            if(lineaAct.matches("descripcion&(.*)")){
+                this.descripcion = lineaAct.split("&")[1];
+            }
+            else{throw new ExcepcionFormatoIncorrecto();}
+
+            //Generacion de las condiciones
+            while(sc.hasNext()){
+                lineaAct=sc.nextLine();
+                if(
+                        lineaAct.matches("condicionDado#\\d\\d")||
+                        lineaAct.matches("condicionStat#(_*)&\\d\\d")||
+                        lineaAct.matches("condicionClase#(_*)")||
+                        lineaAct.matches("condicionObjClave#(_*)")||
+                        lineaAct.matches("condicionRaza#(_*)")||
+                        lineaAct.matches("condicionSexo#(_*)"))
+                {
+                    String tipoCondicion = lineaAct.split("#")[0];
+                    String data = lineaAct.split("#")[1];
+                    this.generarCondicion(tipoCondicion,data);
+                }
+                else{throw new ExcepcionFormatoIncorrecto();}
+            }
+
+            //Se cierra el escanner
+            sc.close();
+        }
+        catch(ExcepcionFormatoIncorrecto e){
+            System.out.println("El fichero "+dirData+" no contiene el formato adecuado por lo que el juego no puede ejecutarse");
+            System.exit(0);
+        }
+        catch(FileNotFoundException e){
+            System.out.println("El fichero "+dirData+" no existe por lo que el juego no puede ejecutarse");
+            System.exit(0);
+        }
+        catch (Exception e) {
+            System.out.println("Ha ocurrido un error inesperado: el juego se cerrará");
+            System.exit(0);
+        }
+
     }
 
     //Metodo de carga de datos
-    protected void cargarDatos (String pNombre, String pDescripcion, String pDirCondiciones){
-        //TODO
+    private void generarCondicion (String pTipoCondicion, String pData){
+        Condicion nuevaCondicion;
+        switch (pTipoCondicion){
+            case "condicionDado":
+                nuevaCondicion=new CondicionDado(Integer.parseInt(pData));
+                this.lCondiciones.anadirCondicion(nuevaCondicion);
+                break;
+
+            case "condicionStat":
+                nuevaCondicion=new CondicionStat(Integer.parseInt(pData.split("&")[1]),pData.split("&")[0]);
+                this.lCondiciones.anadirCondicion(nuevaCondicion);
+                break;
+
+            case "condicionClase":
+                nuevaCondicion=new CondicionClase(pData);
+                this.lCondiciones.anadirCondicion(nuevaCondicion);
+                break;
+
+            case "condicionObjClave":
+                nuevaCondicion=new CondicionObjClave(pData);
+                this.lCondiciones.anadirCondicion(nuevaCondicion);
+                break;
+
+            case "condicionRaza":
+                nuevaCondicion=new CondicionRaza(pData);
+                this.lCondiciones.anadirCondicion(nuevaCondicion);
+                break;
+
+            case "condicionSexo":
+                nuevaCondicion=new CondicionSexo(pData);
+                this.lCondiciones.anadirCondicion(nuevaCondicion);
+                break;
+        }
     }
 
     //Otros metodos

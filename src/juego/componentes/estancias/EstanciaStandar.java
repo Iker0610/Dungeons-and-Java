@@ -22,10 +22,10 @@ public class EstanciaStandar extends Estancia {
     //Constructora
     public EstanciaStandar(String pIdEstancia){
         super(pIdEstancia);
-		String fichData = super.getDir()+"info.txt";
+		String dirData = super.getDir()+"info.txt";
 		try{
-			InputStream fichDataDungeon = new FileInputStream(fichData);
-			Scanner sc = new Scanner(fichDataDungeon);
+			InputStream fichData = new FileInputStream(dirData);
+			Scanner sc = new Scanner(fichData);
 			sc.nextLine();
 
 			int numNPCs;
@@ -64,11 +64,11 @@ public class EstanciaStandar extends Estancia {
 
 		}
 		catch(ExcepcionFormatoIncorrecto e){
-			System.out.println("El fichero "+fichData+" no contiene el formato adecuado por lo que el juego no puede ejecutarse");
+			System.out.println("El fichero "+dirData+" no contiene el formato adecuado por lo que el juego no puede ejecutarse");
 			System.exit(0);
 		}
         catch(FileNotFoundException e){
-			System.out.println("El fichero "+fichData+" no existe por lo que el juego no puede ejecutarse");
+			System.out.println("El fichero "+dirData+" no existe por lo que el juego no puede ejecutarse");
 			System.exit(0);
 		}
         catch (Exception e) {

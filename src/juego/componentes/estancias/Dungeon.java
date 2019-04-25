@@ -27,8 +27,8 @@ public class Dungeon {
         String dirRoot = System.getProperty("user.dir")+ File.separator+"recursos"+ File.separator+"ficheros"+ File.separator+"dungeons"+File.separator;
         String dirDataDungeon = dirRoot+"dungeon_info.txt";
         try {
-            InputStream fichDataDungeon = new FileInputStream(dirDataDungeon);
-            Scanner sc = new Scanner(fichDataDungeon);
+            InputStream fichData = new FileInputStream(dirDataDungeon);
+            Scanner sc = new Scanner(fichData);
 
             String lineaAct = sc.nextLine();
             if (lineaAct.matches("titulo&(.*)")){

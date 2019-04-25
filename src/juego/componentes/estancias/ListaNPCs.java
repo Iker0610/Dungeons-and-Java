@@ -4,6 +4,7 @@ import juego.componentes.estancias.objetos.interactivos.NPC;
 import juego.componentes.jugador.Jugador;
 import juego.herramientas.LectorConsola;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -16,7 +17,7 @@ public class ListaNPCs {
 		this.lista=new ArrayList<>();
 
 		for (int i = 1; i <= pNumNPCs; i++){
-			this.lista.add(new NPC(pDir+"NPC"+i+".txt"));
+			this.lista.add(new NPC(pDir+"npc"+i+ File.separator));
 		}
 	}
 

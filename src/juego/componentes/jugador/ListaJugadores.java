@@ -61,8 +61,8 @@ public class ListaJugadores {
         String dirRazas = dirRoot+"razas_clases.txt";
 
         try{
-            InputStream fichDataDungeon = new FileInputStream(dirRazas);
-            Scanner sc = new Scanner(fichDataDungeon);
+            InputStream fichData = new FileInputStream(dirRazas);
+            Scanner sc = new Scanner(fichData);
 
             //Seleccion de raza
             String[] razasData = sc.nextLine().split("&");

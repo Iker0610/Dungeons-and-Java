@@ -18,10 +18,10 @@ public abstract class Estancia {
     //Constructora
     protected Estancia (String pIdEstancia){
         this.idEstancia = pIdEstancia;
-        String fichData = this.getDir()+"info.txt";
+        String dirData = this.getDir()+"info.txt";
         try {
-            InputStream fichDataDungeon = new FileInputStream(fichData);
-            Scanner sc = new Scanner(fichDataDungeon);
+            InputStream fichData = new FileInputStream(dirData);
+            Scanner sc = new Scanner(fichData);
             this.descripcion=sc.nextLine();
 
             //Se cierra el scanner

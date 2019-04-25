@@ -14,8 +14,8 @@ public  class EstanciaFinal extends Estancia {
     //Constructora
     protected EstanciaFinal(String pIdEstancia){
         super(pIdEstancia);
-        String fichDataJefeFinal = super.getDir()+"jefeFinal"+File.separator+"jefeFinal.txt";
-        this.jefeFinal = new JefeFinal(fichDataJefeFinal);
+        String dirData = super.getDir()+"jefeFinal"+File.separator;
+        this.jefeFinal = new JefeFinal(dirData);
     }
 
     //Metodos menú
