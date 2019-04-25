@@ -139,6 +139,8 @@ public class Dungeon {
         Estancia estancia = this.buscarEstancia(pIdEstancia);
         if (estancia != null){
     	    Partida.getPartida().cambiarEstancia(estancia);
+    	    System.out.print("Se ha cambiado de estancia a:");
+    	    estancia.imprimirInfoEstancia();
         }
         else {throw new ExcepcionEstanciaInexistente();}
     }
