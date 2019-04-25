@@ -17,13 +17,16 @@ public class Cofre extends ObjetoInteractivo {
 
     //Constructora
     public Cofre (String pDir){
-        //TODO
         this.lista = new ArrayList<>();
+        this.desbloqueado=false;
+        //TODO
     }
 
     //Metodos de interaccion
     public void anadirObjeto (ObjetoRecolectable pObjeto){
-        this.lista.add(pObjeto);
+        if(!this.lista.contains(pObjeto)) {
+			this.lista.add(pObjeto);
+		}
     }
 
     private Iterator<ObjetoRecolectable> getIterador(){
@@ -35,31 +38,41 @@ public class Cofre extends ObjetoInteractivo {
     }
 
     protected void interactuar(Jugador pJugador) {
-    	this.imprimirContenido();
-    	int pos=LectorConsola.getLectorConsola().leerOpcionNum(1, this.numObj());
-    	this.darObjetoAPersonaje(pJugador, pos);
-    }
+		if (!this.desbloqueado){
+			this.desbloqueado = this.comprobarCondiciones(pJugador);
+			System.out.println("Se ha desbloqueado!");
+		}
+		if(desbloqueado){
+			boolean finTurno = false;
+			while (this.numObj()!=0 && !finTurno) {
+				System.out.println("Elige que objeto recoger:");
+				this.imprimirContenido();
+				System.out.println("0- Salir");
+				System.out.println();
+				System.out.print("->");
+				int pos = LectorConsola.getLectorConsola().leerOpcionNum(0, this.numObj()) - 1;
+				System.out.println();
+				if(pos !=0) {
+					this.darObjetoAPersonaje(pJugador, pos);
+					if(this.numObj()!=0){
+						System.out.println("¿Deseas seguir cogiendo objetos del cofre?");
+						if(!LectorConsola.getLectorConsola().leerBoolean()){
+							finTurno=true;
+						}
+					}
+					else{System.out.println("Parece que ya no queda nada que recoger");}
+				}
+				else{finTurno=true;}
+			}
+		}
+		else {System.out.println("Vaya!! Parece que está bloqueado y no cumples los requisitos para desbloquearlo.");}
+	}
     
-    protected void desbloquear(){
-    	this.desbloqueado=true;
-    }
-
-    
-    //Annade el objeto en la posici�n especificada si existe, y sino no (no peta)
+    //Annade el objeto en la posicion especificada si existe, y sino no (no peta)
     private void darObjetoAPersonaje(Jugador pJugador, int pPosObjeto){
-    	Iterator<ObjetoRecolectable> itr=this.getIterador();
-    	boolean found=false;
-    	int i=0;
-    	ObjetoRecolectable objetoActual=null;
-    	while (itr.hasNext() && !found){
-    		objetoActual=itr.next();
-    		i=i+1;
-    		found=(pPosObjeto==i);
-    	}
-    	if (found){
-    		pJugador.anadirObjetoRecolectable(objetoActual);
-    		this.eliminarObjeto(objetoActual);
-    	}
+		ObjetoRecolectable objetoBuscado = this.lista.get(pPosObjeto);
+		pJugador.anadirObjetoRecolectable(objetoBuscado);
+		this.eliminarObjeto(objetoBuscado);
     }
 
     //Metodos relacionados con al arraylist
@@ -69,16 +82,17 @@ public class Cofre extends ObjetoInteractivo {
 
     private void imprimirContenido(){
     	System.out.println("Contenido del cofre:");
-    	Iterator<ObjetoRecolectable> itr=this.getIterador();
-    	ObjetoRecolectable objetoActual=null;
-    	int i=0;
-    	while (itr.hasNext()){
-    		i++;
-    		objetoActual=itr.next();
-    		System.out.print(i);
-    		System.out.print("- ");
-    		System.out.println(objetoActual);
-    	}
-    	System.out.println("");
+    	if(this.numObj()!=0) {
+			Iterator<ObjetoRecolectable> itr = this.getIterador();
+			int i = 0;
+			while (itr.hasNext()) {
+				i++;
+				System.out.println();
+				System.out.print(i);
+				System.out.print("- ");
+				itr.next().mostrarInfo();
+			}
+		}
+    	else {System.out.println("Vacío");}
     }
 }

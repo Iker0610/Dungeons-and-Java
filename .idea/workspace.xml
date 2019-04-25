@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="351fff89-8730-49e9-afdd-cfc308ef8509" name="Default Changelist" comment="Update">
-      <change beforePath="$PROJECT_DIR$/src/juego/Partida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/Partida.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/Estancia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/Estancia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/EstanciaFinal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/EstanciaFinal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/EstanciaStandar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/EstanciaStandar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/ListaCofres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/ListaCofres.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/ListaNPCs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/ListaNPCs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/ListaPuertas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/ListaPuertas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/JefeFinal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/JefeFinal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/numericas/CondicionDado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/numericas/CondicionDado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/herramientas/Dado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/herramientas/Dado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/Cofre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/Cofre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/NPC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/NPC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/ObjetoInteractivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/ObjetoInteractivo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/Puerta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/Puerta.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,35 +19,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/ObjetoInteractivo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="42" column="31" lean-forward="true" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/NPC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/Puerta.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/ListaNPCs.java">
+        <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/Cofre.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="716">
-              <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
+            <state relative-caret-position="1156">
+              <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#984#985#0" expanded="true" />
+                <element signature="e#1028#1029#0" expanded="true" />
+                <element signature="e#1055#1056#0" expanded="true" />
+                <element signature="e#1095#1096#0" expanded="true" />
+                <element signature="e#2411#2412#0" expanded="true" />
+                <element signature="e#2450#2451#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/ListaPuertas.java">
+        <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/JefeFinal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="699">
-              <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/ListaCofres.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="733">
-              <caret line="52" column="46" lean-forward="true" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+            <state relative-caret-position="799">
+              <caret line="58" column="52" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,10 +123,8 @@
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/string/CondicionSexo.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/string/CondicionRaza.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/string/CondicionClase.java" />
-        <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/NPC.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recogibles/PiezaArmadura.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/herramientas/LectorConsola.java" />
-        <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/ObjetoInteractivo.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recogibles/ObjetoRecolectable.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recogibles/ObjetoClave.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/herramientas/ListaStat.java" />
@@ -128,8 +150,6 @@
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recolectables/PiezaArmadura.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/Armadura.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/numericas/CondicionDado.java" />
-        <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/Cofre.java" />
-        <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/Puerta.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java" />
         <option value="$PROJECT_DIR$/src/juego/herramientas/LectorConsola.java" />
         <option value="$PROJECT_DIR$/src/juego/herramientas/Dado.java" />
@@ -141,10 +161,14 @@
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/ListaCofres.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/ListaPuertas.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/ListaNPCs.java" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/NPC.java" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/ObjetoInteractivo.java" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/Puerta.java" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/Cofre.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="804" />
     <option name="height" value="1047" />
@@ -155,8 +179,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -215,19 +237,24 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="juego" type="462c0819:PsiDirectoryNode" />
               <item name="componentes" type="462c0819:PsiDirectoryNode" />
-              <item name="jugador" type="462c0819:PsiDirectoryNode" />
+              <item name="estancias" type="462c0819:PsiDirectoryNode" />
+              <item name="objetos" type="462c0819:PsiDirectoryNode" />
+              <item name="recolectables" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="juego" type="462c0819:PsiDirectoryNode" />
-              <item name="herramientas" type="462c0819:PsiDirectoryNode" />
+              <item name="componentes" type="462c0819:PsiDirectoryNode" />
+              <item name="jugador" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -348,7 +375,8 @@
       <workItem from="1555782005909" duration="418000" />
       <workItem from="1556038788873" duration="16049000" />
       <workItem from="1556059531760" duration="12000" />
-      <workItem from="1556100200120" duration="33060000" />
+      <workItem from="1556100200120" duration="34264000" />
+      <workItem from="1556179594511" duration="6239000" />
     </task>
     <task id="LOCAL-00030" summary="Update">
       <created>1552343023898</created>
@@ -697,7 +725,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="233705000" />
+    <option name="totallyTimeSpent" value="241148000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -717,7 +745,7 @@
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.17750533" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.17910448" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.49946696" />
@@ -960,13 +988,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recolectables/ObjetoRecolectable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recolectables/PiezaArmadura.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -1031,18 +1052,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/ObjetoInteractivo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#ObjetoInteractivo#0;class#ObjetoInteractivo#0" />
-            <element signature="method#cargarDatos#0;class#ObjetoInteractivo#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/EstanciaStandar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-41">
@@ -1060,33 +1069,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/JefeFinal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="58" column="52" lean-forward="true" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/Cofre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/Puerta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1112,23 +1094,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/NPC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/Dungeon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1465">
-          <caret line="94" column="9" lean-forward="true" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/Jugador.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-739">
@@ -1141,19 +1106,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="77" column="33" lean-forward="true" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/ListaCofres.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="733">
+        <state relative-caret-position="850">
           <caret line="52" column="46" lean-forward="true" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1163,8 +1118,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/ListaPuertas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="699">
+        <state relative-caret-position="722">
           <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="118" column="27" lean-forward="true" selection-start-line="118" selection-start-column="12" selection-end-line="118" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/Dungeon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-83">
+          <caret line="94" column="9" lean-forward="true" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/JefeFinal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="58" column="52" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1177,6 +1162,58 @@
           <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recolectables/ObjetoRecolectable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/ObjetoInteractivo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="42" column="31" lean-forward="true" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/NPC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/Puerta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/Cofre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#984#985#0" expanded="true" />
+            <element signature="e#1028#1029#0" expanded="true" />
+            <element signature="e#1055#1056#0" expanded="true" />
+            <element signature="e#1095#1096#0" expanded="true" />
+            <element signature="e#2411#2412#0" expanded="true" />
+            <element signature="e#2450#2451#0" expanded="true" />
           </folding>
         </state>
       </provider>

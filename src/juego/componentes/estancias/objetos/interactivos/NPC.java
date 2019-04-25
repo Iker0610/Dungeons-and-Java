@@ -41,6 +41,7 @@ public class NPC extends ObjetoInteractivo {
     private void mostrarPista(){
     	System.out.println(pista);
     }
+
     private void mostrarRechazo(){
     	if (this.primerEncuentro){
     		System.out.println(this.primerRechazo);

@@ -13,7 +13,7 @@ public abstract class ObjetoInteractivo {
 
     //Constructora
     protected ObjetoInteractivo(){
-        //TODO
+        this.lCondiciones = new ListaCondiciones();
     }
 
     //Metodo de carga de datos
@@ -24,8 +24,14 @@ public abstract class ObjetoInteractivo {
     //Otros metodos
     public boolean acercarse (Jugador pJugadorActual){
         this.mostrarInfo();
-        System.out.println("�Quieres interactuar?:");
-        return LectorConsola.getLectorConsola().leerBoolean();
+        System.out.println();
+        System.out.println("¿Quieres interactuar?:");
+        boolean interactuar = LectorConsola.getLectorConsola().leerBoolean();
+        System.out.println();
+        if (interactuar){
+            this.interactuar(pJugadorActual);
+        }
+        return interactuar;
     }
 
     protected abstract void interactuar (Jugador pJugador);
@@ -35,6 +41,7 @@ public abstract class ObjetoInteractivo {
     }
     
     private void mostrarInfo(){
+        System.out.println(this.nombre);
     	System.out.println(this.descripcion);
     }
 
