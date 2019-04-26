@@ -1,4 +1,4 @@
-﻿fraseBienvenida& 
+fraseBienvenida& 
 fraseRechazo& 
 fraseAceptacion& 
 fraseDerrota& 

@@ -1,2 +1,2 @@
-﻿nombre&Puerta a la Sala del Trono
+nombre&Puerta a la Sala del Trono
 descripcion&Una puerta de Roble con el Estandarte de Camelot Grabado.

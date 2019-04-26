@@ -1,5 +1,5 @@
-ï»¿piezaArmadura#Armadura de la Guardia de Camelot&Pechera&10&20&00&00
+piezaArmadura#Armadura de la Guardia de Camelot&Pechera&10&20&00&00
 piezaArmadura#Musleras de la Guardia de Camelot&Pantalones&05&10&10&00
 piezaArmadura#Casco de Guardia&Casco&00&10&00&00
 piezaArmadura#Armadura de la Guardia de Camelot&Pechera&10&20&00&00
-objClave#Llave de Guardia&Llave que pertenecÃ­a a un guardia de Camelot, parece muy pequeÃ±a para ser de alguna puerta.
+objClave#Llave de Guardia&Llave que pertenecía a un guardia de Camelot, parece muy pequeña para ser de alguna puerta.

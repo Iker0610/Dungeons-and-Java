@@ -1,5 +1,5 @@
-ï»¿pista&Veis ese Ã¡rbol de ahÃ­, pues si no recuerdo mal un antiguo aprendiz de MerlÃ­n muy diestro en el dominio de la naturaleza guardo un cofre con recursos; intuyo que estarÃ¡ protegido, pero por intentarlo no se pierde nada... Por otro lado, el portÃ³n del castillo estÃ¡ sellado con magia y se necesita un sello que por desgracia no sÃ© dÃ³nde podrÃ­ais encontrarlo.
-primeraBienvenida&"Ah!, gente nueva, ha pasado una eternidad desde que nadie visitaba este castillo. Â¿Venis a por los tesoros? Quizas yo os pueda dar una pista.
-bienvenidaPosterior&Ah, eres tÃº otra vez, Â¿has descubierto algo interesante, joven?...Â¿Que necesitas que te lo cuente otra vez? No hay problema, por estos lares y ya a mi edad no hay mucho que hacer por aquÃ­...
+pista&Veis ese árbol de ahí, pues si no recuerdo mal un antiguo aprendiz de Merlín muy diestro en el dominio de la naturaleza guardo un cofre con recursos; intuyo que estará protegido, pero por intentarlo no se pierde nada... Por otro lado, el portón del castillo está sellado con magia y se necesita un sello que por desgracia no sé dónde podríais encontrarlo.
+primeraBienvenida&"Ah!, gente nueva, ha pasado una eternidad desde que nadie visitaba este castillo. ¿Venis a por los tesoros? Quizas yo os pueda dar una pista.
+bienvenidaPosterior&Ah, eres tú otra vez, ¿has descubierto algo interesante, joven?...¿Que necesitas que te lo cuente otra vez? No hay problema, por estos lares y ya a mi edad no hay mucho que hacer por aquí...
 primerRechazo& 
 rechazoPosterior& 

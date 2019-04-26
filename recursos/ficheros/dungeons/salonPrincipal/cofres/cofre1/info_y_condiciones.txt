@@ -1,3 +1,3 @@
-Ôªønombre&Arbol hueco
-descripcion&Un viejo roble roido por los animales que han habitado en √©l a lo largo de los a√±os. En su interior parece haber un cofre, pero parece que est√° bloqueado por hiedras.
+nombre&Arbol hueco
+descripcion&Un viejo roble roido por los animales que han habitado en Èl a lo largo de los aÒos. En su interior parece haber un cofre, pero parece que est· bloqueado por hiedras.
 condicionClase#Druida

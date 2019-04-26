@@ -1,4 +1,4 @@
-﻿nombre&Torre Suroeste
+nombre&Torre Suroeste
 descripcion&Torre Suroeste
 NPCs&00
 Cofres&00

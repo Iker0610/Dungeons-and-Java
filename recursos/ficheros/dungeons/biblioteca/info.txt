@@ -1,4 +1,4 @@
-﻿nombre&Biblioteca
+nombre&Biblioteca
 descripcion&Biblioteca
 NPCs&00
 Cofres&00
