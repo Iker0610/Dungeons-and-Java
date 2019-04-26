@@ -41,6 +41,7 @@ public class Dungeon {
             if (lineaAct.matches("descripcion&(.*)")){
                 String[] descripcion = lineaAct.split("&");
                 System.out.println(descripcion[1]);
+                System.out.println();
             }
             else{throw new Exception();}
 
