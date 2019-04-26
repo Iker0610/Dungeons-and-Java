@@ -3,82 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="351fff89-8730-49e9-afdd-cfc308ef8509" name="Default Changelist" comment="Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/Partida.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/Partida.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/Dungeon.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/Dungeon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/Estancia.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/Estancia.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/EstanciaFinal.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/EstanciaFinal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/EstanciaStandar.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/EstanciaStandar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/ListaCofres.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/ListaCofres.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/ListaNPCs.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/ListaNPCs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/ListaPuertas.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/ListaPuertas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/Cofre.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/Cofre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/JefeFinal.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/JefeFinal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/NPC.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/NPC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/ObjetoInteractivo.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/ObjetoInteractivo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/Puerta.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/Puerta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/recolectables/ObjetoClave.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/recolectables/ObjetoClave.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/Jugador.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/Jugador.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/ListaJugadores.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/ListaJugadores.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/inventarios/Armadura.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/inventarios/Armadura.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/inventarios/ListaObjetosClaves.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/inventarios/ListaObjetosClaves.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/herramientas/LectorConsola.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/herramientas/LectorConsola.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/biblioteca/cofres/cofre1/data_cofre.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/biblioteca/cofres/cofre1/info_y_condiciones.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/biblioteca/cofres/cofre2/data_cofre.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/biblioteca/cofres/cofre2/info_y_condiciones.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/biblioteca/puertas/puerta1/data_puerta.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/biblioteca/puertas/puerta1/info_y_condiciones.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/clases_armadura.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/clases_armadura.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/clases_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/clases_stats.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/dungeon_info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/dungeon_info.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/jardinesExteriores/cofres/cofre1/data_cofre.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/jardinesExteriores/cofres/cofre1/data_cofre.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/jardinesExteriores/cofres/cofre1/info_y_condiciones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/jardinesExteriores/cofres/cofre1/info_y_condiciones.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/jardinesExteriores/cofres/cofre2/data_cofre.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/jardinesExteriores/cofres/cofre2/data_cofre.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/jardinesExteriores/cofres/cofre2/info_y_condiciones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/jardinesExteriores/cofres/cofre2/info_y_condiciones.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/jardinesExteriores/info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/jardinesExteriores/info.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/jardinesExteriores/npcs/npc1/data_npc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/jardinesExteriores/npcs/npc1/data_npc.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/jardinesExteriores/npcs/npc1/info_y_condiciones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/jardinesExteriores/npcs/npc1/info_y_condiciones.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/jardinesExteriores/puertas/puerta1/info_y_condiciones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/jardinesExteriores/puertas/puerta1/info_y_condiciones.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/mazmorras/cofres/cofre1/data_cofre.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/mazmorras/cofres/cofre1/info_y_condiciones.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/mazmorras/cofres/cofre2/data_cofre.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/mazmorras/cofres/cofre2/info_y_condiciones.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/mazmorras/puertas/puerta1/data_puerta.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/mazmorras/puertas/puerta1/info_y_condiciones.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/porton/cofres/cofre1/data_cofre.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/porton/cofres/cofre1/data_cofre.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/porton/cofres/cofre1/info_y_condiciones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/porton/cofres/cofre1/info_y_condiciones.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/porton/cofres/cofre2/info_y_condiciones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/porton/cofres/cofre2/info_y_condiciones.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/porton/info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/porton/info.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/porton/puertas/puerta1/info_y_condiciones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/porton/puertas/puerta1/info_y_condiciones.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/porton/puertas/puerta2/info_y_condiciones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/porton/puertas/puerta2/info_y_condiciones.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/razas_clases.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/razas_clases.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaMerlin/cofres/cofre1/data_cofre.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaMerlin/cofres/cofre1/info_y_condiciones.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaMerlin/cofres/cofre2/data_cofre.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaMerlin/cofres/cofre2/info_y_condiciones.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaMerlin/info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaMerlin/info.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaMerlin/puertas/puerta1/data_puerta.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaMerlin/puertas/puerta1/info_y_condiciones.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaTrono/info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaTrono/info.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaTrono/jefeFinal/info_y_condiciones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaTrono/jefeFinal/info_y_condiciones.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salonPrincipal/cofres/cofre1/data_cofre.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/salonPrincipal/cofres/cofre1/data_cofre.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salonPrincipal/cofres/cofre1/info_y_condiciones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/salonPrincipal/cofres/cofre1/info_y_condiciones.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salonPrincipal/cofres/cofre2/data_cofre.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/salonPrincipal/cofres/cofre2/data_cofre.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salonPrincipal/cofres/cofre2/info_y_condiciones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/salonPrincipal/cofres/cofre2/info_y_condiciones.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salonPrincipal/info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/salonPrincipal/info.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salonPrincipal/puertas/puerta1/info_y_condiciones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/salonPrincipal/puertas/puerta1/info_y_condiciones.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/torreNoreste/cofres/cofre1/data_cofre.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/torreNoreste/cofres/cofre1/info_y_condiciones.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/torreNoreste/cofres/cofre2/data_cofre.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/torreNoreste/cofres/cofre2/info_y_condiciones.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/torreNoreste/puertas/puerta1/data_puerta.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/torreNoreste/puertas/puerta1/info_y_condiciones.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/torreSuroeste/cofres/cofre1/data_cofre.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/torreSuroeste/cofres/cofre1/info_y_condiciones.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/torreSuroeste/cofres/cofre2/data_cofre.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/torreSuroeste/cofres/cofre2/info_y_condiciones.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/torreSuroeste/puertas/puerta1/data_puerta.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/torreSuroeste/puertas/puerta1/info_y_condiciones.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -286,8 +210,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -445,7 +369,8 @@
       <workItem from="1556308260588" duration="133000" />
       <workItem from="1556308430718" duration="480000" />
       <workItem from="1556308976577" duration="437000" />
-      <workItem from="1556309428903" duration="367000" />
+      <workItem from="1556309428903" duration="417000" />
+      <workItem from="1556309870512" duration="40000" />
     </task>
     <task id="LOCAL-00030" summary="Update">
       <created>1552343023898</created>
@@ -794,7 +719,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="272438000" />
+    <option name="totallyTimeSpent" value="272528000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -814,7 +739,7 @@
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.19296375" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.19509594" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.49946696" />
