@@ -83,7 +83,10 @@ public class LectorConsola {
     }
 
     public String leerString(){
-        return sc.nextLine();
+        System.out.print("->");
+        String input = sc.nextLine();
+        System.out.println();
+        return input;
     }
 
     public boolean leerBoolean(){

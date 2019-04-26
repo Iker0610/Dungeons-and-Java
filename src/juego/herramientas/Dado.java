@@ -29,16 +29,12 @@ public class Dado {
     	LectorConsola.getLectorConsola().leerString();
     	int valorDado1 = r.nextInt(nCaras) + 1;
     	System.out.println("Has sacado un: " + valorDado1);
-    	System.out.println();
 
     	//Lanzar segundo dado
         System.out.print("Pulsa enter para lanzar el segundo dado.");
         LectorConsola.getLectorConsola().leerString();
         int valorDado2 = r.nextInt(nCaras) + 1;
         System.out.println("Has sacado un: " + valorDado2);
-        System.out.println();
-
-        System.out.println("En total: "+(valorDado1+valorDado2));
 
         return (valorDado1+valorDado2);
     }
