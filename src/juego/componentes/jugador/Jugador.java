@@ -232,7 +232,6 @@ public class Jugador {
 		System.out.println("Nombre: "+this.nombre);
 		System.out.println("Genero: "+this.sexo);
 		System.out.println("Clase: "+this.clase);
-		System.out.println();
 		this.lStats.imprimirStats();
 		System.out.println();
 		this.armadura.imprimirDatosArmadura();

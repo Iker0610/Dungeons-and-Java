@@ -68,10 +68,10 @@ public class ListaStat {
 	}
 
 	public void imprimirStats(){
-		System.out.println("Stats: ");
-		System.out.println("-Fuerza: "+this.lStats.get("Fuerza"));
-		System.out.println("-Defensa: "+this.lStats.get("Defensa"));
-		System.out.println("-Inteligencia: "+this.lStats.get("Inteligencia"));
-		System.out.println("-Destreza: "+this.lStats.get("Destreza"));
+		System.out.print("Stats: ");
+		System.out.print("-Fuerza:"+this.lStats.get("Fuerza")+" ");
+		System.out.print("-Defensa:"+this.lStats.get("Defensa")+" ");
+		System.out.print("-Inteligencia:"+this.lStats.get("Inteligencia")+" ");
+		System.out.println("-Destreza:"+this.lStats.get("Destreza")+" ");
 	}
 }
