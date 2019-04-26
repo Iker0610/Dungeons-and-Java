@@ -66,6 +66,7 @@ public class Armadura {
 		// Y finalmente imprimira otra linea en blanco
 
 		System.out.println("Información de la armadura:");
+		System.out.println();
 		System.out.println("Casco: ");
 		if(this.casco != null) {
 			this.casco.mostrarInfo();
@@ -92,8 +93,6 @@ public class Armadura {
 			this.arma.mostrarInfo();
 		}
 		else{System.out.println("Vacío");}
-		System.out.println();
-
 		System.out.println();
 	}
 
