@@ -88,7 +88,7 @@ public class LectorConsola {
 
     public boolean leerBoolean(){
         System.out.println("Introduzca Si/S o No/N:");
-        String input = null;
+        String input;
         boolean eleccion=false;
         boolean correcto = false;
         do {

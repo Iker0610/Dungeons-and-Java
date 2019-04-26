@@ -30,7 +30,7 @@ public class Partida {
     public static void main(String[] args) {
         partida = new Partida();
         System.out.println("DUNGEONS & JAVA");
-        System.out.println("*Pulsa enter para aventurarte en una nueva aventura*");
+        System.out.println("*Pulsa enter para aventurarte en una mazmorra, ¿Listo?*");
         LectorConsola.getLectorConsola().leerString();
         partida.generarDungeon();
         partida.crearJugadores();

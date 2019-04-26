@@ -3,4 +3,4 @@ fraseRechazo&
 fraseAceptacion& 
 fraseDerrota& 
 fraseVictoria& 
-pruebaFinal#25
+pruebaFinal#15
