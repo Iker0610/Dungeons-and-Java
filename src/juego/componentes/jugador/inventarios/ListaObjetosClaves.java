@@ -33,10 +33,13 @@ public class ListaObjetosClaves {
     public void imprimirObjClaves(){
         Iterator<ObjetoClave> itr=this.getIterator();
         System.out.println("Inventario de objetos clave:");
-        while(itr.hasNext()){
-            itr.next().mostrarInfo();
-            System.out.println();
+        if(this.lista.size()>0){
+            while(itr.hasNext()){
+                itr.next().mostrarInfo();
+                System.out.println();
+            }
         }
+        else {System.out.println("Vacío");}
         System.out.println();
     }
 }

@@ -30,9 +30,7 @@ public class ListaNPCs {
 		boolean finTurno=false;
 		this.mostrarNPCs();
 		System.out.println("0- Volver atrás");
-		System.out.print("->");
 		int input=LectorConsola.getLectorConsola().leerOpcionNum(0, this.lista.size());
-		System.out.println();
 		if(input!=0){
 			finTurno=this.acercarseANPC(input,pJugador);
 		}

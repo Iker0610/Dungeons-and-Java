@@ -88,9 +88,8 @@ public class EstanciaStandar extends Estancia {
     	System.out.println("2- Seleccionar elementos interactivos");
     	System.out.println("3- Seleccionar cofres");
     	System.out.println("4- Seleccionar puertas");
-		System.out.print("->");
+		System.out.println();
     	int opcion = LectorConsola.getLectorConsola().leerOpcionNum(1,4);
-    	System.out.println();
 
     	if (opcion==1){
     		pJugadorActual.imprimirInformacionJugador();

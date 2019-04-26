@@ -29,10 +29,8 @@ public class ListaPuertas {
     public boolean administrarMenuSecundario(Jugador pJugador){
         boolean finTurno=false;
         this.mostrarPuertas();
-        System.out.print("->");
         System.out.println("0- Volver atrás");
         int input=LectorConsola.getLectorConsola().leerOpcionNum(0, this.lista.size());
-        System.out.println();
 
         if (input!=0){
             finTurno=this.acercarseAPuerta(input, pJugador);

@@ -26,7 +26,7 @@ public  class EstanciaFinal extends Estancia {
         System.out.println("Elige una acción a realizar:");
         System.out.println("1- Mostrar informacion del jugador");
         System.out.println("2- Enfrentarse al jefe final");
-        System.out.print("->");
+        System.out.println();
         if (opcion==1){
             pJugadorActual.imprimirInformacionJugador();
         }

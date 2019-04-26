@@ -43,18 +43,15 @@ public class ListaJugadores {
         String clase;
 
         //Seleccion del nombre
-        System.out.print("Introduzca su nombre: ");
+        System.out.println("Introduzca su nombre:");
         nombre=lector.leerString();
-        System.out.println();
 
         //Seleccion del genero
-        System.out.print("Introduzca su genero H(hombre)/M(mujer): ");
+        System.out.println("Introduzca su genero H(hombre)/M(mujer):");
         ArrayList<String> lSexo = new ArrayList<>();
         lSexo.add("h");
         lSexo.add("m");
         sexo=lector.leerOpcionString(lSexo);
-        System.out.println();
-
 
         //Selección de raza y clase
         String dirRoot = System.getProperty("user.dir")+ File.separator+"recursos"+ File.separator+"ficheros"+ File.separator+"dungeons"+File.separator;
@@ -73,9 +70,7 @@ public class ListaJugadores {
                 lRazas.add(razasData[i]);
                 System.out.println(razasData[i]);
             }
-            System.out.print("->");
             raza=lector.leerOpcionString(lRazas);
-            System.out.println();
 
             //Seleccion de Clase
             String lineaAct;
@@ -97,9 +92,7 @@ public class ListaJugadores {
                     lClases.add(dataClases[i]);
                     System.out.println(dataClases[i]);
                 }
-                System.out.print("->");
                 clase=lector.leerOpcionString(lClases);
-                System.out.println();
             }
             else {throw new ExcepcionRazaInexistente();}
             sc.close();

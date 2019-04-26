@@ -33,7 +33,9 @@ public class LectorConsola {
 
         do {
             try {
+                System.out.print("->");
                 input = sc.nextInt();
+                System.out.println();
                 if (input < pValorMin || pValorMax < input) {
                     throw new ExcepcionValorFueradDeRango();
                 }
@@ -58,7 +60,9 @@ public class LectorConsola {
         boolean correcto = false;
         do {
             try {
+                System.out.print("->");
                 input = sc.nextLine();
+                System.out.println();
                 Iterator<String> itr = pOpciones.iterator();
                 boolean enc = false;
                 while (itr.hasNext() && !enc) {
@@ -79,7 +83,10 @@ public class LectorConsola {
     }
 
     public String leerString(){
-        return sc.nextLine();
+        System.out.print("->");
+        String input = sc.nextLine();
+        System.out.println();
+        return input;
     }
 
     public boolean leerBoolean(){
@@ -88,7 +95,9 @@ public class LectorConsola {
         boolean eleccion=false;
         boolean correcto = false;
         do {
+            System.out.print("->");
             input = sc.nextLine();
+            System.out.println();
             try{
                 if (input.equalsIgnoreCase("si") || input.equalsIgnoreCase("s")) {
                     eleccion = true;
