@@ -94,6 +94,7 @@ public class LectorConsola {
         String input;
         boolean eleccion=false;
         boolean correcto = false;
+        sc.nextLine();
         do {
             System.out.print("->");
             input = sc.nextLine();

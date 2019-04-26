@@ -107,16 +107,17 @@ public class Cofre extends ObjetoInteractivo {
 				int pos = LectorConsola.getLectorConsola().leerOpcionNum(0, this.numObj());
 				if(pos !=0) {
 					this.darObjetoAPersonaje(pJugador, pos-1);
-					if(this.numObj()!=0){
-						System.out.println("¿Deseas seguir cogiendo objetos del cofre?");
-						if(!LectorConsola.getLectorConsola().leerBoolean()){
-							finTurno=true;
-						}
-					}
-					else{System.out.println("Parece que ya no queda nada que recoger");}
+
+                    System.out.println("¿Deseas seguir cogiendo objetos del cofre?");
+                    if(!LectorConsola.getLectorConsola().leerBoolean()){
+                        finTurno=true;
+                    }
 				}
 				else{finTurno=true;}
 			}
+            if(this.numObj()==0){
+                System.out.println("Parece que ya no queda nada que recoger");
+            }
 		}
 		else {System.out.println("Vaya!! Parece que está bloqueado y no cumples los requisitos para desbloquearlo.");}
 	}
