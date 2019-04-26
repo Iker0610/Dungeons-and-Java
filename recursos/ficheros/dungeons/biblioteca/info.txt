@@ -1,0 +1,5 @@
+nombre&Biblioteca
+descripcion&Biblioteca
+NPCs&00
+Cofres&00
+Puertas&00

@@ -1,0 +1,5 @@
+nombre&Torre Noreste
+descripcion&Torre Noreste
+NPCs&00
+Cofres&00
+Puertas&00

@@ -1,0 +1,3 @@
+nombre&Portón de Camelot
+descripcion&De madera de roble y con adornos de metal a lo largo de su superficie, se alza la entrada a Camelot. No tiene ninguna cerradura ni nada que sirva para abrirla.
+condicionObjClave#Sello Mágico del Portón

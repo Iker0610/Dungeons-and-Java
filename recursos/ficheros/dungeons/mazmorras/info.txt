@@ -1,0 +1,5 @@
+nombre&Mazmorras
+descripcion&Mazmorras
+NPCs&00
+Cofres&00
+Puertas&00

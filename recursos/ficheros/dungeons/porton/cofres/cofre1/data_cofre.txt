@@ -1,5 +1,5 @@
-piezaArmadura#Túnica de hojas de roble&Pechera&00&20&05&00
-piezaArmadura#Diadema de raiz de Roble antiguo&Casco&00&00&10&01
-piezaArmadura#Pantalones de roble&Pantalones&05&20&00&01
-piezaArmadura#Arco de Roble&Arma&15&00&05&10
-piezaArmadura#Bastón de Roble Encantado&Arma&05&00&15&10
+piezaArmadura#Armadura de la Guardia de Camelot&Pechera&10&20&00&00
+piezaArmadura#Musleras de la Guardia de Camelot&Pantalones&05&10&10&00
+piezaArmadura#Casco de Guardia&Casco&00&10&00&00
+piezaArmadura#Armadura de la Guardia de Camelot&Pechera&10&20&00&00
+objClave#Llave de Guardia&Llave que pertenecía a un guardia de Camelot, parece muy pequeña para ser de alguna puerta.

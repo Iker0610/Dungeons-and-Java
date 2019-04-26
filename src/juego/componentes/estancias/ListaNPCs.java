@@ -40,7 +40,7 @@ public class ListaNPCs {
 
 	private void mostrarNPCs(){
 		Iterator<NPC> itr=this.getIterator();
-		System.out.println("Personajes disponibles:");
+		System.out.println("Elementos disponibles:");
 		int cont = 1;
 		while(itr.hasNext()){
 			System.out.print(cont+"- ");

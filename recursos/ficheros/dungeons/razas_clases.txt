@@ -1,6 +1,6 @@
 5&Humano&Elfo&Enano&Orco&Hobbit
-Humano#7#Mago&Asesino&Paladín&Clérigo&Guerrero&Druida&Cazador
+Humano#6#Mago&Asesino&Paladín&Guerrero&Druida&Cazador
 Elfo#3#Mago&Cazador&Druida
 Enano#3#Paladín&Guerrero&Cazador
 Orco#3#Berserker&Guerrero&Cazador
-Hobbit#4#Mago&Asesino&Clérigo&Druida
+Hobbit#3#Mago&Asesino&Druida

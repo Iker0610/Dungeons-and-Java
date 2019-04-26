@@ -3,12 +3,9 @@ descripcion&En el horizonte de Avalon se alza el mítico Castillo de Camelot ya a
 estanciaInicial#jardinesExteriores
 porton
 salonPrincipal
-cocina
-alcobaReina
 torreSuroeste
 biblioteca
 salaMerlin
 torreNoreste
 mazmorras
-atico
 estanciaFinal&salaTrono

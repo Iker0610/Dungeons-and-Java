@@ -85,9 +85,9 @@ public class EstanciaStandar extends Estancia {
     	boolean finTurno = false;
 		System.out.println("Elige una acción a realizar:");
     	System.out.println("1- Mostrar informacion del jugador");
-    	System.out.println("2- Interactuar con NPC's");
-    	System.out.println("3- Interactuar con cofres");
-    	System.out.println("4- Interactuar con puertas");
+    	System.out.println("2- Seleccionar elementos interactivos");
+    	System.out.println("3- Seleccionar cofres");
+    	System.out.println("4- Seleccionar puertas");
 		System.out.print("->");
 
     	int opcion = LectorConsola.getLectorConsola().leerOpcionNum(1,4);
