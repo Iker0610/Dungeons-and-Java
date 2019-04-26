@@ -30,6 +30,7 @@ public class ListaPuertas {
         boolean finTurno=false;
         this.mostrarPuertas();
         System.out.print("->");
+        System.out.println("0- Volver atrás");
         int input=LectorConsola.getLectorConsola().leerOpcionNum(0, this.lista.size());
         System.out.println();
 
@@ -52,7 +53,7 @@ public class ListaPuertas {
     }
 
     private boolean acercarseAPuerta(int posPuerta, Jugador pJugador){
-    	Puerta puertaSelec=this.lista.get(posPuerta--);
+    	Puerta puertaSelec=this.lista.get(posPuerta-1);
     	return puertaSelec.acercarse(pJugador);
     }
 

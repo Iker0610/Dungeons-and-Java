@@ -52,6 +52,7 @@ public class Partida {
             numJugadores++;
             System.out.println("¿Hay más jugadores que deseen aventurarse en esta aventura?");
             jugadoresListos = !LectorConsola.getLectorConsola().leerBoolean();
+            System.out.println();
         }
         this.getSiguienteJugador();
     }

@@ -29,6 +29,7 @@ public class ListaCofres {
 	public boolean administrarMenuSecundario(Jugador pJugador){
 		boolean finTurno=false;
 		this.mostrarCofres();
+		System.out.println("0- Volver atrás");
 		System.out.print("->");
 		int input=LectorConsola.getLectorConsola().leerOpcionNum(0, this.lista.size());
 		System.out.println();
@@ -50,7 +51,7 @@ public class ListaCofres {
 	}
 
 	private boolean acercarseACofre(int posCofre, Jugador pJugador){
-		Cofre cofreSelec = this.lista.get(posCofre--);
+		Cofre cofreSelec = this.lista.get(posCofre-1);
 		return cofreSelec.acercarse(pJugador);
 	}
 }

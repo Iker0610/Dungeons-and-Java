@@ -29,6 +29,7 @@ public class ListaNPCs {
 	public boolean administrarMenuSecundario(Jugador pJugador){
 		boolean finTurno=false;
 		this.mostrarNPCs();
+		System.out.println("0- Volver atrás");
 		System.out.print("->");
 		int input=LectorConsola.getLectorConsola().leerOpcionNum(0, this.lista.size());
 		System.out.println();
@@ -50,7 +51,7 @@ public class ListaNPCs {
 	}
 
 	private boolean acercarseANPC(int posNPC, Jugador pJugador){
-		NPC npcSelec = this.lista.get(posNPC--);
+		NPC npcSelec = this.lista.get(posNPC-1);
 		return npcSelec.acercarse(pJugador);
 	}
 }

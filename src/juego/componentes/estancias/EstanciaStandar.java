@@ -39,19 +39,19 @@ public class EstanciaStandar extends Estancia {
 
 			String lineaAct = sc.nextLine();
 			if(lineaAct.matches("NPCs&\\d\\d")) {
-				numNPCs = Integer.parseInt(lineaAct);
+				numNPCs = Integer.parseInt(lineaAct.split("&")[1]);
 			}
 			else {throw new ExcepcionFormatoIncorrecto();}
 
 			lineaAct = sc.nextLine();
 			if(lineaAct.matches("Cofres&\\d\\d")) {
-				numCofres = Integer.parseInt(lineaAct);
+				numCofres = Integer.parseInt(lineaAct.split("&")[1]);
 			}
 			else {throw new ExcepcionFormatoIncorrecto();}
 
 			lineaAct = sc.nextLine();
 			if (lineaAct.matches("Puertas&\\d\\d")) {
-				numPuertas = Integer.parseInt(lineaAct);
+				numPuertas = Integer.parseInt(lineaAct.split("&")[1]);
 			}
 			else {throw new ExcepcionFormatoIncorrecto();}
 
@@ -89,8 +89,9 @@ public class EstanciaStandar extends Estancia {
     	System.out.println("3- Seleccionar cofres");
     	System.out.println("4- Seleccionar puertas");
 		System.out.print("->");
-
     	int opcion = LectorConsola.getLectorConsola().leerOpcionNum(1,4);
+    	System.out.println();
+
     	if (opcion==1){
     		pJugadorActual.imprimirInformacionJugador();
     	}

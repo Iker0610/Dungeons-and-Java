@@ -37,13 +37,13 @@ public class Cofre extends ObjetoInteractivo {
             ObjetoRecolectable nuevoObj;
             while(sc.hasNext()){
                 lineaAct=sc.nextLine();
-                if(lineaAct.matches("objClave#(_*)&(_*)")){
+                if(lineaAct.matches("objClave#(.*)&(.*)")){
                     data = lineaAct.split("#")[1];
                     nuevoObj = new ObjetoClave(data.split("&")[0],data.split("&")[1]);
                     this.lista.add(nuevoObj);
 
                 }
-                else if(lineaAct.matches("piezaArmadura#(_*)&(_*)&\\d\\d&\\d\\d&\\d\\d&\\d\\d")){
+                else if(lineaAct.matches("piezaArmadura#(.*)&(.*)&\\d\\d&\\d\\d&\\d\\d&\\d\\d")){
                     data = lineaAct.split("#")[1];
                     nuevoObj = new PiezaArmadura(
                             data.split("&")[0],data.split("&")[1],

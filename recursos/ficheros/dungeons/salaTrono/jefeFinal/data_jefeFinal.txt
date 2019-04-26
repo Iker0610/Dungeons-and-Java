@@ -1,6 +1,6 @@
-fraseBienvenida&
-fraseRechazo&
-fraseAceptacion&
-fraseDerrota&
-fraseVictoria&
+fraseBienvenida& 
+fraseRechazo& 
+fraseAceptacion& 
+fraseDerrota& 
+fraseVictoria& 
 pruebaFinal#25

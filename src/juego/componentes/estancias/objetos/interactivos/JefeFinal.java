@@ -70,7 +70,7 @@ public class JefeFinal extends ObjetoInteractivo{
             //Dato de pruebaFinal
             lineaAct = sc.nextLine();
             if(lineaAct.matches("pruebaFinal#\\d\\d")){
-                this.pruebaFinal=new CondicionDado(Integer.parseInt(lineaAct.split("&")[1]));
+                this.pruebaFinal=new CondicionDado(Integer.parseInt(lineaAct.split("#")[1]));
             }
             else{throw new ExcepcionFormatoIncorrecto();}
 
