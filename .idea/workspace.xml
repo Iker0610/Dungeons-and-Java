@@ -2,7 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="351fff89-8730-49e9-afdd-cfc308ef8509" name="Default Changelist" comment="Update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/Partida.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/Partida.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/Dungeon.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/Dungeon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/Estancia.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/Estancia.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/EstanciaFinal.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/EstanciaFinal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/EstanciaStandar.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/EstanciaStandar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/ListaCofres.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/ListaCofres.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/ListaNPCs.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/ListaNPCs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/ListaPuertas.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/ListaPuertas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/Cofre.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/Cofre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/JefeFinal.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/JefeFinal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/NPC.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/NPC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/ObjetoInteractivo.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/ObjetoInteractivo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/Puerta.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/Puerta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/recolectables/ObjetoClave.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/recolectables/ObjetoClave.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/Jugador.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/Jugador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/ListaJugadores.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/ListaJugadores.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/inventarios/Armadura.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/inventarios/Armadura.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/inventarios/ListaObjetosClaves.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/inventarios/ListaObjetosClaves.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/herramientas/LectorConsola.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/herramientas/LectorConsola.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+            <state relative-caret-position="284">
+              <caret line="92" column="86" selection-start-line="92" selection-start-column="86" selection-end-line="92" selection-end-column="86" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,7 +81,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/juego/Partida.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
+            <state relative-caret-position="505">
               <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -130,6 +148,7 @@
       <find>(_*)</find>
       <find>LectorConsola.getLectorConsola()</find>
       <find>System.out.print(&quot;-&gt;&quot;);</find>
+      <find>new Str</find>
     </findStrings>
     <replaceStrings>
       <replace>dirClases</replace>
@@ -190,11 +209,11 @@
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/Dungeon.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/EstanciaFinal.java" />
         <option value="$PROJECT_DIR$/src/juego/herramientas/Dado.java" />
-        <option value="$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java" />
         <option value="$PROJECT_DIR$/src/juego/herramientas/LectorConsola.java" />
         <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
         <option value="$PROJECT_DIR$/src/juego/Partida.java" />
         <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java" />
       </list>
     </option>
   </component>
@@ -209,6 +228,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -236,7 +256,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -364,6 +383,7 @@
       <workItem from="1556303956306" duration="108000" />
       <workItem from="1556307548614" duration="696000" />
       <workItem from="1556308260588" duration="133000" />
+      <workItem from="1556308430718" duration="480000" />
     </task>
     <task id="LOCAL-00030" summary="Update">
       <created>1552343023898</created>
@@ -712,7 +732,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="271154000" />
+    <option name="totallyTimeSpent" value="271634000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -732,7 +752,7 @@
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.18656716" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.18869936" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.49946696" />
@@ -1160,6 +1180,7 @@
     <entry file="file://$PROJECT_DIR$/recursos/ficheros/dungeons/dungeon_info.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml" />
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/EstanciaFinal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1184,18 +1205,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/Partida.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1228,17 +1237,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+    <entry file="file://$PROJECT_DIR$/src/juego/Partida.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        <state relative-caret-position="505">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+        <state relative-caret-position="284">
+          <caret line="92" column="86" selection-start-line="92" selection-start-column="86" selection-end-line="92" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
