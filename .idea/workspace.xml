@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="351fff89-8730-49e9-afdd-cfc308ef8509" name="Default Changelist" comment="Update" />
+    <list default="true" id="351fff89-8730-49e9-afdd-cfc308ef8509" name="Default Changelist" comment="Update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,21 +27,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1496">
-              <caret line="97" column="37" selection-start-line="97" selection-start-column="37" selection-end-line="97" selection-end-column="37" />
+            <state relative-caret-position="270">
+              <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/recursos/ficheros/dungeons/dungeon_info.txt">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -66,22 +63,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/juego/Partida.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+            <state relative-caret-position="408">
+              <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#459#460#0" expanded="true" />
                 <element signature="e#498#499#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/recursos/ficheros/dungeons/razas_clases.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -156,7 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/CondicionNumerico.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/CondicionStat.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/CondicionSexo.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/CondicionString.java" />
@@ -207,6 +194,7 @@
         <option value="$PROJECT_DIR$/src/juego/herramientas/LectorConsola.java" />
         <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
         <option value="$PROJECT_DIR$/src/juego/Partida.java" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
       </list>
     </option>
   </component>
@@ -374,7 +362,8 @@
       <workItem from="1556179594511" duration="19396000" />
       <workItem from="1556266243313" duration="15912000" />
       <workItem from="1556303956306" duration="108000" />
-      <workItem from="1556307548614" duration="288000" />
+      <workItem from="1556307548614" duration="696000" />
+      <workItem from="1556308260588" duration="133000" />
     </task>
     <task id="LOCAL-00030" summary="Update">
       <created>1552343023898</created>
@@ -723,7 +712,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="270613000" />
+    <option name="totallyTimeSpent" value="271154000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -743,7 +732,7 @@
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.18443497" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.18656716" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.49946696" />
@@ -835,7 +824,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/Clases/Berserker.java" />
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/Clases/Druida.java" />
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/Clases/Mago.java" />
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/ListaConsumibles.java" />
@@ -1162,6 +1150,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/recursos/ficheros/dungeons/razas_clases.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recursos/ficheros/dungeons/dungeon_info.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/EstanciaFinal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1171,19 +1169,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="97" column="37" selection-start-line="97" selection-start-column="37" selection-end-line="97" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recursos/ficheros/dungeons/dungeon_info.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/JefeFinal.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1199,6 +1184,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/Partida.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1231,22 +1228,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/Partida.java">
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recursos/ficheros/dungeons/razas_clases.txt">
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        <state relative-caret-position="270">
+          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
