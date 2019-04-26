@@ -32,6 +32,7 @@ public class Partida {
         System.out.println("DUNGEONS & JAVA");
         System.out.print("*Pulsa enter para aventurarte en una mazmorra*");
         LectorConsola.getLectorConsola().leerString();
+        System.out.println();
         partida.generarDungeon();
         partida.crearJugadores();
         partida.jugarPartida();
@@ -59,6 +60,8 @@ public class Partida {
     private void jugarPartida(){
         boolean finTurno;
         while (!finPartida){
+            System.out.print("Turno de: ");
+            this.jugadorActual.imprimirNombre();
             finTurno = estanciaActual.administrarMenuPrincipal(jugadorActual);
             if(finTurno){
                 this.getSiguienteJugador();
@@ -70,12 +73,11 @@ public class Partida {
     public void finalizarPartida(boolean pVictoria){
         this.finPartida = true;
         if (pVictoria){
-            System.out.println("ENHORABUENA!!!");
             System.out.println("Habéis logrado derrotar al jefe de esta mazmorra.");
+            System.out.println("ENHORABUENA!!!");
         }
         else{
             System.out.println("GAME OVER");
-            System.out.println("Habéis sido derrotados por el jefe de la mazmorra.");
         }
     }
 

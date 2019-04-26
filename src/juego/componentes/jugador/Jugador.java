@@ -238,4 +238,8 @@ public class Jugador {
 		this.armadura.imprimirDatosArmadura();
 		this.lObjClave.imprimirObjClaves();
 	}
+
+	public void imprimirNombre(){
+		System.out.println(this.nombre+" ("+this.raza+", "+this.clase+")");
+	}
 }

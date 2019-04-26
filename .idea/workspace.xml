@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="351fff89-8730-49e9-afdd-cfc308ef8509" name="Default Changelist" comment="Update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/juego/Partida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/Partida.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/componentes/jugador/Jugador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/jugador/Jugador.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,56 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/EstanciaFinal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="27" column="73" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1513">
-              <caret line="98" column="55" selection-start-line="98" selection-start-column="55" selection-end-line="98" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/JefeFinal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1326">
-              <caret line="87" selection-start-line="87" selection-end-line="87" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/juego/herramientas/Dado.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/juego/Partida.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+            <state relative-caret-position="291">
+              <caret line="66" column="43" lean-forward="true" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#459#460#0" expanded="true" />
@@ -75,35 +32,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/string/CondicionObjClave.java">
+        <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/Jugador.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/juego/herramientas/LectorConsola.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1258">
-              <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+            <state relative-caret-position="753">
+              <caret line="242" column="72" selection-start-line="242" selection-start-column="72" selection-end-line="242" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2560#2561#0" expanded="true" />
-                <element signature="e#2596#2597#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/ListaNPCs.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="32" column="87" selection-start-line="32" selection-start-column="87" selection-end-line="32" selection-end-column="87" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#7700#7701#0" expanded="true" />
+                <element signature="e#7749#7750#0" expanded="true" />
+                <element signature="e#7792#7793#0" expanded="true" />
+                <element signature="e#7843#7844#0" expanded="true" />
+                <element signature="e#8553#8554#0" expanded="true" />
+                <element signature="e#8565#8566#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -187,7 +127,6 @@
         <option value="$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/ListaObjetosClaves.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/Cofre.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/Armadura.java" />
-        <option value="$PROJECT_DIR$/src/juego/componentes/jugador/Jugador.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/Dungeon.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/EstanciaFinal.java" />
         <option value="$PROJECT_DIR$/src/juego/herramientas/Dado.java" />
@@ -195,6 +134,7 @@
         <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
         <option value="$PROJECT_DIR$/.idea/encodings.xml" />
         <option value="$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/jugador/Jugador.java" />
         <option value="$PROJECT_DIR$/src/juego/Partida.java" />
       </list>
     </option>
@@ -222,20 +162,35 @@
             <path>
               <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
-              <item name="recursos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
-              <item name="recursos" type="462c0819:PsiDirectoryNode" />
-              <item name="ficheros" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="juego" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
-              <item name="recursos" type="462c0819:PsiDirectoryNode" />
-              <item name="ficheros" type="462c0819:PsiDirectoryNode" />
-              <item name="dungeons" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="juego" type="462c0819:PsiDirectoryNode" />
+              <item name="componentes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="juego" type="462c0819:PsiDirectoryNode" />
+              <item name="componentes" type="462c0819:PsiDirectoryNode" />
+              <item name="jugador" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="juego" type="462c0819:PsiDirectoryNode" />
+              <item name="herramientas" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -370,7 +325,7 @@
       <workItem from="1556308430718" duration="480000" />
       <workItem from="1556308976577" duration="437000" />
       <workItem from="1556309428903" duration="417000" />
-      <workItem from="1556309870512" duration="94000" />
+      <workItem from="1556309870512" duration="428000" />
     </task>
     <task id="LOCAL-00030" summary="Update">
       <created>1552343023898</created>
@@ -719,7 +674,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="272582000" />
+    <option name="totallyTimeSpent" value="272916000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -739,7 +694,7 @@
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.19509594" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.19509594" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.49946696" />
@@ -750,7 +705,7 @@
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" sideWeight="0.4914712" weight="0.16" />
-      <window_info anchor="bottom" x="0" y="23" width="1920" height="1017" id="Run" order="8" type="WINDOWED" weight="0.34" />
+      <window_info anchor="bottom" x="0" y="23" width="1920" height="1017" id="Run" order="8" type="WINDOWED" visible="true" weight="0.34" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -1135,20 +1090,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/Jugador.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="56" column="28" lean-forward="true" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#7700#7701#0" expanded="true" />
-            <element signature="e#7749#7750#0" expanded="true" />
-            <element signature="e#7792#7793#0" expanded="true" />
-            <element signature="e#7843#7844#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1220,7 +1161,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/herramientas/LectorConsola.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
+        <state relative-caret-position="818">
           <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1240,10 +1181,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/Jugador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="753">
+          <caret line="242" column="72" selection-start-line="242" selection-start-column="72" selection-end-line="242" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#7700#7701#0" expanded="true" />
+            <element signature="e#7749#7750#0" expanded="true" />
+            <element signature="e#7792#7793#0" expanded="true" />
+            <element signature="e#7843#7844#0" expanded="true" />
+            <element signature="e#8553#8554#0" expanded="true" />
+            <element signature="e#8565#8566#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/Partida.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        <state relative-caret-position="291">
+          <caret line="66" column="43" lean-forward="true" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#459#460#0" expanded="true" />
