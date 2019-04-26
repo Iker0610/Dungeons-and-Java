@@ -1,1 +1,1 @@
-idEstancia&salaTrono
+﻿idEstancia&salaTrono

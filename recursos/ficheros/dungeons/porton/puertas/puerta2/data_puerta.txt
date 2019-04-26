@@ -1,1 +1,1 @@
-idEstancia&salonPrincipal
+﻿idEstancia&salonPrincipal

@@ -1,5 +1,5 @@
-nombre&SalÛn Principal
-descripcion&Una estancia amplia e iluminada. El centro de Camelot, hay puertas que dan a las diferentes partes del castillo. Llama la atenciÛn una puerta que est· en frente, subiendo unas escaleras cubiertas por una alfombra del color del mar. En el centro de la estancia se aprecia que hay dibujados circulos concentricos muy adornados y con extraÒas runas, en el centro hay un haz de luz cuyo origen no se puede localizar pues la estancia es muy alta.
+Ôªønombre&Sal√≥n Principal
+descripcion&Una estancia amplia e iluminada. El centro de Camelot, hay puertas que dan a las diferentes partes del castillo. Llama la atenci√≥n una puerta que est√° en frente, subiendo unas escaleras cubiertas por una alfombra del color del mar. En el centro de la estancia se aprecia que hay dibujados circulos concentricos muy adornados y con extra√±as runas, en el centro hay un haz de luz cuyo origen no se puede localizar pues la estancia es muy alta.
 NPCs&00
 Cofres&00
 Puertas&02

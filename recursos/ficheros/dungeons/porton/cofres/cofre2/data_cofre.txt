@@ -1,4 +1,4 @@
-piezaArmadura#Arco corto&Arma&15&00&00&10
+﻿piezaArmadura#Arco corto&Arma&15&00&00&10
 piezaArmadura#Arco corto&Arma&15&00&00&10
 piezaArmadura#Arco largo&Arma&20&00&00&05
 piezaArmadura#Lanza de Camelot&Arma&15&05&05&05

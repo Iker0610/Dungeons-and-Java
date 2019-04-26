@@ -1,4 +1,4 @@
-nombre&Torre Noreste
+﻿nombre&Torre Noreste
 descripcion&Torre Noreste
 NPCs&00
 Cofres&00
