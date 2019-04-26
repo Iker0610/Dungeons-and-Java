@@ -1,2 +1,2 @@
 nombre&Estanteria de Armas
-descripcion&En una esquina escondida se ve una estantería donde los guardias dejaban las armas para tenerlas a mano. Parece que hay aún armas en buen estado.
+descripcion&En una esquina escondida se ve una estanterÃ­a donde los guardias dejaban las armas para tenerlas a mano. Parece que hay aÃºn armas en buen estado.

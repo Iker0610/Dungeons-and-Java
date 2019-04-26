@@ -1,2 +1,2 @@
 nombre&Puente de Camelot
-descripcion&Un puente de piedra que une los jardines exteriores con la entrada donde se encuentra el portón. Parece antiguo y desgastado pero se nota que en su día era digno de admirar.
+descripcion&Un puente de piedra que une los jardines exteriores con la entrada donde se encuentra el portÃ³n. Parece antiguo y desgastado pero se nota que en su dÃ­a era digno de admirar.

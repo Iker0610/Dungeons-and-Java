@@ -1,5 +1,5 @@
 nombre&Jardines Exteriores
-descripcion&Los alrededores de Camelot, donde se ve el antiguo puente de piedra que da al portón del castillo. LLaman la atención una silueta cerca del puenta que va ataviada con una vieja túnica y un árbol en cuyo tronco se aprecia una abertura.
+descripcion&Los alrededores de Camelot, donde se ve el antiguo puente de piedra que da al portÃ³n del castillo. LLaman la atenciÃ³n una silueta cerca del puenta que va ataviada con una vieja tÃºnica y un Ã¡rbol en cuyo tronco se aprecia una abertura.
 NPCs&01
 Cofres&02
 Puertas&01

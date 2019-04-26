@@ -2,8 +2,83 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="351fff89-8730-49e9-afdd-cfc308ef8509" name="Default Changelist" comment="Update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/Partida.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/Partida.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/Dungeon.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/Dungeon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/Estancia.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/Estancia.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/EstanciaFinal.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/EstanciaFinal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/EstanciaStandar.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/EstanciaStandar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/ListaCofres.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/ListaCofres.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/ListaNPCs.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/ListaNPCs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/ListaPuertas.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/ListaPuertas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/Cofre.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/Cofre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/JefeFinal.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/JefeFinal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/NPC.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/NPC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/ObjetoInteractivo.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/ObjetoInteractivo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/Puerta.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/Puerta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/recolectables/ObjetoClave.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/recolectables/ObjetoClave.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/Jugador.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/Jugador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/ListaJugadores.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/ListaJugadores.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/inventarios/Armadura.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/inventarios/Armadura.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/inventarios/ListaObjetosClaves.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/inventarios/ListaObjetosClaves.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/herramientas/LectorConsola.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/herramientas/LectorConsola.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/biblioteca/cofres/cofre1/data_cofre.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/biblioteca/cofres/cofre1/info_y_condiciones.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/biblioteca/cofres/cofre2/data_cofre.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/biblioteca/cofres/cofre2/info_y_condiciones.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/biblioteca/puertas/puerta1/data_puerta.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/biblioteca/puertas/puerta1/info_y_condiciones.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/clases_armadura.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/clases_armadura.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/clases_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/clases_stats.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/Partida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/Partida.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/dungeon_info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/dungeon_info.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/jardinesExteriores/cofres/cofre1/data_cofre.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/jardinesExteriores/cofres/cofre1/data_cofre.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/jardinesExteriores/cofres/cofre1/info_y_condiciones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/jardinesExteriores/cofres/cofre1/info_y_condiciones.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/jardinesExteriores/cofres/cofre2/data_cofre.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/jardinesExteriores/cofres/cofre2/data_cofre.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/jardinesExteriores/cofres/cofre2/info_y_condiciones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/jardinesExteriores/cofres/cofre2/info_y_condiciones.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/jardinesExteriores/info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/jardinesExteriores/info.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/jardinesExteriores/npcs/npc1/data_npc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/jardinesExteriores/npcs/npc1/data_npc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/jardinesExteriores/npcs/npc1/info_y_condiciones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/jardinesExteriores/npcs/npc1/info_y_condiciones.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/jardinesExteriores/puertas/puerta1/info_y_condiciones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/jardinesExteriores/puertas/puerta1/info_y_condiciones.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/mazmorras/cofres/cofre1/data_cofre.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/mazmorras/cofres/cofre1/info_y_condiciones.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/mazmorras/cofres/cofre2/data_cofre.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/mazmorras/cofres/cofre2/info_y_condiciones.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/mazmorras/puertas/puerta1/data_puerta.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/mazmorras/puertas/puerta1/info_y_condiciones.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/porton/cofres/cofre1/data_cofre.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/porton/cofres/cofre1/data_cofre.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/porton/cofres/cofre1/info_y_condiciones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/porton/cofres/cofre1/info_y_condiciones.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/porton/cofres/cofre2/info_y_condiciones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/porton/cofres/cofre2/info_y_condiciones.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/porton/info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/porton/info.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/porton/puertas/puerta1/info_y_condiciones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/porton/puertas/puerta1/info_y_condiciones.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/porton/puertas/puerta2/info_y_condiciones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/porton/puertas/puerta2/info_y_condiciones.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/razas_clases.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/razas_clases.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaMerlin/cofres/cofre1/data_cofre.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaMerlin/cofres/cofre1/info_y_condiciones.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaMerlin/cofres/cofre2/data_cofre.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaMerlin/cofres/cofre2/info_y_condiciones.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaMerlin/info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaMerlin/info.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaMerlin/puertas/puerta1/data_puerta.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaMerlin/puertas/puerta1/info_y_condiciones.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaTrono/info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaTrono/info.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaTrono/jefeFinal/info_y_condiciones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaTrono/jefeFinal/info_y_condiciones.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salonPrincipal/cofres/cofre1/data_cofre.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/salonPrincipal/cofres/cofre1/data_cofre.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salonPrincipal/cofres/cofre1/info_y_condiciones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/salonPrincipal/cofres/cofre1/info_y_condiciones.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salonPrincipal/cofres/cofre2/data_cofre.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/salonPrincipal/cofres/cofre2/data_cofre.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salonPrincipal/cofres/cofre2/info_y_condiciones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/salonPrincipal/cofres/cofre2/info_y_condiciones.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salonPrincipal/info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/salonPrincipal/info.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salonPrincipal/puertas/puerta1/info_y_condiciones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/salonPrincipal/puertas/puerta1/info_y_condiciones.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/torreNoreste/cofres/cofre1/data_cofre.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/torreNoreste/cofres/cofre1/info_y_condiciones.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/torreNoreste/cofres/cofre2/data_cofre.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/torreNoreste/cofres/cofre2/info_y_condiciones.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/torreNoreste/puertas/puerta1/data_puerta.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/torreNoreste/puertas/puerta1/info_y_condiciones.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/torreSuroeste/cofres/cofre1/data_cofre.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/torreSuroeste/cofres/cofre1/info_y_condiciones.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/torreSuroeste/cofres/cofre2/data_cofre.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/torreSuroeste/cofres/cofre2/info_y_condiciones.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/torreSuroeste/puertas/puerta1/data_puerta.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/torreSuroeste/puertas/puerta1/info_y_condiciones.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1178">
-              <caret line="98" column="55" lean-forward="true" selection-start-line="98" selection-start-column="55" selection-end-line="98" selection-end-column="55" />
+            <state relative-caret-position="1513">
+              <caret line="98" column="55" selection-start-line="98" selection-start-column="55" selection-end-line="98" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,22 +139,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/juego/Partida.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+            <state relative-caret-position="322">
+              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#459#460#0" expanded="true" />
                 <element signature="e#498#499#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/recursos/ficheros/dungeons/clases_stats.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -220,6 +286,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -250,7 +317,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -258,7 +324,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553949843147" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/recursos" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/recursos/ficheros/dungeons/jardinesExteriores/cofres/cofre2/info_y_condiciones.txt" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -378,7 +444,8 @@
       <workItem from="1556307548614" duration="696000" />
       <workItem from="1556308260588" duration="133000" />
       <workItem from="1556308430718" duration="480000" />
-      <workItem from="1556308976577" duration="395000" />
+      <workItem from="1556308976577" duration="437000" />
+      <workItem from="1556309428903" duration="367000" />
     </task>
     <task id="LOCAL-00030" summary="Update">
       <created>1552343023898</created>
@@ -727,7 +794,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="272029000" />
+    <option name="totallyTimeSpent" value="272438000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -747,7 +814,7 @@
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.19083156" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.19296375" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.49946696" />
@@ -758,8 +825,8 @@
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" sideWeight="0.4914712" weight="0.16" />
-      <window_info anchor="bottom" x="422" y="262" width="790" height="306" id="Run" maximized="true" order="8" type="WINDOWED" weight="0.34" />
-      <window_info anchor="bottom" id="Debug" order="9" visible="true" weight="0.4" />
+      <window_info anchor="bottom" x="0" y="23" width="1920" height="1017" id="Run" order="8" type="WINDOWED" weight="0.34" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" sideWeight="0.49946696" />
@@ -1175,10 +1242,27 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/encodings.xml" />
+    <entry file="file://$PROJECT_DIR$/recursos/ficheros/dungeons/clases_stats.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/EstanciaFinal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="27" column="73" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="98" column="55" selection-start-line="98" selection-start-column="55" selection-end-line="98" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1231,27 +1315,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1178">
-          <caret line="98" column="55" lean-forward="true" selection-start-line="98" selection-start-column="55" selection-end-line="98" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recursos/ficheros/dungeons/clases_stats.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/Partida.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        <state relative-caret-position="322">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#459#460#0" expanded="true" />

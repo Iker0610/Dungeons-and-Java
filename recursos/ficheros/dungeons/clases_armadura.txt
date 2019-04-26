@@ -1,7 +1,7 @@
-Mago#Túnica Andrajosa&Pechera&00&00&00&00#Pantalones Andrajosos&Pantalones&00&00&00&00#Bastón de aprendiz&Arma&00&00&00&00
+Mago#TÃºnica Andrajosa&Pechera&00&00&00&00#Pantalones Andrajosos&Pantalones&00&00&00&00#BastÃ³n de aprendiz&Arma&00&00&00&00
 Asesino#Pechera de cuero gastado&Pechera&00&00&00&00#Pantalones desgastados&Pantalones&00&00&00&00#Dagas oxidadas&Arma&00&00&00&00
-Paladín#Armadura del Iniciado&Pechera&00&00&00&00#Pantalones del Iniciado&Pantalones&00&00&00&00#Maza del Iniciado&Arma&00&00&00&00
+PaladÃ­n#Armadura del Iniciado&Pechera&00&00&00&00#Pantalones del Iniciado&Pantalones&00&00&00&00#Maza del Iniciado&Arma&00&00&00&00
 Guerrero#Armadura oxidada&Pechera&00&00&00&00#Pantalones Oxidados&Pantalones&00&00&00&00#Espada mellada&Arma&00&00&00&00
 Cazador#Pechera de cuero gastado&Pechera&00&00&00&00#Pantalones desgastados&Pantalones&00&00&00&00#Arco astillado&Arma&00&00&00&00
-Druida#Túnica Andrajosa&Pechera&00&00&00&00#Pantalones Andrajosos&Pantalones&00&00&00&00#Bastón de roble viejo&Arma&00&00&00&00
+Druida#TÃºnica Andrajosa&Pechera&00&00&00&00#Pantalones Andrajosos&Pantalones&00&00&00&00#BastÃ³n de roble viejo&Arma&00&00&00&00
 Berserker#Armadura oxidada&Pechera&00&00&00&00#Pantalones Oxidados&Pantalones&00&00&00&00#Hacha oxidada&Arma&00&00&00&00
