@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="351fff89-8730-49e9-afdd-cfc308ef8509" name="Default Changelist" comment="Update">
-      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/EstanciaFinal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/EstanciaFinal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/herramientas/Dado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/herramientas/Dado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/juego/herramientas/LectorConsola.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/herramientas/LectorConsola.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/EstanciaFinal.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
@@ -28,13 +29,52 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="639">
+              <caret line="97" column="37" selection-start-line="97" selection-start-column="37" selection-end-line="97" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/JefeFinal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
+            <state relative-caret-position="240">
               <caret line="87" selection-start-line="87" selection-end-line="87" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/juego/herramientas/Dado.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="40" column="62" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="62" />
+              <folding>
+                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/juego/herramientas/LectorConsola.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="618">
+              <caret line="85" column="29" lean-forward="true" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2560#2561#0" expanded="true" />
+                <element signature="e#2596#2597#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,7 +146,6 @@
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recolectables/ObjetoRecolectable.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/recolectables/PiezaArmadura.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/condiciones/numericas/CondicionDado.java" />
-        <option value="$PROJECT_DIR$/src/juego/herramientas/Dado.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/NPC.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/Puerta.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -115,7 +154,6 @@
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/JefeFinal.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/ListaNPCs.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/ListaPuertas.java" />
-        <option value="$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/ListaCofres.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/EstanciaStandar.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/ListaObjetosClaves.java" />
@@ -124,8 +162,10 @@
         <option value="$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/Armadura.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/jugador/Jugador.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/Dungeon.java" />
-        <option value="$PROJECT_DIR$/src/juego/herramientas/LectorConsola.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/EstanciaFinal.java" />
+        <option value="$PROJECT_DIR$/src/juego/herramientas/LectorConsola.java" />
+        <option value="$PROJECT_DIR$/src/juego/herramientas/Dado.java" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java" />
       </list>
     </option>
   </component>
@@ -372,7 +412,7 @@
       <workItem from="1556059531760" duration="12000" />
       <workItem from="1556100200120" duration="34264000" />
       <workItem from="1556179594511" duration="19396000" />
-      <workItem from="1556266243313" duration="11812000" />
+      <workItem from="1556266243313" duration="13140000" />
     </task>
     <task id="LOCAL-00030" summary="Update">
       <created>1552343023898</created>
@@ -721,7 +761,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="266117000" />
+    <option name="totallyTimeSpent" value="267445000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -741,7 +781,7 @@
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.18070363" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.18070363" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.49946696" />
@@ -752,7 +792,7 @@
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" sideWeight="0.4914712" weight="0.16" />
-      <window_info anchor="bottom" x="0" y="23" width="1920" height="1017" id="Run" order="8" type="WINDOWED" visible="true" weight="0.34" />
+      <window_info active="true" anchor="bottom" x="0" y="23" width="1920" height="1017" id="Run" order="8" type="WINDOWED" visible="true" weight="0.34" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -917,17 +957,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/herramientas/Dado.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="33" column="69" lean-forward="true" selection-start-line="33" selection-start-column="69" selection-end-line="33" selection-end-column="69" />
-          <folding>
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1112,16 +1141,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="94" column="55" selection-start-line="94" selection-start-column="55" selection-end-line="94" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/EstanciaStandar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
@@ -1182,30 +1201,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/herramientas/LectorConsola.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1598">
-          <caret line="96" column="12" lean-forward="true" selection-start-line="96" selection-start-column="12" selection-end-line="96" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/Jugador.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="237" column="46" selection-start-line="237" selection-start-column="46" selection-end-line="237" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#7700#7701#0" expanded="true" />
-            <element signature="e#7749#7750#0" expanded="true" />
-            <element signature="e#7792#7793#0" expanded="true" />
-            <element signature="e#7843#7844#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/inventarios/Armadura.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
@@ -1225,10 +1220,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/JefeFinal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
+        <state relative-caret-position="240">
           <caret line="87" selection-start-line="87" selection-end-line="87" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/herramientas/LectorConsola.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="85" column="29" lean-forward="true" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2560#2561#0" expanded="true" />
+            <element signature="e#2596#2597#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/Jugador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="56" column="28" lean-forward="true" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#7700#7701#0" expanded="true" />
+            <element signature="e#7749#7750#0" expanded="true" />
+            <element signature="e#7792#7793#0" expanded="true" />
+            <element signature="e#7843#7844#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1237,6 +1258,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="73" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/herramientas/Dado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="62" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="62" />
+          <folding>
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/jugador/ListaJugadores.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="639">
+          <caret line="97" column="37" selection-start-line="97" selection-start-column="37" selection-end-line="97" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

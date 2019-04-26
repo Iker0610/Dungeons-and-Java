@@ -44,7 +44,9 @@ public class ListaJugadores {
 
         //Seleccion del nombre
         System.out.println("Introduzca su nombre:");
+        System.out.print("->");
         nombre=lector.leerString();
+        System.out.println();
 
         //Seleccion del genero
         System.out.println("Introduzca su genero H(hombre)/M(mujer):");
@@ -70,6 +72,7 @@ public class ListaJugadores {
                 lRazas.add(razasData[i]);
                 System.out.println(razasData[i]);
             }
+            System.out.println();
             raza=lector.leerOpcionString(lRazas);
 
             //Seleccion de Clase
@@ -92,6 +95,7 @@ public class ListaJugadores {
                     lClases.add(dataClases[i]);
                     System.out.println(dataClases[i]);
                 }
+                System.out.println();
                 clase=lector.leerOpcionString(lClases);
             }
             else {throw new ExcepcionRazaInexistente();}
