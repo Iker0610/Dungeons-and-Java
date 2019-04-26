@@ -92,7 +92,9 @@ public class Cofre extends ObjetoInteractivo {
     protected void interactuar(Jugador pJugador) {
 		if (!this.desbloqueado){
 			this.desbloqueado = this.comprobarCondiciones(pJugador);
-			System.out.println("Se ha desbloqueado!");
+			if(desbloqueado) {
+                System.out.println("Se ha desbloqueado!");
+            }
 		}
 		if(desbloqueado){
 			boolean finTurno = false;
