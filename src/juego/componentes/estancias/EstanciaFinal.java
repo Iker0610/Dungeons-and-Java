@@ -22,11 +22,10 @@ public  class EstanciaFinal extends Estancia {
     public  boolean administrarMenuPrincipal(Jugador pJugadorActual){
         boolean finTurno = false;
 
-        int opcion = LectorConsola.getLectorConsola().leerOpcionNum(1,2);
         System.out.println("Elige una acción a realizar:");
         System.out.println("1- Mostrar informacion del jugador");
         System.out.println("2- Enfrentarse al jefe final");
-        System.out.println();
+        int opcion = LectorConsola.getLectorConsola().leerOpcionNum(1,2);
         if (opcion==1){
             pJugadorActual.imprimirInformacionJugador();
         }

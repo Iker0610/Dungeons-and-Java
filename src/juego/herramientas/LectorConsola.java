@@ -90,15 +90,15 @@ public class LectorConsola {
     }
 
     public boolean leerBoolean(){
-        System.out.println("Introduzca: Si/S o No/N");
-        String input;
+        System.out.println("Introduzca Si/S o No/N:");
+        String input = null;
         boolean eleccion=false;
         boolean correcto = false;
         do {
-            System.out.print("->");
-            input = sc.nextLine();
-            System.out.println();
             try{
+                System.out.print("->");
+                input = sc.nextLine();
+                System.out.println();
                 if (input.equalsIgnoreCase("si") || input.equalsIgnoreCase("s")) {
                     eleccion = true;
                     correcto=true;
