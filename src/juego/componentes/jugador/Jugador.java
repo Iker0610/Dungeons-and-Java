@@ -240,6 +240,6 @@ public class Jugador {
 	}
 
 	public void imprimirNombre(){
-		System.out.println(this.nombre+" ("+this.raza+", "+this.clase+")");
+		System.out.println(this.nombre+" ("+this.raza+" "+this.clase+")");
 	}
 }
