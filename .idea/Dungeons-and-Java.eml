@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component inherit-compiler-output="true" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/output/test/Dungeons-and-Java"/>
 	<exclude-output/>
 	<contentEntry url="file://$MODULE_DIR$">
 		<testFolder url="file://$MODULE_DIR$/test"/>
 	</contentEntry>
+	<lib name="lib" scope="COMPILE">
+		<relative-module-cls project-related="file://$PROJECT_DIR$/lib"/>
+	</lib>
 	<levels>
 		<level name="JUnit4" value="project"/>
 	</levels>
