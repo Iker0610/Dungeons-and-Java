@@ -1,0 +1,5 @@
+nombre&Portón
+descripcion&La entrada al Castillo de Camelot. Destaca el gran portón que sella la entrada y que pese a los años se siguen viendo todos los detalles y adornos como si tan solo tuvieran un par de años.
+NPCs&00
+Cofres&01
+Puertas&01

@@ -27,6 +27,7 @@ public class EstanciaStandar extends Estancia {
 			InputStream fichData = new FileInputStream(dirData);
 			Scanner sc = new Scanner(fichData);
 			sc.nextLine();
+			sc.nextLine();
 
 			int numNPCs;
 			int numCofres;

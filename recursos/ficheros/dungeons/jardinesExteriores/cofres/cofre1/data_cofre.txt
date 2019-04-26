@@ -1,0 +1,5 @@
+piezaArmadura#Túnica de hojas de roble&Pechera&00&20&05&00
+piezaArmadura#Diadema de raiz de Roble antiguo&Casco&00&00&10&01
+piezaArmadura#Pantalones de roble&Pantalones&05&20&00&01
+piezaArmadura#Arco de Roble&Arma&15&00&05&10
+piezaArmadura#Bastón de Roble Encantado&Arma&05&00&15&10

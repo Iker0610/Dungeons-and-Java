@@ -23,7 +23,7 @@ public abstract class ObjetoInteractivo {
     //Constructora
     protected ObjetoInteractivo(String pDir){
         this.lCondiciones = new ListaCondiciones();
-        String dirData = pDir+"info_y_condiciones.text";
+        String dirData = pDir+"info_y_condiciones.txt";
         try {
             InputStream fichData = new FileInputStream(dirData);
             Scanner sc = new Scanner(fichData);
