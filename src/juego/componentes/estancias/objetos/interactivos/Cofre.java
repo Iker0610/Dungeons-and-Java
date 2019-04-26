@@ -100,14 +100,15 @@ public class Cofre extends ObjetoInteractivo {
 			boolean finTurno = false;
 			while (this.numObj()!=0 && !finTurno) {
 				System.out.println("Elige que objeto recoger:");
+                System.out.println();
 				this.imprimirContenido();
 				System.out.println("0- Salir");
 				System.out.println();
 				System.out.print("->");
-				int pos = LectorConsola.getLectorConsola().leerOpcionNum(0, this.numObj()) - 1;
+				int pos = LectorConsola.getLectorConsola().leerOpcionNum(0, this.numObj());
 				System.out.println();
 				if(pos !=0) {
-					this.darObjetoAPersonaje(pJugador, pos);
+					this.darObjetoAPersonaje(pJugador, pos-1);
 					if(this.numObj()!=0){
 						System.out.println("¿Deseas seguir cogiendo objetos del cofre?");
 						if(!LectorConsola.getLectorConsola().leerBoolean()){
@@ -141,10 +142,10 @@ public class Cofre extends ObjetoInteractivo {
 			int i = 0;
 			while (itr.hasNext()) {
 				i++;
-				System.out.println();
 				System.out.print(i);
 				System.out.print("- ");
 				itr.next().mostrarInfo();
+				System.out.println();
 			}
 		}
     	else {System.out.println("Vacío");}
