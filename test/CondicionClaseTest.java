@@ -16,6 +16,7 @@ public class CondicionClaseTest {
 		c1=new CondicionClase("Mago");
 		c2=new CondicionClase("Cazador");
 		j1=new Jugador("Laura","m","Elfo","Mago");
+		
 	}
 
 	@After
@@ -27,6 +28,7 @@ public class CondicionClaseTest {
 
 	@Test
 	public void testCumpleLaCondicion() {
+		
 		assertTrue(c1.cumpleLaCondicion(j1));
 		assertFalse(c2.cumpleLaCondicion(j1));
 	}
