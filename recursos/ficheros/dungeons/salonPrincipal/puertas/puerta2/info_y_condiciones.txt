@@ -1,4 +1,4 @@
-﻿nombre&Puerta a la Biblioteca
+nombre&Puerta a la Biblioteca
 descripcion&Una puerta solida y robusta que fue diseñada para proteger los conocimientos que encierra.
 condicionStat#Fuerza&25
 condicionStat#Inteligencia&30

@@ -1,3 +1,3 @@
-﻿nombre&Espiritu de la Bibliotecaria
+nombre&Espíritu de la Bibliotecaria
 descripcion&A través del brillo azulado se aprecia que se puede ver a través de ella. El aire a su alrededor es más frio que en el resto del castillo, y una neblina la rodea. 	En sus brazos lleva libros que relucen con colores diferentes. Se percata de tu presencia, se gira, se ajusta las gafas y te mira con una mirada vacía.
-condicionStat#inteligancia&70
+condicionStat#Inteligencia&70
