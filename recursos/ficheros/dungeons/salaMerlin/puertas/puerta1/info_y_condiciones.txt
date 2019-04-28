@@ -1,2 +1,2 @@
-nombre&Puerta al Salon Principal
-descripcion&Una puerta solida y robusta que fue diseñada para proteger los conocimientos que encierra.
+nombre&Portal antiguo
+descripcion&Portal a la biblioteca. A diferencia del de la biblioteca este está en perfecto estado.
