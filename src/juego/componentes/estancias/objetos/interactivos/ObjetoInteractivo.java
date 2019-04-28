@@ -48,11 +48,17 @@ public abstract class ObjetoInteractivo {
                 lineaAct=sc.nextLine();
                 if(
                         lineaAct.matches("condicionDado#\\d\\d")||
-                        lineaAct.matches("condicionStat#(.*)&\\d\\d")||
+                        lineaAct.matches("condicionStat#Fuerza&\\d\\d")||
+                        lineaAct.matches("condicionStat#Defensa&\\d\\d")||
+                        lineaAct.matches("condicionStat#Inteligencia&\\d\\d")||
+                        lineaAct.matches("condicionStat#Destreza&\\d\\d")||
                         lineaAct.matches("condicionClase#(.*)")||
                         lineaAct.matches("condicionObjClave#(.*)")||
                         lineaAct.matches("condicionRaza#(.*)")||
-                        lineaAct.matches("condicionSexo#(.*)"))
+                        lineaAct.matches("condicionSexo#H")||
+                        lineaAct.matches("condicionSexo#h")||
+                        lineaAct.matches("condicionSexo#M")||
+                        lineaAct.matches("condicionSexo#m"))
                 {
                     String tipoCondicion = lineaAct.split("#")[0];
                     String data = lineaAct.split("#")[1];

@@ -1,5 +1,5 @@
 ﻿nombre&Puerta al Salon Principal
 descripcion&Una puerta solida y robusta que fue diseñada para proteger los conocimientos que encierra.
-condicionStat#fuerza&25
-condicionStat#inteligencia&30
-condicionStat#destreza&10
+condicionStat#Fuerza&25
+condicionStat#Inteligencia&30
+condicionStat#Destreza&10

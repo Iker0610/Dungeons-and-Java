@@ -105,10 +105,10 @@ public class LectorConsola {
                     correcto=true;
                 }
                 else {
-                    throw new ExcepcionFormatoIncorrecto();
+                    throw new ExcepcionValorFueradDeRango();
                 }
             }
-            catch (ExcepcionFormatoIncorrecto e){
+            catch (ExcepcionValorFueradDeRango e){
                 System.out.println("El valor introducido no es un valor válido. Introduce otro.");
             }
 
