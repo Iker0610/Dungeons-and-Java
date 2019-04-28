@@ -27,7 +27,7 @@ public class CondicionDadoTest {
 	}
 
 	@Test
-	public void test() {
+	public void testCumpleLaCondicion() {
 		assertTrue(c1.cumpleLaCondicion(j1));
 		assertFalse(c2.cumpleLaCondicion(j1));
 	}
