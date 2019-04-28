@@ -1,6 +1,6 @@
-fraseBienvenida&Caras nuevas por palacio. Parece que eres fuerte, y sabio, pero sin mi espada no allaré descanso alguno.
-fraseRechazo&¿Acaso no traes a Excalibur? Me siento profundamente decepcionado. Espero que otro de tus compañeros la haya traido.
-fraseAceptacion&Veo que habeis recuperado mi vieja reliquia, os estoy muy agradecido. Te permito batirme en duelo conmigo, hace años que no tengo algo de diversión.
+fraseBienvenida&Caras nuevas por palacio. Parece que eres fuerte, y sabio, Con mi espada... podríamos batirnos en duelo.
+fraseRechazo&¿Acaso no traes a Excalibur? Me siento profundamente decepcionado.
+fraseAceptacion&Veo que has recuperado mi vieja reliquia, te estoy muy agradecido. Te permito batirme en duelo conmigo, hace años que no tengo algo de diversión.
 fraseDerrota&Vaya, núnca pensé que me enfrentaría a alguien tan poderoso. Te doy mi bendición para volver a casa.
 fraseVictoria&Pese a los años y a mi estado de espíritu sigo estando en forma. No te preocupes joven, algún día lograrás derrotarme estoy seguro.
 pruebaFinal#15

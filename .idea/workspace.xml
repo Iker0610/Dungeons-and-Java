@@ -8,23 +8,28 @@
   <component name="ChangeListManager">
     <list default="true" id="351fff89-8730-49e9-afdd-cfc308ef8509" name="Default Changelist" comment="Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/jardinesExteriores/cofres/cofre2/data_cofre.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/jardinesExteriores/cofres/cofre2/data_cofre.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaMerlin/cofres/cofre1/data_cofre.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaMerlin/cofres/cofre1/data_cofre.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaMerlin/cofres/cofre1/info_y_condiciones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaMerlin/cofres/cofre1/info_y_condiciones.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaMerlin/cofres/cofre2/data_cofre.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaMerlin/cofres/cofre2/data_cofre.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaMerlin/cofres/cofre2/info_y_condiciones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaMerlin/cofres/cofre2/info_y_condiciones.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaMerlin/info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaMerlin/info.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaMerlin/npcs/npc1/data_npc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaMerlin/npcs/npc1/data_npc.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaMerlin/puertas/puerta1/data_puerta.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaMerlin/puertas/puerta1/info_y_condiciones.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaMerlin/puertas/puerta2/data_puerta.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaMerlin/puertas/puerta2/info_y_condiciones.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/Partida.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/Partida.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/Dungeon.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/Dungeon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/Estancia.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/Estancia.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/EstanciaFinal.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/EstanciaFinal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/EstanciaStandar.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/EstanciaStandar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/ListaCofres.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/ListaCofres.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/ListaNPCs.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/ListaNPCs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/ListaPuertas.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/ListaPuertas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/Cofre.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/Cofre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/JefeFinal.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/JefeFinal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/NPC.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/NPC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/ObjetoInteractivo.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/ObjetoInteractivo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/Puerta.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/Puerta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/condiciones/numericas/CondicionDado.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/condiciones/numericas/CondicionDado.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/recolectables/ObjetoClave.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/recolectables/ObjetoClave.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/Jugador.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/Jugador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/ListaJugadores.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/ListaJugadores.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/inventarios/Armadura.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/inventarios/Armadura.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/inventarios/ListaObjetosClaves.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/inventarios/ListaObjetosClaves.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/herramientas/LectorConsola.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/herramientas/LectorConsola.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaTrono/jefeFinal/data_jefeFinal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaTrono/jefeFinal/data_jefeFinal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaTrono/jefeFinal/info_y_condiciones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/salaTrono/jefeFinal/info_y_condiciones.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salonPrincipal/cofres/cofre1/data_cofre.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/salonPrincipal/cofres/cofre1/data_cofre.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salonPrincipal/cofres/cofre1/info_y_condiciones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/ficheros/dungeons/salonPrincipal/cofres/cofre1/info_y_condiciones.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salonPrincipal/cofres/cofre2/data_cofre.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/ficheros/dungeons/salonPrincipal/cofres/cofre2/info_y_condiciones.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/JefeFinal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/JefeFinal.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +92,6 @@
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/Puerta.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/Estancia.java" />
-        <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/JefeFinal.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/ListaNPCs.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/ListaPuertas.java" />
         <option value="$PROJECT_DIR$/src/juego/componentes/estancias/ListaCofres.java" />
@@ -123,6 +127,7 @@
         <option value="$PROJECT_DIR$/recursos/ficheros/dungeons/salonPrincipal/cofres/cofre1/data_cofre.txt" />
         <option value="$PROJECT_DIR$/recursos/ficheros/dungeons/salaTrono/jefeFinal/info_y_condiciones.txt" />
         <option value="$PROJECT_DIR$/recursos/ficheros/dungeons/salaTrono/jefeFinal/data_jefeFinal.txt" />
+        <option value="$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/JefeFinal.java" />
       </list>
     </option>
   </component>
@@ -148,6 +153,41 @@
             <path>
               <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="recursos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="recursos" type="462c0819:PsiDirectoryNode" />
+              <item name="ficheros" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="recursos" type="462c0819:PsiDirectoryNode" />
+              <item name="ficheros" type="462c0819:PsiDirectoryNode" />
+              <item name="dungeons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="recursos" type="462c0819:PsiDirectoryNode" />
+              <item name="ficheros" type="462c0819:PsiDirectoryNode" />
+              <item name="dungeons" type="462c0819:PsiDirectoryNode" />
+              <item name="salaTrono" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="recursos" type="462c0819:PsiDirectoryNode" />
+              <item name="ficheros" type="462c0819:PsiDirectoryNode" />
+              <item name="dungeons" type="462c0819:PsiDirectoryNode" />
+              <item name="salaTrono" type="462c0819:PsiDirectoryNode" />
+              <item name="jefeFinal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -189,41 +229,6 @@
               <item name="estancias" type="462c0819:PsiDirectoryNode" />
               <item name="objetos" type="462c0819:PsiDirectoryNode" />
               <item name="interactivos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="juego" type="462c0819:PsiDirectoryNode" />
-              <item name="componentes" type="462c0819:PsiDirectoryNode" />
-              <item name="estancias" type="462c0819:PsiDirectoryNode" />
-              <item name="objetos" type="462c0819:PsiDirectoryNode" />
-              <item name="interactivos" type="462c0819:PsiDirectoryNode" />
-              <item name="condiciones" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="juego" type="462c0819:PsiDirectoryNode" />
-              <item name="componentes" type="462c0819:PsiDirectoryNode" />
-              <item name="estancias" type="462c0819:PsiDirectoryNode" />
-              <item name="objetos" type="462c0819:PsiDirectoryNode" />
-              <item name="interactivos" type="462c0819:PsiDirectoryNode" />
-              <item name="condiciones" type="462c0819:PsiDirectoryNode" />
-              <item name="numericas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dungeons-and-Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="juego" type="462c0819:PsiDirectoryNode" />
-              <item name="componentes" type="462c0819:PsiDirectoryNode" />
-              <item name="estancias" type="462c0819:PsiDirectoryNode" />
-              <item name="objetos" type="462c0819:PsiDirectoryNode" />
-              <item name="interactivos" type="462c0819:PsiDirectoryNode" />
-              <item name="condiciones" type="462c0819:PsiDirectoryNode" />
-              <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Dungeons-and-Java" type="b2602c69:ProjectViewProjectNode" />
@@ -381,7 +386,7 @@
       <workItem from="1556400058856" duration="592000" />
       <workItem from="1556459235748" duration="23000" />
       <workItem from="1556461865322" duration="9325000" />
-      <workItem from="1556472947044" duration="7428000" />
+      <workItem from="1556472947044" duration="8117000" />
     </task>
     <task id="LOCAL-00030" summary="Update">
       <created>1552343023898</created>
@@ -730,7 +735,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="291808000" />
+    <option name="totallyTimeSpent" value="292497000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -859,13 +864,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/juego/herramientas/ListaStat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="59" column="31" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/herramientas/LectorConsola.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="716">
@@ -959,18 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/Cofre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3338#3339#0" expanded="true" />
-            <element signature="e#3378#3379#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/Dungeon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -1001,16 +987,6 @@
             <element signature="e#475#476#0" expanded="true" />
             <element signature="e#810#811#0" expanded="true" />
             <element signature="e#852#853#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/Puerta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1244,13 +1220,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recursos/ficheros/dungeons/salaTrono/jefeFinal/data_jefeFinal.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/recursos/ficheros/dungeons/salaTrono/jefeFinal/info_y_condiciones.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1262,6 +1231,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-column="277" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/Puerta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="57" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recursos/ficheros/dungeons/salaTrono/jefeFinal/data_jefeFinal.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="113" lean-forward="true" selection-start-line="3" selection-start-column="113" selection-end-line="3" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/JefeFinal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="117" column="5" lean-forward="true" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/juego/componentes/estancias/objetos/interactivos/Cofre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="103" column="41" lean-forward="true" selection-start-line="103" selection-start-column="41" selection-end-line="103" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3338#3339#0" expanded="true" />
+            <element signature="e#3378#3379#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
