@@ -24,11 +24,15 @@ public class ObjClaveTest {
 
 	@Test
 	public void testMostrarInfo() {
-		System.out.println("Deberia mostrar: abre puertas");
+		System.out.println("Deberia mostrar:");
+		System.out.println("Nombre: Llave");
+		System.out.println("Descripcion: Abre puertas");
 		System.out.println("y muestra:");
 		obj1.mostrarInfo();
 		
-		System.out.println("Deberia mostrar: parece antiguo");
+		System.out.println("Deberia mostrar:");
+		System.out.println("Nombre: Libro");
+		System.out.println("Descripcion: Parece antiguo");
 		System.out.println("y muestra:");
 		obj2.mostrarInfo();
 		
