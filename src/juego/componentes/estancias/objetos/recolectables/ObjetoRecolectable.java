@@ -15,6 +15,6 @@ public abstract class ObjetoRecolectable {
     }
     
     public boolean tieneEsteNombre(String pNombre){
-        return (this.nombre.equals(pNombre));
+        return (this.nombre.equalsIgnoreCase(pNombre));
     }
 }
