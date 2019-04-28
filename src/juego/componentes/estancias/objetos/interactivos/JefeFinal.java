@@ -21,10 +21,12 @@ public class JefeFinal extends ObjetoInteractivo{
     private String fraseAceptacion;
     private String fraseDerrota;
     private String fraseVictoria;
+    private boolean desbloqueado;
 
     //Constructora
     public JefeFinal (String pDir){
         super(pDir);
+        this.desbloqueado=false;
         String dirData = pDir+"data_jefeFinal.txt";
 
         try {
@@ -95,14 +97,19 @@ public class JefeFinal extends ObjetoInteractivo{
     @Override
     protected void interactuar(Jugador pJugador) {
         System.out.println(this.fraseBienvenida);
-        if (this.comprobarCondiciones(pJugador)){
-            System.out.println(this.fraseAceptacion);
+        if (!this.desbloqueado){
+            this.desbloqueado = this.comprobarCondiciones(pJugador);
+            if(desbloqueado) {
+                System.out.println(this.fraseAceptacion);
+            }
+            else{System.out.println(this.fraseRechazo);}
+        }
+        if (desbloqueado){
         	if (this.pruebaFinal.cumpleLaCondicion(pJugador)){
                 this.derrotarJefe();
         	}
         	else{this.derrotarJugador(pJugador);}
         }
-        else{System.out.println(this.fraseRechazo);}
     }
 
     private void derrotarJefe(){

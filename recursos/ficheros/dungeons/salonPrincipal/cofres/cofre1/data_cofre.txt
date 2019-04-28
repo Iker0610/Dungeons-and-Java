@@ -1,5 +1,1 @@
-piezaArmadura#Túnica de hojas de roble&Pechera&00&15&10&02
-piezaArmadura#Diadema de raiz de Roble antiguo&Casco&00&00&10&05
-piezaArmadura#Pantalones del Guardián de Roble&Pantalones&05&20&00&02
-piezaArmadura#Arco de Roble&Arma&25&00&10&20
-piezaArmadura#Bastón de Roble Encantado&Arma&05&00&20&15
+objetoClave#Espada del Lago, Excalibur&Espada del Rey Arturo&Su origen es desconocido, pero leyendas marcan que fue forjada por La Dama del Lago, y que más tarde El Rey Arturo la obtuvo al sacarla de una piedra en la que estaba clavada dandole el título de Rey de Gran Bretaña.

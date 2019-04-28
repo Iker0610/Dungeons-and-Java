@@ -1,5 +1,8 @@
-objClave#Sello Mágico del Portón&Insignia pequeña que tiene grabado el escudo de armas de Camelot. Emana energía arcana, que se expande y desaparece. Esta energia parece ser más brillante al dirigirla hacia el castillo.
-objClave#Sello Mágico del Portón&Insignia pequeña que tiene grabado el escudo de armas de Camelot. Emana energía arcana, que se expande y desaparece. Esta energia parece ser más brillante al dirigirla hacia el castillo.
-objClave#Sello Mágico del Portón&Insignia pequeña que tiene grabado el escudo de armas de Camelot. Emana energía arcana, que se expande y desaparece. Esta energia parece ser más brillante al dirigirla hacia el castillo.
-objClave#Sello Mágico del Portón&Insignia pequeña que tiene grabado el escudo de armas de Camelot. Emana energía arcana, que se expande y desaparece. Esta energia parece ser más brillante al dirigirla hacia el castillo.
-objClave#Sello Mágico del Portón&Insignia pequeña que tiene grabado el escudo de armas de Camelot. Emana energía arcana, que se expande y desaparece. Esta energia parece ser más brillante al dirigirla hacia el castillo.
+piezaArmadura#Dagas Rúnicas&Arma&30&00&00&20
+piezaArmadura#Capa de invisivilidad&Casco&00&30&10&40
+piezaArmadura#Chaleco de Escamas de Dragón&Pechera&15&30&00&00
+piezaArmadura#Leotardos de Piel de Dragon&Pechera&10&20&00&05
+objClave#Marca arcana de Merlín& Marca que permite levantar los conjuros arcáicos de Merlín que protegen a Excalibur.
+objClave#Pergamino de audencia con el Rey&Pergamino sellado con laca con el escudo de armas de Camelot. Merlín debe tener algunos para hablar con el Rey por alguna razón. No estaría mal tener alguno a mano.
+objClave#Pergamino de audencia con el Rey&Pergamino sellado con laca con el escudo de armas de Camelot. Merlín debe tener algunos para hablar con el Rey por alguna razón. No estaría mal tener algunos a mano.
+objClave#Pergamino de audencia con el Rey&Pergamino sellado con laca con el escudo de armas de Camelot. Merlín debe tener algunos para hablar con el Rey por alguna razón. No estaría mal tener algunos a mano.

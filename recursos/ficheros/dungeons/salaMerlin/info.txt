@@ -1,5 +1,5 @@
 nombre&Salón de Merlín
 descripcion&Aqui habitó Merlin
-NPCs&00
-Cofres&00
-Puertas&00
+NPCs&01
+Cofres&02
+Puertas&01

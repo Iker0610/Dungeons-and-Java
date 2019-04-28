@@ -1,4 +1,0 @@
-nombre&Portal antiguo
-descripcion&La estructura pese a estar cubierta por una capa de polvo se mantiene intacta. Y aún parece recibir energía arcana de alguna parte, aunque no parece constante. Aún así parece inactivo, aunque alrededor hay unas runas que bien podrían ser la clave para reactivarlo.
-condicionStat#Inteligencia&60
-condicionDado#08
