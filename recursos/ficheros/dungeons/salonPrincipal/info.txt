@@ -1,5 +1,5 @@
-nombre&Salón Principal
+﻿nombre&Salón Principal
 descripcion&Una estancia amplia e iluminada. El centro de Camelot, hay puertas que dan a las diferentes partes del castillo. Llama la atención una puerta que está en frente, subiendo unas escaleras cubiertas por una alfombra del color del mar. En el centro de la estancia se aprecia que hay dibujados circulos concentricos muy adornados y con extrañas runas, en el centro hay un haz de luz cuyo origen no se puede localizar pues la estancia es muy alta.
 NPCs&00
 Cofres&00
-Puertas&02
+Puertas&03

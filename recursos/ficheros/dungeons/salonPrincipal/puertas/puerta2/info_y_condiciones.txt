@@ -1,2 +1,5 @@
-nombre&Puerta a la Sala del Trono
-descripcion&Una puerta de Roble con el Estandarte de Camelot Grabado.
+﻿nombre&Puerta al Salon Principal
+descripcion&Una puerta solida y robusta que fue diseñada para proteger los conocimientos que encierra.
+condicionStat#fuerza&25
+condicionStat#inteligencia&30
+condicionStat#destreza&10

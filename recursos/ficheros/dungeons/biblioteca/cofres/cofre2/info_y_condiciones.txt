@@ -1,0 +1,3 @@
+nombre&Cajita perdida
+descripcion&Una cajita ornamentada. Parece resistente,pese al paso del tiempo. Tiene un pequeño cerrojo, casi inperceptible. Al agitarlo suena como si hubiesen piececitas de metal en su interior.
+condicionObjClave#Llave de Guardia

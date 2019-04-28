@@ -1,0 +1,2 @@
+﻿nombre&Puerta al Salon Principal
+descripcion&Una puerta solida y robusta que fue diseñada para proteger los conocimientos que encierra.
