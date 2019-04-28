@@ -1,7 +1,6 @@
 import static org.junit.Assert.*;
 
 import juego.componentes.estancias.objetos.interactivos.condiciones.numericas.*;
-import juego.componentes.estancias.objetos.interactivos.condiciones.string.CondicionClase;
 import juego.componentes.jugador.*;
 import org.junit.After;
 import org.junit.Before;
