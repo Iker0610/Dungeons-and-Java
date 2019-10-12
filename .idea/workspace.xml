@@ -7,46 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="351fff89-8730-49e9-afdd-cfc308ef8509" name="Default Changelist" comment="Update">
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/ClassDiagram.cld" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/Partida.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/Partida.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/Dungeon.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/Dungeon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/Estancia.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/Estancia.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/EstanciaFinal.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/EstanciaFinal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/EstanciaStandar.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/EstanciaStandar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/ListaCofres.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/ListaCofres.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/ListaNPCs.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/ListaNPCs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/ListaPuertas.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/ListaPuertas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/Cofre.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/Cofre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/JefeFinal.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/JefeFinal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/NPC.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/NPC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/ObjetoInteractivo.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/ObjetoInteractivo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/Puerta.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/Puerta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/condiciones/Condicion.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/condiciones/Condicion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/condiciones/ListaCondiciones.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/condiciones/ListaCondiciones.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/condiciones/numericas/CondicionDado.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/condiciones/numericas/CondicionDado.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/condiciones/numericas/CondicionNumerica.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/condiciones/numericas/CondicionNumerica.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/condiciones/numericas/CondicionStat.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/condiciones/numericas/CondicionStat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/condiciones/string/CondicionClase.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/condiciones/string/CondicionClase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/condiciones/string/CondicionObjClave.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/condiciones/string/CondicionObjClave.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/condiciones/string/CondicionRaza.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/condiciones/string/CondicionRaza.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/condiciones/string/CondicionSexo.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/condiciones/string/CondicionSexo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/condiciones/string/CondicionString.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/interactivos/condiciones/string/CondicionString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/recolectables/ObjetoClave.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/recolectables/ObjetoClave.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/recolectables/ObjetoRecolectable.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/recolectables/ObjetoRecolectable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/recolectables/PiezaArmadura.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/estancias/objetos/recolectables/PiezaArmadura.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/Jugador.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/Jugador.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/ListaJugadores.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/ListaJugadores.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/inventarios/Armadura.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/inventarios/Armadura.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/inventarios/ListaObjetosClaves.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/componentes/jugador/inventarios/ListaObjetosClaves.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/herramientas/Dado.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/herramientas/Dado.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/herramientas/LectorConsola.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/herramientas/LectorConsola.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/herramientas/ListaStat.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/herramientas/ListaStat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/herramientas/excepciones/ExcepcionEstanciaInexistente.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/herramientas/excepciones/ExcepcionEstanciaInexistente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/herramientas/excepciones/ExcepcionFormatoIncorrecto.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/herramientas/excepciones/ExcepcionFormatoIncorrecto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/herramientas/excepciones/ExcepcionValorFueradDeRango.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/Dungeons-and-Java/juego/herramientas/excepciones/ExcepcionValorFueradDeRango.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego/ClassDiagram.cld" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +66,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
@@ -245,6 +207,9 @@
       <workItem from="1569865916657" duration="28000" />
       <workItem from="1570111059808" duration="640000" />
       <workItem from="1570469270547" duration="1439000" />
+      <workItem from="1570729846433" duration="39000" />
+      <workItem from="1570729933833" duration="44000" />
+      <workItem from="1570896548935" duration="104000" />
     </task>
     <task id="LOCAL-00030" summary="Update">
       <created>1552343023898</created>
@@ -658,105 +623,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArquillianSettingsConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>Dungeons-and-Java:jar</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Dungeons-and-Java</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>JUnit4</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
