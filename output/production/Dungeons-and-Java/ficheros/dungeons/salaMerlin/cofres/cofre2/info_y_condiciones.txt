@@ -1,0 +1,2 @@
+nombre&Baúl perdido
+descripcion&Un baúl abierto que está lleno de tesoros recolectados por Merlín a lo largo de los años. También hay pergaminos y libros varios, probablemente sin mucho valor.

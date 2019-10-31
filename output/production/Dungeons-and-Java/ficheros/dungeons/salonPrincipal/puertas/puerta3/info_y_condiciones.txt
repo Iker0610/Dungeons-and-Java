@@ -1,0 +1,3 @@
+nombre&Puerta a la Sala del Trono
+descripcion&Una puerta de Roble con el Estandarte de Camelot Grabado. A ambos lados de la puerta se encuentran dos armaduras que portan una lanza cada una, cruzandose en la puerta. Una de ellas se mueve alzando la mano, en ese moemnto te pide el permiso para tener una audiencia con el Rey.
+condicionObjClave#Pergamino de audencia con el Rey

@@ -1,0 +1,5 @@
+nombre&Portón del Castillo
+descripcion&La entrada a camelot, en la que destaca el portón que señña su entrada. Se aprecia como antes habían guardias a lo largo de la entrada pues aún quedan abandonados algunos alijos y alguna arma alrededor. El portón, pese a los años, sigue en perfecto estado y se puede sentir la magia que lo sella.
+NPCs&00
+Cofres&02
+Puertas&02

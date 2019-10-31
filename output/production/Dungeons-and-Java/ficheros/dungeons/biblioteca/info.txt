@@ -1,0 +1,5 @@
+nombre&Biblioteca
+descripcion&Las paredes est�n cubiertas por estanterias de libros que ocupan cada recovejo de la amplia estancia. Algunos libros brillan con tonalidades palidas. Entre las estanterias centrales se encuentra una persona, pero brilla con un t�nue resplandor azul.
+NPCs&01
+Cofres&02
+Puertas&02

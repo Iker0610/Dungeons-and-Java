@@ -1,0 +1,4 @@
+piezaArmadura#Togas del Archimago&Pechera&00&20&25&20
+piezaArmadura#Marca de Iluminación Arcana&Casco&00&00&10&10
+piezaArmadura#Pantalones del Archimago&Pantalones&10&20&05&15
+piezaArmadura#Bastón del Gran Merlin&Arma&30&00&15&30

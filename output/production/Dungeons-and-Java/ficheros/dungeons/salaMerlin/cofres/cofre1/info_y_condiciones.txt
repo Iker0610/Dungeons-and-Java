@@ -1,0 +1,4 @@
+nombre&Alijo de Merlín
+descripcion&Un cofre adornado con varias runas. No tiene cerradura, sino una especie de acertijo
+condicionStat#Inteligencia&70
+condicionDado#10

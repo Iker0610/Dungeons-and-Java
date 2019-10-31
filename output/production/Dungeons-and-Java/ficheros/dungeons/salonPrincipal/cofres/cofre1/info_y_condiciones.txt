@@ -1,0 +1,6 @@
+nombre&Espada Excalibur protegida.
+descripcion&Bajo un foco de luz se haya la Gran Espada del Rey clavada en unaa roca con simbolos fulgurantes grabados en ella. Se encuentra rodeada de circulos formados por simbolos y runas. Te intentas aproximar más pero es imposible pues una fuerza mágica lo evita.
+condicionObjClave#Marca arcana de Merlín
+condicionStat#Fuerza&35
+condicionStat#Defensa&40
+condicionStat#Inteligencia&40

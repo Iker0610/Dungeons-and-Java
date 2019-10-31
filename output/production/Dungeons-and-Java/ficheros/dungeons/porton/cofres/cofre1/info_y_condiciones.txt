@@ -1,0 +1,3 @@
+nombre&Alijo de soldado
+descripcion&Un bahúl donde los antiguos guardias guardaban equipamiento de repuesto. Parece un poco oxidado, por lo que abrá que forzarlo para abrirlo.
+condicionStat#Fuerza&30

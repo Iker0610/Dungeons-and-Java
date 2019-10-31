@@ -1,0 +1,8 @@
+piezaArmadura#Arco corto&Arma&15&00&00&10
+piezaArmadura#Arco corto&Arma&15&00&00&10
+piezaArmadura#Arco largo&Arma&20&00&00&05
+piezaArmadura#Lanza de Camelot&Arma&15&05&05&05
+piezaArmadura#Espada de Guerrero&Arma&25&05&00&05
+piezaArmadura#Hacha de Guerrero&Arma&30&05&00&00
+piezaArmadura#Espada corta con escudo&Arma&15&15&00&00
+piezaArmadura#Maza con grabado de piedra&Arma&20&15&00&00
