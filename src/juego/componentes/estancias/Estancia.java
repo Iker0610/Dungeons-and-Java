@@ -65,10 +65,6 @@ public abstract class Estancia {
     //Metodos menú
     public abstract boolean administrarMenuPrincipal(Jugador pJugadorActual);
 
-    public boolean tieneEsteId(String pId){
-        return (this.idEstancia.equals(pId));
-    }
-
     public void imprimirInfoEstancia(){
         System.out.println(this.nombre);
         System.out.println(this.descripcion);

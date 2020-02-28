@@ -228,7 +228,6 @@ public class Jugador {
 
 	//Metodos para imprimir la información de los inventarios
 	public void imprimirInformacionJugador(){
-		//TODO
 		System.out.println("Nombre: "+this.nombre);
 		System.out.println("Genero: "+this.sexo);
 		System.out.println("Clase: "+this.clase);
@@ -236,6 +235,7 @@ public class Jugador {
 		System.out.println();
 		this.armadura.imprimirDatosArmadura();
 		this.lObjClave.imprimirObjClaves();
+		System.out.println();
 	}
 
 	public void imprimirNombre(){

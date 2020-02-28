@@ -101,10 +101,13 @@ public class Cofre extends ObjetoInteractivo {
 			while (this.numObj()!=0 && !finTurno) {
 				System.out.println("Elige que objeto recoger:");
                 System.out.println();
+
 				this.imprimirContenido();
 				System.out.println("0- Salir");
-				System.out.println();
+
 				int pos = LectorConsola.getLectorConsola().leerOpcionNum(0, this.numObj());
+                System.out.println();
+
 				if(pos !=0) {
 					this.darObjetoAPersonaje(pJugador, pos-1);
 

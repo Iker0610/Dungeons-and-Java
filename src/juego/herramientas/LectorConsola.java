@@ -15,19 +15,23 @@ public class LectorConsola {
     private Scanner sc;
 
     //Constructora
-    private LectorConsola() {
-        sc = new Scanner (System.in);
+    private LectorConsola ()
+    {
+        sc = new Scanner(System.in);
     }
 
     //Patron singleton
-    public static LectorConsola getLectorConsola(){
-        if (lectorConsola == null){
+    public static LectorConsola getLectorConsola ()
+    {
+        if (lectorConsola == null) {
             lectorConsola = new LectorConsola();
         }
         return lectorConsola;
     }
+
     //Otros metodos
-    public int leerOpcionNum(int pValorMin, int pValorMax){
+    public int leerOpcionNum (int pValorMin, int pValorMax)
+    {
         int input = 0;
         boolean correcto = false;
 
@@ -35,7 +39,7 @@ public class LectorConsola {
             try {
                 System.out.print("->");
                 input = sc.nextInt();
-                System.out.println();
+                sc.nextLine();
                 if (input < pValorMin || pValorMax < input) {
                     throw new ExcepcionValorFueradDeRango();
                 }
@@ -54,9 +58,10 @@ public class LectorConsola {
         return input;
     }
 
-    public String leerOpcionString(ArrayList<String> pOpciones){
+    public String leerOpcionString (ArrayList<String> pOpciones)
+    {
         String input;
-        String seleccion=null;
+        String seleccion = null;
         boolean correcto = false;
         do {
             try {
@@ -66,7 +71,7 @@ public class LectorConsola {
                 Iterator<String> itr = pOpciones.iterator();
                 boolean enc = false;
                 while (itr.hasNext() && !enc) {
-                    seleccion=itr.next();
+                    seleccion = itr.next();
                     enc = input.equalsIgnoreCase(seleccion);
                 }
                 if (!enc) {
@@ -74,45 +79,46 @@ public class LectorConsola {
                 }
                 correcto = true;
             }
-            catch (ExcepcionValorFueradDeRango e){
+            catch (ExcepcionValorFueradDeRango e) {
                 System.out.println("El valor introducido no es un valor válido. Introduce otro.");
             }
-        }while(!correcto);
+        } while (!correcto);
 
         return seleccion;
     }
 
-    public String leerString(){
+    public String leerString ()
+    {
         return sc.nextLine();
     }
 
-    public boolean leerBoolean(){
+    public boolean leerBoolean ()
+    {
         System.out.println("Introduzca Si/S o No/N:");
         String input;
-        boolean eleccion=false;
+        boolean eleccion = false;
         boolean correcto = false;
         do {
-            try{
+            try {
                 System.out.print("->");
                 input = sc.nextLine();
                 System.out.println();
                 if (input.equalsIgnoreCase("si") || input.equalsIgnoreCase("s")) {
                     eleccion = true;
-                    correcto=true;
+                    correcto = true;
                 }
                 else if (input.equalsIgnoreCase("no") || input.equalsIgnoreCase("n")) {
-                    eleccion = false;
-                    correcto=true;
+                    correcto = true;
                 }
                 else {
                     throw new ExcepcionValorFueradDeRango();
                 }
             }
-            catch (ExcepcionValorFueradDeRango e){
+            catch (ExcepcionValorFueradDeRango e) {
                 System.out.println("El valor introducido no es un valor válido. Introduce otro.");
             }
 
-        }while(!correcto);
+        } while (!correcto);
 
         return eleccion;
     }
