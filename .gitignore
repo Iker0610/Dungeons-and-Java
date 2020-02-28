@@ -2,3 +2,4 @@
 *.xml
 *.cld
 
+.idea/workspace.xml
