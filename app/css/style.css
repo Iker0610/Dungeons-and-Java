@@ -1,0 +1,388 @@
+/*
+Base del CSS tomada de: https://codeshack.io/secure-login-system-php-mysql/:
+	Ediciones:
+	- Colores, porpiedades, clases... 
+	(se ha tomado como base (para tener algo tangible) y orientación estética únicamente)
+*/
+
+* {
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+:root{
+	--colorPrincipal: #29579d;
+	--colorResalte: #143b76;
+	--colorTitulo: #4e5663;	
+	--colorError: #ac0000;
+}
+
+/*GENERAL*/
+body {
+	background-color: #f3f4f7;
+	overflow-y: scroll;
+}
+
+/*BARRA DE NAVEGACIÓN*/
+nav.menuPrincipal {
+	background-color: var(--colorPrincipal);
+	height: 60px;
+	width: 100%;
+	border: 0;
+}
+nav.menuPrincipal div {
+	display: flex;
+	margin: 0 auto;
+	width: 1000px;
+	height: 100%;
+}
+nav.menuPrincipal div h1, nav.menuPrincipal div a {
+	display: inline-flex;
+	align-items: center;
+}
+nav.menuPrincipal div h1 {
+	flex: 1;
+	font-size: 24px;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	font-weight: bold;
+}
+nav.menuPrincipal div a {
+	padding: 0 20px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+nav.menuPrincipal div a i {
+	padding: 2px 8px 0 0;
+}
+nav.menuPrincipal div a:hover {
+	color: #f3f4f7;
+}
+
+
+/*PÁGINAS DE LOGIN Y SIGN UP*/
+.login {
+	width: max-content;
+	background-color: #ffffff;
+	box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+	margin: 100px auto;
+}
+.login h1 {
+	text-align: center;
+	color: var(--colorTitulo);
+	font-size: 24px;
+	padding: 20px 0 20px 0;
+	border-bottom: 1px solid #dee0e4;
+}
+.login form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top: 10px;
+	flex-flow: column;
+	align-items: center;
+}
+.login form label {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+	background-color: var(--colorPrincipal);
+	color: #ffffff;
+}
+.login form input {
+	width: 310px;
+	height: 50px;
+	border: 1px solid #dee0e4;
+	padding: 0 15px;
+}
+
+.login form input[type="submit"] {
+	width: 100%;
+	padding: 15px;
+    margin-top: 40px;
+	background-color: var(--colorPrincipal);
+	border: 0;
+	cursor: pointer;
+	font-weight: bold;
+	color: #ffffff;
+	transition: background-color 0.2s;
+}
+.login form input[type="submit"]:hover {
+  background-color: var(--colorResalte);
+	transition: background-color 0.2s;
+}
+
+.login form > table {
+    border:none;
+	border-collapse: collapse;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.login table td {
+	display: inline-flex;
+	justify-content: center;
+	padding: 10px;
+}
+
+.login table td + td { 
+	border-left:1px solid #dee0e4; 
+	border-spacing: 1em;
+}
+
+div.singUpLastElement {
+	display: flex;
+	padding: 10px;
+}
+
+div.singUpLastElement input{
+	width: 695px;
+}
+
+/*PÁGINAS PRINCIPALES*/
+
+
+/*CONTENIDO*/
+
+.content {
+	width: 1000px;
+	margin: 25px auto;
+}
+.content > div{
+	margin: 30px auto;
+	padding: 15px 0;
+	border-bottom: 1px solid #e0e0e3;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.content > div > a { 
+	color: var(--colorPrincipal);
+}
+.content > div > a:hover{ 
+	color: var(--colorResalte);
+}
+.content > div > a > i{ 
+	font-size: 24px;
+}
+.content h2 {
+	font-size: 22px;
+	color: var(--colorTitulo);
+}
+.content > p, .content > div ~ div  {
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+	margin: 25px 0;
+	padding: 25px;
+	background-color: #fff;
+}
+.content > div > table{
+	width: 100%;
+}
+
+.content > div > table > tbody > tr > td{
+	width: 25%;
+}
+
+.content > div > table > tbody > tr > td > b{
+	font-size: 15px;
+	color: var(--colorPrincipal);
+}
+
+.content > div > table > tbody > tr > td > p{
+	font-size: 15px;
+}
+
+/*FORMULARIO*/
+.content > div > form {
+	width: 100%;
+	text-align: center;
+}
+
+.content > div > form > table{
+	margin-left: auto;
+	margin-right: auto;
+	table-layout: fixed;
+	width: inherit;
+	border-collapse: collapse;
+}
+
+.content > div > form > table > tbody > tr >td {
+	text-align: center;
+}
+
+.content > div > form > table > tbody > tr > td + td { 
+	border-left:1px solid #dee0e4; 
+	border-spacing: 1em;
+}
+
+.content > div > form > table > tbody > tr >td > div > b {
+	font-size: 15px;
+	color: var(--colorPrincipal);
+	margin-bottom: 5px;
+}
+
+.content > div > form > table > tbody > tr >td > div > input {
+	border: none;
+	border-bottom: 2px solid #4a536e;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 6px;
+	margin-bottom: 30px;
+}
+
+.content > div > form > table > tbody > tr:last-of-type >td > div > input {
+	border: none;
+	border-bottom: 2px solid #4a536e;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 6px;
+	margin-bottom: 0;
+}
+
+.content > div > form > input[type="submit"] {
+	width: 100%;
+	padding: 15px;
+    margin-top: 40px;
+	background-color: var(--colorPrincipal);
+	border: 0;
+	cursor: pointer;
+	font-weight: bold;
+	color: #ffffff;
+	transition: background-color 0.2s;
+}
+
+.content > div > form > input[type="submit"]:hover {
+	background-color: var(--colorResalte);
+}
+
+
+
+/*/////////////*/
+/*DESPLEGABLES*/
+/*/////////////*/
+.elementList{
+	width: 1000px;
+	margin: 25px auto;
+}
+
+.element {
+	width: 1000px;
+	padding: 18px;
+
+	background-color: #fff;	
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15.5px;
+	transition: 0.4s;
+
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+
+.element b{
+	font-size: 15.5px;
+	color: var(--colorPrincipal);
+}
+.element td{
+	width: 150px;
+}
+
+.element:after {
+	font-family: "Font Awesome 5 Free";
+	content: "\f078";
+	color: var(--colorPrincipal);
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+}
+
+.active:after {
+	content: "\f077";
+	color: var(--colorPrincipal);
+}
+
+.detailPanel {
+	width: 1000px;
+	margin-bottom: 25px;
+
+	background-color: white;
+	box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.1);
+
+	max-height: 0;
+	padding: 0 18px;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out, padding 0.2s ease-out;
+}
+
+.detailPanel b {
+	font-size: 15px;
+	color: var(--colorTitulo);
+}
+
+.detailPanel p {
+	font-size: 15px;
+}
+
+.detailPanel td:nth-child(even) {
+	padding:0px 35px 0 0;
+}
+
+.detailPanel td:last-child{
+	width: 100%;	
+	text-align: end;
+}
+
+.detailPanel td:last-child > form{
+	padding-left: 25px;
+	display: inline-block;
+}
+
+.detailPanel td:last-child > form > button{	
+	background: transparent;
+    border: none !important;
+	font-size:0;
+	margin: 0;
+	padding: 0;
+}
+
+.detailPanel td:last-child > form > button > i{
+	font-size: 17.5px;
+	color: var(--colorPrincipal);
+}
+.detailPanel td:last-child > form > button > i:hover{
+	color: var(--colorResalte);
+}
+.detailPanel td:last-child > form:last-of-type > button > i:hover{
+	color:var(--colorError);
+}
+
+.error{
+	margin-top: 25px;	
+	display: block ruby;
+}
+.error > p{	
+	border-top: 1px solid var(--colorError) !important;
+	border-bottom: 1px solid var(--colorError) !important;
+
+	padding-top: 15px;
+	padding-bottom: 15px;	
+}
+
+.error > i{
+	color: var(--colorError);
+	margin: 0 15px 0 15px;
+}
