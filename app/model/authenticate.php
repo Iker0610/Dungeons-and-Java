@@ -60,7 +60,7 @@
 
     if (password_verify($_POST['password'], $password)) {
         // La verificación ha sido un éxito
-        createLog(1);
+        crearLog(1);
 
 	    // Creamos las variables de sesión así sabemos qué usuario está conectado
         session_destroy();
@@ -80,7 +80,7 @@
     } 
     else {
         // Si el usuario no existe o la contraseña es incorrecta:
-        createLog(0);
+        crearLog(0);
         
         // Se redirige al usuario a la página de LogIn con el error dado
         $_SESSION["loginError"] = "El usuario o la contraseña son incorrectos";
@@ -89,16 +89,16 @@
         die();
     }
 
-    function createLog($resultado){
-        //Something to write to txt log
+    function crearLog($resultado){
+        //Entrada del log
         $log  = "IP:\t\t\t".$_SERVER['REMOTE_ADDR'].PHP_EOL.
                 "User:\t\t".$_POST['username'].PHP_EOL.
                 "Resultado:\t".($resultado===1?'Success':'Failed').PHP_EOL.
                 "Fecha:\t\t".date("d/m/Y - H:i:s").PHP_EOL.
                 "-----------------------------------------------------------".PHP_EOL;
         
-        //Save string to log, use FILE_APPEND to append.
-        file_put_contents("../logs/log_".date("dmY").".log", $log, FILE_APPEND);
+        //Guardamos la entrada en el fichero (si no existe se crea, si existe, se añade al final del fichero)
+        file_put_contents("../logs/log_".date("dmY"), $log, FILE_APPEND);
     }
 
 ?>

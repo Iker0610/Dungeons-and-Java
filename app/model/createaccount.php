@@ -199,15 +199,18 @@
 	$_SESSION['tiempoExpiracion']= time();
 
 	// Creamos el log
-	$log  = "IP:\t\t\t".$_SERVER['REMOTE_ADDR'].PHP_EOL.
-			"User:\t\t".$_POST['username'].PHP_EOL.
-			"Resultado:\tSuccess".PHP_EOL.
-			"Fecha:\t\t".date("d/m/Y - H:i:s").PHP_EOL.
-			"-----------------------------------------------------------".PHP_EOL;
-        
-	//Save string to log, use FILE_APPEND to append.
-	file_put_contents("../logs/log_".date("dmY").".log", $log, FILE_APPEND);
 
+	//Entrada del log
+	$log  = "IP:\t\t\t".$_SERVER['REMOTE_ADDR'].PHP_EOL.
+	"User:\t\t".$_POST['username'].PHP_EOL.
+	"Resultado:\tSuccess".PHP_EOL.
+	"Fecha:\t\t".date("d/m/Y - H:i:s").PHP_EOL.
+	"-----------------------------------------------------------".PHP_EOL;
+
+	//Guardamos la entrada en el fichero (si no existe se crea, si existe, se añade al final del fichero)
+	file_put_contents("../logs/log_".date("dmY"), $log, FILE_APPEND);
+
+	// Le redirigimos a la página principal.
 	header("location: ../view/home.php");
 	die();
 ?>
